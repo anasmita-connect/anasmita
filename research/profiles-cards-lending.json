@@ -1,0 +1,1924 @@
+{
+  "Bajaj Finserv": {
+    "sources": [
+      {
+        "id": "profile-bajaj-franchise-fy25",
+        "url": "https://www.bajajfinserv.in/finance-digital-annual-report-fy25/bajaj-finance-ltd-ar-2024-25-assets/pdf/annual-report-fy2025.pdf",
+        "title": "Bajaj Finance Limited — Annual Report 2024–25",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes mass-affluent customer acquisition, consumer finance, SME lending, payments and distribution across urban and rural locations."
+      }
+    ],
+    "headline": "Working households across cities and rural markets",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults, from new earners to established households",
+        "reason": "Durable purchases, personal borrowing and deposits fit successive earning and household-building stages, suggesting an adult mix extending well beyond first-job users.",
+        "basis": "inferred",
+        "sources": [
+          "audience-bajaj-all-in-one-app",
+          "profile-bajaj-franchise-fy25"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros, smaller towns and rural market centres",
+        "reason": "Bajaj Finance distributes through both urban and rural locations. An app serving that existing franchise plausibly inherits mixed geographic reach.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bajaj-franchise-fy25",
+          "audience-bajaj-all-in-one-app"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried employees, independent professionals and small-business owners",
+        "reason": "Dedicated salary and self-employed loans create clear pathways for both regular-pay and owner-operated households within the wider payments app.",
+        "basis": "inferred",
+        "sources": [
+          "demo-bajaj-salaried",
+          "demo-bajaj-self-employed"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-income to mass-affluent; instalment-conscious households",
+        "reason": "Its mass-affluent acquisition strategy and consumer-finance business suggest customers balancing purchasing power with repayment convenience, rather than one uniformly low-income segment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bajaj-franchise-fy25"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women are also explicitly addressed",
+        "reason": "The main payment and finance proposition is gender-neutral, while a dedicated women’s personal-loan offer adds an inclusion route without implying women predominate.",
+        "basis": "inferred",
+        "sources": [
+          "audience-bajaj-all-in-one-app",
+          "demo-bajaj-women"
+        ]
+      }
+    ],
+    "caveats": [
+      "Geographic and segment clues come from the finance franchise; app-user shares are inferred."
+    ]
+  },
+  "POP UPI": {
+    "sources": [
+      {
+        "id": "profile-pop-founder-retrospective",
+        "url": "https://www.linkedin.com/posts/berrangi_well-we-made-it-through-2024-and-what-activity-7277249653497110528-8oXR",
+        "title": "POP’s 2024 retrospective: payments, lifestyle rewards and smaller-town adoption",
+        "publisher": "Bhargav Errangi, POP founder (LinkedIn)",
+        "checked": "2026-11-09",
+        "supports": "Founder’s post and embedded team video discuss young India, lifestyle spending, reward redemption, and users in smaller towns and cities."
+      }
+    ],
+    "headline": "Young shoppers stretching everyday spending with rewards",
+    "tags": [
+      "young_adults",
+      "students",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults, especially college-to-early-career life stages",
+        "reason": "Young India and Gen Z positioning, paired with daily shopping rewards, points toward younger adults rather than an under-18-only audience.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "audience-pop-founder-young-india"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "City and small-town online shoppers",
+        "reason": "POP’s founder highlights adoption in smaller towns and cities. Its digital-brand shopping network suggests connected shopping communities across both, without establishing a rural skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-pop-founder-retrospective",
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Students with spending money and early-career earners",
+        "reason": "A young, digitally active shopping audience plausibly includes college students and people starting work; this is a life-stage estimate, not a required occupation.",
+        "basis": "inferred",
+        "sources": [
+          "audience-pop-founder-young-india",
+          "app"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious, aspirational discretionary spenders",
+        "reason": "Rewards redeemable across lifestyle brands suit shoppers seeking more fashion, food or personal purchases from limited discretionary budgets.",
+        "basis": "inferred",
+        "sources": [
+          "profile-pop-founder-retrospective",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Daily UPI and multi-brand lifestyle rewards address shared shopping needs, supporting a mixed-gender positioning estimate.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "app"
+        ]
+      }
+    ]
+  },
+  "Samsung Pay": {
+    "sources": [
+      {
+        "id": "profile-samsung-galaxy-a-wallet",
+        "url": "https://news.samsung.com/in/travel-without-your-wallet-with-galaxy-a-series",
+        "title": "Travel without Your Wallet with Galaxy A Series",
+        "publisher": "Samsung Newsroom India",
+        "checked": "2026-11-09",
+        "supports": "Promotes Samsung Wallet on Galaxy A phones for documents, UPI and linked debit/credit-card payments."
+      }
+    ],
+    "headline": "Connected city adults with everyday card spending",
+    "tags": [
+      "general",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young and established working-age adults",
+        "reason": "Cards, UPI and travel-document storage fit adults managing independent spending and travel, suggesting several working-age life stages rather than a teen niche.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-samsung-galaxy-a-wallet"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban and connected smaller-city Galaxy users",
+        "reason": "Phone-based card payments and portable travel documents fit city shopping and travel routines; ordinary UPI keeps the use case relevant in smaller cities too.",
+        "basis": "inferred",
+        "sources": [
+          "profile-samsung-galaxy-a-wallet",
+          "upi"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, professionals and household spending managers",
+        "reason": "Combining cards, bank payments and documents is useful for people juggling work, errands and household purchases; no employer relationship is central to the offer.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-samsung-galaxy-a-wallet"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream to comfortable card spenders",
+        "reason": "Wallet promotion on Galaxy A devices as well as supported premium phones suggests a wider spending segment than luxury-phone owners alone. Device ownership is only a weak income clue.",
+        "basis": "inferred",
+        "sources": [
+          "profile-samsung-galaxy-a-wallet",
+          "setup"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "The convenience proposition concerns payments and documents for compatible-phone owners, giving no sound reason to narrow the profile by gender.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-samsung-galaxy-a-wallet"
+        ]
+      }
+    ],
+    "caveats": [
+      "The city and spending tilt is a low-certainty interpretation of device and payment use cases."
+    ]
+  },
+  "Jupiter": {
+    "sources": [],
+    "headline": "Young professionals organising salaries and first savings",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults in their early earning years",
+        "reason": "Jupiter’s financial-health work centres on younger digitally savvy consumers building money habits, supporting an early-adulthood profile.",
+        "basis": "inferred",
+        "sources": [
+          "audience-jupiter-financial-health-2026"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban and connected smaller-city professionals",
+        "reason": "App-led budgeting, salary management and video-KYC banking fit digitally confident working communities. This suggests a city-oriented profile without restricting it to metros.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "demo-jupiter-salary",
+          "audience-jupiter-launch-focus"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Early-career professionals and salaried employees",
+        "reason": "The young-professional launch focus and current salary account make employees managing their first recurring incomes a plausible core, alongside other savers.",
+        "basis": "inferred",
+        "sources": [
+          "audience-jupiter-launch-focus",
+          "demo-jupiter-salary"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-income earners building savings and financial resilience",
+        "reason": "Spending insights, saving habits and credit-health tools fit people growing a financial cushion while managing regular outgoings, rather than exclusively wealthy investors.",
+        "basis": "inferred",
+        "sources": [
+          "audience-jupiter-financial-health-2026",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Budgeting, salary management and financial-health tools address younger consumers without a gender-specific proposition, so a mixed profile is appropriate.",
+        "basis": "inferred",
+        "sources": [
+          "audience-jupiter-financial-health-2026",
+          "demo-jupiter-salary"
+        ]
+      }
+    ]
+  },
+  "Flipkart UPI": {
+    "sources": [
+      {
+        "id": "profile-flipkart-smalltown-fashion",
+        "url": "https://www.business-standard.com/companies/start-ups/flipkart-amazon-expand-fashion-reach-in-tier-2-and-3-cities-125052101600_1.html",
+        "title": "E-commerce giants Flipkart, Amazon deepen fashion push in smaller cities",
+        "publisher": "Business Standard",
+        "checked": "2026-11-09",
+        "supports": "May 2025 reporting describes Flipkart’s smaller-city fashion reach and shoppers balancing trend alignment with affordability."
+      },
+      {
+        "id": "profile-flipkart-genz-commerce",
+        "url": "https://economictimes.indiatimes.com/tech/technology/flipkarts-new-plan-woo-gen-z-and-shoppers-in-small-cities-through-video-commerce/articleshow/122435642.cms",
+        "title": "Flipkart’s new plan: Woo Gen Z and shoppers in small cities through video commerce",
+        "publisher": "The Economic Times",
+        "checked": "2026-11-09",
+        "supports": "July 2025 reporting covers Flipkart’s young-consumer and smaller-city commerce strategy."
+      }
+    ],
+    "headline": "Value-conscious young shoppers and small-town working families",
+    "tags": [
+      "general",
+      "young_adults",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults and working-age household shoppers",
+        "reason": "Flipkart’s Gen Z outreach adds a young-adult entry point, while shopping, bills and transfers also fit established household earners.",
+        "basis": "inferred",
+        "sources": [
+          "profile-flipkart-genz-commerce",
+          "launch"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros, Tier-2 cities and smaller shopping towns",
+        "reason": "Flipkart is expanding fashion reach in smaller cities and towns. Embedding UPI in that shopping app plausibly reaches that geography alongside metro customers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-flipkart-smalltown-fashion",
+          "launch"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Early-career earners and family purchase decision-makers",
+        "reason": "Shopping-linked payments, recharges and bills fit both people starting independent spending and adults managing household purchases; occupation itself is not the organising feature.",
+        "basis": "inferred",
+        "sources": [
+          "launch",
+          "profile-flipkart-genz-commerce"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market, deal-conscious and aspirational shoppers",
+        "reason": "Affordability alongside fashion discovery suggests value-conscious spending with room for aspirational purchases, rather than either a premium-only or poverty-defined audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-flipkart-smalltown-fashion"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders and household shopping roles",
+        "reason": "A general marketplace plus transfers and bills supports a mixed-gender household audience; fashion outreach alone does not justify a gender majority.",
+        "basis": "inferred",
+        "sources": [
+          "launch",
+          "profile-flipkart-smalltown-fashion"
+        ]
+      }
+    ],
+    "caveats": [
+      "Shopping-platform clues inform a likely payment audience; they are not a measured Flipkart UPI user distribution."
+    ]
+  },
+  "BharatPe": {
+    "sources": [
+      {
+        "id": "profile-bharatpe-consumer-launch",
+        "url": "https://www.business-standard.com/amp/companies/news/bharatpe-launches-upi-offering-taps-into-consumer-payments-segment-124082801058_1.html",
+        "title": "BharatPe launches UPI offering, taps into consumer payments segment",
+        "publisher": "Business Standard / Press Trust of India",
+        "checked": "2026-11-09",
+        "supports": "August 2024 launch distinguishes the renamed postpe consumer app from BharatPe for Business and describes nationwide individual and merchant payments."
+      }
+    ],
+    "headline": "Working adults balancing daily payments and credit",
+    "tags": [
+      "general",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Younger and middle-aged working adults",
+        "reason": "Daily transfers, bills and access to credit fit independent earners across working life. The consumer launch gives no reason to reduce this to teenage or merchant users.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "profile-bharatpe-consumer-launch"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and smaller towns with everyday retail activity",
+        "reason": "Nationwide consumer-payment expansion alongside a large merchant ecosystem suggests reach in urban neighbourhoods and trading towns; a village-heavy consumer mix would be a stronger claim.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bharatpe-consumer-launch",
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, independent earners and household bill-payers",
+        "reason": "Individual payments and borrowing fit both salary and self-employed cash flows. Merchant acceptance remains a separate business product, rather than every consumer’s occupation.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "profile-bharatpe-consumer-launch"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market, cashback-aware consumers with mixed credit needs",
+        "reason": "Payment rewards and credit access create an everyday-value proposition suited to budget-conscious working households; the offer is not centred on premium status.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "The consumer proposition spans transfers, shopping and bills without a gender-specific use case, supporting a mixed-gender planning profile.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "profile-bharatpe-consumer-launch"
+        ]
+      }
+    ],
+    "caveats": [
+      "Profiles the consumer app; BharatPe for Business separately serves shopkeepers and merchants."
+    ]
+  },
+  "kiwi": {
+    "sources": [
+      {
+        "id": "profile-kiwi-spending-2026",
+        "url": "https://www.businesstoday.in/personal-finance/story/gen-zs-credit-habits-are-changing-bigger-purchases-longer-emis-and-3x-more-quick-commerce-spending-548753-2026-08-12",
+        "title": "Gen Z’s credit habits are changing: Bigger purchases, longer EMIs and 3X more quick-commerce spending",
+        "publisher": "Business Today",
+        "checked": "2026-11-09",
+        "supports": "August 2026 reporting reviews Kiwi’s June–July user-cohort spending on rent, education, groceries, quick commerce and repayment flexibility."
+      },
+      {
+        "id": "profile-kiwi-expansion-2025",
+        "url": "https://www.moneycontrol.com/news/business/startup/kiwi-raises-24-mn-in-series-b-led-by-vertex-ventures-to-expand-credit-on-upi-offerings-13484557.html",
+        "title": "Kiwi raises $24 mn in series B led by Vertex Ventures to expand Credit-on-UPI offerings",
+        "publisher": "Moneycontrol",
+        "checked": "2026-11-09",
+        "supports": "August 2025 reporting describes Kiwi’s card issuance and merchant transactions across hundreds of cities."
+      }
+    ],
+    "headline": "Younger earners moving everyday spending onto credit",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young earning adults, with established adult cardholders too",
+        "reason": "Kiwi’s own younger-cohort spending analysis supports a young-adult focus, while its comparison with older consumers shows that the credit audience extends beyond Gen Z.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kiwi-spending-2026"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and other card-served Indian cities",
+        "reason": "A reported multi-city merchant-payment footprint supports an urban profile extending beyond the largest metros, without implying rural predominance.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kiwi-expansion-2025"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried and self-employed earners managing recurring outgoings",
+        "reason": "Rent, education, groceries and other recurring credit payments fit independent earning lives; the partner-card application routes also accommodate salary and self-employment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kiwi-spending-2026",
+          "eligibility"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market spenders seeking cash-flow flexibility",
+        "reason": "Daily essentials and manageable repayment outgoings suggest ordinary earning households using credit for convenience and budgeting, rather than only high-end discretionary spending.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kiwi-spending-2026",
+          "audience-kiwi-everyday-positioning"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "The offer concerns everyday payments and credit convenience. These shared spending needs do not support narrowing the profile to one gender.",
+        "basis": "inferred",
+        "sources": [
+          "audience-kiwi-everyday-positioning",
+          "upi"
+        ]
+      }
+    ],
+    "caveats": [
+      "Card-cohort behaviour informs positioning; ordinary bank-account UPI users need not share that credit profile."
+    ]
+  },
+  "Omni Card": {
+    "sources": [],
+    "headline": "Students, parents and employees managing controlled spending",
+    "tags": [
+      "young_adults",
+      "students",
+      "urban",
+      "salaried",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "College-age young adults, parents and working-age employees",
+        "reason": "Student and Gen Z positioning supports a younger consumer entry point; parent and enterprise flows add older household and working-adult stages.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban and smaller-city campuses, households and workplaces",
+        "reason": "Metro access, contactless cards and enterprise expenses suggest a connected city-use profile, with prepaid UPI also useful outside major metros.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Students, parents, corporate employees and business finance teams",
+        "reason": "The app directly addresses students and parents, while enterprise invitations and expense tools add employees and the teams controlling company spend.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Budget-managed personal spending and employer-funded expenses",
+        "reason": "Prepaid balances and transaction controls suit allowance or household budgeting; corporate cards represent company funds, so their spend should not be read as employee income.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Student, parent and employee spending roles are presented without a gender-specific proposition, supporting a mixed-gender audience estimate.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "product"
+        ]
+      }
+    ],
+    "caveats": [
+      "Consumer and enterprise roles coexist; the profile does not establish minor eligibility or a teen-only audience."
+    ]
+  },
+  "Timepay": {
+    "sources": [
+      {
+        "id": "profile-timepay-homeowner-design",
+        "url": "https://www.cosmos.bank.in/product-services-details?id=17",
+        "title": "TPAP Services — TimePay for End Users",
+        "publisher": "Cosmos Co-operative Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes TimePay as a homeowner ecosystem integrating banking, society services, doorstep merchants, hyperlocal services and digital payments."
+      }
+    ],
+    "headline": "Working households managing bills and community payments",
+    "tags": [
+      "general",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults and established household managers",
+        "reason": "Bill payments and a homeowner/society-payment design fit people responsible for recurring household costs, suggesting an adult household profile rather than a young-borrower niche.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "terms"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban and semi-urban residential communities",
+        "reason": "TimePay’s society and homeowner design points toward connected residential communities; its ordinary UPI functions can also serve users beyond that setting.",
+        "basis": "inferred",
+        "sources": [
+          "terms",
+          "profile-timepay-homeowner-design",
+          "app"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried or independent earners, plus household budget managers",
+        "reason": "Society dues, utility bills and everyday transfers fit income-earning households and adults handling shared costs, regardless of a particular employer.",
+        "basis": "inferred",
+        "sources": [
+          "terms",
+          "app"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream, bill-conscious household spenders",
+        "reason": "Routine bills, linked accounts and rewards favour everyday budget management. The homeowner-oriented design suggests settled households without establishing affluent incomes.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "profile-timepay-homeowner-design"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders and household finance roles",
+        "reason": "Home and utility-payment responsibilities can be shared across genders; neither the consumer payment offer nor society design implies a gender focus.",
+        "basis": "inferred",
+        "sources": [
+          "app",
+          "terms"
+        ]
+      }
+    ],
+    "caveats": [
+      "The household tilt uses TimePay’s documented design; current app promotion emphasises general UPI and bills."
+    ]
+  },
+  "SalarySe": {
+    "sources": [
+      {
+        "id": "profile-salaryse-smallcity-workers",
+        "url": "https://www.financialexpress.com/business/industry-salaryses-credit-on-upi-app-to-go-live-in-a-few-months-3362374/",
+        "title": "SalarySe’s credit on UPI app to go live in a few months",
+        "publisher": "The Financial Express",
+        "checked": "2026-11-09",
+        "supports": "January 2024 founder reporting describes employees of mid-tier companies, payroll integrations and a Tier-2/3-city focus; this is launch strategy."
+      },
+      {
+        "id": "profile-salaryse-income-positioning",
+        "url": "https://www.uplers.com/company/salaryse-8227",
+        "title": "SalarySe — company profile and careers",
+        "publisher": "Uplers / SalarySe company profile",
+        "checked": "2026-11-09",
+        "supports": "Company description positions SalarySe for lower-to-middle-class salaried employees; used as marketing intent, not measured household income."
+      }
+    ],
+    "headline": "Salaried workers stretching pay across the month",
+    "tags": [
+      "salaried",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Early-career and established working-age employees",
+        "reason": "Salary access, employee rewards and saving tools fit adults receiving recurring pay across several career stages; a young-adult-only interpretation would be too narrow.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2/3 cities alongside larger employment centres",
+        "reason": "The original credit rollout prioritised smaller-city employees, while today’s payroll and salary services remain relevant to staff in larger cities as well.",
+        "basis": "inferred",
+        "sources": [
+          "profile-salaryse-smallcity-workers",
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried employees, including staff at mid-tier employers",
+        "reason": "Salary access and payroll-linked benefits make employees the central audience, with the original distribution strategy explicitly addressing workers at mid-tier companies.",
+        "basis": "stated",
+        "sources": [
+          "product",
+          "profile-salaryse-smallcity-workers"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle and middle-income, salary-dependent households",
+        "reason": "Its stated lower-to-middle-class focus and between-payday tools suggest workers managing limited monthly slack, rather than an exclusively high-income rewards audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-salaryse-income-positioning",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders among salaried workers",
+        "reason": "The proposition is organised around receiving and managing salary, not a gendered household role, making mixed-gender employee positioning the appropriate estimate.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "KreditPe": {
+    "sources": [
+      {
+        "id": "profile-kreditpe-inclusive-card",
+        "url": "https://www.mediainfoline.com/brand/kredit-pe-launches-indias-most-rewarding-and-accessible-cashback-card",
+        "title": "Kredit.Pe launches accessible cashback card with SBM Bank",
+        "publisher": "MediaInfoline",
+        "checked": "2026-11-09",
+        "supports": "2024 launch coverage quotes the founder on financial inclusion, small-deposit secured cards and access without prior credit history or income proof."
+      }
+    ],
+    "headline": "Value-seeking earners and first-time credit builders",
+    "tags": [
+      "young_adults",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult credit beginners and working-age reward seekers",
+        "reason": "A deposit-backed route without prior credit history creates an entry point for young credit beginners, while current UPI and card rewards also fit established earners.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kreditpe-inclusive-card",
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Connected cities and smaller urban centres",
+        "reason": "Digital card onboarding and online/UPI rewards fit connected city-and-town shoppers. The urban orientation is a low-certainty inference from the spending proposition.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-kreditpe-inclusive-card"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "New earners, independent workers and established card users",
+        "reason": "Low-friction credit access can appeal to people without conventional salary documentation; the wider card marketplace also fits employees already managing credit.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kreditpe-inclusive-card",
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious, credit-building and mainstream spending segments",
+        "reason": "Small-deposit credit access and cashback suit customers seeking both entry-level financial access and savings on daily purchases, without requiring a wealthy-user interpretation.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kreditpe-inclusive-card",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Inclusive credit access and payment rewards are framed around financial access and spending, giving no defensible reason to infer a gender majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-kreditpe-inclusive-card",
+          "product"
+        ]
+      }
+    ],
+    "caveats": [
+      "The secured-card launch is a historical access clue; today’s Max card and marketplace are separate offers."
+    ]
+  },
+  "OneCard": {
+    "sources": [
+      {
+        "id": "profile-onecard-serviceable-cities",
+        "url": "https://www.getonecard.app/legal/ListofOneCardUnsecuredSourcing.pdf",
+        "title": "OneCard Unsecured Serviceable City List",
+        "publisher": "FPL Technologies / OneCard",
+        "checked": "2026-11-09",
+        "supports": "Issuer-programme city list establishes distributed city serviceability; it is not a customer-location distribution."
+      }
+    ],
+    "headline": "Young city professionals seeking accessible card rewards",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working professionals and other working-age cardholders",
+        "reason": "The issuer’s original focus on young professionals remains a useful planning anchor for an app-managed card, without making that launch cohort the entire present base.",
+        "basis": "inferred",
+        "sources": [
+          "audience-onecard-federal-launch",
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Serviceable metros and smaller Indian cities",
+        "reason": "Its supported-city distribution makes a city-based audience more plausible than undifferentiated nationwide reach; the offer is not confined to one metro.",
+        "basis": "inferred",
+        "sources": [
+          "eligibility",
+          "profile-onecard-serviceable-cities"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried professionals, with independent earners also plausible",
+        "reason": "The young-working-professional launch focus suggests employees as a core; app-based card controls and rewards also fit self-directed professional spending.",
+        "basis": "inferred",
+        "sources": [
+          "audience-onecard-federal-launch",
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-income to comfortable, rewards-conscious card spenders",
+        "reason": "Accessible fees and app controls offer convenience and savings alongside the metal-card appeal; premium-looking hardware alone would not justify calling users affluent.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "The issuer’s digitally savvy professional positioning and everyday rewards address working consumers without identifying a gender-specific audience.",
+        "basis": "inferred",
+        "sources": [
+          "audience-onecard-federal-launch",
+          "product"
+        ]
+      }
+    ]
+  },
+  "Scapia": {
+    "sources": [
+      {
+        "id": "profile-scapia-expansion-2026",
+        "url": "https://www.scapia.cards/newsroom/scapia-raises-63-million-led-by-general-catalyst-existing-investors-peak-xv-partners-and-z47-participate",
+        "title": "Scapia raises $63 million led by General Catalyst",
+        "publisher": "Scapia",
+        "checked": "2026-11-09",
+        "supports": "May 2026 release describes growing Tier-2/3 bookings and expansion of travel services; reviewed through indexed release text."
+      },
+      {
+        "id": "profile-scapia-women-travel",
+        "url": "https://www.scapia.cards/newsroom/indian-women-are-travelling-more-booking-solo-and-choosing-beaches-over-hills-scapia-data",
+        "title": "Indian women are travelling more, booking solo and choosing beaches over hills — Scapia data",
+        "publisher": "Scapia",
+        "checked": "2026-11-09",
+        "supports": "Platform travel insights discuss women’s solo, flight, train and bus bookings; reviewed through indexed text, not treated as all-user gender shares."
+      }
+    ],
+    "headline": "Young working travellers from metros and smaller cities",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried",
+      "self_employed",
+      "women"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult travellers, especially early-career life stages",
+        "reason": "The platform’s younger-consumer and Gen Z strategy supports a young-adult travel profile, while card-funded holidays also fit more established adults.",
+        "basis": "inferred",
+        "sources": [
+          "audience-scapia-founder-2026",
+          "federal"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and smaller cities, including Tier-2/3 travel markets",
+        "reason": "Growing smaller-city bookings and the founder’s non-metro focus support a geographically mixed urban audience; smaller-city travel is not evidence of village residence.",
+        "basis": "inferred",
+        "sources": [
+          "profile-scapia-expansion-2026",
+          "audience-scapia-founder-2026"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried professionals and independent earners with travel budgets",
+        "reason": "Repeated leisure bookings and card-funded travel fit people with independent earnings and planned breaks, with both salary and self-employed issuer routes reinforcing that estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-scapia-expansion-2026",
+          "federal"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Aspirational middle-income to comfortable leisure spenders",
+        "reason": "Travel rewards and forex savings fit customers with discretionary travel budgets who still value savings; this suggests more than subsistence spending without implying universal affluence.",
+        "basis": "inferred",
+        "sources": [
+          "federal",
+          "axis",
+          "profile-scapia-expansion-2026"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, with a visible solo-women travel segment",
+        "reason": "Women’s solo and multi-mode travel features in Scapia’s own booking insights, supporting a meaningful women-traveller segment without claiming women dominate the platform.",
+        "basis": "inferred",
+        "sources": [
+          "profile-scapia-women-travel"
+        ]
+      }
+    ]
+  },
+  "Rio Money": {
+    "sources": [
+      {
+        "id": "profile-zagg-young-spending",
+        "url": "https://zagg.money/blog/why-upi-credit-cards-will-change-how-india-spends-in-the-next-5-years",
+        "title": "Why UPI + Credit Cards Will Change How India Spends in the Next 5 Years",
+        "publisher": "Zagg Money",
+        "checked": "2026-11-09",
+        "supports": "Brand content addresses young adults, Gen Z convenience, routine purchases and smaller-city credit-on-UPI adoption; used as marketing positioning."
+      },
+      {
+        "id": "profile-zagg-salary-distribution",
+        "url": "https://ir.zaggle.in/wp-content/uploads/2026/02/earning-call-transcript-Q3FY26.pdf",
+        "title": "Zaggle Q3 FY2026 earnings-call transcript, 12 February 2026",
+        "publisher": "Zaggle Prepaid Ocean Services Limited",
+        "checked": "2026-11-09",
+        "supports": "Discusses Rio’s acquisition/rebranding and leveraging the parent’s salaried employee ecosystem for consumer monetisation; not a count of active Rio/Zagg users."
+      }
+    ],
+    "headline": "Young earners combining salary spending and credit",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult earners alongside established working-age users",
+        "reason": "Zagg’s Gen Z convenience messaging suggests younger adults, while its parent’s employee-distribution strategy adds established working-age earners.",
+        "basis": "inferred",
+        "sources": [
+          "profile-zagg-young-spending",
+          "profile-zagg-salary-distribution"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and smaller urban centres with card-and-UPI spending",
+        "reason": "Everyday retail and quick-commerce rewards suggest connected urban spending routines, while the brand also promotes credit-on-UPI adoption in smaller cities. This is positioning, not a user-location count.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-zagg-young-spending"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried professionals, with other independent earners too",
+        "reason": "Zaggle intends to distribute Zagg through its employee ecosystem, making salaried workers a plausible core; direct consumer card onboarding also fits earners outside that channel.",
+        "basis": "inferred",
+        "sources": [
+          "profile-zagg-salary-distribution",
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market earners seeking value on routine purchases",
+        "reason": "Rewards on everyday shopping and the salary-linked distribution opportunity favour regular-income, value-aware consumers rather than an exclusively premium card audience.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-zagg-salary-distribution"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Card rewards and employee distribution organise the proposition around spending and work, supporting a mixed-gender profile rather than a gender-specific niche.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-zagg-salary-distribution"
+        ]
+      }
+    ],
+    "caveats": [
+      "Exact Rio Money key retained; current positioning follows the same app’s Zagg rebrand. Parent employee reach is a distribution opportunity."
+    ]
+  },
+  "CheQ": {
+    "sources": [
+      {
+        "id": "profile-cheq-founder-reach",
+        "url": "https://inc42.com/startups/how-creds-rival-cheq-is-aiming-to-revolutionise-credit-management-in-india/",
+        "title": "How CRED’s rival CheQ is aiming to revolutionise credit management in India",
+        "publisher": "Inc42 BrandLabs",
+        "checked": "2026-11-09",
+        "supports": "July 2023 founder feature describes multi-city reach, open credit-instrument access and consolidated bill-payment convenience; treated as historical promotional evidence."
+      },
+      {
+        "id": "profile-cheq-fibe-young",
+        "url": "https://sahyadristartups.com/news/fibe-partners-with-cheq-to-offer-flexible-credit-solutions-to-young-professionals/",
+        "title": "Fibe partners with CheQ to offer flexible credit solutions to young professionals",
+        "publisher": "Sahyadri Startups",
+        "checked": "2026-11-09",
+        "supports": "Partnership coverage describes younger digital-first consumers, millennials, Gen Z and first-time borrowers; applies to that credit-distribution route."
+      }
+    ],
+    "headline": "Working cardholders organising bills and everyday spending",
+    "tags": [
+      "young_adults",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult and established working-age cardholders",
+        "reason": "Card-bill organisation fits adults with ongoing credit obligations; the Fibe partnership adds an explicit younger-professional and early-credit-life entry point.",
+        "basis": "inferred",
+        "sources": [
+          "profile-cheq-fibe-young",
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and other Indian cities, including smaller centres",
+        "reason": "Multi-city bill-payment distribution supports reach beyond major metros, while app-led convenience plausibly favours connected urban cardholders.",
+        "basis": "inferred",
+        "sources": [
+          "profile-cheq-founder-reach"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees and independent earners managing personal credit",
+        "reason": "Consolidating personal card bills fits adults with recurring incomes and repayments; younger-professional credit distribution reinforces the employee use case.",
+        "basis": "inferred",
+        "sources": [
+          "profile-cheq-founder-reach",
+          "profile-cheq-fibe-young",
+          "terms"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream to comfortable, rewards-conscious card spenders",
+        "reason": "Bills, repayment convenience and usable rewards appeal to customers with spending capacity who still seek savings. Multiple-card management does not by itself establish affluence.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-cheq-founder-reach"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Personal bill management and rewards address a financial task shared across genders; the positioning gives no sound basis for a male or female majority.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "terms"
+        ]
+      }
+    ],
+    "caveats": [
+      "Bill-payment customers are the core profile; ordinary UPI and individual partner-credit offers can reach different users."
+    ]
+  },
+  "KreditBee": {
+    "sources": [
+      {
+        "id": "profile-kreditbee-growth-story",
+        "url": "https://inc42.com/features/the-making-of-a-lending-tech-unicorn/",
+        "title": "The making of a lending-tech unicorn",
+        "publisher": "Inc42",
+        "checked": "2026-11-09",
+        "supports": "2026 founder reporting traces KreditBee’s move from students toward salaried borrowers and expansion beyond major city markets."
+      }
+    ],
+    "headline": "Young earners seeking manageable short-term cash support",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult earners and other working-age borrowers",
+        "reason": "The platform’s early young-professional focus and subsequent salary-led growth support an early-working-life tilt, extending beyond students to established earners.",
+        "basis": "inferred",
+        "sources": [
+          "audience-kreditbee-company-story",
+          "profile-kreditbee-growth-story"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros, Tier-2/3 cities and smaller employment towns",
+        "reason": "Loans are distributed across multiple city tiers, and founder reporting describes expansion beyond the largest cities, supporting a mixed city-and-town borrower audience.",
+        "basis": "inferred",
+        "sources": [
+          "faq",
+          "profile-kreditbee-growth-story"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried employees, self-employed professionals and small entrepreneurs",
+        "reason": "Separate salary and self-employed offers make both recurring-pay and independent-earning borrowers central planning groups, rather than a student-only lending audience.",
+        "basis": "inferred",
+        "sources": [
+          "salaried",
+          "demo-kreditbee-self-employed",
+          "audience-kreditbee-company-story"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle and middle-market, cash-flow-sensitive earners",
+        "reason": "Quick, relatively small unsecured borrowing and first-time-credit access fit workers needing short-term liquidity; low product entry thresholds do not establish actual borrower salaries.",
+        "basis": "inferred",
+        "sources": [
+          "audience-kreditbee-company-story",
+          "salaried"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, including working women",
+        "reason": "The women’s loan route explicitly includes salaried and self-employed women alongside men, supporting inclusion without implying a women-majority platform.",
+        "basis": "inferred",
+        "sources": [
+          "demo-kreditbee-women"
+        ]
+      }
+    ],
+    "caveats": [
+      "The borrower-led sketch does not describe every standalone KreditBee UPI customer."
+    ]
+  },
+  "RapiPay": {
+    "sources": [
+      {
+        "id": "profile-rapipay-retail-network",
+        "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/26052025/f49cc5bc-2a88-4a61-8e56-96af6ae4b960.pdf",
+        "title": "Capital India Finance — May 2025 investor presentation: RapiPay business",
+        "publisher": "Capital India Finance Limited (exchange filing)",
+        "checked": "2026-11-09",
+        "supports": "Describes RapiPay’s phygital network, small retail Direct Business Outlets, national pincode coverage and assisted banking services."
+      }
+    ],
+    "headline": "Small-town shopkeepers building a local services income",
+    "tags": [
+      "businesses",
+      "self_employed",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age proprietors, from young entrepreneurs to established traders",
+        "reason": "Running a counter, managing liquidity and earning transaction commissions fits adults operating a livelihood business across several working-life stages.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-rapipay-retail-network"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Rural market centres and Tier-2/3 towns, with city outlets too",
+        "reason": "The small-outlet network and micro-ATM use where bank ATMs are scarce make village and smaller-town trading centres plausible agent locations, alongside urban shops.",
+        "basis": "inferred",
+        "sources": [
+          "demo-rapipay-micro-atm-rural",
+          "profile-rapipay-retail-network"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed retailers and local service entrepreneurs",
+        "reason": "Direct Business Outlets operate retail-based assisted financial services, making shopkeepers and small service businesses the relevant app users.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-rapipay-retail-network"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Small-business, commission-conscious; variable proprietor income",
+        "reason": "The offer adds fee income to an existing counter business, suggesting livelihood diversification and working-capital sensitivity rather than any fixed salary band.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "demo-rapipay-micro-atm-rural"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders among local business owners",
+        "reason": "The agent invitation is organised around retail capability, not gender. A mixed-gender proprietor profile is more defensible than assuming a male-dominated network.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "caveats": [
+      "Profiles retailer/agent operators; people receiving assisted services at their counters are a separate audience."
+    ]
+  },
+  "Spice Money": {
+    "sources": [],
+    "headline": "Rural entrepreneurs, including women, growing shop-based livelihoods",
+    "tags": [
+      "businesses",
+      "self_employed",
+      "rural",
+      "women",
+      "young_adults"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult entrepreneurs and established working-age shopkeepers",
+        "reason": "The Adhikari network includes local youth as well as existing community businesses, suggesting both new livelihood builders and experienced adult traders.",
+        "basis": "inferred",
+        "sources": [
+          "demo-spice-rural-network-report",
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Villages, rural market towns and semi-urban communities",
+        "reason": "The rural nanopreneur model and assisted-banking network make rural and nearby market-centre communities a specific audience focus.",
+        "basis": "inferred",
+        "sources": [
+          "demo-spice-rural-network-report",
+          "audience-spice-current-platform"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Shop owners, micro-entrepreneurs and emerging local business operators",
+        "reason": "Adhikaris run shop-based financial services, while youth and women’s entrepreneurship programmes create additional livelihood-entry routes.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "demo-spice-rural-network-report"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Livelihood-focused micro-businesses seeking additional earnings",
+        "reason": "Adding banking commissions to local retail fits small businesses diversifying household income. Promotional earning examples are not reliable estimates of take-home income.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "demo-spice-rural-network-report"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, with deliberate rural-women entrepreneur outreach",
+        "reason": "Women’s campaigns and Adhikari inclusion programmes support a meaningful women-entrepreneur segment, without establishing a female majority of agents.",
+        "basis": "inferred",
+        "sources": [
+          "demo-spice-women-campaign",
+          "demo-spice-rural-network-report"
+        ]
+      }
+    ],
+    "caveats": [
+      "Profiles Adhikari operators; their assisted-banking customers span additional ages and livelihoods."
+    ]
+  },
+  "Saathi by PayNearby": {
+    "sources": [
+      {
+        "id": "profile-saathi-campaign-2026",
+        "url": "https://paynearby.in/media/paynearby-saathi-campaign-dil-se-desi-life-digital-captures-bharats-trust-led-digital-shift/",
+        "title": "PayNearby Saathi campaign “Dil Se Desi. Life Digital.” captures Bharat’s trust-led digital shift",
+        "publisher": "PayNearby",
+        "checked": "2026-11-09",
+        "supports": "June 2026 campaign positions the consumer app around local-language trust, retailer reassurance, household payments, savings and subsidy checks; reviewed through indexed text."
+      }
+    ],
+    "headline": "Rural and small-town households entering digital finance",
+    "tags": [
+      "general",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults, including later digital adopters",
+        "reason": "Assisted onboarding, local-language guidance and household payment tasks suit adults developing digital-finance confidence across life stages, rather than just young technology enthusiasts.",
+        "basis": "inferred",
+        "sources": [
+          "audience-saathi-app-launch",
+          "profile-saathi-campaign-2026"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Rural communities and semi-urban or small-town households",
+        "reason": "Local-retailer onboarding and the explicit semi-urban/rural access strategy make these communities a central consumer profile, not merely a nationwide availability claim.",
+        "basis": "inferred",
+        "sources": [
+          "audience-saathi-app-launch",
+          "demo-saathi-rural-cashpoint"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Local earners, small-business households and family money managers",
+        "reason": "Recharges, urgent transfers, subsidy-status checks and small savings fit households with varied livelihoods; using retailer help does not make the consumer an agent.",
+        "basis": "inferred",
+        "sources": [
+          "profile-saathi-campaign-2026",
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market, small-ticket savers and everyday-budget households",
+        "reason": "Low-entry investments and essential payment tasks suggest people making incremental savings while managing routine spending, rather than a wealth-management-led premium segment.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-saathi-campaign-2026"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders and household money-management roles",
+        "reason": "The consumer campaign focuses on familiar household financial tasks and accessible guidance. It supports inclusive use without establishing a specific gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-saathi-campaign-2026",
+          "product"
+        ]
+      }
+    ],
+    "caveats": [
+      "Saathi is the consumer app; PayNearby’s retailer and women-agent programmes are separate populations."
+    ]
+  },
+  "Dhani": {
+    "sources": [],
+    "headline": "Salary-dependent adults bridging short-term household cash gaps",
+    "tags": [
+      "salaried",
+      "urban"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Early-career through mid-career salaried adults",
+        "reason": "Short-duration salary-backed borrowing fits earners with immediate household expenses across working life; this is a life-stage estimate, separate from the published loan age limits.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Connected cities and employment towns across India",
+        "reason": "The salary-account and fully digital borrowing flow plausibly favours workers in connected employment centres, including smaller towns; it does not establish the old rural-heavy hypothesis.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried professionals receiving pay into a bank account",
+        "reason": "The current offer directly addresses salaried professionals and salary-account repayment capacity, making employees the central audience for this version of the service.",
+        "basis": "stated",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Salary-dependent, cash-flow-constrained working households",
+        "reason": "Small, short-term borrowing until the next pay cycle fits temporary liquidity gaps; it does not prove borrowers have low annual incomes.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders among salaried earners",
+        "reason": "The offer is structured around salary and short-term cash need, with no clear gender-specific targeting.",
+        "basis": "inferred",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "caveats": [
+      "Based on the current salary-loan relaunch, not Dhani’s older health, wallet or wider credit-line positioning."
+    ]
+  },
+  "Fave": {
+    "sources": [
+      {
+        "id": "profile-fave-household-design",
+        "url": "https://in.linkedin.com/jobs/view/lead-frontend-engineer-at-pine-labs-4444564343",
+        "title": "Pine Labs — Fave Lead Frontend Engineer role: household product brief",
+        "publisher": "Pine Labs (LinkedIn job posting)",
+        "checked": "2026-11-09",
+        "supports": "Employer product brief describes Fave for rent-sharing flatmates, dual-income couples and families paying domestic-service providers; used as product-design intent."
+      }
+    ],
+    "headline": "Young flatmates and working couples sharing household costs",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adult flatmates and established household partners",
+        "reason": "Rent splitting and shared subscriptions suggest adults beginning independent living, while joint-family bills add more established household stages.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "website"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban and connected smaller-city shared homes",
+        "reason": "Flatmate rents, food delivery and recurring domestic-service payments fit city living particularly well, although the same tools can serve other connected households.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-fave-household-design"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Young professionals, dual-income couples and household organisers",
+        "reason": "The product team’s household examples explicitly include dual-income couples and flatmates, supporting working adults as a likely core alongside other family members.",
+        "basis": "inferred",
+        "sources": [
+          "profile-fave-household-design",
+          "product"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Budget-conscious middle-market households sharing recurring expenses",
+        "reason": "Visibility over rent, groceries and common bills suits households coordinating finite budgets; examples involving domestic help also allow comfortable-income users without implying universal affluence.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-fave-household-design"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders within couples, families and shared homes",
+        "reason": "Shared visibility and splitting costs between partners or flatmates is a mixed-gender household proposition, rather than a women-only household-budget role.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "website"
+        ]
+      }
+    ]
+  },
+  "True Balance": {
+    "sources": [
+      {
+        "id": "profile-truebalance-stride-2025",
+        "url": "https://strideventures.global/portfolio/true-balance",
+        "title": "True Balance — portfolio profile",
+        "publisher": "Stride Ventures",
+        "checked": "2026-11-09",
+        "supports": "Investor profile describes lending and utility payments for underserved Tier-2/3-city customers and small-to-mid-ticket, everyday credit needs."
+      },
+      {
+        "id": "profile-truebalance-borrower-interview",
+        "url": "https://cxotoday.com/corner-office/how-true-balance-is-bridging-the-gap-for-a-sustainable-digital-lending-ecosystem-in-india/",
+        "title": "How True Balance is bridging the gap for a sustainable digital lending ecosystem in India",
+        "publisher": "CXOToday",
+        "checked": "2026-11-09",
+        "supports": "Historical management interview describes working-age, salaried/self-employed smaller-city borrowers and largely essential lending needs; used as directional cohort evidence."
+      }
+    ],
+    "headline": "Small-city earners seeking essential short-term financial support",
+    "tags": [
+      "urban",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young-to-mid-career working adults",
+        "reason": "Earlier borrower interviews describe an adult working-life concentration; current small-ticket, day-to-day lending keeps that life-stage estimate plausible without treating the historical cohort as today’s measured mix.",
+        "basis": "inferred",
+        "sources": [
+          "profile-truebalance-borrower-interview",
+          "profile-truebalance-stride-2025"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2/3 cities and other non-metro urban centres",
+        "reason": "Current investor positioning explicitly prioritises underserved smaller-city users. This supports a non-metro city profile, not an automatic rural classification.",
+        "basis": "inferred",
+        "sources": [
+          "profile-truebalance-stride-2025"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried and self-employed workers, including thin-file earners",
+        "reason": "Cash Loan positioning and borrower interviews both fit salary and independent-work households needing funds for essential outgoings.",
+        "basis": "inferred",
+        "sources": [
+          "demo-truebalance-cash-audience",
+          "profile-truebalance-borrower-interview"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Underserved, cash-flow-sensitive mass-market households",
+        "reason": "Small-to-mid-ticket borrowing for daily requirements suggests limited financial cushions and gaps in conventional credit access, without implying every user is poor or unbanked.",
+        "basis": "inferred",
+        "sources": [
+          "profile-truebalance-stride-2025",
+          "audience-truebalance-company-mission"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "The central need is access to manageable essential credit and utility payments, giving no sound basis to infer a gender majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-truebalance-stride-2025",
+          "app"
+        ]
+      }
+    ],
+    "caveats": [
+      "Borrower evidence informs the profile; wallet and payment-only users can differ."
+    ]
+  },
+  "Payworld": {
+    "sources": [
+      {
+        "id": "profile-payworld-retailer-positioning",
+        "url": "https://www.linkedin.com/company/payworld",
+        "title": "Payworld — company profile",
+        "publisher": "Payworld (LinkedIn)",
+        "checked": "2026-11-09",
+        "supports": "Company profile describes predominantly kirana retail partners extending assisted digital services to semi-urban and rural populations across India."
+      }
+    ],
+    "headline": "Rural and small-town retailers diversifying shop income",
+    "tags": [
+      "businesses",
+      "self_employed",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age shopkeepers and established local entrepreneurs",
+        "reason": "Operating a retail counter and handling assisted transactions fits income-earning adults, from newer proprietors to experienced traders; no narrow age skew is justified.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-payworld-retailer-positioning"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Villages, semi-urban markets and smaller towns; city outlets too",
+        "reason": "Its retailer model emphasises last-mile services for semi-urban and rural communities, making local market centres a plausible operator base alongside urban remittance shops.",
+        "basis": "inferred",
+        "sources": [
+          "profile-payworld-retailer-positioning",
+          "demo-payworld-rural-services"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed kirana owners and local service retailers",
+        "reason": "The platform recruits retailers, and its company positioning specifically highlights kirana shops providing assisted finance and digital services.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-payworld-retailer-positioning"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Small-business, fee-conscious; variable owner earnings",
+        "reason": "Adding transactions and bookings to an existing shop suggests income diversification and sensitivity to margins, rather than a personal salary or guaranteed earnings band.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-payworld-retailer-positioning"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders among shop owners",
+        "reason": "The retailer proposition is defined by running a service counter rather than gender. A mixed proprietor audience is the sound planning assumption.",
+        "basis": "inferred",
+        "sources": [
+          "product",
+          "profile-payworld-retailer-positioning"
+        ]
+      }
+    ],
+    "caveats": [
+      "Profiles retailer app operators; counter customers do not need to share the same age, occupation or spending profile."
+    ]
+  },
+  "Snapmint": {
+    "sources": [
+      {
+        "id": "profile-snapmint-founder-interview",
+        "url": "https://cxotoday.com/corner-office/snapmint-democratizing-emi-finance-shopping/",
+        "title": "Snapmint democratizing EMI finance & shopping",
+        "publisher": "CXOToday",
+        "checked": "2026-11-09",
+        "supports": "March 2023 founder interview discusses Gen Z entering work, smaller-city shoppers, middle-income aspiration, self-employment and non-salaried homemakers."
+      },
+      {
+        "id": "profile-snapmint-avvatar-case",
+        "url": "https://www.snapmintbusiness.com/avvatar-case-study",
+        "title": "Avvatar sees higher order value and cart uplift with Snapmint",
+        "publisher": "Snapmint Business",
+        "checked": "2026-11-09",
+        "supports": "Merchant case study describes affordability barriers, new-to-credit buyers and Tier-2/3 orders; one merchant cohort, not an app-wide distribution."
+      }
+    ],
+    "headline": "Young small-city shoppers financing aspirational everyday purchases",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults entering work, plus other working-age shoppers",
+        "reason": "The founder’s Gen Z and workforce-entry positioning supports younger adult buyers building independent purchasing power, with wider household buyers also plausible.",
+        "basis": "inferred",
+        "sources": [
+          "profile-snapmint-founder-interview",
+          "product"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2/3 and smaller cities alongside metro shoppers",
+        "reason": "Founder reporting describes expansion into smaller-city audiences. Current merchant case evidence also shows smaller-city orders, supporting this tilt without relabelling those cities rural.",
+        "basis": "inferred",
+        "sources": [
+          "profile-snapmint-founder-interview",
+          "profile-snapmint-avvatar-case"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "New employees, self-employed earners and non-salaried household buyers",
+        "reason": "Cardless EMI addresses gaps faced by people entering work or lacking conventional salaried credit access, including independent workers and homemakers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-snapmint-founder-interview"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious, aspirational middle-market buyers with limited upfront cash",
+        "reason": "Splitting electronics, lifestyle and other purchases into instalments fits shoppers who can manage recurring payments but find the upfront price harder to absorb.",
+        "basis": "inferred",
+        "sources": [
+          "profile-snapmint-founder-interview",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, including homemakers buying on instalments",
+        "reason": "The founder explicitly includes homemakers among underserved buyers, alongside other new-to-credit consumers; this supports inclusion without a women-majority claim.",
+        "basis": "inferred",
+        "sources": [
+          "profile-snapmint-founder-interview"
+        ]
+      }
+    ],
+    "caveats": [
+      "The purchase-finance profile does not define every standalone UPI user or premium personal-loan customer."
+    ]
+  },
+  "ZET": {
+    "sources": [
+      {
+        "id": "profile-zet-credit-access-2026",
+        "url": "https://yourstory.com/2026/01/fintech-zet-bags-tpap-license-to-enable-upi-credit-card-payments",
+        "title": "Fintech ZET bags TPAP licence to enable UPI credit card payments",
+        "publisher": "YourStory",
+        "checked": "2026-11-09",
+        "supports": "January 2026 founder reporting describes the consumer credit-invisible segment, first-card access, secured cards and a mass-market credit-inclusion mission."
+      },
+      {
+        "id": "profile-zet-smaller-city-positioning",
+        "url": "https://www.linkedin.com/company/zetapp-in",
+        "title": "ZET — consumer credit-building and partner-platform positioning",
+        "publisher": "ZET (LinkedIn)",
+        "checked": "2026-11-09",
+        "supports": "Company profile explicitly locates its consumer card credit-building proposition in Tier-2/3/4 cities, separately describing the B2B partner network."
+      }
+    ],
+    "headline": "Small-city credit beginners building their financial footing",
+    "tags": [
+      "young_adults",
+      "students",
+      "urban",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "College-age adults, new earners and older credit rebuilders",
+        "reason": "Student and new-professional outreach gives a young-adult entry point; the credit-invisible and low-score mission also fits older adults rebuilding financial access.",
+        "basis": "inferred",
+        "sources": [
+          "demo-zet-students-professionals",
+          "profile-zet-credit-access-2026"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2/3 and smaller urban centres, with wider city access",
+        "reason": "ZET’s consumer positioning highlights credit building in smaller cities, supporting a non-metro urban tilt without turning those places into a rural demographic.",
+        "basis": "inferred",
+        "sources": [
+          "profile-zet-smaller-city-positioning"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "College students, interns, freelancers and new employees",
+        "reason": "The FD-card audience article directly addresses these groups; secured credit also fits adults whose earnings or credit records do not match conventional card underwriting.",
+        "basis": "inferred",
+        "sources": [
+          "demo-zet-students-professionals",
+          "profile-zet-credit-access-2026"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market, savings-backed credit beginners",
+        "reason": "The financial-inclusion mission and deposit-backed route fit modest-savings customers seeking a first formal credit foothold, rather than people selected for high salaries or premium spending.",
+        "basis": "inferred",
+        "sources": [
+          "profile-zet-credit-access-2026",
+          "sbm-product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Students, new earners and credit rebuilding are the central inclusion themes, supporting a mixed-gender audience rather than an assumed male or female majority.",
+        "basis": "inferred",
+        "sources": [
+          "demo-zet-students-professionals",
+          "profile-zet-credit-access-2026"
+        ]
+      }
+    ],
+    "caveats": [
+      "Profiles the consumer secured-card app, not the separate ZET Partner sales/agent population."
+    ]
+  },
+  "Navi": {
+    "sources": [
+      {
+        "id": "profile-navi-ceo-2026",
+        "url": "https://www.business-standard.com/amp/economy/interviews/resolved-rbi-embargo-within-45-days-in-2024-navi-finserv-md-ceo-126082400591_1.html",
+        "title": "We are well capitalised right now: Navi Finserv MD & CEO Abhishek Dwivedi",
+        "publisher": "Business Standard",
+        "checked": "2026-11-09",
+        "supports": "August 2026 CEO interview describes Navi Finserv’s young-middle-class loan target; this applies to lending, not a measured UPI-user demographic."
+      },
+      {
+        "id": "profile-navi-reward-acquisition-2026",
+        "url": "https://www.livemint.com/industry/fintechs-upi-payments-cashback-finance-credit-commerce-11782036097346.html",
+        "title": "A new crop of UPI players is rewriting the cashback playbook",
+        "publisher": "Mint",
+        "checked": "2026-11-09",
+        "supports": "June 2026 reporting identifies Navi’s cashback-led UPI acquisition alongside cross-selling into lending; supports a reward-seeking payments audience beyond borrowers."
+      },
+      {
+        "id": "profile-navi-nonmetro-interview",
+        "url": "https://www.moneycontrol.com/news/technology/parked-banking-dreams-for-now-focus-is-on-stabilising-lending-business-navi-founder-sachin-bansal-12558281.html",
+        "title": "Parked banking dreams for now; focus is on stabilising lending business: Navi founder Sachin Bansal",
+        "publisher": "Moneycontrol",
+        "checked": "2026-11-09",
+        "supports": "2024 founder interview describes lending reach beyond the top ten cities, including Tier-2/3/4 markets; used as historical distribution context."
+      }
+    ],
+    "headline": "Young middle-class earners across metros and smaller cities",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults, roughly 20s–30s as an inferred planning band",
+        "reason": "The lending arm’s young-middle-class focus makes early adult earning years a plausible anchor. Reward-led UPI adds payment users beyond that borrower core.",
+        "basis": "inferred",
+        "sources": [
+          "profile-navi-ceo-2026",
+          "profile-navi-reward-acquisition-2026"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros plus Tier-2/3/4 cities and smaller employment towns",
+        "reason": "The founder describes substantial lending business outside the largest cities. This suggests a mixed urban-and-town platform audience, not solely metro youth or a measured rural UPI base.",
+        "basis": "inferred",
+        "sources": [
+          "profile-navi-nonmetro-interview",
+          "audience-navi-app-overview"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Early-career salaried and independent earners; household money managers too",
+        "reason": "Young-middle-class borrowing, regular bills and savings tools plausibly centre on people building independent earning lives. Payment-only users need not be employed or take a loan.",
+        "basis": "inferred",
+        "sources": [
+          "profile-navi-ceo-2026",
+          "audience-navi-app-overview",
+          "upi"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious middle-class consumers, including cash-flow-sensitive borrowers",
+        "reason": "The lending target is young middle class, while payment rewards attract people seeking everyday savings. Together they suggest mass-to-middle-market value seeking, not uniformly distressed borrowers or affluent investors.",
+        "basis": "inferred",
+        "sources": [
+          "profile-navi-ceo-2026",
+          "profile-navi-reward-acquisition-2026"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear gender focus",
+        "reason": "Payments, borrowing, bills and investments address shared financial needs. Young-middle-class positioning gives no sound basis to infer a gender majority.",
+        "basis": "inferred",
+        "sources": [
+          "audience-navi-app-overview",
+          "profile-navi-ceo-2026"
+        ]
+      }
+    ],
+    "caveats": [
+      "Overall platform estimate combines loan targeting with reward-led payment acquisition. Loan cohorts, age eligibility and UPI demographics remain distinct."
+    ]
+  }
+}

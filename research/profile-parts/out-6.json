@@ -1,0 +1,1059 @@
+{
+ "Airtel Payments Bank": {
+  "headline": "Rural and small-town Airtel subscribers, migrant workers and low-income households using cash-in/out banking points and UPI",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "low_income",
+   "gig_workers",
+   "young_adults"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 20-40",
+    "basis": "inferred",
+    "reason": "Customers are Airtel mobile subscribers onboarded via agents and the app; migrant labour and young earners are the stated target, implying working-age adults.",
+    "sources": [
+     "prof-airtel-payments-bank-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Rural and tier-3+ towns, ~70% rural at launch",
+    "basis": "stated",
+    "reason": "Telecomtalk reports close to 70% of early accounts were rural; Outlook says 500,000 banking points sit in tier-3 and beyond, serving ~3 in 4 villages.",
+    "sources": [
+     "prof-airtel-payments-bank-1",
+     "prof-airtel-payments-bank-3"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Migrant labourers, informal workers, small shops",
+    "basis": "stated",
+    "reason": "Bharti Airtel's annual report names small businesses, low-income households and the migrant labour workforce as target customers.",
+    "sources": [
+     "prof-airtel-payments-bank-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low income, underbanked; ₹2 lakh balance cap",
+    "basis": "stated",
+    "reason": "Annual report targets low-income households and the unbanked; payments-bank deposit caps keep balances small.",
+    "sources": [
+     "prof-airtel-payments-bank-2",
+     "prof-airtel-payments-bank-4"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male (~70%+)",
+    "basis": "inferred",
+    "reason": "No APB gender split found; NPCI says only ~25% of payment users are women, even fewer in rural areas, which matches APB's base. Agents are mostly women, customers are not stated.",
+    "sources": [
+     "prof-airtel-payments-bank-5",
+     "prof-airtel-payments-bank-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "Rural share is from 2016-17 launch data; current split not disclosed",
+   "80M+ monthly transacting users (FY24) includes urban digital users"
+  ],
+  "sources": [
+   {
+    "id": "prof-airtel-payments-bank-1",
+    "url": "https://telecomtalk.info/airtel-payments-bank-crosses-one-lakh-savings-accounts-opened-in-rural-areas/159457/",
+    "title": "Airtel Payments Bank crosses One Lakh Savings Accounts, 70% of the accounts opened in rural areas",
+    "publisher": "TelecomTalk",
+    "checked": "2026-11-09",
+    "supports": "'Close to 70% of the over one lakh accounts opened' were in rural areas."
+   },
+   {
+    "id": "prof-airtel-payments-bank-2",
+    "url": "https://airtel.in/airtel-annual-report-2016-17/new-age-banking.html",
+    "title": "New-age banking: digital and inclusive (Annual Report 2016-17)",
+    "publisher": "Bharti Airtel",
+    "checked": "2026-11-09",
+    "supports": "Aims to serve 'small businesses, low-income households, migrant labour workforce' and the unbanked, with most banking points rural."
+   },
+   {
+    "id": "prof-airtel-payments-bank-3",
+    "url": "https://www.outlookbusiness.com/corporate/airtel-payments-bank-says-q4-profit-up-138-to-rs-26-crore",
+    "title": "Airtel Payments Bank says Q4 profit up 138% to Rs 26 crore",
+    "publisher": "Outlook Business",
+    "checked": "2026-11-09",
+    "supports": "About 500,000 active banking points in tier-3 and beyond, mostly run by women agents; serves roughly three in four villages."
+   },
+   {
+    "id": "prof-airtel-payments-bank-4",
+    "url": "https://telecomtalk.info/airtel-payments-bank-60percent-profit-growth-fy24/977008/",
+    "title": "Airtel Payments Bank Reports 60 Percent Profit Growth in FY24",
+    "publisher": "TelecomTalk",
+    "checked": "2026-11-09",
+    "supports": "80.4 million monthly transacting users; over one million new savers a month."
+   },
+   {
+    "id": "prof-airtel-payments-bank-5",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ },
+ "Federal Bank": {
+  "headline": "Kerala households and Gulf-based NRIs plus their families, with a younger salaried layer added via Fi and Jupiter neobank tie-ups",
+  "tags": [
+   "older_adults",
+   "tier2_3",
+   "salaried",
+   "middle_income",
+   "young_adults"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Core 30-55; young 22-32 via neobank partners",
+    "basis": "inferred",
+    "reason": "Deposit base is NRI-heavy (established earners); Fi was aimed 'mainly for young users' and served 3.5M+ customers on Federal accounts.",
+    "sources": [
+     "prof-federal-bank-1",
+     "prof-federal-bank-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Kerala-centric (~65% of deposits) plus Gulf NRIs",
+    "basis": "stated",
+    "reason": "CRISIL: Kerala accounted for 65% of deposits and NRIs 40% of deposits, with a strong NRI base in the Middle East.",
+    "sources": [
+     "prof-federal-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Gulf migrant workers, salaried, their families",
+    "basis": "inferred",
+    "reason": "40% NRI deposits and ~21% of India's inward remittances imply many remitting overseas workers and recipient households.",
+    "sources": [
+     "prof-federal-bank-1",
+     "prof-federal-bank-3"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income, remittance-supported",
+    "basis": "inferred",
+    "reason": "Granular retail deposits (94% of total) and remittance flows suggest middle-income savers rather than affluent clients.",
+    "sources": [
+     "prof-federal-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male account holders",
+    "basis": "inferred",
+    "reason": "Gulf migrant workforce is predominantly male; national data says only ~25% of payment users are women. No bank split found.",
+    "sources": [
+     "prof-federal-bank-4",
+     "prof-federal-bank-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "CRISIL figures are as of March 2022",
+   "Fi stopped onboarding in March 2026; Jupiter still runs on Federal"
+  ],
+  "sources": [
+   {
+    "id": "prof-federal-bank-1",
+    "url": "https://crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/TheFederalBankLimited_September 23, 2022_RR_302056.html",
+    "title": "Rating Rationale: The Federal Bank Limited",
+    "publisher": "CRISIL",
+    "checked": "2026-11-09",
+    "supports": "Kerala was 65% of deposits, NRIs 40.0% of deposits, retail 94%; 'strong NRI customer base in the Middle East'; 21.1% of inward remittances."
+   },
+   {
+    "id": "prof-federal-bank-2",
+    "url": "https://hellobanker.in/fi-neobank-to-shut-down-banking-services-on-its-platform-users-shifted-to-federal-bank-app/",
+    "title": "Fi neobank to shut down banking services; users shifted to Federal Bank app",
+    "publisher": "Hello Banker",
+    "checked": "2026-11-09",
+    "supports": "Fi's Federal Bank accounts were 'mainly for young users'; 3.5M+ customers served; shutdown announced 12 March 2026."
+   },
+   {
+    "id": "prof-federal-bank-3",
+    "url": "https://www.khaleejtimes.com/supplements/federal-bank-digital-at-the-fore-and-human-at-the-core",
+    "title": "Federal Bank: 'Digital at the fore and human at the core'",
+    "publisher": "Khaleej Times",
+    "checked": "2026-11-09",
+    "supports": "Describes Federal Bank's Gulf representative offices and relationship-banking model for NRIs (2018)."
+   },
+   {
+    "id": "prof-federal-bank-4",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ },
+ "Jio Payments Bank": {
+  "headline": "Young Jio subscribers using the JioFinance app for UPI and bills, now expanding to semi-urban and rural users via BC agents",
+  "tags": [
+   "gen_z",
+   "young_adults",
+   "tier2_3",
+   "rural",
+   "low_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 20-35",
+    "basis": "inferred",
+    "reason": "Distributed via MyJio/JioFinance app with 5-minute digital account opening and UPI/recharge use cases, which suit young smartphone-first users.",
+    "sources": [
+     "prof-jio-payments-bank-1",
+     "prof-jio-payments-bank-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-2/3 and semi-urban, growing rural",
+    "basis": "stated",
+    "reason": "Ezeepay BC tie-up targets 12,000+ PIN codes 'semi-urban and rural'; UPI cash withdrawal aimed at rural and semi-urban users.",
+    "sources": [
+     "prof-jio-payments-bank-5",
+     "prof-jio-payments-bank-4"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried and informal workers, first-time investors",
+    "basis": "inferred",
+    "reason": "Savings Pro targets 'experienced and first-time investors'; BC-assisted UPI targets first-time digital users.",
+    "sources": [
+     "prof-jio-payments-bank-3",
+     "prof-jio-payments-bank-4"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle income; ₹2 lakh balance cap",
+    "basis": "inferred",
+    "reason": "Payments-bank cap and Savings Pro threshold starting at ₹5,000 suggest modest balances.",
+    "sources": [
+     "prof-jio-payments-bank-3"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male (~70%+)",
+    "basis": "inferred",
+    "reason": "No bank split; NPCI says ~25% of payment users are women, lower in semi-urban/rural areas JPB now targets.",
+    "sources": [
+     "prof-jio-payments-bank-6"
+    ]
+   }
+  ],
+  "caveats": [
+   "Customer base small (~1.5M on app in 2024, ~3M reported late 2025)"
+  ],
+  "sources": [
+   {
+    "id": "prof-jio-payments-bank-1",
+    "url": "https://inc42.com/buzz/jio-financial-services-expands-jiofinance-app-with-new-offerings/",
+    "title": "Jio Financial Services Expands JioFinance App With New Offerings",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "Over 6 Mn users tried the JioFinance app; over 1.5 Mn customers use JPBL accounts for routine recurring expenses."
+   },
+   {
+    "id": "prof-jio-payments-bank-2",
+    "url": "https://www.fintechbiznews.com/fintech-digital-lending/built-for-genall-the-new-jiofinance-app",
+    "title": "Built for GenAll: The New JioFinance App",
+    "publisher": "Fintech BizNews",
+    "checked": "2026-11-09",
+    "supports": "Digital account opening in under 5 minutes, UPI, mobile recharge and credit card bill payments."
+   },
+   {
+    "id": "prof-jio-payments-bank-3",
+    "url": "https://www.tribuneindia.com/news/business/jio-payments-bank-introduces-savings-pro-customers-can-now-earn-up-to-6-5-returns-on-their-surplus-funds",
+    "title": "Jio Payments Bank introduces Savings Pro",
+    "publisher": "The Tribune",
+    "checked": "2026-11-09",
+    "supports": "Savings Pro for 'experienced and first-time investors'; threshold from Rs 5,000."
+   },
+   {
+    "id": "prof-jio-payments-bank-4",
+    "url": "https://www.millenniumpost.in/business/jio-payments-bank-launches-upi-cash-withdrawals-652211",
+    "title": "Jio Payments Bank launches UPI cash withdrawals",
+    "publisher": "Millennium Post",
+    "checked": "2026-11-09",
+    "supports": "Feature aimed 'particularly in rural and semi-urban areas', offering first-time digital users an assisted way to use UPI."
+   },
+   {
+    "id": "prof-jio-payments-bank-5",
+    "url": "https://www.angelone.in/news/stocks/jio-financial-services-share-price-in-focus-as-jio-payments-bank-partners-with-ezeepay-to-reach-12-000-pin-codes-in-semi-urban-india",
+    "title": "Jio Payments Bank partners with Ezeepay to reach 12,000 PIN codes in semi-urban India",
+    "publisher": "Angel One",
+    "checked": "2026-11-09",
+    "supports": "BC partnership covers 12,000+ PIN codes with focus on 'semi-urban and rural areas' and underserved communities (May 2026)."
+   },
+   {
+    "id": "prof-jio-payments-bank-6",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ },
+ "Deutsche Bank": {
+  "headline": "About 150,000 affluent metro professionals, business owners and wealth clients, now moving to Kotak after the 2026 sale",
+  "tags": [
+   "affluent",
+   "metro",
+   "older_adults",
+   "salaried",
+   "self_employed",
+   "investors"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 35-60",
+    "basis": "inferred",
+    "reason": "Affluent private banking and wealth management clients with ₹10,500 cr AUM typically are established mid-career or older earners.",
+    "sources": [
+     "prof-deutsche-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros, ~17 branches",
+    "basis": "stated",
+    "reason": "TelecomTalk: retail business runs through 'a network of about 17 branches' with niche presence among affluent clients.",
+    "sources": [
+     "prof-deutsche-bank-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Senior salaried professionals and MSME owners",
+    "basis": "stated",
+    "reason": "Portfolio spans personal/home loans, small business lending to MSMEs and wealth; Kotak cites fit with 'affluent and SME segments'.",
+    "sources": [
+     "prof-deutsche-bank-2",
+     "prof-deutsche-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Affluent / HNI",
+    "basis": "stated",
+    "reason": "Kotak's release describes the unit as 'affluent private banking and wealth management', serving ~150,000 customers.",
+    "sources": [
+     "prof-deutsche-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male",
+    "basis": "inferred",
+    "reason": "No split published; affluent banking and MSME-owner clientele in India lean male, and nationally women are ~25% of payment users.",
+    "sources": [
+     "prof-deutsche-bank-4"
+    ]
+   }
+  ],
+  "caveats": [
+   "Kotak agreed to acquire the business on 30 June 2026; customers will migrate"
+  ],
+  "sources": [
+   {
+    "id": "prof-deutsche-bank-1",
+    "url": "https://www.kotak.bank.in/content/dam/Kotak/about-us/media-press-releases/2026/kotak-mahindra-bank-to-acquire-deutsche.pdf",
+    "title": "Kotak Mahindra Bank to acquire Deutsche Bank's retail banking, private banking and wealth management business in India",
+    "publisher": "Kotak Mahindra Bank",
+    "checked": "2026-11-09",
+    "supports": "Business has INR 29,000 cr loans, 16,000 cr deposits, 10,500 cr AUM, 'serves around 150,000 customers'; fit with 'affluent and SME segments'."
+   },
+   {
+    "id": "prof-deutsche-bank-2",
+    "url": "https://telecomtalk.info/kotak-mahindra-bank-acquire-deutsche-banks-india/1005391/",
+    "title": "Kotak Mahindra Bank Set to Acquire Deutsche Bank's India Retail Business",
+    "publisher": "TelecomTalk",
+    "checked": "2026-11-09",
+    "supports": "'A network of about 17 branches', focused mainly on affluent customers; personal, home and MSME loans plus wealth."
+   },
+   {
+    "id": "prof-deutsche-bank-3",
+    "url": "https://www.businesstoday.in/latest/corporate/story/kotak-mahindra-bank-to-acquire-deutsche-banks-retail-wealth-business-in-india-540110-2026-06-30",
+    "title": "Kotak Mahindra Bank to acquire Deutsche Bank's retail, wealth business in India",
+    "publisher": "Business Today",
+    "checked": "2026-11-09",
+    "supports": "About 150,000 customers in retail, affluent private banking and wealth management."
+   },
+   {
+    "id": "prof-deutsche-bank-4",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ },
+ "Jammu & Kashmir Bank": {
+  "headline": "Households, government employees and traders across J&K and Ladakh, majority served through rural branches",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "salaried",
+   "self_employed",
+   "middle_income",
+   "older_adults"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25-55",
+    "basis": "inferred",
+    "reason": "Personal finance is 38% of advances and the bank does government banking, implying working-age salaried borrowers; no age data published.",
+    "sources": [
+     "prof-jammu-kashmir-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "J&K and Ladakh (878 of 1,019 branches); 54% rural",
+    "basis": "stated",
+    "reason": "Investor deck: 841 branches in J&K, 37 in Ladakh; branch mix Rural 54.4%, Metro 18.4%, Semi-urban 16.3%, Urban 10.9%.",
+    "sources": [
+     "prof-jammu-kashmir-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Govt employees, traders, farmers, MSMEs",
+    "basis": "inferred",
+    "reason": "RBI agency bank for UT governments, personal finance 38% of loans, and stated focus on MSME and agriculture.",
+    "sources": [
+     "prof-jammu-kashmir-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income",
+    "basis": "inferred",
+    "reason": "Low-cost retail CASA and personal-finance-led lending to salaried customers suggest a middle-income retail base.",
+    "sources": [
+     "prof-jammu-kashmir-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male",
+    "basis": "inferred",
+    "reason": "No bank data; regional workforce and national payments data (women ~25% of payment users) suggest male-skewed account usage.",
+    "sources": [
+     "prof-jammu-kashmir-bank-2"
+    ]
+   }
+  ],
+  "caveats": [],
+  "sources": [
+   {
+    "id": "prof-jammu-kashmir-bank-1",
+    "url": "https://jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf",
+    "title": "Investor Presentation Q4 FY2025",
+    "publisher": "Jammu and Kashmir Bank",
+    "checked": "2026-11-09",
+    "supports": "1,019 branches (841 J&K, 37 Ladakh); 'Rural, 54.4%' branch mix; agency bank for government banking; Personal Finance 38% of advances."
+   },
+   {
+    "id": "prof-jammu-kashmir-bank-2",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ },
+ "Canara Bank": {
+  "headline": "Rural and semi-urban families, farmers and small businesses, strongest in South India, with a growing salaried app base",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "older_adults",
+   "middle_income",
+   "low_income",
+   "self_employed"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Broad 25-60, older-skewed",
+    "basis": "inferred",
+    "reason": "Large PSB with branch-led rural network; inferred from branch mix, no age data found.",
+    "sources": [
+     "prof-canara-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~61% rural/semi-urban branches",
+    "basis": "stated",
+    "reason": "Sept 2025: 3,165 rural and 2,954 semi-urban of 9,948 branches.",
+    "sources": [
+     "prof-canara-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Farmers, MSMEs, salaried, pensioners",
+    "basis": "inferred",
+    "reason": "Heavy rural branch footprint implies agri and small-business customers alongside salaried urban users.",
+    "sources": [
+     "prof-canara-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "PSBs carry most Jan Dhan accounts, concentrated in rural/semi-urban areas.",
+    "sources": [
+     "prof-canara-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Roughly balanced; Jan Dhan accounts ~56% women",
+    "basis": "inferred",
+    "reason": "Not bank-specific: national PMJDY data shows 56% women account holders, mostly held at PSBs.",
+    "sources": [
+     "prof-canara-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Gender reflects national Jan Dhan data, not Canara's own split"
+  ],
+  "sources": [
+   {
+    "id": "prof-canara-bank-1",
+    "url": "https://www.samco.in/knowledge-center/articles/canara-bank-q2-results-public-sector-bank-reports-strong-yoy-growth-in-profit-and-steady-improvement-in-asset-quality/",
+    "title": "Canara Bank Q2 Results",
+    "publisher": "Samco",
+    "checked": "2026-11-09",
+    "supports": "As of 30 Sept 2025: 9,948 branches, of which 3,165 rural, 2,954 semi-urban, 1,957 urban, 1,872 metro."
+   },
+   {
+    "id": "prof-canara-bank-2",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+    "title": "PMJDY: 11 years of financial inclusion (backgrounder)",
+    "publisher": "PIB, Government of India",
+    "checked": "2026-11-09",
+    "supports": "States '56% Jan Dhan accounts belong to women' and around 67% of accounts are in rural/semi-urban areas; PSBs carry most Jan Dhan accounts."
+   }
+  ]
+ },
+ "RBL Bank": {
+  "headline": "Urban salaried credit-card users aged 25-40 plus rural microfinance borrowers reached through 1,347 BC branches",
+  "tags": [
+   "young_adults",
+   "metro",
+   "salaried",
+   "card_holders",
+   "borrowers",
+   "rural"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25-40",
+    "basis": "inferred",
+    "reason": "Card-led retail franchise and unsecured retail lending usually target young salaried urbanites; no age data published.",
+    "sources": [
+     "prof-rbl-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros for cards; semi-urban/rural for inclusion",
+    "basis": "stated",
+    "reason": "1,911 touchpoints: 564 branches and 1,347 BC branches; inclusion arm serves semi-urban and rural areas.",
+    "sources": [
+     "prof-rbl-bank-1",
+     "prof-rbl-bank-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried professionals; micro-entrepreneurs",
+    "basis": "stated",
+    "reason": "Inclusive banking serves low-income salaried and self-employed people and micro-enterprises.",
+    "sources": [
+     "prof-rbl-bank-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income cards; low income JLG",
+    "basis": "inferred",
+    "reason": "Retail is 60% of advances incl. cards and JLG microfinance; inclusion page targets unbanked, low-income segments.",
+    "sources": [
+     "prof-rbl-bank-1",
+     "prof-rbl-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Cards skew male; JLG mostly women",
+    "basis": "inferred",
+    "reason": "JLG microfinance in India lends almost entirely to women groups; card and payment users skew male nationally.",
+    "sources": [
+     "prof-rbl-bank-1",
+     "prof-rbl-bank-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "14.98M customers (Sept 2025); no segment-wise demographic split published"
+  ],
+  "sources": [
+   {
+    "id": "prof-rbl-bank-1",
+    "url": "https://webassets.rbl.bank.in/document/press-release/rbl-bank-earnings-press-september-30-2025.pdf",
+    "title": "RBL Bank Q2 FY26 results press release",
+    "publisher": "RBL Bank",
+    "checked": "2026-11-09",
+    "supports": "Serves 'over 14.98 million customers' via 564 branches and 1,347 BC branches; Retail:Wholesale 60:40; JLG portfolio referenced."
+   },
+   {
+    "id": "prof-rbl-bank-2",
+    "url": "https://www.rbl.bank.in/business-banking/agri-banking/developmental-banking-and-financial-inclusion",
+    "title": "Developmental Banking and Financial Inclusion",
+    "publisher": "RBL Bank",
+    "checked": "2026-11-09",
+    "supports": "'Financial services to the underbanked, unbanked, and financially excluded'; low-income salaried and self-employed in semi-urban/rural areas."
+   },
+   {
+    "id": "prof-rbl-bank-3",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ },
+ "Punjab National Bank": {
+  "headline": "North Indian rural and small-town households, farmers and pensioners, with 2.5 crore PNB One app users",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "older_adults",
+   "middle_income",
+   "low_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Broad 25-65, older-skewed",
+    "basis": "inferred",
+    "reason": "Branch-heavy PSB with large rural footprint and pension accounts; no age split published.",
+    "sources": [
+     "prof-punjab-national-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "63% rural/semi-urban branches",
+    "basis": "stated",
+    "reason": "Dec 2025: 3,953 rural (38.5%) and 2,545 semi-urban (24.8%) of 10,261 branches, plus 32,809 BCs.",
+    "sources": [
+     "prof-punjab-national-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Farmers, MSMEs, salaried, govt staff",
+    "basis": "inferred",
+    "reason": "Agriculture advances ~₹1.92 lakh cr (18.17% of ANBC) and RAM ~54% of advances indicate agri and small-business customers.",
+    "sources": [
+     "prof-punjab-national-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "PSBs hold most Jan Dhan accounts, largely rural/semi-urban and low balance.",
+    "sources": [
+     "prof-punjab-national-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Roughly balanced; Jan Dhan ~56% women",
+    "basis": "inferred",
+    "reason": "National PMJDY figure, not PNB-specific.",
+    "sources": [
+     "prof-punjab-national-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Gender and income use national Jan Dhan data"
+  ],
+  "sources": [
+   {
+    "id": "prof-punjab-national-bank-1",
+    "url": "https://www.fintechbiznews.com/lenders-banks/pnbs-net-profit-soars-past-rs50-bn",
+    "title": "PNB's Net Profit Soars Past Rs50 Bn",
+    "publisher": "Fintech BizNews",
+    "checked": "2026-11-09",
+    "supports": "'63.3% branches in Rural & Semi-Urban areas'; 32,809 BCs; agri advances 18.17% of ANBC; PNB One users 250 lakh."
+   },
+   {
+    "id": "prof-punjab-national-bank-2",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+    "title": "PMJDY: 11 years of financial inclusion (backgrounder)",
+    "publisher": "PIB, Government of India",
+    "checked": "2026-11-09",
+    "supports": "States '56% Jan Dhan accounts belong to women' and around 67% of accounts are in rural/semi-urban areas; PSBs carry most Jan Dhan accounts."
+   }
+  ]
+ },
+ "IndusInd Bank": {
+  "headline": "Urban salaried and affluent card users, commercial-vehicle owners, and rural women microfinance borrowers via BFIL",
+  "tags": [
+   "metro",
+   "salaried",
+   "affluent",
+   "card_holders",
+   "borrowers",
+   "rural"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25-50",
+    "basis": "inferred",
+    "reason": "Mix of vehicle-finance borrowers, affluent PIONEER clients and microfinance entrepreneurs suggests working-age adults; no age data.",
+    "sources": [
+     "prof-indusind-bank-1",
+     "prof-indusind-bank-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metro/urban plus ~80% rural MFI base",
+    "basis": "stated",
+    "reason": "BFIL customers are 'predominantly rural ~80%' across 23 states and 1,33,000 villages; bank branches skew urban.",
+    "sources": [
+     "prof-indusind-bank-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried, vehicle owners, rural micro-entrepreneurs",
+    "basis": "stated",
+    "reason": "Newsletter highlights vehicle finance (LCV owners) and affluent banking; MFI deck cites rural women entrepreneurs.",
+    "sources": [
+     "prof-indusind-bank-1",
+     "prof-indusind-bank-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Affluent urban; low-income rural",
+    "basis": "stated",
+    "reason": "Affluent PIONEER banking vs MFI customers 'largely bottom-of-the-pyramid', loans to households earning up to ₹3 lakh.",
+    "sources": [
+     "prof-indusind-bank-1",
+     "prof-indusind-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Urban skews male; MFI exclusively women",
+    "basis": "inferred",
+    "reason": "MFI deck states 'Exclusive women borrowers'; urban card/vehicle base inferred male-skewed.",
+    "sources": [
+     "prof-indusind-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "4.2 crore customers (June 2025); MFI data from 2022 investor day"
+  ],
+  "sources": [
+   {
+    "id": "prof-indusind-bank-1",
+    "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/Other/Newsletter-Volume-2-Qtr1-2025.pdf",
+    "title": "IndusInd Bank Newsletter Volume 2, Q1 2025",
+    "publisher": "IndusInd Bank",
+    "checked": "2026-11-09",
+    "supports": "'4.2 crore customers across segments' as of June 30, 2025; vehicle finance for LCV owners; affluent PIONEER network of 15 branches."
+   },
+   {
+    "id": "prof-indusind-bank-2",
+    "url": "https://bank.indusind.bank.in/content/dam/indusind-corporate/investors/investor-presentation/FY2022-2023/Microfinance-IndusInd-Bank-Investor-Day-20221122.pdf",
+    "title": "Microfinance: IndusInd Bank Investor Day 2022",
+    "publisher": "IndusInd Bank",
+    "checked": "2026-11-09",
+    "supports": "'Rural women entrepreneurs', 'bottom-of-the-pyramid', 'Predominantly rural base ~80%', 'Exclusive women borrowers'."
+   }
+  ]
+ },
+ "Bank of Baroda": {
+  "headline": "15 crore customers in Gujarat-rooted rural and urban India, from older branch users to under-40 bob World app users",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "older_adults",
+   "young_adults",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Even mix of millennials and middle-aged; seniors large",
+    "basis": "stated",
+    "reason": "Bank says personal banking is evenly split across millennials and middle-aged, seniors significant; ~90% of digital B3 account holders under 40.",
+    "sources": [
+     "prof-bank-of-baroda-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "60% rural/semi-urban branches",
+    "basis": "stated",
+    "reason": "About 8,200 branches: 'rural is 35 pc, semi-urban is 25 pc', 40% metro/urban.",
+    "sources": [
+     "prof-bank-of-baroda-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried, farmers, small business, pensioners",
+    "basis": "inferred",
+    "reason": "Large rural footprint plus significant senior-citizen share; inferred, no occupational split.",
+    "sources": [
+     "prof-bank-of-baroda-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "PSB customer bases include most Jan Dhan accounts in rural/semi-urban India.",
+    "sources": [
+     "prof-bank-of-baroda-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Roughly balanced; Jan Dhan ~56% women",
+    "basis": "inferred",
+    "reason": "National PMJDY data, not BoB-specific.",
+    "sources": [
+     "prof-bank-of-baroda-2"
+    ]
+   }
+  ],
+  "caveats": [],
+  "sources": [
+   {
+    "id": "prof-bank-of-baroda-1",
+    "url": "https://www.freepressjournal.in/amp/brandsutra/bank-of-baroda-pushes-the-pedal-on-transformation-beckons-the-young-to-bob-world",
+    "title": "Bank of Baroda pushes the pedal on transformation, beckons the young to BOB World",
+    "publisher": "Free Press Journal",
+    "checked": "2026-11-09",
+    "supports": "'Customer base of more than 15 crore'; branches 'rural is 35 pc, semi-urban is 25 pc'; bob World 30M+; ~90% of B3 customers under 40."
+   },
+   {
+    "id": "prof-bank-of-baroda-2",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+    "title": "PMJDY: 11 years of financial inclusion (backgrounder)",
+    "publisher": "PIB, Government of India",
+    "checked": "2026-11-09",
+    "supports": "States '56% Jan Dhan accounts belong to women' and around 67% of accounts are in rural/semi-urban areas; PSBs carry most Jan Dhan accounts."
+   }
+  ]
+ },
+ "Indian Bank": {
+  "headline": "Tamil Nadu and UP/eastern India rural and small-town households, farmers and MSMEs, with 2.4 crore UPI users",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "older_adults",
+   "middle_income",
+   "low_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Broad 25-60, older-skewed",
+    "basis": "inferred",
+    "reason": "Branch-led PSB; no age data found, estimate is weak.",
+    "sources": [
+     "prof-indian-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "South India plus north/east via Allahabad Bank; semi-rural",
+    "basis": "inferred",
+    "reason": "15,598 BCs and RAM-heavy lending point to rural/semi-urban reach; merger combined southern and northern networks.",
+    "sources": [
+     "prof-indian-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Farmers, MSMEs, salaried, pensioners",
+    "basis": "stated",
+    "reason": "RAM (retail, agri, MSME) is 65.5% of gross domestic advances.",
+    "sources": [
+     "prof-indian-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "PSB base includes large Jan Dhan share, mostly rural/semi-urban.",
+    "sources": [
+     "prof-indian-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Roughly balanced; Jan Dhan ~56% women",
+    "basis": "inferred",
+    "reason": "National PMJDY data, not Indian Bank-specific.",
+    "sources": [
+     "prof-indian-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Branch rural/semi-urban split not in fetched source"
+  ],
+  "sources": [
+   {
+    "id": "prof-indian-bank-1",
+    "url": "https://indianmasterminds.com/news/indian-bank-q2fy26-results-net-profit-up-17-percent-asset-quality-record-153245/",
+    "title": "Indian Bank Q2FY26 results",
+    "publisher": "Indian Masterminds",
+    "checked": "2026-11-09",
+    "supports": "5,955 domestic branches, 15,598 BCs; RAM 65.50% of gross domestic advances; 2.11 cr mobile banking and 2.41 cr UPI users."
+   },
+   {
+    "id": "prof-indian-bank-2",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+    "title": "PMJDY: 11 years of financial inclusion (backgrounder)",
+    "publisher": "PIB, Government of India",
+    "checked": "2026-11-09",
+    "supports": "States '56% Jan Dhan accounts belong to women' and around 67% of accounts are in rural/semi-urban areas; PSBs carry most Jan Dhan accounts."
+   }
+  ]
+ },
+ "HSBC": {
+  "headline": "Affluent, globally mobile metro Indians and NRIs using Premier and wealth banking for cross-border needs",
+  "tags": [
+   "affluent",
+   "metro",
+   "older_adults",
+   "salaried",
+   "investors"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 30-55",
+    "basis": "inferred",
+    "reason": "Premier targets affluent, internationally mobile professionals with wealth, travel and health benefits; implies established earners.",
+    "sources": [
+     "prof-hsbc-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros and wealth hubs (26 branches, 14 cities in 2025)",
+    "basis": "stated",
+    "reason": "HSBC had 26 branches in 14 cities, adding 20 in cities 'identified for their growing wealth pools'.",
+    "sources": [
+     "prof-hsbc-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Senior professionals, business owners, NRIs",
+    "basis": "inferred",
+    "reason": "Release targets affluent, HNW, UHNW and non-resident clients with international banking needs.",
+    "sources": [
+     "prof-hsbc-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Affluent / HNI",
+    "basis": "stated",
+    "reason": "Branches serve 'affluent, high net worth and ultra-high net worth clients'.",
+    "sources": [
+     "prof-hsbc-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male",
+    "basis": "inferred",
+    "reason": "No split published; affluent and payment-user bases in India lean male (women ~25% of payment users).",
+    "sources": [
+     "prof-hsbc-3"
+    ]
+   }
+  ],
+  "caveats": [],
+  "sources": [
+   {
+    "id": "prof-hsbc-1",
+    "url": "https://www.about.hsbc.bank.in/-/media/india/en/news-and-media/250117-hsbc-receives-approval-to-open-20-new-branches-in-india-to-support-wealth-expansion.pdf",
+    "title": "HSBC Receives Approval To Open 20 New Branches In India To Support Wealth Expansion",
+    "publisher": "HSBC India",
+    "checked": "2026-11-09",
+    "supports": "'Touchpoints for affluent, HNW, UHNW and non-resident clients'; '26 branches across 14 cities'."
+   },
+   {
+    "id": "prof-hsbc-2",
+    "url": "https://www.theweek.in/wire-updates/business/2025/10/09/dcm79-hsbc-india.html",
+    "title": "HSBC elevates its Premier offering for affluent Indians",
+    "publisher": "The Week (PTI wire)",
+    "checked": "2026-11-09",
+    "supports": "Premier aimed at 'affluent and globally mobile Indians' with multi-currency accounts, travel and health benefits."
+   },
+   {
+    "id": "prof-hsbc-3",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI's Nalin Bansal that 'only 25% of payment users' are women, 'even fewer in semi-urban and rural areas'."
+   }
+  ]
+ }
+}

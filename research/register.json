@@ -1,0 +1,2463 @@
+{
+  "month": "August 2026",
+  "apps": [
+    {
+      "name": "PhonePe",
+      "slug": "phonepe",
+      "row": 1,
+      "originalName": "Phone Pe #",
+      "cit": [
+        11185.1,
+        1426253.67
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        11185.1,
+        1426253.67
+      ]
+    },
+    {
+      "name": "Google Pay",
+      "slug": "google-pay",
+      "row": 2,
+      "originalName": "Google Pay #",
+      "cit": [
+        7907.38,
+        1007463.72
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        7907.38,
+        1007463.72
+      ]
+    },
+    {
+      "name": "Paytm",
+      "slug": "paytm",
+      "row": 3,
+      "originalName": "Paytm #",
+      "cit": [
+        1967.9,
+        204761.41
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1967.9,
+        204761.41
+      ]
+    },
+    {
+      "name": "Navi",
+      "slug": "navi",
+      "row": 4,
+      "originalName": "Navi #",
+      "cit": [
+        1078.88,
+        52512.85
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1078.88,
+        52512.85
+      ]
+    },
+    {
+      "name": "super.money",
+      "slug": "super-money",
+      "row": 5,
+      "originalName": "super.money #",
+      "cit": [
+        421.87,
+        20363.26
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        421.87,
+        20363.26
+      ]
+    },
+    {
+      "name": "BHIM",
+      "slug": "bhim",
+      "row": 6,
+      "originalName": "BHIM",
+      "cit": [
+        253.69,
+        28778.19
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        253.69,
+        28778.19
+      ]
+    },
+    {
+      "name": "FamApp by Trio",
+      "slug": "famapp-by-trio",
+      "row": 7,
+      "originalName": "FamApp by Trio #",
+      "cit": [
+        223.31,
+        3022.8
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        223.31,
+        3022.8
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "slug": "whatsapp",
+      "row": 8,
+      "originalName": "Whatsapp #",
+      "cit": [
+        183.69,
+        13948.48
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        183.69,
+        13948.48
+      ]
+    },
+    {
+      "name": "Axis Bank",
+      "slug": "axis-bank",
+      "sub": "pvt",
+      "row": 9,
+      "originalName": "Axis Bank Apps",
+      "cit": [
+        22.52,
+        4768.01
+      ],
+      "b2c": [
+        124.18,
+        9242.34
+      ],
+      "b2b": [
+        0.09,
+        13.58
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        146.78,
+        14023.93
+      ]
+    },
+    {
+      "name": "CRED",
+      "slug": "cred",
+      "row": 10,
+      "originalName": "Cred #",
+      "cit": [
+        143.94,
+        57398.05
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        143.94,
+        57398.05
+      ]
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "slug": "kotak-mahindra-bank",
+      "sub": "pvt",
+      "row": 11,
+      "originalName": "Kotak Mahindra Bank Apps",
+      "cit": [
+        137.64,
+        17137.86
+      ],
+      "b2c": [
+        0.15,
+        1.22
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        137.79,
+        17139.08
+      ]
+    },
+    {
+      "name": "Amazon Pay",
+      "slug": "amazon-pay",
+      "row": 12,
+      "originalName": "Amazon Pay #",
+      "cit": [
+        95.93,
+        11037.13
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        95.93,
+        11037.13
+      ]
+    },
+    {
+      "name": "slice Small Finance Bank",
+      "slug": "slice-small-finance-bank",
+      "sub": "sfb",
+      "row": 13,
+      "originalName": "Slice Small Finance Bank Apps",
+      "cit": [
+        75.39,
+        6617.76
+      ],
+      "b2c": [
+        3.14,
+        369.33
+      ],
+      "b2b": [
+        0.02,
+        6.43
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        78.55,
+        6993.52
+      ]
+    },
+    {
+      "name": "HDFC Bank",
+      "slug": "hdfc-bank",
+      "sub": "pvt",
+      "row": 14,
+      "originalName": "HDFC Bank Apps",
+      "cit": [
+        36.32,
+        13049.72
+      ],
+      "b2c": [
+        35.67,
+        4752.68
+      ],
+      "b2b": [
+        0.01,
+        0.79
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        71.99,
+        17803.18
+      ]
+    },
+    {
+      "name": "MobiKwik",
+      "slug": "mobikwik",
+      "row": 15,
+      "originalName": "Mobikwik #",
+      "cit": [
+        68.61,
+        8083.03
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        68.61,
+        8083.03
+      ]
+    },
+    {
+      "name": "ICICI Bank",
+      "slug": "icici-bank",
+      "sub": "pvt",
+      "row": 16,
+      "originalName": "ICICI Bank Apps",
+      "cit": [
+        24.68,
+        8101.11
+      ],
+      "b2c": [
+        35.51,
+        11025.14
+      ],
+      "b2b": [
+        3.41,
+        3217.4
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        63.6,
+        22343.65
+      ]
+    },
+    {
+      "name": "IDFC FIRST Bank",
+      "slug": "idfc-first-bank",
+      "sub": "pvt",
+      "row": 17,
+      "originalName": "IDFC Bank Apps",
+      "cit": [
+        16.38,
+        3739.24
+      ],
+      "b2c": [
+        36.67,
+        971.01
+      ],
+      "b2b": [
+        0.01,
+        9.09
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        53.07,
+        4719.34
+      ]
+    },
+    {
+      "name": "Yes Bank",
+      "slug": "yes-bank",
+      "sub": "pvt",
+      "row": 18,
+      "originalName": "Yes Bank Apps",
+      "cit": [
+        3.82,
+        3340.65
+      ],
+      "b2c": [
+        46.13,
+        5653.08
+      ],
+      "b2b": [
+        0.58,
+        9.74
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        50.53,
+        9003.47
+      ]
+    },
+    {
+      "name": "State Bank of India",
+      "slug": "state-bank-of-india",
+      "sub": "psb",
+      "row": 19,
+      "originalName": "State Bank of India Apps",
+      "cit": [
+        29.51,
+        6862.49
+      ],
+      "b2c": [
+        0.05,
+        300.15
+      ],
+      "b2b": [
+        0,
+        0.1
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        29.57,
+        7162.74
+      ]
+    },
+    {
+      "name": "Unity Small Finance Bank",
+      "slug": "unity-small-finance-bank",
+      "sub": "sfb",
+      "row": 20,
+      "originalName": "Unity Small Finance Bank Apps",
+      "cit": [
+        0.04,
+        8.75
+      ],
+      "b2c": [
+        20.31,
+        2474.72
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        20.35,
+        2483.47
+      ]
+    },
+    {
+      "name": "India Post Payments Bank",
+      "slug": "india-post-payments-bank",
+      "sub": "pb",
+      "row": 21,
+      "originalName": "India Post Payments Bank Apps",
+      "cit": [
+        18.79,
+        1999.14
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        18.79,
+        1999.14
+      ]
+    },
+    {
+      "name": "KreditBee",
+      "slug": "kreditbee",
+      "row": 22,
+      "originalName": "KreditBee #",
+      "cit": [
+        17.24,
+        384.97
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        17.24,
+        384.97
+      ]
+    },
+    {
+      "name": "Bajaj Finserv",
+      "slug": "bajaj-finserv",
+      "row": 23,
+      "originalName": "Bajaj Finserv #",
+      "cit": [
+        16.52,
+        3806.13
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        16.52,
+        3806.13
+      ]
+    },
+    {
+      "name": "POP UPI",
+      "slug": "pop-upi",
+      "row": 24,
+      "originalName": "POP UPI #",
+      "cit": [
+        15.26,
+        1252.78
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        15.26,
+        1252.78
+      ]
+    },
+    {
+      "name": "Groww",
+      "slug": "groww",
+      "row": 25,
+      "originalName": "Groww #",
+      "cit": [
+        14.86,
+        11757.57
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        14.86,
+        11757.57
+      ]
+    },
+    {
+      "name": "Airtel Payments Bank",
+      "slug": "airtel-payments-bank",
+      "sub": "pb",
+      "row": 26,
+      "originalName": "Airtel Payments Bank Apps",
+      "cit": [
+        12.47,
+        1074.62
+      ],
+      "b2c": [
+        2.19,
+        188.26
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        14.66,
+        1262.88
+      ]
+    },
+    {
+      "name": "Samsung Pay",
+      "slug": "samsung-pay",
+      "row": 27,
+      "originalName": "Samsung Pay #",
+      "cit": [
+        10.58,
+        730.93
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        10.58,
+        730.93
+      ]
+    },
+    {
+      "name": "Federal Bank",
+      "slug": "federal-bank",
+      "sub": "pvt",
+      "row": 28,
+      "originalName": "Federal Bank Apps",
+      "cit": [
+        10.15,
+        3155.17
+      ],
+      "b2c": [
+        0.01,
+        6.41
+      ],
+      "b2b": [
+        0.03,
+        0.14
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        10.2,
+        3161.72
+      ]
+    },
+    {
+      "name": "Money View",
+      "slug": "money-view",
+      "row": 29,
+      "originalName": "Money View #",
+      "cit": [
+        5.91,
+        465.65
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        5.91,
+        465.65
+      ]
+    },
+    {
+      "name": "Jio Payments Bank",
+      "slug": "jio-payments-bank",
+      "sub": "pb",
+      "row": 30,
+      "originalName": "Jio Payments Bank Apps",
+      "cit": [
+        5.53,
+        355.84
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        5.53,
+        355.84
+      ]
+    },
+    {
+      "name": "Jupiter",
+      "slug": "jupiter",
+      "row": 31,
+      "originalName": "Jupiter Money #",
+      "cit": [
+        5.1,
+        834.52
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        5.1,
+        834.52
+      ]
+    },
+    {
+      "name": "Deutsche Bank",
+      "slug": "deutsche-bank",
+      "sub": "foreign",
+      "row": 32,
+      "originalName": "Deutsche Bank Apps",
+      "cit": [
+        0.03,
+        39.43
+      ],
+      "b2c": [
+        4.95,
+        1022.75
+      ],
+      "b2b": [
+        0.01,
+        0.2
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        4.99,
+        1062.38
+      ]
+    },
+    {
+      "name": "Jammu & Kashmir Bank",
+      "slug": "jammu-kashmir-bank",
+      "sub": "pvt",
+      "row": 33,
+      "originalName": "Jammu and Kashmir Bank Apps",
+      "cit": [
+        4.58,
+        624.28
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        4.58,
+        624.28
+      ]
+    },
+    {
+      "name": "Canara Bank",
+      "slug": "canara-bank",
+      "sub": "psb",
+      "row": 34,
+      "originalName": "Canara Bank Apps",
+      "cit": [
+        4.31,
+        1195.31
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        4.31,
+        1195.31
+      ]
+    },
+    {
+      "name": "Flipkart UPI",
+      "slug": "flipkart-upi",
+      "row": 35,
+      "originalName": "Flipkart UPI #",
+      "cit": [
+        3.6,
+        145.41
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        3.6,
+        145.41
+      ]
+    },
+    {
+      "name": "RBL Bank",
+      "slug": "rbl-bank",
+      "sub": "pvt",
+      "row": 36,
+      "originalName": "RBL Bank Apps",
+      "cit": [
+        0.53,
+        212.24
+      ],
+      "b2c": [
+        2.76,
+        2430.86
+      ],
+      "b2b": [
+        0.02,
+        10.78
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        3.3,
+        2653.88
+      ]
+    },
+    {
+      "name": "BharatPe",
+      "slug": "bharatpe",
+      "row": 37,
+      "originalName": "Bharat Pe #",
+      "cit": [
+        3.13,
+        318.23
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        3.13,
+        318.23
+      ]
+    },
+    {
+      "name": "INDmoney",
+      "slug": "indmoney",
+      "row": 38,
+      "originalName": "Ind Money #",
+      "cit": [
+        3.12,
+        1112.62
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        3.12,
+        1112.62
+      ]
+    },
+    {
+      "name": "kiwi",
+      "slug": "kiwi",
+      "row": 39,
+      "originalName": "Kiwi #",
+      "cit": [
+        2.84,
+        603.39
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        2.84,
+        603.39
+      ]
+    },
+    {
+      "name": "Punjab National Bank",
+      "slug": "punjab-national-bank",
+      "sub": "psb",
+      "row": 40,
+      "originalName": "Punjab National Bank Apps",
+      "cit": [
+        2.45,
+        626.83
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        2.45,
+        626.83
+      ]
+    },
+    {
+      "name": "IndusInd Bank",
+      "slug": "indusind-bank",
+      "sub": "pvt",
+      "row": 41,
+      "originalName": "IndusInd Bank Apps",
+      "cit": [
+        0.53,
+        150.81
+      ],
+      "b2c": [
+        1.59,
+        68.32
+      ],
+      "b2b": [
+        0,
+        0.1
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        2.12,
+        219.23
+      ]
+    },
+    {
+      "name": "Bank of Baroda",
+      "slug": "bank-of-baroda",
+      "sub": "psb",
+      "row": 42,
+      "originalName": "Bank of Baroda Apps",
+      "cit": [
+        2.02,
+        528.71
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        16.87
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        2.03,
+        545.58
+      ]
+    },
+    {
+      "name": "Indian Bank",
+      "slug": "indian-bank",
+      "sub": "psb",
+      "row": 43,
+      "originalName": "Indian Bank Apps",
+      "cit": [
+        1.97,
+        479.27
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0.04,
+        46.57
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        2.01,
+        525.84
+      ]
+    },
+    {
+      "name": "Omni Card",
+      "slug": "omni-card",
+      "row": 44,
+      "originalName": "Omni Card",
+      "cit": [
+        1.87,
+        104.04
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.87,
+        104.04
+      ]
+    },
+    {
+      "name": "Digikhata",
+      "slug": "digikhata",
+      "row": 45,
+      "originalName": "Digikhata",
+      "cit": [
+        1.82,
+        585.73
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.82,
+        585.73
+      ]
+    },
+    {
+      "name": "Timepay",
+      "slug": "timepay",
+      "row": 46,
+      "originalName": "Timepay #",
+      "cit": [
+        1.31,
+        24.03
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.31,
+        24.03
+      ]
+    },
+    {
+      "name": "HSBC",
+      "slug": "hsbc",
+      "sub": "foreign",
+      "row": 47,
+      "originalName": "HSBC Bank Apps",
+      "cit": [
+        0.97,
+        203
+      ],
+      "b2c": [
+        0.29,
+        5.58
+      ],
+      "b2b": [
+        0.01,
+        0.55
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.27,
+        209.12
+      ]
+    },
+    {
+      "name": "Aditya Birla Capital Digital",
+      "slug": "aditya-birla-capital-digital",
+      "row": 48,
+      "originalName": "Aditya Birla Capital Digital #",
+      "cit": [
+        1.25,
+        16.05
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.25,
+        16.05
+      ]
+    },
+    {
+      "name": "AU Small Finance Bank",
+      "slug": "au-small-finance-bank",
+      "sub": "sfb",
+      "row": 49,
+      "originalName": "AU Small Finance Bank Apps",
+      "cit": [
+        1.24,
+        365.46
+      ],
+      "b2c": [
+        0,
+        0.38
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.24,
+        365.84
+      ]
+    },
+    {
+      "name": "Union Bank of India",
+      "slug": "union-bank-of-india",
+      "sub": "psb",
+      "row": 50,
+      "originalName": "Union Bank Apps",
+      "cit": [
+        1.11,
+        357.83
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.11,
+        357.83
+      ]
+    },
+    {
+      "name": "South Indian Bank",
+      "slug": "south-indian-bank",
+      "sub": "pvt",
+      "row": 51,
+      "originalName": "South Indian Bank Apps",
+      "cit": [
+        1.11,
+        332.96
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.11,
+        332.96
+      ]
+    },
+    {
+      "name": "Shriram One",
+      "slug": "shriram-one",
+      "row": 52,
+      "originalName": "Shri Ram One #",
+      "cit": [
+        1.04,
+        64.26
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        1.04,
+        64.26
+      ]
+    },
+    {
+      "name": "Standard Chartered",
+      "slug": "standard-chartered",
+      "sub": "foreign",
+      "row": 53,
+      "originalName": "Standard Chartered Bank Apps",
+      "cit": [
+        0.09,
+        88.61
+      ],
+      "b2c": [
+        0.87,
+        43.95
+      ],
+      "b2b": [
+        0.04,
+        1.17
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.99,
+        133.74
+      ]
+    },
+    {
+      "name": "SalarySe",
+      "slug": "salaryse",
+      "row": 54,
+      "originalName": "Salary Se #",
+      "cit": [
+        0.83,
+        107.33
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.83,
+        107.33
+      ]
+    },
+    {
+      "name": "RapiPay",
+      "slug": "rapipay",
+      "row": 55,
+      "originalName": "Rapipay",
+      "cit": [
+        0.73,
+        39.71
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.73,
+        39.71
+      ]
+    },
+    {
+      "name": "UCO Bank",
+      "slug": "uco-bank",
+      "sub": "psb",
+      "row": 56,
+      "originalName": "UCO Bank Apps",
+      "cit": [
+        0.72,
+        187.53
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.72,
+        187.53
+      ]
+    },
+    {
+      "name": "KreditPe",
+      "slug": "kreditpe",
+      "row": 57,
+      "originalName": "Kredit Pe #",
+      "cit": [
+        0.63,
+        57.75
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.63,
+        57.75
+      ]
+    },
+    {
+      "name": "Fino Payments Bank",
+      "slug": "fino-payments-bank",
+      "sub": "pb",
+      "row": 58,
+      "originalName": "Fino Payments Bank Apps",
+      "cit": [
+        0.59,
+        56.73
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.59,
+        56.73
+      ]
+    },
+    {
+      "name": "OneCard",
+      "slug": "onecard",
+      "row": 59,
+      "originalName": "One Card #",
+      "cit": [
+        0.59,
+        545.4
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.59,
+        545.4
+      ]
+    },
+    {
+      "name": "Jar",
+      "slug": "jar",
+      "row": 60,
+      "originalName": "Jar #",
+      "cit": [
+        0.58,
+        11.57
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.58,
+        11.57
+      ]
+    },
+    {
+      "name": "Central Bank of India",
+      "slug": "central-bank-of-india",
+      "sub": "psb",
+      "row": 61,
+      "originalName": "Central Bank of India Apps",
+      "cit": [
+        0.56,
+        152.26
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.56,
+        152.26
+      ]
+    },
+    {
+      "name": "DBS digibank",
+      "slug": "dbs-digibank",
+      "sub": "foreign",
+      "row": 62,
+      "originalName": "DBS Digibank Apps",
+      "cit": [
+        0.51,
+        178.08
+      ],
+      "b2c": [
+        0.02,
+        3.95
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.53,
+        182.03
+      ]
+    },
+    {
+      "name": "Spice Money",
+      "slug": "spice-money",
+      "row": 63,
+      "originalName": "Spice Money",
+      "cit": [
+        0.45,
+        35.62
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.45,
+        35.62
+      ]
+    },
+    {
+      "name": "Tata Pay",
+      "slug": "tata-pay",
+      "row": 64,
+      "originalName": "Tata Pay #",
+      "cit": [
+        0.43,
+        99.51
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.43,
+        99.51
+      ]
+    },
+    {
+      "name": "Obopay",
+      "slug": "obopay",
+      "row": 65,
+      "originalName": "Obopay",
+      "cit": [
+        0.43,
+        66.69
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.43,
+        66.69
+      ]
+    },
+    {
+      "name": "Scapia",
+      "slug": "scapia",
+      "row": 66,
+      "originalName": "Scapia #",
+      "cit": [
+        0.4,
+        206.26
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.4,
+        206.26
+      ]
+    },
+    {
+      "name": "Bank of India",
+      "slug": "bank-of-india",
+      "sub": "psb",
+      "row": 67,
+      "originalName": "Bank of India Apps",
+      "cit": [
+        0.37,
+        123.53
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.37,
+        123.53
+      ]
+    },
+    {
+      "name": "Karnataka Bank",
+      "slug": "karnataka-bank",
+      "sub": "pvt",
+      "row": 68,
+      "originalName": "Karnataka Bank Apps",
+      "cit": [
+        0.33,
+        86.88
+      ],
+      "b2c": [
+        0,
+        0.02
+      ],
+      "b2b": [
+        0,
+        0.03
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.33,
+        86.94
+      ]
+    },
+    {
+      "name": "IDBI Bank",
+      "slug": "idbi-bank",
+      "sub": "pvt",
+      "row": 69,
+      "originalName": "IDBI Bank Apps",
+      "cit": [
+        0.31,
+        151.08
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.31,
+        151.08
+      ]
+    },
+    {
+      "name": "Rio Money",
+      "slug": "rio-money",
+      "row": 70,
+      "originalName": "Rio Money #",
+      "cit": [
+        0.29,
+        4.01
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.29,
+        4.01
+      ]
+    },
+    {
+      "name": "NSDL Payments Bank",
+      "slug": "nsdl-payments-bank",
+      "sub": "pb",
+      "row": 71,
+      "originalName": "NSDL Payments Bank Apps",
+      "cit": [
+        0.29,
+        20.57
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.29,
+        20.57
+      ]
+    },
+    {
+      "name": "CheQ",
+      "slug": "cheq",
+      "row": 72,
+      "originalName": "CheQ #",
+      "cit": [
+        0.26,
+        97.96
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.26,
+        97.96
+      ]
+    },
+    {
+      "name": "Suryoday Small Finance Bank",
+      "slug": "suryoday-small-finance-bank",
+      "sub": "sfb",
+      "row": 73,
+      "originalName": "Suryoday Bank Apps",
+      "cit": [
+        0,
+        0
+      ],
+      "b2c": [
+        0.13,
+        16.53
+      ],
+      "b2b": [
+        0.07,
+        6.8
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.2,
+        23.33
+      ]
+    },
+    {
+      "name": "City Union Bank",
+      "slug": "city-union-bank",
+      "sub": "pvt",
+      "row": 74,
+      "originalName": "City Union Bank Apps",
+      "cit": [
+        0.07,
+        32.34
+      ],
+      "b2c": [
+        0.1,
+        98.9
+      ],
+      "b2b": [
+        0.02,
+        2.01
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.19,
+        133.25
+      ]
+    },
+    {
+      "name": "Saathi by PayNearby",
+      "slug": "saathi-by-paynearby",
+      "row": 75,
+      "originalName": "Saathi by PayNearBy #",
+      "cit": [
+        0.16,
+        25.19
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.16,
+        25.19
+      ]
+    },
+    {
+      "name": "Bank of Maharashtra",
+      "slug": "bank-of-maharashtra",
+      "sub": "psb",
+      "row": 76,
+      "originalName": "Bank of Maharashtra Apps",
+      "cit": [
+        0.16,
+        52.13
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0.04
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.16,
+        52.18
+      ]
+    },
+    {
+      "name": "Karur Vysya Bank",
+      "slug": "karur-vysya-bank",
+      "sub": "pvt",
+      "row": 77,
+      "originalName": "Karur Vysya Bank Apps",
+      "cit": [
+        0.14,
+        48.44
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.14,
+        48.44
+      ]
+    },
+    {
+      "name": "Dhani",
+      "slug": "dhani",
+      "row": 78,
+      "originalName": "Dhani",
+      "cit": [
+        0.12,
+        6.62
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.12,
+        6.62
+      ]
+    },
+    {
+      "name": "Fave",
+      "slug": "fave",
+      "row": 79,
+      "originalName": "Fave #",
+      "cit": [
+        0.12,
+        20.92
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.12,
+        20.92
+      ]
+    },
+    {
+      "name": "True Balance",
+      "slug": "true-balance",
+      "row": 80,
+      "originalName": "True Balance",
+      "cit": [
+        0.11,
+        3.8
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.11,
+        3.8
+      ]
+    },
+    {
+      "name": "Equitas Small Finance Bank",
+      "slug": "equitas-small-finance-bank",
+      "sub": "sfb",
+      "row": 81,
+      "originalName": "Equitas Small Finance Bank Apps",
+      "cit": [
+        0.09,
+        25.73
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.09,
+        25.73
+      ]
+    },
+    {
+      "name": "Tamilnad Mercantile Bank",
+      "slug": "tamilnad-mercantile-bank",
+      "sub": "pvt",
+      "row": 82,
+      "originalName": "Tamilnad Mercantile Bank Apps",
+      "cit": [
+        0.09,
+        34.6
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.09,
+        34.6
+      ]
+    },
+    {
+      "name": "Indian Overseas Bank",
+      "slug": "indian-overseas-bank",
+      "sub": "psb",
+      "row": 83,
+      "originalName": "Indian Overseas Bank Apps",
+      "cit": [
+        0.08,
+        27.81
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.08,
+        27.81
+      ]
+    },
+    {
+      "name": "Payworld",
+      "slug": "payworld",
+      "row": 84,
+      "originalName": "Payworld",
+      "cit": [
+        0.08,
+        8.03
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.08,
+        8.03
+      ]
+    },
+    {
+      "name": "Curie Money",
+      "slug": "curie-money",
+      "row": 85,
+      "originalName": "Curie Money #",
+      "cit": [
+        0.07,
+        6.35
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.07,
+        6.35
+      ]
+    },
+    {
+      "name": "Snapmint",
+      "slug": "snapmint",
+      "row": 86,
+      "originalName": "SnapMint #",
+      "cit": [
+        0.05,
+        3.25
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.05,
+        3.25
+      ]
+    },
+    {
+      "name": "LXME",
+      "slug": "lxme",
+      "row": 87,
+      "originalName": "Lxme UPI #",
+      "cit": [
+        0.05,
+        4.7
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.05,
+        4.7
+      ]
+    },
+    {
+      "name": "Unimoni",
+      "slug": "unimoni",
+      "row": 88,
+      "originalName": "Unimoni",
+      "cit": [
+        0.04,
+        5.97
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.04,
+        5.97
+      ]
+    },
+    {
+      "name": "ZET",
+      "slug": "zet",
+      "row": 89,
+      "originalName": "ZET #",
+      "cit": [
+        0.04,
+        2.93
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.04,
+        2.93
+      ]
+    },
+    {
+      "name": "Punjab & Sind Bank",
+      "slug": "punjab-sind-bank",
+      "sub": "psb",
+      "row": 90,
+      "originalName": "Punjab Sind Bank Apps",
+      "cit": [
+        0.03,
+        15.76
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.03,
+        15.76
+      ]
+    },
+    {
+      "name": "Novio",
+      "slug": "novio",
+      "row": 91,
+      "originalName": "Novio #",
+      "cit": [
+        0.03,
+        4.11
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.03,
+        4.11
+      ]
+    },
+    {
+      "name": "LivQuik",
+      "slug": "livquik",
+      "row": 92,
+      "originalName": "LivQuik",
+      "cit": [
+        0.02,
+        3.43
+      ],
+      "b2c": [
+        0,
+        0
+      ],
+      "b2b": [
+        0,
+        0
+      ],
+      "onus": [
+        0,
+        0
+      ],
+      "total": [
+        0.02,
+        3.43
+      ]
+    }
+  ],
+  "others": {
+    "row": 93,
+    "originalName": "Others",
+    "cit": [
+      4.66,
+      375.22
+    ],
+    "b2c": [
+      0.02,
+      7.89
+    ],
+    "b2b": [
+      0.21,
+      9.47
+    ],
+    "onus": [
+      0.0,
+      0.0
+    ],
+    "total": [
+      4.89,
+      392.57
+    ]
+  }
+}

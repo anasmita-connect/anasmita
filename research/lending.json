@@ -1,0 +1,450 @@
+{
+  "KreditBee": {
+    "type": "lending",
+    "audience": ["borrowers", "salaried", "payments"],
+    "summary": "Platform for partner-provided loans, with a separate UPI payment service inside the app.",
+    "sources": [
+      {
+        "id": "salaried",
+        "url": "https://www.kreditbee.in/personal-loan/salaried",
+        "title": "Personal Loans for Salaried Employees Online | KreditBee",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "Salaried-loan employment, age, income and documentation requirements; approval is not guaranteed by meeting the salary threshold. The older personal-loan-for-salaried URL redirects here."
+      },
+      {
+        "id": "faq",
+        "url": "https://www.kreditbee.in/faq/refer-and-earn",
+        "title": "KreditBee FAQs: Answers to Common Questions",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "Live search-indexed official FAQ text gives an 18-year minimum, no upper age limit, and says loan eligibility varies. Direct extraction returned an empty page."
+      },
+      {
+        "id": "calculator",
+        "url": "https://www2.kreditbee.in/personal-loan/eligibility",
+        "title": "Personal Loan Eligibility Calculator Online | KreditBee",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "General personal-loan calculator lists Indian citizenship, ages 21–60 and minimum monthly income of ₹10,000; a calculator result is only an estimate."
+      },
+      {
+        "id": "upi",
+        "url": "https://www.kreditbee.in/kreditbee-upi",
+        "title": "KreditBee UPI — Instant Payments & Rewards | KreditBee",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "Separate UPI payments, account linking, mobile verification and PIN setup; supports bank payments and optional card/credit-line payments."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "KreditBee facilitates loans through lending partners and also offers UPI transfers and merchant payments.", "sources": ["faq", "upi"]},
+      {"label": "Intended users", "text": "Borrowers, including salaried applicants for the named salary product; UPI payment users are a separate use case.", "sources": ["salaried", "upi"]},
+      {"label": "Eligibility — salaried personal loan", "text": "The product page specifies Indian citizenship, age above 21, regular/permanent employment, three months with the current company, salary of at least ₹10,000 monthly and household income above ₹25,000 monthly. It requests PAN, photo, address, employment and salary-bank-statement evidence, plus an Aadhaar-linked mobile number. Credit assessment still applies.", "sources": ["salaried"]},
+      {"label": "Eligibility — conflicting loan pages", "text": "The FAQ states a minimum age of 18 with no upper limit; the general calculator instead states 21–60 and minimum monthly income of ₹10,000. The salaried product has additional criteria. These sources do not establish one universal app-wide age or income rule.", "sources": ["faq", "calculator", "salaried"]},
+      {"label": "Eligibility — UPI", "text": "Download the app, verify the mobile number, link a bank account and set a UPI PIN. The UPI page does not make taking a loan a prerequisite.", "sources": ["upi"]}
+    ],
+    "gates": ["upi", "kyc", "credit"],
+    "unknowns": [
+      "The FAQ's indexed age rules conflict with the loan pages; its direct extraction was empty, so relative freshness is uncertain.",
+      "A single authoritative age boundary and lender-specific underwriting cutoff were not established. Salaried-loan KYC and credit gates apply to that loan, not automatically to UPI.",
+      "A separate numerical minimum age for standalone KreditBee UPI was not established."
+    ]
+  },
+  "RapiPay": {
+    "type": "agent",
+    "audience": ["merchants", "business"],
+    "summary": "Assisted payments and banking services offered through retailer agents called Direct Business Outlets.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://in.rapipay.com/agent/",
+        "title": "Get RapiPay Agent ID | Trusted by Lakhs of Retailers PAN India",
+        "publisher": "RapiPay Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Agent/retailer product, enquiry by mobile number, smartphone/computer access, and assisted AePS, Micro ATM, remittance and bill-payment services."
+      },
+      {
+        "id": "kyc",
+        "url": "https://agent.rapipay.com/assets/pdf/KYC_Policy.pdf",
+        "title": "RapiPay – KYC & AML Policy",
+        "publisher": "RapiPay Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Published policy separates agent onboarding from customer KYC; agent activation requires verification and approval of identity/address information and photographs."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Retail outlets can provide assisted cash withdrawal, money transfer, bill payment and other partner services through RapiPay.", "sources": ["product"]},
+      {"label": "Intended users", "text": "Retailers and businesses seeking to operate a RapiPay Direct Business Outlet; customers visiting an outlet are a different role.", "sources": ["product"]},
+      {"label": "Eligibility — agent account", "text": "The joining page invites retailer/agent enquiries using a mobile number and says a smartphone or computer can be used. The published KYC policy describes document verification and approval before an agent can log in.", "sources": ["product", "kyc"]},
+      {"label": "Eligibility — agent documents", "text": "For an agent added under an existing agent, the policy lists PAN, address proof and a live photograph holding the identity documents. RapiPay's reviewer must approve the request. This is agent onboarding, not a universal consumer-wallet checklist.", "sources": ["kyc"]}
+    ],
+    "gates": ["agent", "kyc", "device"],
+    "unknowns": [
+      "A current binding minimum agent age, complete fee/working-capital schedule and service-specific hardware checklist were not established.",
+      "The public KYC PDF has an older revision-style filename; whether its exact agent workflow remains unchanged needs confirmation from current onboarding.",
+      "Research identifies RapiPay's India retailer service; it does not substitute the separate NYE consumer product or similarly named overseas services."
+    ]
+  },
+  "Spice Money": {
+    "type": "agent",
+    "audience": ["merchants", "business"],
+    "summary": "Retailer-assisted financial services through Spice Money Adhikari outlets.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.spicemoney.com/join-as-adhikari/",
+        "title": "Become a Spice Money Banking Agent and Earn Commissions",
+        "publisher": "Spice Money Limited",
+        "checked": "2026-11-09",
+        "supports": "Shop-based Adhikari services and a specific onboarding sequence: app registration, identity/bank/shop details, physical shop verification and approval."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Adhikari outlets offer assisted withdrawals, transfers, bills, recharges and distribution of other financial products.", "sources": ["product"]},
+      {"label": "Intended users", "text": "Shop owners seeking to operate an assisted-service outlet for their customers.", "sources": ["product"]},
+      {"label": "Eligibility — Adhikari onboarding", "text": "Register in the app with a mobile number and submit shop address, PAN, Aadhaar and bank details. A sales/distributor representative verifies the shop and KYC details; the onboarding team must approve the application before agent credentials are issued.", "sources": ["product"]}
+    ],
+    "gates": ["agent", "kyc"],
+    "unknowns": [
+      "A numerical minimum agent age, binding joining-fee schedule and required working capital were not established from this page.",
+      "Hardware and eligibility can differ by service; the agent joining instructions do not establish each customer's AePS, lending or insurance eligibility.",
+      "Marketing earnings examples are not verified or guaranteed agent income."
+    ]
+  },
+  "Saathi by PayNearby": {
+    "type": "pay",
+    "audience": ["payments", "investors"],
+    "summary": "Consumer UPI payments, bill payments and mutual-fund investing, with nearby-retailer support.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://play.google.com/store/apps/details?id=com.paynearby.saathi",
+        "title": "Saathi by PayNearby:UPI,Saving - Apps on Google Play",
+        "publisher": "Nearby Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Developer identifies the consumer app and its UPI, recharge, bill-payment, investment and retailer-locator functions; registration uses SMS-based device verification."
+      },
+      {
+        "id": "privacy",
+        "url": "https://cdn.paynearby.in/privacy-policy/saathi",
+        "title": "Nearby Technologies Private Limited — Data Privacy and Security Policy",
+        "publisher": "Nearby Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Policy linked by the app says identity documents may be requested for verification/e-KYC. It was readable through the app-listing link; subsequent direct fetches failed."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "The developer lists sending/receiving money, QR payments, bills, recharges and mutual funds. Retailers provide optional assisted support; this listing is not the retailer-only PayNearby agent app.", "sources": ["product"]},
+      {"label": "Intended users", "text": "People making payments or investing through Saathi, including those who use nearby-retailer support.", "sources": ["product"]},
+      {"label": "Eligibility — app registration", "text": "The listing specifies SMS permission for device verification during registration. It does not publish a complete age, residency or bank-account eligibility checklist.", "sources": ["product"]},
+      {"label": "Eligibility — mutual funds", "text": "The listing advertises investments starting at ₹100, but does not establish investor-age, guardian, KYC or scheme-specific joining rules.", "sources": ["product"]},
+      {"label": "Verification — scope", "text": "The linked privacy policy permits identity-document requests for verification/e-KYC. It does not establish mandatory full KYC for every Saathi feature.", "sources": ["privacy"]}
+    ],
+    "gates": ["device"],
+    "unknowns": [
+      "Standalone UPI minimum age, eligible account types and exact bank/mobile-linking steps were not verified in product-specific terms.",
+      "Mutual-fund provider, investor eligibility and complete investment onboarding requirements remain unverified.",
+      "No evidence supports requiring agent membership or an agent-assisted visit for every consumer."
+    ]
+  },
+  "Dhani": {
+    "type": "lending",
+    "audience": ["borrowers", "salaried"],
+    "summary": "The current official site markets short-term personal loans for salaried applicants.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.dhani.com/",
+        "title": "Dhani – Instant Personal Loan up to ₹1.5 Lakh for Salaried",
+        "publisher": "Dhani",
+        "checked": "2026-11-09",
+        "supports": "Current salary-loan positioning, applicant age/citizenship and document requirements; names Dhani Loans and Services Limited as lender and makes approval dependent on credit policy."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "A digital personal-loan application and repayment service; the site names Dhani Loans and Services Limited as the lender.", "sources": ["product"]},
+      {"label": "Intended users", "text": "Salaried people applying for the short-term personal loan currently advertised.", "sources": ["product"]},
+      {"label": "Eligibility — advertised personal loan", "text": "Indian citizens aged 21–58, receiving salary into a bank account, with PAN linked to Aadhaar and an Aadhaar-linked mobile number. The site lists PAN-based identity/credit checks, Aadhaar OTP e-KYC, a bank statement and an in-app selfie. Approval depends on the lender's credit policy.", "sources": ["product"]}
+    ],
+    "gates": ["kyc", "credit"],
+    "unknowns": [
+      "Minimum salary and minimum credit score are not stated in the inspected eligibility section.",
+      "The lender's separate website returned no readable text, so a complete binding loan agreement was not verified.",
+      "Legacy credit-line, shopping or health-product descriptions were not corroborated as current offerings by the inspected page. These loan criteria do not establish eligibility for any separate Dhani payments product."
+    ]
+  },
+  "Fave": {
+    "type": "pay",
+    "audience": ["payments", "families"],
+    "summary": "Pine Labs' India app combines UPI payments with shared household expenses and bill splitting.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.pinelabs.faveindiaandroid",
+        "title": "Fave UPI: Track, Split & Pay - Apps on Google Play",
+        "publisher": "Pine Labs Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the India app and developer; describes UPI, family/partner/flatmate expense sharing and recurring bill tracking."
+      },
+      {
+        "id": "website",
+        "url": "https://www.fave.money/",
+        "title": "fave — The UPI app for the people you live with",
+        "publisher": "Fave / Pine Labs",
+        "checked": "2026-11-09",
+        "supports": "Current shared-spending positioning and iOS/Android availability; does not publish a detailed joining checklist."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "UPI payments with shared expense tracking, splitting and a household bill calendar.", "sources": ["product", "website"]},
+      {"label": "Intended users", "text": "Families, partners and flatmates managing money together, as explicitly described by the developer.", "sources": ["product"]},
+      {"label": "Identity — market and app", "text": "This research concerns Pine Labs' India app, package com.pinelabs.faveindiaandroid. The short name Fave alone does not uniquely identify a market or product.", "sources": ["product"]},
+      {"label": "Eligibility — Fave India", "text": "The reviewed India website and developer listing do not establish a minimum age, complete registration process or accepted identity documents. The website advertises iOS and Android availability.", "sources": ["product", "website"]}
+    ],
+    "gates": [],
+    "unknowns": [
+      "Current India-specific age, residency, supported bank-account types, SIM-linking and verification requirements were not established; no default 18+ rule is asserted.",
+      "A guessed India terms URL was inaccessible. Malaysia/Singapore merchant terms were not substituted for India consumer eligibility.",
+      "The inspected current pages do not substantiate a universal cashback promise or an urban/wealth demographic."
+    ]
+  },
+  "True Balance": {
+    "type": "lending",
+    "audience": ["borrowers", "payments"],
+    "summary": "Digital access to partner-provided loans, alongside advertised UPI-enabled wallet payments.",
+    "sources": [
+      {
+        "id": "personal",
+        "url": "https://www.truebalance.in/personal-loan",
+        "title": "Personal Loan App in India — Apply Online | True Balance",
+        "publisher": "Balancehero India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Personal-loan purpose, Indian citizenship, minimum age 18, identity/address documents, PAN/Aadhaar and formal credit assessment."
+      },
+      {
+        "id": "cash",
+        "url": "https://www.truebalance.io/cash-loan",
+        "title": "Get Instant Cash: True Balance Offers a Convenient Cash Loan App",
+        "publisher": "Balancehero India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Cash-loan application requires KYC, bank statements, bank details and auto-debit setup; loan application involves lender assessment."
+      },
+      {
+        "id": "loan-help",
+        "url": "https://www.truebalance.in/help/loans",
+        "title": "Loan Help at True Balance: Application to NOC",
+        "publisher": "Balancehero India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Loan registration/PAN KYC, lender-specific underwriting and one-active-loan restriction."
+      },
+      {
+        "id": "app",
+        "url": "https://play.google.com/store/apps/details?gl=IN&id=com.balancehero.truebalance",
+        "title": "True Balance - Loan App & UPI - Apps on Google Play",
+        "publisher": "Balancehero India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Developer distinguishes lending, credit information and UPI-enabled wallet payments; identifies the app package."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "The app facilitates loans from True Credits and lending partners; its developer also advertises UPI-enabled wallet transfers and merchant payments.", "sources": ["personal", "app"]},
+      {"label": "Intended users", "text": "People seeking personal borrowing and people using the advertised payment features. The sources do not restrict the app to first-time borrowers or non-metro residents.", "sources": ["personal", "app"]},
+      {"label": "Eligibility — personal loan", "text": "The product page lists Indian citizenship, age 18 or older, valid identity/address proof, PAN and Aadhaar. Complete KYC and check the offered loan; formal application includes a credit check, while an indicative pre-check is described as soft.", "sources": ["personal"]},
+      {"label": "Eligibility — Cash Loan", "text": "Register a phone number, complete KYC, provide the requested bank statement and bank details, and set up auto-debit. Approval depends on the lender's assessment; these are loan-specific steps.", "sources": ["cash", "loan-help"]},
+      {"label": "Eligibility — repeat borrowing", "text": "The help page permits one active loan at a time. Repayment allows a subsequent application; lender underwriting still determines approval.", "sources": ["loan-help"]}
+    ],
+    "gates": ["kyc", "credit"],
+    "unknowns": [
+      "No universal minimum income, upper age or minimum bureau score was established for all lenders and loan variants.",
+      "Detailed Level Up Loan eligibility was not established separately.",
+      "Standalone UPI/wallet joining and KYC-tier rules were not verified. The listed KYC and credit gates describe loans, not every payment feature."
+    ]
+  },
+  "Payworld": {
+    "type": "agent",
+    "audience": ["merchants", "business"],
+    "summary": "Retailer platform for assisted payments, banking transactions and travel-related services.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://play.google.com/store/apps/details?hl=en&id=com.payworld.phoneapp",
+        "title": "Payworld - AEPS, Air, Irctc - Apps on Google Play",
+        "publisher": "Payworld Digital Services Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Developer explicitly describes a retailer/merchant app offering assisted cash withdrawals, remittances, bills, recharges and bookings."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.payworldindia.com/retailer/terms-conditions",
+        "title": "Payworld Retailer Terms & Conditions",
+        "publisher": "Payworld / Sugal & Damani Utility Services Private Limited",
+        "checked": "2026-11-09",
+        "supports": "B2B retailer relationship, user registration and contractual eligibility of at least 18 years; service-specific provider terms also apply."
+      },
+      {
+        "id": "signup",
+        "url": "https://www.payworldindia.com/retailer/signup",
+        "title": "Payworld Retailer Register",
+        "publisher": "Payworld Digital Services Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Current retailer sign-up form requests mobile, email, pincode, consent, CAPTCHA and mobile/email OTP verification. Footer identifies the renamed company."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "A merchant app for providing customers with assisted AePS, transfers, bills, recharges and travel services.", "sources": ["product"]},
+      {"label": "Intended users", "text": "Retailers operating Payworld services for customers; the app is presented as a merchant/retailer platform.", "sources": ["product", "terms"]},
+      {"label": "Eligibility — retailer account", "text": "Retailer terms require users to be at least 18 and able to enter a binding contract. The current sign-up form requests mobile number, email and pincode, with mobile/email OTPs and consent. Registering is separate from satisfying any additional service-provider terms.", "sources": ["terms", "signup"]},
+      {"label": "Identity — operator", "text": "The current registration footer names Payworld Digital Services Private Limited, formerly Sugal & Damani Utility Services Private Limited; the retailer terms still use the former name.", "sources": ["signup", "terms"]}
+    ],
+    "gates": ["agent"],
+    "unknowns": [
+      "The complete current retailer KYC document list, activation approval steps, fees and operating-balance requirements were not established.",
+      "Individual services can require separate equipment or authorisation; retailer signup does not establish customer or IRCTC-agent eligibility.",
+      "The separate Payworld Money wallet's conditions were not applied to this retailer app."
+    ]
+  },
+  "Snapmint": {
+    "type": "lending",
+    "audience": ["borrowers", "payments"],
+    "summary": "Cardless EMI purchase financing, with separately advertised UPI payments and personal loans for premium customers.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://play.google.com/store/apps/details?gl=IN&id=com.snapmint.customerapp",
+        "title": "0% EMI Shopping App - Apps on Google Play",
+        "publisher": "Snapmint Credit Advisory Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Developer describes EMI without a credit card, UPI for eligible users and personal loans for premium customers as separate offerings."
+      },
+      {
+        "id": "terms",
+        "url": "https://snapmint.com/terms-and-conditions",
+        "title": "Snapmint Terms and Conditions",
+        "publisher": "Snapmint Credit Advisory Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Account registration, legal capacity, eligibility checks and required verifications/KYC; financing is subject to assessment by Snapmint and/or financial partners."
+      },
+      {
+        "id": "purchase-limit",
+        "url": "https://www.snapmintfin.com/Master%20Terms%20and%20Conditions%20For%20Purchase%20Limit%20Membership.pdf",
+        "title": "Master Terms and Conditions for Purchase Limit Membership — May 2025",
+        "publisher": "Snapmint Financial Services Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Lender's purchase-limit terms: minimum age 18, contractual/insolvency conditions, discretionary approval, possible PAN/Aadhaar/phone requests and repayment mandate."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Purchase financing on EMI without needing a credit card. The developer separately lists Snapmint UPI and premium-customer personal loans.", "sources": ["product"]},
+      {"label": "Intended users", "text": "Shoppers seeking instalment financing, including those without credit cards; some additional services are restricted to eligible or premium users.", "sources": ["product"]},
+      {"label": "Eligibility — purchase limit / EMI loan", "text": "Lender terms require age 18+, legal capacity and satisfaction of insolvency/other contractual conditions. Purchase-limit approval is discretionary. PAN, Aadhaar and phone details may be requested; required KYC/verifications and a repayment mandate apply to financing.", "sources": ["purchase-limit", "terms"]},
+      {"label": "Eligibility — personal loan", "text": "The developer listing limits the advertised personal-loan offer to premium customers. It does not establish that every new EMI shopper qualifies.", "sources": ["product"]},
+      {"label": "Eligibility — Snapmint UPI", "text": "The developer says UPI is available to eligible users, without publishing a complete standalone joining checklist in that listing. EMI-loan criteria must not automatically be applied to UPI.", "sources": ["product"]}
+    ],
+    "gates": ["kyc", "credit"],
+    "unknowns": [
+      "Minimum income and bureau-score thresholds, the premium-customer qualification formula and individual credit limits were not established.",
+      "Standalone UPI age/account requirements were not verified. KYC and credit gates here are scoped to purchase financing.",
+      "A marketing no-cost EMI label does not establish zero fees or zero interest for every purchase or personal-loan offer."
+    ]
+  },
+  "ZET": {
+    "type": "lending",
+    "audience": ["cards"],
+    "summary": "App offering bank-issued credit cards backed by fixed deposits, including the SBM ZET card.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://zetapp.in/zet-fd-credit-card",
+        "title": "ZET FD Credit Card | Secured Credit Card Against FD | Build Credit Score Fast",
+        "publisher": "ZET",
+        "checked": "2026-11-09",
+        "supports": "Current FD-backed-card positioning and named banking partners SBM Bank India, Indian Overseas Bank and DCB Bank."
+      },
+      {
+        "id": "sbm-product",
+        "url": "https://zetapp.in/sbm-zet-credit-card",
+        "title": "SBM ZET Credit Card - Build 750+ Credit Score with UPI Credit Card",
+        "publisher": "ZET",
+        "checked": "2026-11-09",
+        "supports": "SBM-specific application, FD, video KYC and approval sequence; advertises no prior credit history/income proof and an FD starting at ₹2,000."
+      },
+      {
+        "id": "issuer",
+        "url": "https://www.sbm.bank.in/pdf/notice-board/SBM-Bank-ZET-Credit-Card-CMA.pdf",
+        "title": "SBM ZET Credit Card — Card Member Agreement",
+        "publisher": "SBM Bank (India) Limited",
+        "checked": "2026-11-09",
+        "supports": "Issuer conditions for KYC, sole-name FD created through ZET, lien and secured-card issuance; clause 18.3 specifies a ₹5,000 minimum FD."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Secured credit cards against fixed deposits held with named partner banks. The deposit is collateral for the card, rather than an unsecured loan offer.", "sources": ["product", "issuer"]},
+      {"label": "Intended users", "text": "Card applicants building credit, including people without prior credit history; ZET's SBM page says income proof is not needed.", "sources": ["sbm-product"]},
+      {"label": "Eligibility — SBM ZET secured card", "text": "Create the required FD through ZET and complete video KYC and bank approval. The issuer requires an eligible deposit in the individual's sole name and marks a lien before activating the card. This is specific to the SBM-issued card.", "sources": ["sbm-product", "issuer"]},
+      {"label": "Eligibility — conflicting minimum deposit", "text": "The current SBM product page advertises an FD from ₹2,000; the inspected issuer agreement's clause 18.3 instead requires at least ₹5,000. The applicable minimum is unresolved and must be checked against the actual issuer offer/agreement.", "sources": ["sbm-product", "issuer"]}
+    ],
+    "gates": ["deposit", "kyc"],
+    "unknowns": [
+      "The ₹2,000 versus ₹5,000 SBM deposit discrepancy was not reconciled; neither amount is asserted as a settled universal ZET requirement.",
+      "Card-specific age/residency limits and current IOB/DCB eligibility were not established from inspected issuer documents.",
+      "No guaranteed future credit score or guaranteed approval is established. FD/KYC gates concern secured-card issuance, not every ZET feature."
+    ]
+  },
+  "Navi": {
+    "type": "services",
+    "audience": ["payments", "borrowers", "investors"],
+    "summary": "UPI payments app with access to loans, mutual funds and insurance through separate service providers.",
+    "sources": [
+      {
+        "id": "upi",
+        "url": "https://navi.com/navi-upi",
+        "title": "Navi UPI Payments | Secure & Fast Online Money Transfer",
+        "publisher": "Navi Limited",
+        "checked": "2026-11-09",
+        "supports": "UPI payments and onboarding; distinguishes bank payments, optional RuPay card use and Navi Trezo credit-line functionality."
+      },
+      {
+        "id": "app-terms",
+        "url": "https://navi.com/terms-and-conditions/general/",
+        "title": "Navi App Terms Of Use — updated July 21, 2026",
+        "publisher": "Navi Limited",
+        "checked": "2026-11-09",
+        "supports": "App registration and separate UPI, mutual-fund and insurance conditions, including account/SIM linking and provider-specific verification."
+      },
+      {
+        "id": "cash-terms",
+        "url": "https://navi.com/terms-and-conditions/cash-loan/",
+        "title": "Navi Finserv Limited Terms of Use — Cash Loan",
+        "publisher": "Navi Finserv Limited",
+        "checked": "2026-11-09",
+        "supports": "Personal-loan household-income rule, contractual capacity, information/KYC, bank verification and lender approval. Linked from the current Finserv site."
+      },
+      {
+        "id": "clou-terms",
+        "url": "https://public-assets.prod.navi-tech.in/navi-website-assests/docs/240716_Navi_Fintech_Private_Limited_CLOU_Terms.pdf",
+        "title": "Navi Fintech Private Limited — Terms & Conditions for Credit Line on UPI",
+        "publisher": "Navi Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Credit-line-specific household-income threshold, lender discretion and KYC; reached through the current Navi UPI page's Trezo terms link."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Payments and provider-specific lending, investment and insurance services share one app.", "sources": ["upi", "app-terms", "cash-terms"]},
+      {"label": "Intended users", "text": "Payment users, borrowers and investors, depending on the service chosen.", "sources": ["upi", "app-terms", "cash-terms"]},
+      {"label": "Eligibility — Navi account", "text": "Create a profile using a phone number verified by OTP; users must be legally able to contract.", "sources": ["app-terms"]},
+      {"label": "Eligibility — bank-account UPI", "text": "India resident; active participating-bank account linked to the mobile number. Registration sends SMS from the device, whose linked SIM must remain active. These UPI rules do not impose the personal-loan income threshold.", "sources": ["app-terms"]},
+      {"label": "Eligibility — Finserv personal loan", "text": "Cash Loan terms require legal capacity and annual household income above ₹3,00,000. Requested information/documents, lender-approved KYC, bank verification and credit approval apply to the loan. The household definition covers spouses and unmarried adult children.", "sources": ["cash-terms"]},
+      {"label": "Eligibility — Navi Trezo / credit line on UPI", "text": "The linked CLOU terms require legal capacity and annual household income above ₹1,20,000. Partner lenders decide credit approval and undertake KYC. This credit-line rule differs from both ordinary bank-account UPI and the Finserv personal loan.", "sources": ["upi", "clou-terms"]},
+      {"label": "Eligibility — mutual funds", "text": "Requested investor details/documents include PAN and Aadhaar; KYC/CKYC compliance and scheme documents apply separately.", "sources": ["app-terms"]},
+      {"label": "Eligibility — insurance", "text": "App terms specify Indian nationality, legal capacity and not being politically exposed. The insurer decides acceptance under the policy documents.", "sources": ["app-terms"]}
+    ],
+    "gates": ["upi", "device", "kyc", "credit"],
+    "unknowns": [
+      "Loan-specific age limits, minimum personal salary and bureau-score cutoff were not established; household income is not the same as an individual salary.",
+      "Exact health-policy age/coverage criteria and scheme-specific investment limits were not assessed.",
+      "Credit gates concern personal loans/Trezo; investment and lending KYC rules are not asserted as a full-KYC prerequisite for ordinary bank-account UPI.",
+      "The CLOU PDF is linked from the current product page, but its filename dates from an older version; individual offers and executed lender terms may differ."
+    ]
+  }
+}

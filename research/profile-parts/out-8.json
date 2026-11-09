@@ -1,0 +1,617 @@
+{
+  "Suryoday Small Finance Bank": {
+    "headline": "Low-income women micro-borrowers in urban and semi-urban Maharashtra, Tamil Nadu and Odisha, plus older depositors",
+    "tags": [
+      "women",
+      "low_income",
+      "self_employed",
+      "borrowers",
+      "tier2_3",
+      "older_adults"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Borrowers mostly 25–50; depositors skew 50+",
+        "basis": "inferred",
+        "reason": "JLG microfinance targets economically active adults, and the note lists senior citizens as a core deposit segment.",
+        "sources": [
+          "prof-suryoday-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban/semi-urban; Maharashtra, Tamil Nadu, Odisha",
+        "basis": "stated",
+        "reason": "IPO note says operations are mainly in urban and semi-urban locations, historically focused on Maharashtra, Tamil Nadu and Odisha (49% of deposits from Maharashtra).",
+        "sources": [
+          "prof-suryoday-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed micro-entrepreneurs, informal work",
+        "basis": "inferred",
+        "reason": "Loans go to 'economically active women' for income generation; salaried and self-employed appear mainly on the deposit side.",
+        "sources": [
+          "prof-suryoday-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low income, unbanked or underbanked",
+        "basis": "stated",
+        "reason": "The bank says it serves 'unbanked and underbanked' customers and lends to women 'belonging to weaker sections'.",
+        "sources": [
+          "prof-suryoday-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Borrowers mostly women",
+        "basis": "stated",
+        "reason": "Collateral-free small-ticket loans are made to 'economically active women'.",
+        "sources": [
+          "prof-suryoday-small-finance-bank-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "NPCI shows no customer-initiated UPI volume this month, so app users are likely a small subset of depositors.",
+      "Customer mix figures date from the 2021 IPO."
+    ],
+    "sources": [
+      {
+        "id": "prof-suryoday-small-finance-bank-1",
+        "url": "https://www.hdfcsec.com/hsl.docs//Suryoday%20Small%20Finance%20Bank%20Limited%20IPO%20Note-202103161106366117509.pdf",
+        "title": "Suryoday Small Finance Bank Limited IPO Note",
+        "publisher": "HDFC Securities",
+        "checked": "2026-11-09",
+        "supports": "Describes 'small ticket-size loans to economically active women belonging to weaker sections', focus on 'unbanked and underbanked' customers in 'urban and semi-urban locations', and deposits from senior citizens, salaried and self-employed people (Maharashtra 49.21%, Tamil Nadu 23.57%)."
+      }
+    ]
+  },
+  "Equitas Small Finance Bank": {
+    "headline": "Tamil Nadu micro-entrepreneurs, truck drivers and women microloan groups with informal cash incomes, plus mass-affluent savers",
+    "tags": [
+      "self_employed",
+      "low_income",
+      "borrowers",
+      "tier2_3",
+      "women",
+      "young_adults"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 25–50",
+        "basis": "inferred",
+        "reason": "Customers are working micro-entrepreneurs, CV drivers and JLG borrowers, i.e. working-age adults; no age data is given.",
+        "sources": [
+          "prof-equitas-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu-heavy; urban and semi-urban",
+        "basis": "stated",
+        "reason": "The note lists 'a significant portion of advances' in Tamil Nadu as a risk; MSE loans target urban and semi-urban locations.",
+        "sources": [
+          "prof-equitas-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed: shopkeepers, drivers, small fleet owners",
+        "basis": "stated",
+        "reason": "Targets micro-entrepreneurs, proprietorships, and 'drivers and micro-entrepreneurs typically engaged in logistics'.",
+        "sources": [
+          "prof-equitas-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low income with informal, cash-based earnings",
+        "basis": "stated",
+        "reason": "Focus segments have 'informal, variable and cash-based income profile'; deposits target mass and mass-affluent customers.",
+        "sources": [
+          "prof-equitas-small-finance-bank-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male overall; microfinance mostly women",
+        "basis": "inferred",
+        "reason": "JLG microfinance is 'predominantly comprising women', but the larger vehicle and small-business books serve drivers and proprietors, who are mostly men.",
+        "sources": [
+          "prof-equitas-small-finance-bank-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Segment data is from the 2020 IPO note; microfinance share has since shrunk."
+    ],
+    "sources": [
+      {
+        "id": "prof-equitas-small-finance-bank-1",
+        "url": "https://hdfcsec.com/hsl.docs/Equitas%20Small%20Finance%20Bank%20Limited%20IPO%20Note-202010200841274615950.pdf",
+        "title": "Equitas Small Finance Bank Limited IPO Note",
+        "publisher": "HDFC Securities",
+        "checked": "2026-11-09",
+        "supports": "Says focus customers have an 'informal, variable and cash-based income profile', lists microfinance to 'JLGs predominantly comprising women', vehicle loans to 'drivers and micro-entrepreneurs', mass and mass-affluent depositors, and Tamil Nadu concentration of advances."
+      }
+    ]
+  },
+  "City Union Bank": {
+    "headline": "Tamil Nadu traders, MSME owners and gold-loan farmers in small towns, mostly middle-aged family-business men",
+    "tags": [
+      "merchants",
+      "self_employed",
+      "tier2_3",
+      "older_adults",
+      "borrowers",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 35–60",
+        "basis": "inferred",
+        "reason": "Customers are established traders, MSME owners and gold-loan farmers, a profile that typically skews middle-aged; no age data is published.",
+        "sources": [
+          "prof-city-union-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu small towns (557 of 889 branches)",
+        "basis": "stated",
+        "reason": "Sep 2025 deck: Tamil Nadu has 557 of 889 branches and 78% of deposits; semi-urban is the largest branch category.",
+        "sources": [
+          "prof-city-union-bank-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed traders, MSME owners, farmers",
+        "basis": "stated",
+        "reason": "The bank's 'main focus' is lending to MSME and retail/wholesale trade, plus agriculture loans; trading and MSME make up about 42% of loans.",
+        "sources": [
+          "prof-city-union-bank-1",
+          "prof-city-union-bank-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income, asset-backed",
+        "basis": "inferred",
+        "reason": "Gold loans are 28% of advances with granular ticket sizes, suggesting small business owners and farmers borrowing against jewellery.",
+        "sources": [
+          "prof-city-union-bank-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male",
+        "basis": "inferred",
+        "reason": "Trade and MSME borrowers in Tamil Nadu are mostly male proprietors; the bank publishes no gender split.",
+        "sources": [
+          "prof-city-union-bank-1",
+          "prof-city-union-bank-2"
+        ]
+      }
+    ],
+    "caveats": [
+      "Gender and age are inferred from the loan mix, not disclosed figures."
+    ],
+    "sources": [
+      {
+        "id": "prof-city-union-bank-1",
+        "url": "https://www.cityunionbank.bank.in/ta-in/filemanager/Nov25/CUB_INVTPPT_Sep_2025.pdf",
+        "title": "Investor Presentation, September 2025",
+        "publisher": "City Union Bank",
+        "checked": "2026-11-09",
+        "supports": "Says the 'main focus' is 'lending to MSME, Retail / Wholesale Trade' and agriculture; Tamil Nadu has 557 of 889 branches and 78% of deposits; gold loans are 28% of gross advances; 'Trading & MSME loans constitute about 42%'."
+      },
+      {
+        "id": "prof-city-union-bank-2",
+        "url": "https://www.outlookbusiness.com/invest/tactics-of-city-union-bank-2225",
+        "title": "Tactics of City Union Bank",
+        "publisher": "Outlook Business",
+        "checked": "2026-11-09",
+        "supports": "Reports Tamil Nadu at 64% of loans, MSMEs at 34% as the 'primary focus', and traders at 17%."
+      }
+    ]
+  },
+  "Karur Vysya Bank": {
+    "headline": "Semi-urban Tamil Nadu shopkeepers, farmers and MSME owners using gold loans, plus salaried city savers",
+    "tags": [
+      "tier2_3",
+      "self_employed",
+      "merchants",
+      "borrowers",
+      "older_adults",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 30–60",
+        "basis": "inferred",
+        "reason": "Customer base centres on MSME owners, farmers and gold-loan borrowers, who are usually established adults; no age data found.",
+        "sources": [
+          "prof-karur-vysya-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu-heavy; 55% semi-urban and rural",
+        "basis": "stated",
+        "reason": "55% of KVB branches are in semi-urban and rural areas; new branches are mainly in Tamil Nadu and nearby states.",
+        "sources": [
+          "prof-karur-vysya-bank-1",
+          "prof-karur-vysya-bank-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed traders, MSMEs and farmers",
+        "basis": "stated",
+        "reason": "Focus 'remains on RAM and secured gold loan segments', with growth in 'retail, MSME and agricultural banking'.",
+        "sources": [
+          "prof-karur-vysya-bank-1",
+          "prof-karur-vysya-bank-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income",
+        "basis": "inferred",
+        "reason": "Heavy reliance on secured gold loans and semi-urban CASA deposits points to modest, asset-backed households.",
+        "sources": [
+          "prof-karur-vysya-bank-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male",
+        "basis": "inferred",
+        "reason": "MSME and agri borrowers in Tamil Nadu are mostly men; KVB publishes no gender split, so this is weak.",
+        "sources": [
+          "prof-karur-vysya-bank-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "No customer-level demographics published; profile is built from branch and loan mix."
+    ],
+    "sources": [
+      {
+        "id": "prof-karur-vysya-bank-1",
+        "url": "https://www.sahi.com/news/karur-vysya-bank-expands-branch-network-to-deepen-regional-footprint-1071-PE1_COR",
+        "title": "Karur Vysya Bank Expands Branch Network to Deepen Regional Footprint",
+        "publisher": "Sahi",
+        "checked": "2026-11-09",
+        "supports": "Says semi-urban and rural areas 'make up 55% of KVB's branches' and that the focus 'remains on RAM and secured gold loan segments'."
+      },
+      {
+        "id": "prof-karur-vysya-bank-2",
+        "url": "https://www.angelone.in/news/stocks/karur-vysya-bank-share-price-in-focus-as-branch-network-reaches-929",
+        "title": "Karur Vysya Bank share price in focus as branch network reaches 929",
+        "publisher": "Angel One",
+        "checked": "2026-11-09",
+        "supports": "Eight new branches across Tamil Nadu, Karnataka, Telangana and UP, citing 'opportunities in retail, MSME and agricultural banking'."
+      }
+    ]
+  },
+  "Tamilnad Mercantile Bank": {
+    "headline": "Long-standing, older customers in small-town southern Tamil Nadu: MSME traders, farmers and retail borrowers",
+    "tags": [
+      "tier2_3",
+      "rural",
+      "older_adults",
+      "self_employed",
+      "merchants",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Skews 40+",
+        "basis": "inferred",
+        "reason": "About 80% of customers have banked with TMB for over five years, pointing to an older, loyal base.",
+        "sources": [
+          "prof-tamilnad-mercantile-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Semi-urban/rural Tamil Nadu (69% of branches)",
+        "basis": "stated",
+        "reason": "353 of 509 branches are semi-urban or rural; Tamil Nadu holds 369 branches and 75% of business.",
+        "sources": [
+          "prof-tamilnad-mercantile-bank-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "MSME owners, traders and farmers",
+        "basis": "stated",
+        "reason": "Lends mainly to RAM (retail, agriculture, MSME) customers, including MSMEs in manufacturing and trading.",
+        "sources": [
+          "prof-tamilnad-mercantile-bank-1"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income",
+        "basis": "inferred",
+        "reason": "Small-town RAM lending with granular loans suggests modest-income households and small businesses.",
+        "sources": [
+          "prof-tamilnad-mercantile-bank-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male",
+        "basis": "inferred",
+        "reason": "Borrowers are mainly MSME proprietors and farmers, groups that skew male; no gender data published.",
+        "sources": [
+          "prof-tamilnad-mercantile-bank-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Data is from the 2022 IPO; about 50.8 lakh customers then."
+    ],
+    "sources": [
+      {
+        "id": "prof-tamilnad-mercantile-bank-1",
+        "url": "https://www.icicidirect.com/mailimages/IDirect_TNMerchantileBank_IPOReview.pdf",
+        "title": "Tamilnad Mercantile Bank IPO Review",
+        "publisher": "ICICI Direct",
+        "checked": "2026-11-09",
+        "supports": "Says 247 of 509 branches are semi-urban and 106 rural, Tamil Nadu has 369 branches and 75.1% of business, focus is RAM, customer base ~50.8 lakh with '~80% of its customers associated with the bank for more than five years'."
+      }
+    ]
+  },
+  "Bank of Maharashtra": {
+    "headline": "Semi-urban and rural Maharashtra families, farmers, small traders and government employees, now expanding into the Hindi belt",
+    "tags": [
+      "tier2_3",
+      "rural",
+      "older_adults",
+      "salaried",
+      "self_employed",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Skews 30–60",
+        "basis": "inferred",
+        "reason": "A century-old PSU base with most branches in semi-urban and rural areas usually skews older; no age data published.",
+        "sources": [
+          "prof-bank-of-maharashtra-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Semi-urban/rural Maharashtra; 53% rural+SU",
+        "basis": "stated",
+        "reason": "53% of 2,606 branches are rural or semi-urban; most branches are semi-urban, and Maharashtra is the home base.",
+        "sources": [
+          "prof-bank-of-maharashtra-1",
+          "prof-bank-of-maharashtra-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Farmers, small traders, govt/salaried staff",
+        "basis": "inferred",
+        "reason": "RAM advances of about Rs 1.71 lakh crore dominate the loan book, pointing to farmers, MSMEs and retail borrowers.",
+        "sources": [
+          "prof-bank-of-maharashtra-3"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income",
+        "basis": "inferred",
+        "reason": "Semi-urban PSU franchise lending mostly to RAM segments suggests mass-market households, not affluent ones.",
+        "sources": [
+          "prof-bank-of-maharashtra-1",
+          "prof-bank-of-maharashtra-3"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male",
+        "basis": "inferred",
+        "reason": "Indian PSU bank account holders who transact digitally skew male; the bank publishes no split, so this is weak.",
+        "sources": [
+          "prof-bank-of-maharashtra-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Gender and age are cautious inferences; no customer demographics found."
+    ],
+    "sources": [
+      {
+        "id": "prof-bank-of-maharashtra-1",
+        "url": "https://trendlyne.com/posts/5181563",
+        "title": "Bank of Maharashtra",
+        "publisher": "Trendlyne",
+        "checked": "2026-11-09",
+        "supports": "States 'Of the 2,606 branches as on March 2025, 53% of branches are in rural and semi urban areas.'"
+      },
+      {
+        "id": "prof-bank-of-maharashtra-2",
+        "url": "https://informistmedia.com/MoneyWire/32105/bk-of-maharashtra-aims-17-loan-growth-fy26-to-open-321-branches-in-18-mos",
+        "title": "Bk of Maharashtra aims 17% loan growth FY26; to open 321 branches in 18 mos",
+        "publisher": "Informist",
+        "checked": "2026-11-09",
+        "supports": "Says the bank has 2,641 branches 'with the most located in semi-urban areas' and is expanding in MP, Rajasthan, UP and Bihar beyond Maharashtra."
+      },
+      {
+        "id": "prof-bank-of-maharashtra-3",
+        "url": "https://www.freepressjournal.in/amp/business/bank-of-maharashtra-reports-1961-credit-growth-to-273-lakh-crore-in-q3-fy26",
+        "title": "Bank of Maharashtra Reports 19.61% Credit Growth To Rs 2.73 Lakh Crore In Q3 FY26",
+        "publisher": "Free Press Journal",
+        "checked": "2026-11-09",
+        "supports": "Reports RAM (retail, agriculture, MSME) advances of Rs 1.71 lakh crore out of Rs 2.73 lakh crore credit."
+      }
+    ]
+  },
+  "Indian Overseas Bank": {
+    "headline": "Rural and semi-urban Tamil Nadu households, Jan Dhan account holders, farmers and pensioners, with a large women borrower base",
+    "tags": [
+      "rural",
+      "tier2_3",
+      "low_income",
+      "older_adults",
+      "women",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Skews 35+, with many pensioners",
+        "basis": "inferred",
+        "reason": "Pensioner meets and a long-standing PSU base point to older customers; no age split is published.",
+        "sources": [
+          "prof-indian-overseas-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu and South; 58% rural/semi-urban",
+        "basis": "stated",
+        "reason": "'About 58% of branches cater to Rural and Semi-Urban centres'; strong franchise 'particularly in Tamil Nadu'.",
+        "sources": [
+          "prof-indian-overseas-bank-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Farmers, small businesses, salaried, pensioners",
+        "basis": "inferred",
+        "reason": "RAM segments are 78.93% of advances, implying farmers, MSMEs and retail borrowers dominate.",
+        "sources": [
+          "prof-indian-overseas-bank-1"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low to lower-middle income",
+        "basis": "inferred",
+        "reason": "About 94.6 lakh Jan Dhan accounts and heavy priority-sector lending point to mass, lower-income customers.",
+        "sources": [
+          "prof-indian-overseas-bank-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Large women share among borrowers",
+        "basis": "stated",
+        "reason": "Credit to women is Rs 78,408 crore, 36.69% of adjusted net bank credit, with women-only loan schemes.",
+        "sources": [
+          "prof-indian-overseas-bank-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Women figure is share of credit, not of app users."
+    ],
+    "sources": [
+      {
+        "id": "prof-indian-overseas-bank-1",
+        "url": "https://www.indiainfoline.com/company/indian-overseas-bank/management-discussions",
+        "title": "Indian Overseas Bank Management Discussions",
+        "publisher": "IIFL",
+        "checked": "2026-11-09",
+        "supports": "States 'About 58% of branches cater to Rural and Semi-Urban centres', 'strong brand franchise... particularly in Tamil Nadu', RAM at 78.93% of advances, 94.6 lakh PMJDY accounts, and credit to women at 36.69% of ANBC."
+      }
+    ]
+  },
+  "Punjab & Sind Bank": {
+    "headline": "Rural Punjab and north India households, farmers and the Sikh community, mostly middle-aged and older loyal customers",
+    "tags": [
+      "rural",
+      "tier2_3",
+      "older_adults",
+      "self_employed",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Skews 35+",
+        "basis": "inferred",
+        "reason": "A legacy community bank whose base is concentrated in rural Punjab typically skews older; no age data found.",
+        "sources": [
+          "prof-punjab-sind-bank-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Rural and semi-urban Punjab, north India",
+        "basis": "stated",
+        "reason": "635 of 1,817 branches are in Punjab; a 2026 bank list shows 929 rural/semi-urban branches, 497 of them in Punjab.",
+        "sources": [
+          "prof-punjab-sind-bank-1",
+          "prof-punjab-sind-bank-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Farmers, small traders, salaried staff",
+        "basis": "inferred",
+        "reason": "Branch network is mostly in rural agricultural districts of Punjab and UP, implying farm and small-business households.",
+        "sources": [
+          "prof-punjab-sind-bank-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income",
+        "basis": "inferred",
+        "reason": "Rural and semi-urban PSU base points to mass-market households; this rests on branch geography only.",
+        "sources": [
+          "prof-punjab-sind-bank-2"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male",
+        "basis": "inferred",
+        "reason": "No gender data found; rural north Indian bank users skew male, so this is a weak estimate.",
+        "sources": [
+          "prof-punjab-sind-bank-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Branch list document's purpose is unclear; used only for geography."
+    ],
+    "sources": [
+      {
+        "id": "prof-punjab-sind-bank-1",
+        "url": "https://en.wikipedia.org/wiki/Punjab_%26_Sind_Bank",
+        "title": "Punjab & Sind Bank",
+        "publisher": "Wikipedia",
+        "checked": "2026-11-09",
+        "supports": "Says the bank had 1,817 branches as of June 2025, the most (635) in Punjab, and was founded in Amritsar in 1908 by Sikh leaders, described as 'by the Sikhs, for the Sikhs'."
+      },
+      {
+        "id": "prof-punjab-sind-bank-2",
+        "url": "https://www.punjabandsind.bank.in/system/uploads/document/7932_2026081011051744319.pdf",
+        "title": "Annexure II branch list (H.O. Operations Department)",
+        "publisher": "Punjab & Sind Bank",
+        "checked": "2026-11-09",
+        "supports": "Lists 929 branches tagged Rural (591) or Semi Urban (338); 497 are in Punjab, many in agricultural districts like Moga, Faridkot and Bathinda."
+      }
+    ]
+  }
+}

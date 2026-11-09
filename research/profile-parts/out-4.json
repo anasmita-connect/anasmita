@@ -1,0 +1,1050 @@
+{
+ "Scapia": {
+  "headline": "Gen Z and millennial salaried travellers in metros and tier-2 cities, earning ₹5L+ and spending on flights and forex",
+  "tags": [
+   "gen_z",
+   "young_adults",
+   "metro",
+   "salaried",
+   "middle_income",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–35",
+    "basis": "stated",
+    "reason": "Scapia is positioned as the co-branded card and travel app 'for Gen Z and Millennials'; card eligibility starts at 21.",
+    "sources": [
+     "prof-scapia-1",
+     "prof-scapia-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metro-led; ~40% beyond the top 30 cities",
+    "basis": "stated",
+    "reason": "Scapia said 40% of users are from beyond the top 30 cities, and later that tier-2/3 demand is rising faster than metros.",
+    "sources": [
+     "prof-scapia-3",
+     "prof-scapia-5"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried professionals",
+    "basis": "inferred",
+    "reason": "Salaried applicants qualify from 21, self-employed only from 25, and an income floor applies, which favours young salaried earners.",
+    "sources": [
+     "prof-scapia-4"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle to upper-middle (₹5L+ a year)",
+    "basis": "stated",
+    "reason": "The card listing gives minimum annual earnings of ₹5,00,000; frequent travel and forex spend suggests above-median incomes.",
+    "sources": [
+     "prof-scapia-4"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Likely skews male",
+    "basis": "inferred",
+    "reason": "No gender data found; Indian credit cardholding skews male, so this is a weak inference from the card product alone.",
+    "sources": [
+     "prof-scapia-4"
+    ]
+   }
+  ],
+  "caveats": [
+   "No disclosed age or gender split; the Gen Z/millennial claim is positioning, not audited data."
+  ],
+  "sources": [
+   {
+    "id": "prof-scapia-1",
+    "url": "https://inc42.com/buzz/scapia-nets-40-mn-from-peak-xv-others-to-expand-travel-offerings/",
+    "title": "Scapia Nets $40 Mn From Peak XV, Others To Expand Travel Offerings",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "Says the co-branded cards are 'especially designed for catering to the needs of GenZs and millennials travelers'."
+   },
+   {
+    "id": "prof-scapia-2",
+    "url": "https://india.entrepreneur.com/news-and-trends/scapia-raises-40m-in-series-b-funding-led-by-peak-xv/489484",
+    "title": "Scapia Raises $40M in Series B Funding Led by Peak XV Partners",
+    "publisher": "Entrepreneur India",
+    "checked": "2026-11-09",
+    "supports": "Calls Scapia 'the preferred co-branded card and travel app for Gen Z and Millennials in India'."
+   },
+   {
+    "id": "prof-scapia-3",
+    "url": "https://india.entrepreneur.com/news-and-trends/fintech-firm-scapia-to-grow-customer-base-add-banking/465718",
+    "title": "Fintech Firm Scapia Aims To Grow Customer Base, Add Banking Partners",
+    "publisher": "Entrepreneur India",
+    "checked": "2026-11-09",
+    "supports": "States '40% of Scapia's users are from beyond the top 30 cities' and cards reached 'over 7500 pin codes'."
+   },
+   {
+    "id": "prof-scapia-4",
+    "url": "https://stablemoney.in/credit-card/federal-bank-scapia-credit-card",
+    "title": "Federal Bank Scapia Credit Card",
+    "publisher": "Stable Money",
+    "checked": "2026-11-09",
+    "supports": "Lists eligibility: salaried 21–65, self-employed 25–65, minimum annual earnings of ₹5,00,000."
+   },
+   {
+    "id": "prof-scapia-5",
+    "url": "https://startupfeed.in/scapia-raises-63-mn-general-catalyst-500-mn/",
+    "title": "Scapia Raises $63 Mn at $500 Mn From General Catalyst",
+    "publisher": "StartupFeed",
+    "checked": "2026-11-09",
+    "supports": "Says demand from tier-2 and tier-3 cities is 'rising faster than from metros' and customers grew 7x in a year."
+   }
+  ]
+ },
+ "Rio Money": {
+  "headline": "Young, value-seeking salaried earners in tier-2/3 India getting a first UPI-linked RuPay credit card",
+  "tags": [
+   "young_adults",
+   "gen_z",
+   "tier2_3",
+   "salaried",
+   "middle_income",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 21–35",
+    "basis": "inferred",
+    "reason": "Coverage says UPI integration 'caters to the needs of younger users'; eligibility is 21–60.",
+    "sources": [
+     "prof-rio-money-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~60% tier-2 and tier-3 cities",
+    "basis": "stated",
+    "reason": "Rio said 60% of beta applications came from tier-2 and tier-3 cities across 244 cities.",
+    "sources": [
+     "prof-rio-money-1",
+     "prof-rio-money-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried, some self-employed",
+    "basis": "inferred",
+    "reason": "Both employed and self-employed qualify with ₹25,000 monthly income or ₹5L ITR; the salary threshold suits entry-level salaried staff.",
+    "sources": [
+     "prof-rio-money-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle (₹3–8L a year)",
+    "basis": "inferred",
+    "reason": "Minimum net monthly income is ₹25,000, and the CEO pitches 'aspirational' users who 'love affordability products'.",
+    "sources": [
+     "prof-rio-money-1",
+     "prof-rio-money-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Likely skews male",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-skewed credit card ownership in smaller cities, so weak.",
+    "sources": [
+     "prof-rio-money-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Zaggle bought Rio Money in July 2025; the user base may shift toward Zaggle's corporate channels."
+  ],
+  "sources": [
+   {
+    "id": "prof-rio-money-1",
+    "url": "https://indianstartupnews.com/news/riomoney-launches-upi-app-partners-with-yes-bank-npci-to-introduce-co-branded-credit-card-7593257",
+    "title": "Rio.money launches UPI app, partners with YES BANK, NPCI to introduce co-branded credit card",
+    "publisher": "Indian Startup News",
+    "checked": "2026-11-09",
+    "supports": "CEO targets users who 'lead an aspirational lifestyle and love affordability products'; 60% of beta applicants from tier 2/3."
+   },
+   {
+    "id": "prof-rio-money-2",
+    "url": "https://www.businesstoday.in/personal-finance/story/yes-bank-rio-rupay-credit-card-know-features-deals-cash-transaction-limits-454233-2024-11-19",
+    "title": "YES Bank Rio RuPay credit card: features, deals, limits",
+    "publisher": "Business Today",
+    "checked": "2026-11-09",
+    "supports": "Says it 'caters to the needs of younger users and individuals in semi-urban areas'; eligibility 21–60, ₹25,000 monthly income."
+   },
+   {
+    "id": "prof-rio-money-3",
+    "url": "https://www.theweek.in/wire-updates/business/2025/07/29/dcm139-biz-zaggle-acquisition.html",
+    "title": "Zaggle acquires Rio Money for Rs 22 cr to enter consumer credit card via UPI",
+    "publisher": "The Week (PTI)",
+    "checked": "2026-11-09",
+    "supports": "Reports Zaggle bought 100% of Rio Money to enter 'the high-growth consumer credit card segment via UPI'."
+   }
+  ]
+ },
+ "CheQ": {
+  "headline": "Heavy-spending metro credit cardholders, mostly 25–40 and salaried, paying ₹75–90K monthly card bills and loan EMIs",
+  "tags": [
+   "young_adults",
+   "metro",
+   "salaried",
+   "affluent",
+   "card_holders",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–40",
+    "basis": "inferred",
+    "reason": "No age data found; users are established credit cardholders and EMI payers, which implies a few years of work history.",
+    "sources": [
+     "prof-cheq-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metro and tier-1 led, present in 300+ cities",
+    "basis": "inferred",
+    "reason": "CheQ claims presence across '300+ Indian cities'; high average bills point to metro-heavy usage.",
+    "sources": [
+     "prof-cheq-1",
+     "prof-cheq-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried professionals",
+    "basis": "inferred",
+    "reason": "Users are card holders and 'borrowers paying loan EMIs', a profile typical of salaried employees.",
+    "sources": [
+     "prof-cheq-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Upper-middle to affluent",
+    "basis": "stated",
+    "reason": "CEO describes the base as 'high-end credit card holders who maintain an average monthly bill of INR 90K'.",
+    "sources": [
+     "prof-cheq-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Likely skews male",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-skewed credit cardholding in India, so weak.",
+    "sources": [
+     "prof-cheq-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "User counts vary by source (1 Mn+ in Inc42 vs larger app-store claims)."
+  ],
+  "sources": [
+   {
+    "id": "prof-cheq-1",
+    "url": "https://inc42.com/features/1-mn-users-5-mn-transactions-1-5-mn-revenue-how-cheq-is-transforming-credit-management",
+    "title": "1 Mn+ Users, 5 Mn Transactions: How CheQ Is Transforming Credit Management",
+    "publisher": "Inc42 (Brandlabs)",
+    "checked": "2026-11-09",
+    "supports": "Targets 'credit cardholders and borrowers paying loan EMIs'; base of 'high-end credit card holders' with ~INR 90K monthly bills."
+   },
+   {
+    "id": "prof-cheq-2",
+    "url": "https://themunim.com/how-is-cheq-revolutionizing-credit-management-in-india",
+    "title": "How is CheQ revolutionizing Credit Management in India?",
+    "publisher": "The Munim",
+    "checked": "2026-11-09",
+    "supports": "Says CheQ admits 'active credit card holders' without selection criteria and is present across '300+ Indian cities'."
+   }
+  ]
+ },
+ "KreditBee": {
+  "headline": "Young salaried and gig workers aged 25–34 in tier-2/3 India taking small personal loans, often new to credit",
+  "tags": [
+   "young_adults",
+   "tier2_3",
+   "salaried",
+   "gig_workers",
+   "low_income",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–34",
+    "basis": "stated",
+    "reason": "A KreditBee release says 'the 25-34 age group represents the most active demographic'; eligibility is 21–60.",
+    "sources": [
+     "prof-kreditbee-3",
+     "prof-kreditbee-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~75–80% tier-2/3 and beyond",
+    "basis": "stated",
+    "reason": "CMO quoted saying '80% of our consumers are from Tier II, III cities & towns' (search snippet; page returned 403).",
+    "sources": [
+     "prof-kreditbee-4"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried, plus self-employed and gig",
+    "basis": "stated",
+    "reason": "Serves 'self-employed and salaried professionals' and 'non-salaried gig workers', with salary-linked loans.",
+    "sources": [
+     "prof-kreditbee-1",
+     "prof-kreditbee-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle (₹10–40K a month)",
+    "basis": "inferred",
+    "reason": "Minimum monthly income is ₹10,000 and the firm targets 'the new-to-credit population', implying modest earners.",
+    "sources": [
+     "prof-kreditbee-1",
+     "prof-kreditbee-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Likely skews male",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-skewed digital personal loan borrowing, so weak.",
+    "sources": [
+     "prof-kreditbee-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Tier-share figures vary by source and date (60–80%)."
+  ],
+  "sources": [
+   {
+    "id": "prof-kreditbee-1",
+    "url": "https://analyticsindiamag.com/how-bengaluru-based-kreditbee-leverages-ai-and-ml-to-democratise-credit/",
+    "title": "How Bengaluru-based KreditBee leverages AI and ML to democratise credit",
+    "publisher": "Analytics India Magazine",
+    "checked": "2026-11-09",
+    "supports": "Targets 'young professionals', 'the new-to-credit population', salaried and 'non-salaried gig workers'."
+   },
+   {
+    "id": "prof-kreditbee-2",
+    "url": "https://www.kreditbee.in/",
+    "title": "KreditBee: Instant Personal Loan",
+    "publisher": "KreditBee",
+    "checked": "2026-11-09",
+    "supports": "Eligibility: age 21–60, 'Minimum monthly income of ₹10,000'; 'Trusted by Over 23 Crore Indians'."
+   },
+   {
+    "id": "prof-kreditbee-3",
+    "url": "https://www.businessminutes.in/2025/10/kreditbee-expands-reach-across-metros-and-tier-2-3-cities.html",
+    "title": "KreditBee Expands Reach Across Metros and Tier 2–3 Cities",
+    "publisher": "Business Minutes",
+    "checked": "2026-11-09",
+    "supports": "States 'The 25-34 age group represents the most active demographic' and that it is expanding in Tier 2 and 3 cities."
+   },
+   {
+    "id": "prof-kreditbee-4",
+    "url": "https://www.exchange4media.com/marketing-news/80-of-our-consumers-are-from-tier-ii-iii-cities-towns-ishan-bose-kreditbee-138411.html",
+    "title": "80% of our consumers are from tier II, III cities & towns: Ishan Bose, KreditBee",
+    "publisher": "exchange4media",
+    "checked": "2026-11-09",
+    "supports": "Cited from search snippet only (page returned 403): the headline itself states '80% of our consumers are from Tier II, III cities & towns'."
+   }
+  ]
+ },
+ "RapiPay": {
+  "headline": "Small-town shopkeepers acting as banking agents, serving rural and semi-urban customers withdrawing cash and benefits via AEPS",
+  "tags": [
+   "merchants",
+   "self_employed",
+   "rural",
+   "tier2_3",
+   "low_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Agents mostly 25–45",
+    "basis": "inferred",
+    "reason": "No age data found; agents are established shop owners running outlets, so a cautious estimate.",
+    "sources": [
+     "prof-rapipay-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Rural and semi-urban 'hinterlands'",
+    "basis": "stated",
+    "reason": "Free AEPS push aims at inclusion 'especially rural areas' and describes presence in 'the hinterlands of India'.",
+    "sources": [
+     "prof-rapipay-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Self-employed retailers (agents)",
+    "basis": "stated",
+    "reason": "The app is used by retailers and shopkeepers acting as 'Saathis' who earn commissions.",
+    "sources": [
+     "prof-rapipay-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low to lower-middle",
+    "basis": "inferred",
+    "reason": "End customers withdraw Jan Dhan and PM-Kisan benefits via AEPS, which points to low-income households.",
+    "sources": [
+     "prof-rapipay-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Agents skew male; customers mixed",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-dominated small retail ownership in rural India, so weak.",
+    "sources": [
+     "prof-rapipay-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Most public data is from 2020–21."
+  ],
+  "sources": [
+   {
+    "id": "prof-rapipay-1",
+    "url": "https://outlookmoney.com/banking/financial-inclusion-to-see-upside-potential-in-digital-payment-6871",
+    "title": "Financial inclusion to see upside potential in digital payment",
+    "publisher": "Outlook Money",
+    "checked": "2026-11-09",
+    "supports": "RapiPay offers free AEPS to retailers 'especially rural areas'; agents rose from 50,000 to 200,000; used for Jan Dhan and PM-Kisan withdrawals."
+   }
+  ]
+ },
+ "Spice Money": {
+  "headline": "Rural kirana owners as 'Adhikari' banking agents serving village customers cashing out benefits across 95% of pin codes",
+  "tags": [
+   "merchants",
+   "self_employed",
+   "rural",
+   "tier2_3",
+   "low_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Agents mostly 25–45",
+    "basis": "inferred",
+    "reason": "No age data found; Adhikaris are local shop owners running a digital storefront, so a cautious estimate.",
+    "sources": [
+     "prof-spice-money-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~90% semi-urban and rural",
+    "basis": "stated",
+    "reason": "About nine in ten Adhikaris are 'present in semi-urban and rural India'; site claims 95% pincode coverage.",
+    "sources": [
+     "prof-spice-money-1",
+     "prof-spice-money-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Self-employed shopkeepers (agents)",
+    "basis": "stated",
+    "reason": "Kirana owners become 'Spice Money Adhikari' operators at no upfront cost.",
+    "sources": [
+     "prof-spice-money-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low to lower-middle",
+    "basis": "inferred",
+    "reason": "Services centre on cash withdrawals and mini-ATMs for villagers far from ATMs, typical of low-income users.",
+    "sources": [
+     "prof-spice-money-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Agents skew male; women a key customer group",
+    "basis": "inferred",
+    "reason": "Site features women Adhikari stories and 'Naari' campaigns, but most agents are male shop owners; no split found.",
+    "sources": [
+     "prof-spice-money-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Figures are company-reported."
+  ],
+  "sources": [
+   {
+    "id": "prof-spice-money-1",
+    "url": "https://spicemoney.com/",
+    "title": "Spice Money",
+    "publisher": "Spice Money",
+    "checked": "2026-11-09",
+    "supports": "Claims '1.6 Mn+ agents', '95%' pincode coverage, 'small towns and semi-urban areas', and women Adhikari stories."
+   },
+   {
+    "id": "prof-spice-money-2",
+    "url": "https://www.outlookmoney.com/news/spice-money-brings-in-atm-services-to-indias-last-village-7264",
+    "title": "Spice Money brings in ATM services to India's last village",
+    "publisher": "Outlook Money",
+    "checked": "2026-11-09",
+    "supports": "Says about 90% of Adhikaris are 'present in semi-urban and rural India'; kirana owners run them at no upfront cost."
+   }
+  ]
+ },
+ "Saathi by PayNearby": {
+  "headline": "First-time UPI users in rural and semi-urban India, many women, onboarded by neighbourhood retailers and Digital Naaris",
+  "tags": [
+   "rural",
+   "tier2_3",
+   "merchants",
+   "low_income",
+   "women"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 21–40",
+    "basis": "stated",
+    "reason": "PayNearby data shows women aged 21–30 most digitally adept and 31–40 largest for cash withdrawals in rural markets.",
+    "sources": [
+     "prof-saathi-by-paynearby-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Rural and semi-urban, 20,000+ pin codes",
+    "basis": "stated",
+    "reason": "Saathi targets 'underbanked and less digitised regions' across 20,000+ PIN codes.",
+    "sources": [
+     "prof-saathi-by-paynearby-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Agents self-employed; users informal workers",
+    "basis": "inferred",
+    "reason": "Access runs through 12 lakh neighbourhood retailers serving customers 'new to digital payments' in rural areas.",
+    "sources": [
+     "prof-saathi-by-paynearby-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low income",
+    "basis": "inferred",
+    "reason": "Customers prefer ₹1,000–2,500 withdrawals and save ₹500–750 a month, indicating low incomes.",
+    "sources": [
+     "prof-saathi-by-paynearby-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Women a stated focus",
+    "basis": "stated",
+    "reason": "Saathi is delivered through 'Digital Naaris'; PayNearby surveys focus on its large women customer base.",
+    "sources": [
+     "prof-saathi-by-paynearby-1",
+     "prof-saathi-by-paynearby-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Age and savings data come from a 2022 PayNearby women survey, not Saathi itself."
+  ],
+  "sources": [
+   {
+    "id": "prof-saathi-by-paynearby-1",
+    "url": "https://paynearby.in/media/58-women-prefer-aeps-to-access-their-bank-accounts-in-semi-urban-and-rural-india-paynearby",
+    "title": "58% women prefer AePS to access their bank accounts in semi-urban and rural India",
+    "publisher": "PayNearby",
+    "checked": "2026-11-09",
+    "supports": "Women 21–30 most digitally adept; 31–40 make 65% of rural cash withdrawals; ₹500–750 monthly savings preferred."
+   },
+   {
+    "id": "prof-saathi-by-paynearby-2",
+    "url": "https://www.angelone.in/news/unlisted-companies/paynearby-receives-npci-nod-as-upi-third-party-app-launches-saathi-app",
+    "title": "PayNearby receives NPCI nod as UPI third-party app, launches Saathi app",
+    "publisher": "Angel One",
+    "checked": "2026-11-09",
+    "supports": "Saathi aims at adults 'from rural and semi-urban areas' who 'remain new to digital payments', via retailers and Digital Naaris."
+   }
+  ]
+ },
+ "Dhani": {
+  "headline": "Under-40, middle-market borrowers in tier-2/3 India using a subscription credit line, often with thin credit history",
+  "tags": [
+   "young_adults",
+   "tier2_3",
+   "salaried",
+   "low_income",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–40",
+    "basis": "stated",
+    "reason": "Management said 'our population is quite young, 86% of our customers are under the age of 40 years'.",
+    "sources": [
+     "prof-dhani-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-2/3 heavy, 900+ cities",
+    "basis": "stated",
+    "reason": "Earnings call says the card reached 900+ cities with demand from 'Tier-2, Tier-3 cities'.",
+    "sources": [
+     "prof-dhani-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried",
+    "basis": "stated",
+    "reason": "Dhani's current personal loan requires salaried applicants with 'salary credited to your bank'.",
+    "sources": [
+     "prof-dhani-3"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle 'middle market'",
+    "basis": "stated",
+    "reason": "Call calls OneFreedom 'a product for the middle markets', not people 'who already have multiple credit cards'.",
+    "sources": [
+     "prof-dhani-1",
+     "prof-dhani-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Likely skews male",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-skewed small-ticket digital borrowing, so weak.",
+    "sources": [
+     "prof-dhani-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "Customer data dates from FY22; Dhani has since shrunk its credit line business."
+  ],
+  "sources": [
+   {
+    "id": "prof-dhani-1",
+    "url": "https://gcp.dhani.com/services/wp-content/uploads/2021/11/Dhani_Q2FY22_Earnings_Call_Transcript.pdf",
+    "title": "Dhani Services Q2FY22 Earnings Call Transcript",
+    "publisher": "Dhani Services",
+    "checked": "2026-11-09",
+    "supports": "States '86% of our customers are under the age of 40', demand from 'Tier-2, Tier-3 cities', a product 'for the middle markets'."
+   },
+   {
+    "id": "prof-dhani-2",
+    "url": "https://www.creditmantri.com/dhani",
+    "title": "Dhani",
+    "publisher": "CreditMantri",
+    "checked": "2026-11-09",
+    "supports": "Says 'consumers with low credit score or even NIL credit history can apply' for the credit line."
+   },
+   {
+    "id": "prof-dhani-3",
+    "url": "https://www.dhani.com/services/one-freedom-faqs/",
+    "title": "Dhani FAQs",
+    "publisher": "Dhani",
+    "checked": "2026-11-09",
+    "supports": "Personal loan for salaried Indians aged 21–58 with salary credited to a bank; ₹5,000 to ₹1,50,000."
+   }
+  ]
+ },
+ "Fave": {
+  "headline": "Young urban flatmates, couples and families splitting rent, bills and groceries over UPI",
+  "tags": [
+   "young_adults",
+   "gen_z",
+   "metro",
+   "salaried",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–35",
+    "basis": "inferred",
+    "reason": "App targets flatmates, couples with joint budgets and trip groups, typical of young working adults.",
+    "sources": [
+     "prof-fave-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros and tier-1 cities",
+    "basis": "inferred",
+    "reason": "Shared flats and rent-splitting are mostly a big-city pattern; Pine Labs planned roll-out 'across all major Indian cities'.",
+    "sources": [
+     "prof-fave-1",
+     "prof-fave-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried professionals",
+    "basis": "inferred",
+    "reason": "Use cases include rent, credit card bills and groups of 'colleagues', pointing to salaried users.",
+    "sources": [
+     "prof-fave-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income",
+    "basis": "inferred",
+    "reason": "Pine Labs pitched Fave at India's 'growing aspirational middle class'; users pay rent and card bills.",
+    "sources": [
+     "prof-fave-1",
+     "prof-fave-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Roughly balanced",
+    "basis": "inferred",
+    "reason": "Household and couple splitting suggests both partners use it; no gender data found, so weak.",
+    "sources": [
+     "prof-fave-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Fave's earlier package is now PlusPay (corporate expense); the NPCI row likely covers Fave UPI. Very small user base (12 iOS ratings)."
+  ],
+  "sources": [
+   {
+    "id": "prof-fave-1",
+    "url": "https://apps.apple.com/in/app/fave-upi-track-split-pay/id6739238753",
+    "title": "Fave UPI: Track, Split & Pay",
+    "publisher": "Apple App Store (Pine Labs)",
+    "checked": "2026-11-09",
+    "supports": "Billed as 'UPI for family & flatmates': couples, families and flatmates split rent, bills and subscriptions; NPCI-certified TPAP."
+   },
+   {
+    "id": "prof-fave-2",
+    "url": "https://www.pinelabs.com/media-analyst/fave-southeast-asias-fast-growing-fintech-startup-acquired-by-pine-labs",
+    "title": "Fave, Southeast Asia's fast-growing fintech startup, acquired by Pine Labs",
+    "publisher": "Pine Labs",
+    "checked": "2026-11-09",
+    "supports": "Cites India's 'young demography' and 'growing aspirational middle class'; roll-out 'across all major Indian cities'."
+   },
+   {
+    "id": "prof-fave-3",
+    "url": "https://apps.apple.com/in/app/pluspay-corporate-expense-app/id1538911340",
+    "title": "PlusPay-Corporate Expense app",
+    "publisher": "Apple App Store (Pine Labs)",
+    "checked": "2026-11-09",
+    "supports": "Release note says 'Fave is now PlusPay', a PPI-on-UPI wallet 'specifically for corporate employees'."
+   }
+  ]
+ },
+ "True Balance": {
+  "headline": "New-to-credit workers aged 22–40 in tier-2/3 towns, such as teachers, shopkeepers and gig workers, taking small cash loans",
+  "tags": [
+   "young_adults",
+   "tier2_3",
+   "self_employed",
+   "gig_workers",
+   "low_income",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–40",
+    "basis": "stated",
+    "reason": "Case study says borrowers are typically '22 to 40 years old'.",
+    "sources": [
+     "prof-true-balance-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "80%+ tier-2 and tier-3 towns",
+    "basis": "stated",
+    "reason": "Case study reports 'over 80% borrowers in tier-2 and tier-3 towns'.",
+    "sources": [
+     "prof-true-balance-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mixed salaried, self-employed and gig",
+    "basis": "stated",
+    "reason": "Targets 'teachers, shopkeepers, gig workers, and small entrepreneurs'; cash loan pitched to 'salaried & self-employed'.",
+    "sources": [
+     "prof-true-balance-1",
+     "prof-true-balance-3"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low income, new to credit",
+    "basis": "stated",
+    "reason": "Borrowers earn 'modest incomes'; True Balance targets the 'new-to-credit populace' with ₹500–800 starter loans.",
+    "sources": [
+     "prof-true-balance-1",
+     "prof-true-balance-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Likely skews male",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-skewed small-ticket digital lending in smaller towns, so weak.",
+    "sources": [
+     "prof-true-balance-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Ticket sizes have grown since 2020; the current cash loan runs ₹5,000–₹2,00,000."
+  ],
+  "sources": [
+   {
+    "id": "prof-true-balance-1",
+    "url": "https://hyperverge.co/case-study/true-balance/",
+    "title": "True Balance x HyperVerge case study",
+    "publisher": "HyperVerge",
+    "checked": "2026-11-09",
+    "supports": "States 'over 80% borrowers in tier-2 and tier-3 towns', typically '22 to 40 years old', with 'modest incomes'."
+   },
+   {
+    "id": "prof-true-balance-2",
+    "url": "https://www.theweek.in/wire-updates/business/2020/01/13/pwr14-true%20balance.html",
+    "title": "True Balance crosses 40,000 loan disbursements a day",
+    "publisher": "The Week (PTI press release)",
+    "checked": "2026-11-09",
+    "supports": "Targets the 'new-to-credit populace'; instant cash loans have an 'average ticket size of INR 500-800'."
+   },
+   {
+    "id": "prof-true-balance-3",
+    "url": "https://www.truebalance.io/",
+    "title": "True Balance",
+    "publisher": "True Balance",
+    "checked": "2026-11-09",
+    "supports": "Cash loan ₹5,000–₹2,00,000, 'Ideal for salaried & self-employed'; 10 Cr+ downloads."
+   }
+  ]
+ },
+ "Payworld": {
+  "headline": "Kirana and local shop owners in semi-urban and rural India running cash-out, bill pay and money transfer counters",
+  "tags": [
+   "merchants",
+   "self_employed",
+   "rural",
+   "tier2_3",
+   "low_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Agents mostly 25–45",
+    "basis": "inferred",
+    "reason": "No age data found; users are shop owners running retail outlets, so a cautious estimate.",
+    "sources": [
+     "prof-payworld-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Semi-urban and rural, 720+ districts",
+    "basis": "stated",
+    "reason": "Site says it is 'empowering rural and semi-urban India' across 28 states and 720+ districts.",
+    "sources": [
+     "prof-payworld-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Self-employed retailers (agents)",
+    "basis": "stated",
+    "reason": "The app serves 700,000+ retailers, described as 'local outlets' and 'local businesses'.",
+    "sources": [
+     "prof-payworld-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low to lower-middle",
+    "basis": "inferred",
+    "reason": "End customers need cash withdrawal where there is no nearby ATM, typical of lower-income areas.",
+    "sources": [
+     "prof-payworld-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Agents skew male",
+    "basis": "inferred",
+    "reason": "No gender data found; inferred from male-dominated small shop ownership, so weak.",
+    "sources": [
+     "prof-payworld-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Retailer counts are self-reported marketing figures."
+  ],
+  "sources": [
+   {
+    "id": "prof-payworld-1",
+    "url": "https://www.payworldindia.com/",
+    "title": "Payworld",
+    "publisher": "Payworld",
+    "checked": "2026-11-09",
+    "supports": "Claims '700,000+ retailers' in '28 states' and '720+ districts', 'empowering rural and semi-urban India'."
+   },
+   {
+    "id": "prof-payworld-2",
+    "url": "https://www.atmmarketplace.com/news/indias-payworld-offers-cash-access-in-locales-without-atms/",
+    "title": "India's Payworld offers cash access in locales without ATMs",
+    "publisher": "ATM Marketplace",
+    "checked": "2026-11-09",
+    "supports": "Retailers give cash to rural and semi-urban customers who hold debit cards but lack a nearby ATM."
+   }
+  ]
+ },
+ "Snapmint": {
+  "headline": "Under-30, middle-income shoppers in tier-2 to tier-5 India with no credit card, buying phones, fashion and beauty on UPI EMIs",
+  "tags": [
+   "gen_z",
+   "young_adults",
+   "tier2_3",
+   "middle_income",
+   "low_income",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "~90% under 30",
+    "basis": "stated",
+    "reason": "Co-founder said '90% of our customers are below the age of 30' (search snippet; page returned 403).",
+    "sources": [
+     "prof-snapmint-5",
+     "prof-snapmint-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~70% non-metro, tier-2 to tier-5",
+    "basis": "stated",
+    "reason": "Many users 'from Tier 2 towns'; most women's orders from 'Tier II-V cities like Ranchi, Sangrur'.",
+    "sources": [
+     "prof-snapmint-1",
+     "prof-snapmint-4"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Young salaried and early-career workers",
+    "basis": "inferred",
+    "reason": "Underwriting 'young customers' without credit cards suggests entry-level salaried workers; no split found.",
+    "sources": [
+     "prof-snapmint-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income, first-time credit",
+    "basis": "stated",
+    "reason": "Snapmint 'concentrates on middle-income and first-time credit users' instead of affluent card holders.",
+    "sources": [
+     "prof-snapmint-2",
+     "prof-snapmint-3"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male; women a fast-growing segment",
+    "basis": "inferred",
+    "reason": "Women buyers grew 487% in a year, which implies a smaller base; no overall split found.",
+    "sources": [
+     "prof-snapmint-4"
+    ]
+   }
+  ],
+  "caveats": [
+   "Most figures are company-sourced marketing claims."
+  ],
+  "sources": [
+   {
+    "id": "prof-snapmint-1",
+    "url": "https://inc42.com/?p=278664",
+    "title": "Fintech Startup Snapmint Raises $9 Mn To Launch Innovative BNPL Products",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "4 Mn+ consumers, 'many of who are from Tier 2 towns'; investor praises underwriting 'young customers from Tier 2 towns'."
+   },
+   {
+    "id": "prof-snapmint-2",
+    "url": "https://startupwired.com/2025/10/31/snapmint-raises-125-million-led-by-general-atlantic/",
+    "title": "Snapmint raises $125 million led by General Atlantic",
+    "publisher": "StartupWired",
+    "checked": "2026-11-09",
+    "supports": "Snapmint 'concentrates on middle-income and first-time credit users' across Tier 2 and Tier 3 cities."
+   },
+   {
+    "id": "prof-snapmint-3",
+    "url": "https://www.snapmintbusiness.com/",
+    "title": "Snapmint for Business",
+    "publisher": "Snapmint",
+    "checked": "2026-11-09",
+    "supports": "Built 'for the 95% of Indian shoppers who don't have access to credit card EMI'; '400Mn Middle-income shoppers'."
+   },
+   {
+    "id": "prof-snapmint-4",
+    "url": "https://indianretailer.com/article/retail-business/consumer-trends/487-pc-increase-women-buyers-witnessed-during-year-end",
+    "title": "487 pc Increase in Women Buyers Witnessed During Year End",
+    "publisher": "Indian Retailer",
+    "checked": "2026-11-09",
+    "supports": "Snapmint saw a 487% rise in women EMI buyers, mostly from 'Tier II-V cities like Ranchi, Sangrur'."
+   },
+   {
+    "id": "prof-snapmint-5",
+    "url": "https://www.exchange4media.com/digital-news/all-the-businesses-are-excited-about-gen-z-abhineet-sawa-snapmint-125485.html",
+    "title": "All businesses are excited about Gen Z: Abhineet Sawa, Snapmint",
+    "publisher": "exchange4media",
+    "checked": "2026-11-09",
+    "supports": "Cited from search snippet only (page returned 403): '70% of it come from non-metro locations from the gen-z segment... 90% of our customers are below the age of 30'."
+   }
+  ]
+ }
+}

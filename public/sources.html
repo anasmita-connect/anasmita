@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sources · UPI apps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;550;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="detail-page source-directory">
+    <a class="back-link" href="./">← All apps</a>
+    <h1>Sources</h1>
+    <div class="source-actions"><a href="research-data.json" download>Download data (JSON)</a><button id="download-sources" class="link-btn" type="button">Download sources (CSV)</button><button id="download-audiences" class="link-btn" type="button">Download audiences (CSV)</button></div>
+    <label class="search"><span class="sr">Search sources</span><input id="source-q" type="search" placeholder="Search by app, publisher or title"></label>
+    <p class="result-count" id="source-count" aria-live="polite"></p>
+    <ol id="source-directory" class="source-list"></ol>
+    <details class="dataset-notes"><summary>Dataset notes</summary><div id="dataset-notes"></div></details>
+  </main>
+  <script type="module" src="sources.js"></script>
+</body>
+</html>

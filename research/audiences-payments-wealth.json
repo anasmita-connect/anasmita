@@ -1,0 +1,745 @@
+{
+  "PhonePe": {
+    "sources": [
+      {
+        "id": "aud-pw-phonepe-home",
+        "url": "https://www.phonepe.com/",
+        "title": "PhonePe consumer payments and financial services",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "Positions the consumer app around transfers, recharges, bills and financial services for Indians broadly; distinguishes consumer and business offerings."
+      },
+      {
+        "id": "aud-pw-phonepe-rural-merchants",
+        "url": "https://www.phonepe.com/press/phonepe-announces-big-rural-merchant-expansion-plans-to-hire-20-000-additional-on-roll-sales-employees-in-rural-india-and-deploy-50-lakh-payment-devices",
+        "title": "Rural merchant expansion plans, 24 September 2026",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "Explicitly targets rural merchants and villages for payment-device deployment, onboarding and support; this is merchant positioning, not the demographic composition of consumer-app users."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday payments for people sending money, shopping, recharging phones and paying bills, alongside access to other financial services.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-phonepe-home",
+        "upi"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Rural merchants",
+        "text": "PhonePe has a specific expansion programme for small merchants in villages and rural areas, including payment devices and onboarding support. This concerns its merchant network.",
+        "tags": [
+          "rural",
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "aud-pw-phonepe-rural-merchants"
+        ]
+      }
+    ],
+    "notes": [
+      "Tier 2+ registered-user figures are not used as a rural classification."
+    ]
+  },
+  "Google Pay": {
+    "sources": [
+      {
+        "id": "aud-pw-googlepay-home",
+        "url": "https://pay.google.com/intl/en_in/about/",
+        "title": "Google Pay India: everyday payments",
+        "publisher": "Google",
+        "checked": "2026-11-09",
+        "supports": "Markets family transfers, payments to friends and neighbourhood shops, online shopping, recharges and bills as general everyday uses."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday payments for sending money to family and friends, paying shops, recharging phones and settling bills across India.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-googlepay-home"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Teenagers",
+        "text": "A separate under-18 experience lets teenagers make core payments with additional safeguards and restricted content. Users can move to the full experience at 18.",
+        "tags": [
+          "minors"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "teens"
+        ]
+      }
+    ],
+    "notes": [
+      "The teen experience is a secondary audience and does not define the main app."
+    ]
+  },
+  "Paytm": {
+    "sources": [
+      {
+        "id": "aud-pw-paytm-home",
+        "url": "https://paytm.com/",
+        "title": "Paytm consumer payments and business services",
+        "publisher": "Paytm",
+        "checked": "2026-11-09",
+        "supports": "Markets transfers, shopping payments, recharges and bills broadly; separately advertises merchant acceptance tools and the Paytm for Business app."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday payments for sending money, paying in shops or online, recharging phones and managing household bills.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-paytm-home",
+        "upi"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Teenagers & parents",
+        "text": "Pocket Money is a supervised payment feature for teenagers, with parents or trusted family members managing spending access and limits.",
+        "tags": [
+          "minors"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-paytm-pocket-money"
+        ]
+      },
+      {
+        "label": "Merchants",
+        "text": "Paytm for Business separately serves merchants accepting online and in-store payments through QR codes, Soundbox and other payment tools.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "aud-pw-paytm-home"
+        ]
+      }
+    ],
+    "notes": [
+      "Teen positioning refers to Pocket Money; it does not resolve the separate 18+ wording in general platform terms."
+    ]
+  },
+  "super.money": {
+    "sources": [
+      {
+        "id": "aud-pw-supermoney-home",
+        "url": "https://www.super.money/",
+        "title": "super.money: payments and financial products",
+        "publisher": "super.money",
+        "checked": "2026-11-09",
+        "supports": "Describes a general payments app for transfers and merchant scan-and-pay, with cashback, cards, deposits and loans."
+      },
+      {
+        "id": "aud-pw-supermoney-about",
+        "url": "https://super.money/about-us",
+        "title": "About super.money",
+        "publisher": "super.money",
+        "checked": "2026-11-09",
+        "supports": "Explains a focus on helping young Indians access financial products while stating a broader mission of access to money and credit for every Indian."
+      },
+      {
+        "id": "aud-pw-supermoney-youth-interview",
+        "url": "https://www.afaqs.com/news/advertising/with-jonty-rhodes-as-cashback-catcher-supermoney-aims-to-stand-out-in-crowded-upi-arena-10469276",
+        "title": "super.money co-founder on youth-focused marketing, 17 September 2025",
+        "publisher": "afaqs!",
+        "checked": "2026-11-09",
+        "supports": "Interview describes a marketing focus on Gen Z and millennial consumers, specifically including first-jobbers in their mid-twenties."
+      }
+    ],
+    "primary": {
+      "label": "Young adults & first-jobbers",
+      "text": "Everyday UPI and cashback with a marketing focus on young Indians and people starting their first jobs.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-supermoney-home",
+        "aud-pw-supermoney-about",
+        "aud-pw-supermoney-youth-interview"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "No minor audience is inferred from Gen Z branding."
+    ]
+  },
+  "BHIM": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "A general UPI app for transfers to friends and family, shop payments, bills and other everyday spending.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "faq"
+      ]
+    },
+    "secondary": []
+  },
+  "FamApp by Trio": {
+    "sources": [
+      {
+        "id": "aud-pw-famapp-listing",
+        "url": "https://play.google.com/store/apps/details?id=com.fampay.in",
+        "title": "FamApp by Trio: developer app description",
+        "publisher": "Tri O Tech Solutions Pvt Ltd / Google Play",
+        "checked": "2026-11-09",
+        "supports": "Developer description updated 5 November 2026 covers bank-linked UPI, wallet, card and savings tools; explicitly describes money management as suitable for any age group and also addresses a digital generation."
+      },
+      {
+        "id": "aud-pw-famapp-teen-coverage",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/teen-payment-apps-on-the-rise-what-parents-should-know-before-using-them-13948664.html",
+        "title": "Teen payment apps and FamApp, 13 June 2026",
+        "publisher": "Moneycontrol",
+        "checked": "2026-11-09",
+        "supports": "Describes FamApp as an early platform targeting teenagers directly, with prepaid-card spending and parental supervision; this substantiates teen positioning rather than inferring minors from Gen Z."
+      }
+    ],
+    "primary": {
+      "label": "Teens & young adults",
+      "text": "Payments and money-management tools with a long-standing teen audience and a focus on the next generation. FamApp now also markets its services across age groups.",
+      "tags": [
+        "minors",
+        "young_adults"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product",
+        "aud-pw-famapp-listing",
+        "aud-pw-famapp-teen-coverage"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Youth emphasis is an editorial synthesis of current next-generation branding and documented teen positioning. Current developer copy is broader; no numerical age band or teen-only access is asserted."
+    ]
+  },
+  "WhatsApp": {
+    "sources": [
+      {
+        "id": "aud-pw-whatsapp-payments",
+        "url": "https://www.whatsapp.com/payments/in",
+        "title": "WhatsApp Payments in India",
+        "publisher": "WhatsApp",
+        "checked": "2026-11-09",
+        "supports": "Markets bank-to-bank payments within chats for sending money home, sharing gift costs and repaying friends; describes transfers with users of UPI-based apps."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "People who want to send and receive money inside their everyday chats, including family transfers and shared expenses with friends.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-whatsapp-payments"
+      ]
+    },
+    "secondary": []
+  },
+  "CRED": {
+    "sources": [],
+    "primary": {
+      "label": "Credit cardholders",
+      "text": "Credit-card users who want bill payments, spending tracking and membership rewards in one app. Its core positioning centres on timely card repayments and member benefits.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "about"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Credit-score-based membership does not establish a particular income, gender or urban demographic."
+    ]
+  },
+  "Amazon Pay": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday payments for shopping, recharges, household bills and travel, using Amazon Pay UPI or wallet services.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "MobiKwik": {
+    "sources": [
+      {
+        "id": "aud-pw-mobikwik-home",
+        "url": "https://www.mobikwik.com/",
+        "title": "MobiKwik payments and financial services",
+        "publisher": "MobiKwik",
+        "checked": "2026-11-09",
+        "supports": "Describes UPI and prepaid-wallet payments for shopping, transfers, recharges and bills; distinguishes consumer services from business acceptance products."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday UPI and wallet payments for shopping, transfers, recharges and bills, with additional financial services.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-mobikwik-home",
+        "demo-mobikwik-annual-report-2026"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Rural & first-time users",
+        "text": "Its financial-inclusion approach makes first-time users, including people in rural communities, a useful secondary audience.",
+        "tags": [
+          "rural"
+        ],
+        "basis": "interpretation",
+        "sources": [
+          "demo-mobikwik-annual-report-2026"
+        ]
+      },
+      {
+        "label": "Small merchants",
+        "text": "Separate payment-acceptance services address kirana stores, street vendors and online sellers. The offline merchant strategy also targets Tier 2 and Tier 3 markets.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-mobikwik-annual-report-2026"
+        ]
+      }
+    ],
+    "notes": [
+      "The rural audience is an interpretation of the stated inclusion strategy and qualitative customer description, not a measured rural share."
+    ]
+  },
+  "Groww": {
+    "sources": [
+      {
+        "id": "aud-pw-groww-about",
+        "url": "https://groww.in/about-us",
+        "title": "About Groww: simple investing",
+        "publisher": "Groww",
+        "checked": "2026-11-09",
+        "supports": "Positions investing around ease, speed and transparency, with mutual-fund SIPs, stocks and advanced trading products."
+      }
+    ],
+    "primary": {
+      "label": "Young & first-time investors",
+      "text": "Simple investing tools for people getting started, especially younger adults. Experienced investors and traders can also use Groww. This audience refers to its investing platform.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-pw-groww-about",
+        "demo-groww-prospectus-2025",
+        "demo-groww-impact-2026"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Investor-age and city-tier profiles describe Groww investment users, not Groww Pay-only users. They do not establish an exclusive age target, a rural classification or a women-only audience."
+    ]
+  },
+  "Money View": {
+    "sources": [
+      {
+        "id": "aud-pw-moneyview-home",
+        "url": "https://moneyview.in/",
+        "title": "Moneyview: personal finance products",
+        "publisher": "Moneyview",
+        "checked": "2026-11-09",
+        "supports": "Describes accessible financial services broadly, including loans, digital gold, fixed deposits, insurance, cards, credit tracking and UPI payments."
+      }
+    ],
+    "primary": {
+      "label": "Salaried & self-employed borrowers",
+      "text": "Personal loans for salaried and self-employed applicants are a central offering. The app also provides payments and other financial services.",
+      "tags": [
+        "salaried",
+        "self_employed"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "loans",
+        "aud-pw-moneyview-home"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Personal-loan user demographics and underwriting criteria are not applied to all app or UPI users."
+    ]
+  },
+  "INDmoney": {
+    "sources": [
+      {
+        "id": "aud-pw-indmoney-home",
+        "url": "https://www.indmoney.com/",
+        "title": "INDmoney: trading, investing and money management",
+        "publisher": "INDmoney",
+        "checked": "2026-11-09",
+        "supports": "Markets investment access across Indian, US and global markets, plus consolidated investment, net-worth and family-account tracking."
+      }
+    ],
+    "primary": {
+      "label": "Investors",
+      "text": "People investing in Indian and US markets and managing their overall finances. It combines investment products with net-worth and family-account tracking.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-indmoney-home",
+        "platform"
+      ]
+    },
+    "secondary": []
+  },
+  "Digikhata": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday prepaid payments for individuals, including people without a traditional bank account. Customers can use a personal UPI handle, RuPay card and bill-payment tools.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "faq"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchants",
+        "text": "Digi Vyapaar is a separate offering for merchants using Digi Khata's business services.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product",
+          "faq"
+        ]
+      },
+      {
+        "label": "Kiosk agents",
+        "text": "Digi Kiosk partners help customers open prepaid accounts and access assisted payment services. This is an agent role rather than the individual wallet audience.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product",
+          "faq"
+        ]
+      }
+    ],
+    "notes": [
+      "This is Pay Point's Indian prepaid-account product, not the similarly named Pakistani bookkeeping app. No rural demographic is inferred from kiosk distribution."
+    ]
+  },
+  "Aditya Birla Capital Digital": {
+    "sources": [
+      {
+        "id": "aud-pw-abcd-home",
+        "url": "https://www.adityabirlacapital.com/abcd",
+        "title": "ABCD app: payments and financial services",
+        "publisher": "Aditya Birla Capital",
+        "checked": "2026-11-09",
+        "supports": "Presents ABCD as an app for financial needs across loans, investments, insurance and payments, with financial tools and guidance."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "People managing payments, borrowing, investments and insurance through the ABCD app. Its all-in-one financial-service positioning covers a range of everyday money needs.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-pw-abcd-home",
+        "terms"
+      ]
+    },
+    "secondary": []
+  },
+  "Shriram One": {
+    "sources": [
+      {
+        "id": "aud-pw-shriram-rural-positioning",
+        "url": "https://www.prnewswire.com/in/news-releases/how-shriram-one-is-bridging-the-urban-rural-digital-divide-302705215.html",
+        "title": "Shriram One and the urban-rural digital divide, 5 March 2026",
+        "publisher": "Shriram Finance Limited / PR Newswire",
+        "checked": "2026-11-09",
+        "supports": "Company release explicitly positions the app for urban and rural use, describing rural and semi-urban accessibility through simple design and local language. It is company marketing, not independent user measurement."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience · rural focus",
+      "text": "Payments and financial products for urban and rural customers, with a particular focus on making the app accessible in rural and semi-urban areas.",
+      "tags": [
+        "general",
+        "rural"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "aud-pw-shriram-rural-positioning"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Salaried & self-employed borrowers",
+        "text": "The loan services include personal loans for salaried applicants and business loans for self-employed applicants. These are borrowing audiences within the wider app.",
+        "tags": [
+          "salaried",
+          "self_employed"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "personal-loan",
+          "product"
+        ]
+      }
+    ]
+  },
+  "Jar": {
+    "sources": [
+      {
+        "id": "aud-pw-jar-about",
+        "url": "https://www.myjar.app/about",
+        "title": "About Jar: saving habits and digital gold",
+        "publisher": "Jar / Changejar Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Positions digital-gold saving as accessible to Indians broadly, with a mission to make saving simple and turn it into a daily habit."
+      },
+      {
+        "id": "aud-pw-jar-investor-positioning",
+        "url": "https://arkamvc.com/portfolio/jar",
+        "title": "Jar investment thesis and intended savings market",
+        "publisher": "Arkam Ventures",
+        "checked": "2026-11-09",
+        "supports": "Jar investor describes its savings platform for middle-India households and a specific opportunity helping young Indians begin saving and investing. Historical user percentages are not treated as current measurements."
+      }
+    ],
+    "primary": {
+      "label": "First-time savers · youth focus",
+      "text": "Small, regular gold savings aimed at people beginning to save, with a particular focus on young Indians.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "aud-pw-jar-about",
+        "aud-pw-jar-investor-positioning"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The youth positioning is supported by the investor's stated market thesis. No numerical age band, rural audience or gender is inferred from saving amounts or smaller-city adoption."
+    ]
+  },
+  "Tata Pay": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday payments for Tata Neu users, including sending money, paying shops and settling bills.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "terms"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The researched product is Tata Pay within Tata Neu; general shopping and payment uses do not establish an affluent or urban-only audience."
+    ]
+  },
+  "Obopay": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Consumer wallets for everyday payments and transfers, including people using an employer or partner payment programme.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "terms",
+        "faq"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Businesses & service providers",
+        "text": "The separate platform offering serves businesses and service providers launching payment services and branded wallet programmes. These organisations supply programmes to consumers.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-obopay-business-platform"
+        ]
+      }
+    ],
+    "notes": [
+      "Provider-level business marketing is kept separate from the consumer-wallet audience. Programme availability varies, and parts of the consumer FAQ are dated."
+    ]
+  },
+  "Curie Money": {
+    "sources": [],
+    "primary": {
+      "label": "Savers & investors",
+      "text": "People who want liquid-mutual-fund investing alongside everyday UPI payments. Its central use is keeping money invested and redeeming units when a payment is made.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "mf-terms"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "This is investment-linked payment positioning, not a guaranteed-interest bank account or evidence of a particular income group."
+    ]
+  },
+  "LXME": {
+    "sources": [],
+    "primary": {
+      "label": "Women",
+      "text": "Women who want to invest, make payments and build confidence managing money. Financial learning and community support are part of the same women-focused positioning.",
+      "tags": [
+        "women"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "upi-product"
+      ]
+    },
+    "secondary": []
+  },
+  "Unimoni": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Everyday wallet users making shop payments, recharges, bill payments and domestic money transfers.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "This audience refers to the domestic wallet; current wallet terms use Wizzpay/Wizzmoni names. Unimoni's separate foreign-exchange and remittance businesses do not establish the wallet's audience."
+    ]
+  },
+  "Novio": {
+    "sources": [],
+    "primary": {
+      "label": "Students, early earners & freelancers",
+      "text": "FD-backed cards aimed at students, people starting work, freelancers and gig workers who are building a credit history. The app also offers everyday UPI payments.",
+      "tags": [
+        "students",
+        "self_employed"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "demo-novio-developer-listing",
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The main positioning is access to credit cards and payments, rather than a general investment platform. No age band is inferred from early-earner or student labels."
+    ]
+  },
+  "LivQuik": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Prepaid wallet and card users managing day-to-day payments through QuikWallet and related programmes. The consumer app combines spending tools with card controls.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "quikwallet",
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Students",
+        "text": "Student-card offerings are specific partner prepaid programmes within LivQuik's wider product range.",
+        "tags": [
+          "students"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-livquik-prepaid-programmes"
+        ]
+      },
+      {
+        "label": "Older adults",
+        "text": "Senior-focused partner programmes include Khyaal cards and other elderly-card offerings. This audience is specific to those programmes.",
+        "tags": [
+          "older_adults"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-livquik-prepaid-programmes"
+        ]
+      },
+      {
+        "label": "Businesses",
+        "text": "Businesses and programme partners can issue and manage prepaid cards, including cards for employee expenses. This is separate from the individual cardholder audience.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product",
+          "demo-livquik-prepaid-programmes"
+        ]
+      }
+    ],
+    "notes": [
+      "Partner student and senior programmes do not describe every QuikWallet user. Student cards are not automatically classified as services for minors."
+    ]
+  }
+}

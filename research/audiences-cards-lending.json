@@ -1,0 +1,721 @@
+{
+  "Bajaj Finserv": {
+    "sources": [
+      {
+        "id": "audience-bajaj-all-in-one-app",
+        "url": "https://www.bajajfinserv.in/loan-app",
+        "title": "Best Loan App in India 2026 | Instant Personal Loan App – Bajaj Finance",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Positions the Bajaj Finance app as an all-in-one service for loans, investments, insurance, shopping, bill payments and money transfers."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Bajaj's app brings everyday payments, borrowing, investments, insurance and shopping together for a wide range of financial needs.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "audience-bajaj-all-in-one-app"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Salaried and self-employed borrowers",
+        "text": "Its loan range includes products marketed to salaried employees and self-employed people. This focus applies to borrowing, alongside the app's other services.",
+        "tags": [
+          "salaried",
+          "self_employed"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-bajaj-salaried",
+          "demo-bajaj-self-employed"
+        ]
+      }
+    ],
+    "notes": [
+      "The dataset retains the name Bajaj Finserv; the inspected current app marketing uses Bajaj Finance.",
+      "Women-specific loan landing pages do not define the main app audience."
+    ]
+  },
+  "POP UPI": {
+    "sources": [
+      {
+        "id": "audience-pop-founder-young-india",
+        "url": "https://www.outlookbusiness.com/corporate/pop-raises-24-million-in-seed-funding-from-india-quotient-others-to-launch-its-upi-play",
+        "title": "POP funding and its payments-and-shopping strategy (19 June 2024)",
+        "publisher": "Outlook Business",
+        "checked": "2026-11-09",
+        "publicationDate": "2024-06-19",
+        "supports": "Founder describes digitally active young Indians as the intended audience for POP payments and shopping."
+      }
+    ],
+    "primary": {
+      "label": "Young adults / Gen Z",
+      "text": "POP targets young consumers with everyday UPI payments, shopping and rewards. Gen Z is a central part of its brand positioning.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "app",
+        "audience-pop-founder-young-india"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The developer explicitly uses Young India and Gen Z positioning; young adults is an editorial audience label, without a numerical age band or an exclusivity claim.",
+      "Gen Z marketing and app-store content ratings do not establish a minors audience or minimum joining age. No minors tag is assigned."
+    ]
+  },
+  "Samsung Pay": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Samsung Pay serves people making everyday card and UPI payments on compatible Samsung devices. The positioning centres on convenient payments across shopping, dining and bills.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Jupiter": {
+    "sources": [
+      {
+        "id": "audience-jupiter-launch-focus",
+        "url": "https://www.moneycontrol.com/news/business/startup/jitendra-guptas-neobank-jupiter-wants-to-be-swiggy-for-banking-will-it-work-7074931.html",
+        "title": "Jitendra Gupta’s neobank Jupiter wants to be Swiggy for banking: Will it work?",
+        "publisher": "Moneycontrol",
+        "checked": "2026-11-09",
+        "supports": "The June 2021 founder interview describes all smartphone users as the wider target and young working professionals as the initial focus. This is historical intended positioning."
+      },
+      {
+        "id": "audience-jupiter-financial-health-2026",
+        "url": "https://www.unsgsa.org/stories/jupiter-money-all-one-app-better-financial-health",
+        "title": "Jupiter Money: an all-in-one app for better financial health (9 July 2026)",
+        "publisher": "UN Secretary-General’s Special Advocate for Financial Health",
+        "checked": "2026-11-09",
+        "supports": "Describes Jupiter’s focus on helping young people manage money, build financial resilience and develop savings habits."
+      }
+    ],
+    "primary": {
+      "label": "Young adults & professionals",
+      "text": "An app for younger people managing spending, savings and investments, with an emphasis on building everyday money habits.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product",
+        "audience-jupiter-financial-health-2026"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Salaried employees",
+        "text": "Jupiter's salary-account offering helps employees manage salary credits and associated account benefits. This is a specific account audience within the wider app.",
+        "tags": [
+          "salaried"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-jupiter-salary"
+        ]
+      }
+    ],
+    "notes": [
+      "The young-professionals evidence records 2021 launch intent, not a verified current age distribution or an age restriction."
+    ]
+  },
+  "Flipkart UPI": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Flipkart UPI was introduced for customers making shopping payments, transfers, recharges and bill payments. It covers payments inside and outside Flipkart.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "launch"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Audience positioning is supported by the official March 2024 launch announcement; this does not independently confirm current service availability."
+    ]
+  },
+  "BharatPe": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "BharatPe's consumer app combines everyday UPI payments and bills with access to credit and investments. It serves people managing several parts of their daily finances.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "app"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchants",
+        "text": "BharatPe separately serves businesses that accept customer payments through QR codes, payment devices and other merchant services.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      "Primary follows the consumer app package com.postpe.app used in the raw research. The bare BharatPe dataset name does not prove the historical package identity; the separate business app has a merchant audience."
+    ]
+  },
+  "kiwi": {
+    "sources": [
+      {
+        "id": "audience-kiwi-everyday-positioning",
+        "url": "https://gokiwi.in/",
+        "title": "The Most Rewarding UPI with Credit Card",
+        "publisher": "Gokiwi Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Markets credit-card UPI for daily spending such as groceries and cab rides, alongside bill payments, rewards and card management. It does not specify a demographic segment."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Kiwi serves people seeking rewards on everyday UPI spending and bill payments, including payments through supported RuPay credit cards. Its offer also includes applying for and managing partner-bank cards.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "audience-kiwi-everyday-positioning",
+        "upi",
+        "issuer"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Card-application employment and age requirements are eligibility conditions, not evidence that every Kiwi payment user belongs to those groups."
+    ]
+  },
+  "Omni Card": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "OmniCard's consumer app offers prepaid-card and UPI spending for a wide audience, explicitly including students, parents and younger consumers.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "app"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Students",
+        "text": "Students are explicitly included in the consumer app's audience for simple prepaid-card and UPI payments.",
+        "tags": [
+          "students"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "app"
+        ]
+      },
+      {
+        "label": "Businesses and employees",
+        "text": "OmniCard also provides business payments, expense management and corporate prepaid cards. Employees can join an enterprise programme through an invitation in the app.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product",
+          "app"
+        ]
+      }
+    ],
+    "notes": [
+      "The current corporate website emphasises business payments, while the consumer app listing explicitly retains a broad audience. These are separate product roles.",
+      "Students and Gen Z marketing do not establish under-18 eligibility."
+    ]
+  },
+  "Timepay": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "TimePay is for everyday UPI transfers, bill payments and recharges, with rewards and linked-account management.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "app"
+      ]
+    },
+    "secondary": []
+  },
+  "SalarySe": {
+    "sources": [],
+    "primary": {
+      "label": "Salaried employees",
+      "text": "SalarySe builds its financial services around employees' pay, including salary access, rewards, credit and savings. Its central promise is helping people get more value from their salary.",
+      "tags": [
+        "salaried"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Employers",
+        "text": "SalarySe separately offers employers payroll-linked benefits for their employees, including spending allowances and device benefits.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-salaryse-employers"
+        ]
+      }
+    ],
+    "notes": [
+      "Salary-focused positioning is not a claim that every separate card, UPI or partner-product route requires salaried employment."
+    ]
+  },
+  "KreditPe": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Kredit.Pe serves people seeking rewards on everyday UPI payments, with additional credit-card and fixed-deposit options.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "OneCard": {
+    "sources": [
+      {
+        "id": "audience-onecard-federal-launch",
+        "url": "https://www.federal.bank.in/documents/10180/85678895/Federal%20Bank%20partners%20with%20OneCard%20to%20offer%20mobile-first%20Credit%20Card",
+        "title": "Federal Bank partners with OneCard to offer mobile-first Credit Card",
+        "publisher": "The Federal Bank Limited",
+        "checked": "2026-11-09",
+        "supports": "The September 2021 issuer launch explicitly targets young working professionals and digitally native consumers. This records launch positioning for Federal Bank's OneCard partnership."
+      }
+    ],
+    "primary": {
+      "label": "Credit-card users",
+      "text": "OneCard is for people who want to manage a credit card, spending controls, rewards and instalments through an app.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Young professionals",
+        "text": "Young working professionals were an explicit audience for Federal Bank's OneCard launch in 2021, with an emphasis on managing credit digitally.",
+        "tags": [
+          "young_adults"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "audience-onecard-federal-launch"
+        ]
+      }
+    ],
+    "notes": [
+      "The youth emphasis is issuer-specific historical launch positioning; it is not a verified current age mix or a restriction across all OneCard issuers."
+    ]
+  },
+  "Scapia": {
+    "sources": [
+      {
+        "id": "audience-scapia-founder-2026",
+        "url": "https://www.fortuneindia.com/business-news/scapias-gen-z-bet-building-a-travel-payments-and-lifestyle-ecosystem-says-ceo-anil-goteti/156471",
+        "title": "Scapia’s Gen Z bet: Building a travel, payments, and lifestyle ecosystem, says CEO Anil Goteti",
+        "publisher": "Fortune India",
+        "checked": "2026-11-09",
+        "supports": "The August 2026 founder interview describes a travel, payments and lifestyle platform built around younger consumers and Gen Z. Used for intended positioning, not customer percentages."
+      }
+    ],
+    "primary": {
+      "label": "Younger adult travellers",
+      "text": "Travel rewards, bookings and card benefits built around younger consumers and Gen Z.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "federal",
+        "axis",
+        "audience-scapia-founder-2026"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The primary audience remains travellers rather than younger adults in general. Gen Z language does not establish a minors audience.",
+      "Non-metro or Tier-2 presence is not classified as rural; booking statistics are not used as audience restrictions."
+    ]
+  },
+  "Rio Money": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "The app now branded Zagg serves people making everyday UPI payments and seeking credit-card rewards. It combines payments, cards and spending management.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "app",
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The Rio Money key is retained exactly. Positioning follows the current Zagg listing for the same omnicash.rio.app package identified in the raw research."
+    ]
+  },
+  "CheQ": {
+    "sources": [],
+    "primary": {
+      "label": "Credit-card users",
+      "text": "CheQ centres on helping cardholders pay credit-card bills and earn rewards. It also offers UPI payments and a partner-bank credit card.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "KreditBee": {
+    "sources": [
+      {
+        "id": "audience-kreditbee-company-story",
+        "url": "https://www.kreditbee.in/about-us",
+        "title": "About Us | Our Story | Know More About Us | KreditBee",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "Describes the platform as serving salaried and self-employed professionals, including first-time borrowers. Its founding rationale explicitly addresses young professionals and urban young adults."
+      }
+    ],
+    "primary": {
+      "label": "Salaried and self-employed borrowers",
+      "text": "KreditBee helps salaried and self-employed people access personal loans online, including people borrowing for the first time.",
+      "tags": [
+        "salaried",
+        "self_employed"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "audience-kreditbee-company-story"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Young urban professionals",
+        "text": "KreditBee's founding proposition specifically addresses young professionals and urban young adults needing access to personal credit.",
+        "tags": [
+          "young_adults",
+          "urban"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "audience-kreditbee-company-story"
+        ]
+      }
+    ],
+    "notes": [
+      "The urban emphasis is explicit company positioning, not an inference from app design or city tiers, and does not imply urban-only access.",
+      "A women-specific loan landing page does not define the main app audience. UPI has its own broader payment use case."
+    ]
+  },
+  "RapiPay": {
+    "sources": [],
+    "primary": {
+      "label": "Retailer agents",
+      "text": "RapiPay is for shop owners and retailers operating assisted financial-service outlets. Agents use the platform to provide customer withdrawals, transfers and bill payments.",
+      "tags": [
+        "businesses"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Rural cash-withdrawal customers",
+        "text": "RapiPay's retailer-operated micro-ATMs are positioned to help rural customers where bank ATMs are scarce. These are outlet customers served by agents.",
+        "tags": [
+          "rural"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-rapipay-micro-atm-rural"
+        ]
+      }
+    ],
+    "notes": [
+      "Agent-app users and the end customers receiving assisted services are different roles. Direct page retrieval timed out; official search-indexed page text was verified."
+    ]
+  },
+  "Spice Money": {
+    "sources": [
+      {
+        "id": "audience-spice-current-platform",
+        "url": "https://www.spicemoney.com/",
+        "title": "Spice Money | Banking Services for Bharat - AEPS, Money Transfer & Bill Payments",
+        "publisher": "Spice Money Limited",
+        "checked": "2026-11-09",
+        "supports": "Distinguishes platforms for banking agents, shopkeepers and consumers, and describes assisted banking access for small-town and semi-urban customers. It also features rural banking services."
+      }
+    ],
+    "primary": {
+      "label": "Rural shop owners & agents",
+      "text": "Shop owners and Adhikari agents providing assisted banking and payments in rural and semi-urban communities.",
+      "tags": [
+        "businesses",
+        "rural"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "audience-spice-current-platform",
+        "demo-spice-rural-network-report"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The Adhikari app's operator audience is distinct from end consumers and the separately named Spice Pay consumer app.",
+      "The rural-network report is from 2022–23; the current homepage corroborates the assisted-community and semi-urban positioning."
+    ]
+  },
+  "Saathi by PayNearby": {
+    "sources": [
+      {
+        "id": "audience-saathi-app-launch",
+        "url": "https://paynearby.in/media/paynearby-secures-tpap-license-from-npci-set-to-expand-upi-access-to-bharat/",
+        "title": "PayNearby secures TPAP license from NPCI; set to expand UPI access to Bharat",
+        "publisher": "Nearby Technologies Private Limited (PayNearby)",
+        "checked": "2026-11-09",
+        "supports": "The December 2025 app launch positions Saathi for people needing guidance with digital finance, especially in semi-urban and rural areas, using local retailers, language support and assisted onboarding. Verified through official search-indexed text; direct retrieval returned 403."
+      }
+    ],
+    "primary": {
+      "label": "Rural & semi-urban consumers",
+      "text": "Digital payments and financial services with an emphasis on rural and semi-urban consumers, local-language guidance and help from nearby retailers.",
+      "tags": [
+        "rural"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "audience-saathi-app-launch"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Saathi is the consumer app. PayNearby retailers and Digital Naaris provide assistance; they are not interchangeable with Saathi's consumer audience.",
+      "The rural emphasis is supported by the app-wide launch strategy, beyond the separate UPI Cash Point service."
+    ]
+  },
+  "Dhani": {
+    "sources": [],
+    "primary": {
+      "label": "Salaried borrowers",
+      "text": "Dhani's current offer is a short-term personal loan built for salaried professionals who need funds for expenses before payday.",
+      "tags": [
+        "salaried"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "This classification follows current official positioning, rather than older versions of Dhani's wider product range."
+    ]
+  },
+  "Fave": {
+    "sources": [],
+    "primary": {
+      "label": "Households and flatmates",
+      "text": "Fave is designed for people who live together and want to manage shared spending. It combines UPI payments with payment categorisation and shared expense tracking.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "website",
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Household and flatmate positioning does not establish an age, gender, student or urban demographic."
+    ]
+  },
+  "True Balance": {
+    "sources": [
+      {
+        "id": "audience-truebalance-company-mission",
+        "url": "https://www.truebalance.io/who-are-we",
+        "title": "Instant Loan Experts: Get Quick Cash with True Balance",
+        "publisher": "Balancehero India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes a lending mission focused on underserved people facing financial challenges, especially those without traditional credit scores. This is access-to-credit positioning, not a measured income or rural profile."
+      }
+    ],
+    "primary": {
+      "label": "Salaried & self-employed borrowers",
+      "text": "Personal credit for salaried and self-employed people, with a broader focus on consumers underserved by traditional finance.",
+      "tags": [
+        "salaried",
+        "self_employed"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "audience-truebalance-company-mission",
+        "demo-truebalance-cash-audience"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Underserved and new-to-credit positioning does not by itself establish low income, rural residence, age or gender."
+    ]
+  },
+  "Payworld": {
+    "sources": [],
+    "primary": {
+      "label": "Retailer agents",
+      "text": "Payworld is built for retailers and merchants providing assisted banking, payments and travel services to customers. Retailers use the app to run these services and earn commissions.",
+      "tags": [
+        "businesses"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Rural cash-withdrawal customers",
+        "text": "Payworld promotes UPI cash withdrawals for rural customers through its retailer network. This audience receives assisted services from outlets.",
+        "tags": [
+          "rural"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-payworld-rural-services"
+        ]
+      }
+    ],
+    "notes": [
+      "The primary audience operates the retailer app; outlet customers are a separate audience. The official homepage's rural-service positioning was verified through search-indexed text after direct retrieval returned 403."
+    ]
+  },
+  "Snapmint": {
+    "sources": [],
+    "primary": {
+      "label": "Cardless EMI shoppers",
+      "text": "Snapmint is for shoppers who want to split purchases into instalments without a credit card, including people who cannot pay the full amount upfront.",
+      "tags": [],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Students and salaried shoppers",
+        "text": "Snapmint explicitly addresses students buying laptops and salaried people upgrading gadgets or electronics. These are examples within its wider EMI-shopping audience.",
+        "tags": [
+          "students",
+          "salaried"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      "Student marketing does not establish under-18 eligibility. Cardless EMI use does not establish income, gender or rural residence."
+    ]
+  },
+  "ZET": {
+    "sources": [],
+    "primary": {
+      "label": "First-time credit users · students & professionals",
+      "text": "FD-backed cards for people building a credit history, with a particular emphasis on students, freelancers and people starting their careers.",
+      "tags": [
+        "students",
+        "young_adults",
+        "self_employed"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product",
+        "demo-zet-students-professionals"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "This classification follows the consumer FD-backed credit-card offering documented in the raw research.",
+      "Student positioning does not establish minor eligibility or guarantee issuer approval."
+    ]
+  },
+  "Navi": {
+    "sources": [
+      {
+        "id": "audience-navi-app-overview",
+        "url": "https://navi.com/",
+        "title": "Navi: UPI, Loans, Insurance, Investments, Bills & Recharges",
+        "publisher": "Navi",
+        "checked": "2026-11-09",
+        "supports": "Positions Navi as an app for simple, accessible financial services spanning UPI, bills, investments, insurance and loans. It does not make one specialist loan audience the app-wide audience."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "Navi brings everyday payments and bills together with loans, investments and insurance. It serves consumers with a range of financial needs.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "audience-navi-app-overview",
+        "upi"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "Individual loan or insurance eligibility conditions do not define the audience of the whole Navi app."
+    ]
+  }
+}

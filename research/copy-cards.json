@@ -1,0 +1,318 @@
+{
+  "Bajaj Finserv": {
+    "summary": "Bajaj Finance’s app offers UPI payments, a prepaid wallet and loan applications and repayments.",
+    "summarySources": ["terms", "loan"],
+    "requirements": [
+      {
+        "label": "App registration",
+        "text": "18+ and able to enter a contract.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Bajaj Pay UPI",
+        "text": "Link your bank account, register your device and set up a PIN/password.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Wallet UPI",
+        "text": "Requires a valid Bajaj Pay Full KYC Wallet and its associated mobile number.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Personal loan",
+        "text": "Indian citizen, 21–80, salaried or self-employed, with CIBIL 650+; age must be 80 or below when the loan ends. KYC and income documents are required; approval depends on assessment.",
+        "sources": ["loan"]
+      }
+    ],
+    "notes": [
+      "Current app name: Bajaj Finance; Bajaj Markets is separate.",
+      "EMI card, deposit and other loan requirements not confirmed."
+    ]
+  },
+  "POP UPI": {
+    "summary": "POP offers UPI payments, shopping rewards, a YES BANK credit card and purchase instalments.",
+    "summarySources": ["product", "app"],
+    "requirements": [],
+    "notes": [
+      "UPI, card and POPchop joining requirements not confirmed. POPchop lender unknown; POPcard and POP-CLUB fees and rewards conflict."
+    ]
+  },
+  "Samsung Pay": {
+    "summary": "Samsung Pay is part of Samsung Wallet in India, with card and bank-account UPI payments.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Wallet setup",
+        "text": "Requires a supported Samsung device, Samsung account and Wallet PIN or available biometrics.",
+        "sources": ["setup"]
+      },
+      {
+        "label": "UPI",
+        "text": "Link a bank account with its registered mobile number and active SIM. Samsung’s new-PIN setup uses debit/ATM-card details.",
+        "sources": ["product", "upi"]
+      },
+      {
+        "label": "Card payments",
+        "text": "Requires a card supported by Samsung Pay and its issuer.",
+        "sources": ["product"]
+      }
+    ],
+    "notes": [
+      "Minimum age not confirmed.",
+      "Alternative UPI PIN setup options not confirmed."
+    ]
+  },
+  "Jupiter": {
+    "summary": "Jupiter offers UPI, savings tools and investments, with its All-in-1 Savings Account provided by Federal Bank.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "All-in-1 Savings Account",
+        "text": "Choose the account in Jupiter and complete video KYC. Identity and address details and Federal Bank checks are required.",
+        "sources": ["product", "terms"]
+      },
+      {
+        "label": "Salary-account upgrade",
+        "text": "Requires a full-KYC savings account, verified employer and work details and salary credited at the minimum shown in-app.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": [
+      "Savings-account minimum age, nationality/residency rules and full document list not confirmed.",
+      "Joining requirements for standalone UPI, Jupiter Account PPI, investments, loans and cards not confirmed."
+    ]
+  },
+  "Flipkart UPI": {
+    "summary": "Flipkart launched in-app UPI transfers, merchant payments, recharges and bill payments with Axis Bank in 2024.",
+    "summarySources": ["launch"],
+    "requirements": [],
+    "notes": [
+      "UPI joining rules and current device support not confirmed; the 2024 launch was initially Android-only with @fkaxis."
+    ]
+  },
+  "BharatPe": {
+    "summary": "BharatPe offers consumer UPI, bill payments and credit, plus separate payment tools for merchants.",
+    "summarySources": ["product", "app"],
+    "requirements": [
+      {
+        "label": "Consumer app",
+        "text": "Must be able to enter a contract and be physically in India when registering, linking services and transacting.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Requires SIM binding and SMS verification.",
+        "sources": ["app"]
+      }
+    ],
+    "notes": [
+      "Minimum age not confirmed.",
+      "Consumer loan eligibility and merchant registration/KYC requirements not confirmed."
+    ]
+  },
+  "kiwi": {
+    "summary": "Kiwi offers bank-account and RuPay-card UPI payments, plus credit cards issued by partner banks.",
+    "summarySources": ["upi", "issuer"],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Requires a Kiwi account, smartphone app, a supported bank/card account and that account’s registered mobile number.",
+        "sources": ["upi"]
+      },
+      {
+        "label": "Credit card application",
+        "text": "22–55, resident in India, and salaried or self-employed. A partner bank is assigned automatically; approval depends on credit history, income and employment.",
+        "sources": ["eligibility", "issuer"]
+      },
+      {
+        "label": "Credit card documents",
+        "text": "Original PAN is required for video KYC. The assigned bank may also request ITR, Form 16 or salary documents in-app.",
+        "sources": ["documents"]
+      }
+    ],
+    "notes": [
+      "No common minimum income or credit-score cutoff confirmed for all partner cards.",
+      "Credit-line joining requirements not confirmed."
+    ]
+  },
+  "Omni Card": {
+    "summary": "OmniCard offers prepaid wallets, cards and UPI payments, plus tools for business expenses.",
+    "summarySources": ["terms", "product", "app"],
+    "requirements": [
+      {
+        "label": "Prepaid wallet/card",
+        "text": "Use a phone number that belongs to you. Small PPI wallets need mobile OTP verification and identity declarations; Full-KYC wallets need completed identity verification.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Pay from OmniCard without linking a personal bank account.",
+        "sources": ["app"]
+      },
+      {
+        "label": "Business spending",
+        "text": "Existing users must accept their enterprise’s invitation in the app.",
+        "sources": ["app"]
+      }
+    ],
+    "notes": [
+      "Minimum age and guardian-consent rules not confirmed.",
+      "Transfer and cash access depend on the wallet type.",
+      "Exact KYC document list and programme availability not confirmed."
+    ]
+  },
+  "Timepay": {
+    "summary": "TimePay offers UPI transfers, mobile recharges, bill payments and rewards.",
+    "summarySources": ["app"],
+    "requirements": [
+      {
+        "label": "App / UPI (2022 terms)",
+        "text": "18+ and able to enter a contract. Requires the Android app, an inserted registered SIM, internet, GPS, and an active Indian bank account with a debit card.",
+        "sources": ["terms", "app"]
+      }
+    ],
+    "notes": [
+      "Joining terms date to 2022; current debit-card, GPS and device requirements may differ."
+    ]
+  },
+  "SalarySe": {
+    "summary": "SalarySe offers salary access, loans, savings products and partner-bank credit cards.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "App registration",
+        "text": "18+, with a guardian-consent exception. SIM/device binding is required; employment details may be collected.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "RBL Bank UP card (Swiggy route)",
+        "text": "21–70, credit score 720+ and existing credit history; video KYC and RBL approval required. Repayments aren’t deducted from Swiggy earnings.",
+        "sources": ["rbl-faq"]
+      },
+      {
+        "label": "Partner-bank card applications",
+        "text": "An existing active card from a participating bank may make you ineligible for another card through SalarySe.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": [
+      "CUB Level UP, FD and personal-loan joining requirements not confirmed.",
+      "InstaCash employer-participation and income requirements not confirmed."
+    ]
+  },
+  "KreditPe": {
+    "summary": "Kredit.Pe offers UPI rewards, credit cards and fixed deposits.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "App registration",
+        "text": "Must be legally an adult and able to enter a contract. Register, link your account and give permission to check your credit score.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Use a bank account or RuPay credit card for payments.",
+        "sources": ["product"]
+      },
+      {
+        "label": "SBM FD-backed card",
+        "text": "Indian citizen over 18, with an SBM fixed deposit of ₹2,000 or more. No income proof or credit history needed; the card remains active while the FD does.",
+        "sources": ["sbm"]
+      },
+      {
+        "label": "SBM FD-backed card: location",
+        "text": "Unavailable to residents of Assam, Arunachal Pradesh, Mizoram, Jammu & Kashmir, Ladakh, Manipur, Tripura, Meghalaya, Nagaland and Sikkim.",
+        "sources": ["sbm"]
+      }
+    ],
+    "notes": [
+      "Current availability of the SBM card not confirmed.",
+      "Max card and Unity FD joining requirements not confirmed.",
+      "UPI verification steps and product-specific credit-score cutoffs not confirmed."
+    ]
+  },
+  "OneCard": {
+    "summary": "OneCard is an app-managed credit card with rewards, spending controls and UPI for eligible cardholders.",
+    "summarySources": ["product", "upi"],
+    "requirements": [
+      {
+        "label": "Credit card application",
+        "text": "18+, Indian citizen, PAN, living in a supported city, with valid address/residence proof. Approval depends on credit reports and other checks.",
+        "sources": ["eligibility"]
+      },
+      {
+        "label": "OneCard UPI",
+        "text": "Requires an existing One Credit Card, eligible app registration and your own bank account linked to an active mobile number.",
+        "sources": ["upi"]
+      }
+    ],
+    "notes": [
+      "Check current city coverage in-app.",
+      "Income and credit-score cutoffs not confirmed; issuer and secured-card requirements may differ."
+    ]
+  },
+  "Scapia": {
+    "summary": "Scapia offers travel bookings and rewards with credit cards from different banks.",
+    "summarySources": ["federal", "axis"],
+    "requirements": [
+      {
+        "label": "Federal Bank Scapia card",
+        "text": "Resident Indian citizen; primary cardholders must be 21–65 if salaried or 25–65 if self-employed. Other Federal Bank card checks apply.",
+        "sources": ["federal"]
+      },
+      {
+        "label": "Scapia Axis Bank card",
+        "text": "Indian resident, 18–70 for the primary cardholder. Requires PAN or Form 60, income proof such as payslips, Form 16 or ITR, and residence proof.",
+        "sources": ["axis"]
+      }
+    ],
+    "notes": [
+      "Income and credit-score cutoffs not confirmed.",
+      "Available banks and other partner-card requirements need checking."
+    ]
+  },
+  "Rio Money": {
+    "summary": "Rio Money is now zagg.money, offering UPI payments, partner-bank credit cards and rewards.",
+    "summarySources": ["app", "product"],
+    "requirements": [
+      {
+        "label": "Zagg account",
+        "text": "Register and complete KYC; you must be over 18 or otherwise legally an adult and able to enter a contract. Credit-bureau information may be checked.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Use a savings account or RuPay credit card for payments.",
+        "sources": ["app"]
+      }
+    ],
+    "notes": [
+      "AU, PNB and YES BANK card eligibility, documents and supported locations not confirmed.",
+      "These are current Zagg rules; August 2026 Rio requirements not confirmed."
+    ]
+  },
+  "CheQ": {
+    "summary": "CheQ offers credit-card bill payments, rewards, bank-account UPI and an AU Bank credit card.",
+    "summarySources": ["product", "card"],
+    "requirements": [
+      {
+        "label": "App / bill payments",
+        "text": "18+ and able to enter a contract; registration may involve identity and credit-score checks. Bill payments cover individually held cards or credit accounts; corporate cards are excluded.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Resident Indian, 18+, with an active participating-bank account and matching registered mobile number. Complete device-specific verification; SIM binding may be required.",
+        "sources": ["upi"]
+      },
+      {
+        "label": "CheQ AU card",
+        "text": "18+, Indian resident and able to enter a contract. Registration, AU’s KYC and creditworthiness checks are required; AU decides final eligibility and approval.",
+        "sources": ["card"]
+      }
+    ],
+    "notes": [
+      "AU card income and credit-score cutoffs not confirmed; additional bank criteria may apply."
+    ]
+  }
+}

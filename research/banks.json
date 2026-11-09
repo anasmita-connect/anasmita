@@ -1,0 +1,2152 @@
+{
+  "Axis Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "BHIM AXIS PAY supports both Axis Bank and other-bank customers.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://application.axis.bank.in/webforms/axis-support/sub-issues/digibkg-upi-activation-3.aspx",
+        "title": "Who can use BHIM AXIS PAY?",
+        "publisher": "Axis Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "BHIM AXIS PAY supports both Axis Bank and other-bank customers.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Kotak Mahindra Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Kotak publishes UPI support for its mobile-banking app.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.kotak.bank.in/en/digital-banking/ways-to-bank/bhim-upi/bhim-upi-faqs.html",
+        "title": "BHIM UPI FAQs",
+        "publisher": "Kotak Mahindra Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Kotak publishes UPI support for its mobile-banking app.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "slice Small Finance Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "UPI terms allow users with active accounts at slice or other banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://slice.bank.in/T%26C",
+        "title": "slice terms — UPI",
+        "publisher": "slice Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Small finance bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "UPI terms allow users with active accounts at slice or other banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "UPI eligibility requires Indian residence, an active account at an RBI-licensed bank and a profile on slice’s digital portal.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "HDFC Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "PayZapp offers UPI payments and supports customers of other banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.hdfc.bank.in/ps/payzapp",
+        "title": "PayZapp registration",
+        "publisher": "HDFC Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "PayZapp offers UPI payments and supports customers of other banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "For PayZapp, register a mobile number and verify its OTP. The page describes PAN-based basic KYC for non-HDFC customers and bank-based KYC for existing HDFC account or card holders.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "kyc"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "ICICI Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "iMobile supports UPI IDs linked to ICICI or other-bank accounts.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.icici.bank.in/personal-banking/ways-to-bank/mobile-banking/imobile/upi-registration",
+        "title": "UPI registration in iMobile",
+        "publisher": "ICICI Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "iMobile supports UPI IDs linked to ICICI or other-bank accounts.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The registration page describes logging into iMobile, creating a UPI ID and linking an ICICI or other-bank account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "IDFC FIRST Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "IDFC FIRST Bank describes UPI payments and account linking.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.idfcfirst.bank.in/personal-banking/payments/upi-payments",
+        "title": "UPI payments",
+        "publisher": "IDFC FIRST Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "IDFC FIRST Bank describes UPI payments and account linking.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The bank’s UPI page lists an internet connection, a bank account, a smartphone, an active bank-linked mobile number and a UPI-enabled app.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Yes Bank": {
+    "type": "bank",
+    "audience": [
+      "unknown"
+    ],
+    "summary": "YES BANK publishes information about YES ONLINE and mobile-banking registration.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.yes.bank.in/contact-us",
+        "title": "YES BANK digital banking support",
+        "publisher": "Yes Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "YES BANK publishes information about YES ONLINE and mobile-banking registration.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "For YES ONLINE, the support page identifies YES BANK savings, current, loan and credit-card account holders. A bank-registered mobile number is required for OTP authentication. This does not establish eligibility for every YES BANK UPI product.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "State Bank of India": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "BHIM SBI Pay supports account holders of banks participating in UPI.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://sbi.bank.in/en/web/customer-care/upi1",
+        "title": "SBI UPI customer-care FAQs",
+        "publisher": "State Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "BHIM SBI Pay supports account holders of banks participating in UPI.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "SBI’s FAQ also describes UPI registration for other-bank customers through the YONO registration screen.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Unity Small Finance Bank": {
+    "type": "bank",
+    "audience": [
+      "unknown"
+    ],
+    "summary": "Unity publishes personal and business banking products.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://unity.bank.in/",
+        "title": "Unity Bank product catalogue",
+        "publisher": "Unity Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Small finance bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Unity publishes personal and business banking products.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "India Post Payments Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "IPPB mobile banking supports access to an IPPB account and BHIM UPI.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://ippbonline.bank.in/web/ippb/mobile-banking",
+        "title": "IPPB mobile banking",
+        "publisher": "India Post Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Payments bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "IPPB mobile banking supports access to an IPPB account and BHIM UPI.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "For existing-customer mobile banking, IPPB requires the bank-registered mobile number, account number, customer ID and date of birth. The current page then instructs users to set security questions and an MPIN, followed by OTP authentication.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Airtel Payments Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Airtel UPI can link accounts from Airtel Payments Bank and other banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+        "title": "Airtel UPI FAQs",
+        "publisher": "Airtel Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Payments bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Airtel UPI can link accounts from Airtel Payments Bank and other banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The Airtel app mobile number must match the number registered with the bank. Its FAQ lists a mobile number, SIM and account at a UPI-supporting bank.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Federal Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "FedMobile combines banking and UPI features.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.federal.bank.in/documents/10180/19533473/FedMobile%2B-%2BTerms%2Band%2BConditions.pdf/9c360507-88e2-0b17-fb48-708f166cac51?t=1751462182309",
+        "title": "FedMobile terms and FAQ",
+        "publisher": "Federal Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "FedMobile combines banking and UPI features.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "Federal’s FAQ allows non-Federal customers to use FedMobile with some features restricted. A Federal account is recommended for access to all features, rather than stated as mandatory for all app use.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Jio Payments Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Jio Payments Bank’s terms describe UPI through its app and partner TPAPs.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.jiopayments.bank.in/terms-and-conditions/upi/",
+        "title": "Jio Payments Bank UPI terms",
+        "publisher": "Jio Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Payments bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Jio Payments Bank’s terms describe UPI through its app and partner TPAPs.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The terms describe one-time registration and linking an account maintained with a bank in India, subject to the bank’s policy and NPCI guidelines.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Deutsche Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Deutsche Bank publishes UPI access through MyBank India.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.deutsche.bank.in/en/connect-with-us/upi.html",
+        "title": "MyBank India UPI payments",
+        "publisher": "Deutsche Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Foreign bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Deutsche Bank publishes UPI access through MyBank India.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The page expressly includes NRI customers with Deutsche Bank India NRO or NRE accounts and a registered domestic or supported international mobile number.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Jammu & Kashmir Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "J&K Bank’s mobile-banking page includes UPI registration and deregistration.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://jkb.bank.in/mobile-banking",
+        "title": "J&K Bank mobile banking",
+        "publisher": "Jammu & Kashmir Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "J&K Bank’s mobile-banking page includes UPI registration and deregistration.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Canara Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Canara ai1Pe supports Canara and other-bank UPI accounts.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.canarabank.bank.in/canara-ai1pe",
+        "title": "Canara ai1Pe FAQs",
+        "publisher": "Canara Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Canara ai1Pe supports Canara and other-bank UPI accounts.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The FAQ requires the mobile number to be registered with the bank account. Non-Canara customers may add participating-bank CASA accounts or RuPay credit cards.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "RBL Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "RBL MoBank’s UPI FAQ includes customers of other banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.rblbank.com/pdfs/RBL-bank-UPI.pdf",
+        "title": "RBL UPI registration and FAQ",
+        "publisher": "RBL Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "RBL MoBank’s UPI FAQ includes customers of other banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The FAQ says non-RBL users can add accounts at participating UPI banks. RBL’s own banking features require registration as an RBL customer.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Punjab National Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "BHIM PNB supports accounts at PNB and other participating banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.pnbindia.in/UPI-FAQ.html",
+        "title": "PNB UPI FAQs",
+        "publisher": "Punjab National Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "BHIM PNB supports accounts at PNB and other participating banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "PNB says users must register on a UPI-enabled app, link bank accounts and set a UPI PIN. A PNB account is not mandatory for BHIM PNB.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "IndusInd Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "IndusInd’s UPI terms describe payments from accounts at UPI member banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.indusind.bank.in/in/en/personal/induspayterms.html",
+        "title": "IndusPay terms",
+        "publisher": "IndusInd Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "IndusInd’s UPI terms describe payments from accounts at UPI member banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The app’s mobile number must match the number registered with the linked bank account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Bank of Baroda": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "bob e-Pay is Bank of Baroda’s UPI payments app.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
+        "title": "bob e-Pay UPI",
+        "publisher": "Bank of Baroda",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "bob e-Pay is Bank of Baroda’s UPI payments app.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Indian Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "IndSMART is Indian Bank’s retail mobile-banking app and includes UPI payments.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://indianbank.bank.in/en/indsmart",
+        "title": "IndSMART mobile banking",
+        "publisher": "Indian Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "IndSMART is Indian Bank’s retail mobile-banking app and includes UPI payments.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "HSBC": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "HSBC publishes its role in UPI customer onboarding and bank-account linking.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.business.hsbc.co.in/-/media/library/markets-selective/india/pdf/roles-and-responsibilities-of-npci-and-tapas-in-upi.pdf",
+        "title": "HSBC UPI participant responsibilities",
+        "publisher": "HSBC",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Foreign bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "HSBC publishes its role in UPI customer onboarding and bank-account linking.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "AU Small Finance Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "AU describes UPI payments using its AU 0101 app.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.au.bank.in/personal-banking/digital-banking/payments/upi",
+        "title": "AU UPI payments",
+        "publisher": "AU Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Small finance bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "AU describes UPI payments using its AU 0101 app.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "Its UPI page lists a smartphone, internet access, a linked bank account and the bank-registered mobile number.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Union Bank of India": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Union ease supports UPI and linking accounts from other banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.unionbankofindia.bank.in/en/details/upi",
+        "title": "Union Bank UPI FAQs",
+        "publisher": "Union Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Union ease supports UPI and linking accounts from other banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The FAQ specifies that a Union Bank account is mandatory to register for Union ease; other-bank accounts can be added afterwards.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "bank"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "South Indian Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "SIB Mirror+ is South Indian Bank’s mobile-banking service.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.southindianbank.bank.in/terms-and-conditions/mobile-banking-terms-and-conditions",
+        "title": "SIB Mirror+ mobile-banking terms",
+        "publisher": "South Indian Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "SIB Mirror+ is South Indian Bank’s mobile-banking service.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The terms require the user’s current communication mobile number to be registered with the bank. The page describes activation using SIB debit-card credentials for eligible sole account holders.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Standard Chartered": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Standard Chartered describes UPI payments and corporate collection services.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.sc.com/upi/",
+        "title": "Standard Chartered UPI FAQs",
+        "publisher": "Standard Chartered",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Foreign bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Standard Chartered describes UPI payments and corporate collection services.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The UPI FAQ allows linking accounts from other banks. Corporate integration is arranged through the relationship manager or UPI support team.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "UCO Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "BHIM UCO UPI is available to customers of any bank.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.uco.bank.in/en/web/guest/bhim-uco-upi",
+        "title": "BHIM UCO UPI",
+        "publisher": "UCO Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "BHIM UCO UPI is available to customers of any bank.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The bank describes installing its UPI app, selecting a bank and account, creating a UPI ID and linking the account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Fino Payments Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "FinoPay supports UPI, linking bank accounts and RuPay credit cards.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.fino.bank.in/upi",
+        "title": "FinoPay UPI",
+        "publisher": "Fino Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Payments bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "FinoPay supports UPI, linking bank accounts and RuPay credit cards.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Central Bank of India": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Central Bank’s UPI app supports accounts at other participating banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://centralbank.bank.in/en/cent-pay-faq",
+        "title": "Cent PAY FAQs",
+        "publisher": "Central Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Central Bank’s UPI app supports accounts at other participating banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The FAQ requires UPI registration and bank-account linking; Central Bank customer status is not mandatory.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "DBS digibank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "digibank supports UPI and linking non-DBS bank accounts.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.dbs.bank.in/digibank/in/support/banking/payments/upi-faqs.page",
+        "title": "digibank UPI FAQs",
+        "publisher": "DBS digibank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Foreign bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "digibank supports UPI and linking non-DBS bank accounts.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The FAQ describes choosing a bank, selecting an account linked to the user’s mobile number and setting a VPA.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Bank of India": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Bank of India publishes terms for BOI BHIM UPI.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://bankofindia.bank.in/terms-and-conditions-for-boi-bhim-upi-services",
+        "title": "BOI BHIM UPI terms",
+        "publisher": "Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Bank of India publishes terms for BOI BHIM UPI.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The terms require one-time registration and use of the mobile number registered for the UPI facility.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Karnataka Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "BHIM KBL UPI supports accounts at Karnataka Bank and other banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://play.google.com/store/apps/details?id=com.lcode.smartz",
+        "title": "BHIM KBL UPI — developer listing",
+        "publisher": "Karnataka Bank on Google Play",
+        "checked": "2026-11-09",
+        "supports": "Developer-provided app description and prerequisites; store age ratings are not financial eligibility."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Karnataka Bank’s developer listing describes BHIM KBL UPI and expressly allows users who are not KBL customers.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — BHIM KBL UPI listing",
+        "text": "The developer lists a bank-registered mobile number, its SIM in the primary slot on dual-SIM phones, transaction SMS registration and a valid debit card. These are published prerequisites, not proof of successful current onboarding.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "IDBI Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "IDBI publishes terms for its UPI facility.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.idbi.bank.in/pdf/UPI-Terms-and-conditions.pdf",
+        "title": "IDBI UPI terms",
+        "publisher": "IDBI Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "IDBI publishes terms for its UPI facility.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The terms require use of the mobile number registered for the UPI facility. A complete current app-specific onboarding checklist was not verified.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "NSDL Payments Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "NSDL Jiffy supports UPI and bank-account linking.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+        "title": "NSDL Jiffy FAQs",
+        "publisher": "NSDL Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Payments bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "NSDL Jiffy supports UPI and bank-account linking.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Suryoday Small Finance Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Suryoday publishes UPI Lite terms referring to BHIM Suryoday UPI.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://suryoday.bank.in/upi-lite-tnc/",
+        "title": "Suryoday UPI Lite terms",
+        "publisher": "Suryoday Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Small finance bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Suryoday publishes UPI Lite terms referring to BHIM Suryoday UPI.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "City Union Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "CUB’s UPI page describes linking a bank account to a virtual payment address.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.cityunionbank.bank.in/cub-upi",
+        "title": "CUB UPI",
+        "publisher": "City Union Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "CUB’s UPI page describes linking a bank account to a virtual payment address.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Bank of Maharashtra": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Bank of Maharashtra publishes instructions for its UPI app.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://bankofmaharashtra.bank.in/maha-upi",
+        "title": "Bank of Maharashtra UPI app",
+        "publisher": "Bank of Maharashtra",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Bank of Maharashtra publishes instructions for its UPI app.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The page describes downloading Maha Mobile Plus and using the bank-registered mobile number. Current app naming should be confirmed because the bank also promotes Zen Lyfe.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Karur Vysya Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "KVB DLite’s service list includes UPI.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.kvb.bank.in/faqs/faqs-on-dlite-mobile-application/",
+        "title": "KVB DLite FAQs",
+        "publisher": "Karur Vysya Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "KVB DLite’s service list includes UPI.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Equitas Small Finance Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Equitas publishes terms for UPI payments.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.equitasbank.com/strapi-dev/uploads/upi_terms_and_condition_967624fc5e.pdf",
+        "title": "Equitas UPI terms",
+        "publisher": "Equitas Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Small finance bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Equitas publishes terms for UPI payments.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The terms permit Equitas and other-bank customers to use the PSP app after one-time registration.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Tamilnad Mercantile Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "TMB provides banking through its MBank app.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://tmb.bank.in/personal/services/mobile-banking",
+        "title": "TMB mobile banking",
+        "publisher": "Tamilnad Mercantile Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Private sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "TMB provides banking through its MBank app.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "The bank describes device binding with the registered mobile number and setting MPIN or login PIN.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Indian Overseas Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "BHIM IOB UPI supports account holders at participating banks.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://www.iob.bank.in/en/bhim-iob-upi",
+        "title": "BHIM IOB UPI",
+        "publisher": "Indian Overseas Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope and the registration steps summarized here."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "BHIM IOB UPI supports account holders at participating banks.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — cited product only",
+        "text": "IOB describes self-registration and PIN setup using debit-card or Aadhaar details, and allows linking accounts from other banks.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  },
+  "Punjab & Sind Bank": {
+    "type": "bank",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Punjab & Sind Bank publishes a UPI application FAQ describing linking multiple bank accounts.",
+    "sources": [
+      {
+        "id": "rbi",
+        "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+        "title": "Banks in India",
+        "publisher": "Reserve Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Bank identity and category."
+      },
+      {
+        "id": "product",
+        "url": "https://punjabandsind.bank.in/system/uploads/document/2150_2024050416155165789.pdf",
+        "title": "Punjab & Sind Bank UPI FAQ",
+        "publisher": "Punjab & Sind Bank",
+        "checked": "2026-11-09",
+        "supports": "Product scope."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Bank kind",
+        "text": "Public sector bank",
+        "sources": [
+          "rbi"
+        ]
+      },
+      {
+        "label": "Product",
+        "text": "Punjab & Sind Bank publishes a UPI application FAQ describing linking multiple bank accounts.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete current joining requirements for the bank’s UPI apps were not verified.",
+      "No app-wide minimum age or measured demographic profile was established. This row can aggregate more than one bank app."
+    ]
+  }
+}

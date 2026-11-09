@@ -1,0 +1,914 @@
+{
+  "Axis Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments, including customers of Axis Bank and other banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Kotak Mahindra Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers making everyday payments through Kotak's mobile banking and UPI services.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Business owners and professionals",
+        "text": "kotak.biz is designed for business owners and professionals collecting customer payments. This is Kotak's merchant collection app.",
+        "tags": [
+          "businesses",
+          "self_employed"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-bank-kotak-biz"
+        ]
+      }
+    ]
+  },
+  "slice Small Finance Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-slice-youth-2026",
+        "url": "https://www.livemint.com/news/gen-z-public-sector-banks-psbs-banking-for-youth-fintech-digital-banking-upi-neobanks-digital-payments-financia-11788089066432.html",
+        "title": "Lessons from Revolut and POSB: how Indian banks can attract more Gen Z (31 August 2026)",
+        "publisher": "Mint",
+        "checked": "2026-11-09",
+        "supports": "Analysis describes slice’s continued youth focus after becoming a bank, across its products, marketing and app experience."
+      }
+    ],
+    "primary": {
+      "label": "Young adults",
+      "text": "Digital banking with a youth-focused brand, combining everyday payments, savings and credit. The bank also serves a wider customer base.",
+      "tags": [
+        "young_adults"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product",
+        "aud-bank-slice-youth-2026"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Business customers",
+        "text": "slice's separate business services include digital current accounts and merchant payment services for businesses.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "HDFC Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people paying bills, recharging and making everyday UPI payments through PayZapp.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchants",
+        "text": "SmartHub Vyapar helps merchants accept payments, track collections and manage their businesses. This is HDFC Bank's merchant platform.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-bank-hdfc-smarthub-vyapar"
+        ]
+      }
+    ]
+  },
+  "ICICI Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments through iMobile, using ICICI Bank or other linked bank accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Businesses and self-employed people",
+        "text": "InstaBIZ was introduced for MSMEs and self-employed customers to manage business banking digitally. This audience belongs to the business platform.",
+        "tags": [
+          "businesses",
+          "self_employed"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-bank-icici-instabiz-launch"
+        ]
+      }
+    ],
+    "notes": [
+      "The 2020 Mine campaign's ages 18–35 do not define the intended audience of the whole bank or the general iMobile service. InstaBIZ positioning is documented in the 2019 launch."
+    ]
+  },
+  "IDFC FIRST Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers making everyday payments, transferring money and managing linked accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchants",
+        "text": "The bank also offers UPI collection and payout services for merchants accepting customer payments.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "Yes Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-yes-iris",
+        "url": "https://www.yes.bank.in/",
+        "title": "YES BANK banking services and IRIS mobile app",
+        "publisher": "YES BANK",
+        "checked": "2026-11-09",
+        "supports": "Presents IRIS as an everyday banking app with transfers, bill payments and a broad range of banking services."
+      },
+      {
+        "id": "aud-bank-yes-iris-biz",
+        "url": "https://www.yes.bank.in/business-banking",
+        "title": "Business banking and IRIS Biz",
+        "publisher": "YES BANK",
+        "checked": "2026-11-09",
+        "supports": "Positions IRIS Biz for business account management, transfers and transaction monitoring."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people managing everyday banking, payments, deposits and cards through IRIS.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-yes-iris"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Business customers",
+        "text": "IRIS Biz supports business banking, including transfers, account management and transaction monitoring. It is a separate offering from the consumer IRIS app.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "aud-bank-yes-iris-biz"
+        ]
+      }
+    ]
+  },
+  "State Bank of India": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments, including account holders at other participating banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchants",
+        "text": "BHIM SBI Pay includes merchant registration and business tools for tracking payments and collections.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "Unity Small Finance Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people managing savings, deposits and loans, alongside customers using the bank's business accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "India Post Payments Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-ippb-inclusion",
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=152040&lang=1&reg=3",
+        "title": "India Post Payments Bank: A Catalyst for Financial Inclusion",
+        "publisher": "Press Information Bureau, Government of India",
+        "checked": "2026-11-09",
+        "supports": "Describes accessible banking for all Indians, with special emphasis on rural and underserved communities and doorstep services."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience · rural focus",
+      "text": "Banking for individuals and businesses, with a particular emphasis on rural and underserved communities through the postal network and doorstep services.",
+      "tags": [
+        "general",
+        "rural"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product",
+        "aud-bank-ippb-inclusion"
+      ]
+    },
+    "secondary": []
+  },
+  "Airtel Payments Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments, using Airtel Payments Bank or other linked bank accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Rural women banking agents",
+        "text": "The She Leads Bharat: Udyam programme uses Mitra to help rural women business owners become banking correspondents. This is an agent programme, separate from Airtel's consumer payments audience.",
+        "tags": [
+          "rural",
+          "women",
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-bank-airtel-mitra-mastercard-2025"
+        ]
+      }
+    ],
+    "notes": [
+      "The women and rural tags apply only to the named Mitra programme, not to Airtel's general consumer app."
+    ]
+  },
+  "Federal Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers accessing accounts, transaction information and everyday banking through FedMobile.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "FedMobile's minor-account eligibility does not establish a primary audience of children."
+    ]
+  },
+  "Jio Payments Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-jiofinance",
+        "url": "https://www.jio.com/apps/jiofinance/",
+        "title": "JioFinance: Mobile Banking and UPI Payments",
+        "publisher": "Jio",
+        "checked": "2026-11-09",
+        "supports": "Markets JioFinance for everyday expenses and payments, including opening and using a Jio Payments Bank account."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday payments and managing a digital bank account through JioFinance.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-jiofinance"
+      ]
+    },
+    "secondary": []
+  },
+  "Deutsche Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers sending and receiving everyday payments through MyBank India.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "NRI customers (UPI)",
+        "text": "MyBank India supports UPI for NRI customers with NRE or NRO accounts and a supported registered mobile number.",
+        "tags": [],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "Jammu & Kashmir Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers managing their accounts and everyday payments through mobile banking.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Canara Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments through Canara ai1Pe, using Canara or other bank accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "RBL Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments through MoBank, including customers of RBL Bank and other banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Punjab National Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments with PNB or other participating bank accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "IndusInd Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank account holders using UPI to send money, receive payments and pay merchants.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Bank of Baroda": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people sending and receiving money through bob e-Pay, with support for linking multiple bank accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Indian Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For retail bank customers managing everyday banking and payments through IndSMART.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "HSBC": {
+    "sources": [
+      {
+        "id": "aud-bank-hsbc-mobile",
+        "url": "https://www.hsbc.bank.in/ways-to-bank/mobile-banking/",
+        "title": "Mobile Banking Services in India",
+        "publisher": "HSBC India",
+        "checked": "2026-11-09",
+        "supports": "Offers mobile apps for managing HSBC accounts and for everyday bill payments and transfers through SimplyPay."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people managing HSBC accounts or paying bills and sending money through its mobile apps.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-hsbc-mobile"
+      ]
+    },
+    "secondary": []
+  },
+  "AU Small Finance Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-au-inclusion",
+        "url": "https://www.au.bank.in/financial-inclusion",
+        "title": "Driving Financial Inclusion in India",
+        "publisher": "AU Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Identifies unbanked rural centres and special focus districts as priorities in the bank's financial inclusion strategy."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday payments and managing their banking through AU 0101.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Rural and underserved communities",
+        "text": "AU's financial inclusion services give special attention to unbanked rural communities. This is a bank-wide priority alongside its broader retail banking.",
+        "tags": [
+          "rural"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "aud-bank-au-inclusion"
+        ]
+      }
+    ]
+  },
+  "Union Bank of India": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments and managing linked bank accounts through Union ease.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "South Indian Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers accessing accounts and everyday banking services through SIB Mirror+.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Standard Chartered": {
+    "sources": [
+      {
+        "id": "aud-bank-sc-mobile",
+        "url": "https://www.sc.bank.in/bank-with-us/sc-mobile/",
+        "title": "SC Mobile App India",
+        "publisher": "Standard Chartered India",
+        "checked": "2026-11-09",
+        "supports": "Presents SC Mobile for account and card management, transfers, bill payments, investments and other personal banking services."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers managing accounts, cards, transfers and bills through SC Mobile.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-sc-mobile"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Business payment collectors",
+        "text": "The bank's corporate UPI offering helps businesses collect payments from customers. This is distinct from personal banking through SC Mobile.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "UCO Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments through BHIM UCO UPI, including customers of other banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Fino Payments Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments or opening a savings account through FinoPay. Payments can use linked accounts from other banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchant banking agents",
+        "text": "Fino Mitra is for merchants acting as neighbourhood banking agents, providing services such as account opening, cash withdrawals and money transfers for customers.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "demo-bank-fino-mitra-listing"
+        ]
+      }
+    ]
+  },
+  "Central Bank of India": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments through Cent PAY, including transfers using other participating bank accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "DBS digibank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people managing personal banking and everyday UPI payments through digibank, with support for linking non-DBS accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "NRI customers (UPI)",
+        "text": "digibank supports UPI registration for NRI customers using supported international mobile numbers.",
+        "tags": [],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "Bank of India": {
+    "sources": [
+      {
+        "id": "aud-bank-boi-omni",
+        "url": "https://bankofindia.bank.in/boi-mobile-omni-neo-bank-app",
+        "title": "BOI Mobile Omni Neo Bank App",
+        "publisher": "Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Describes mobile banking for account holders, with account servicing, transfers, bill payments and retail account registration."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers managing accounts, transfers, bills and other everyday services through BOI Mobile Omni Neo.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-boi-omni"
+      ]
+    },
+    "secondary": []
+  },
+  "Karnataka Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people sending and receiving money through BHIM KBL UPI, including customers of Karnataka Bank and other banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "IDBI Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-idbi-mobile",
+        "url": "https://www.idbi.bank.in/idbi-bank-mobile-banking.aspx",
+        "title": "IDBI Bank Mobile Banking",
+        "publisher": "IDBI Bank",
+        "checked": "2026-11-09",
+        "supports": "Offers account access, funds transfers, bill payments, recharges and other everyday banking transactions through mobile banking."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers accessing accounts, transferring money and paying bills through mobile banking.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-idbi-mobile"
+      ]
+    },
+    "secondary": []
+  },
+  "NSDL Payments Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people opening or managing a bank account and making everyday payments through NSDL Jiffy.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product",
+        "demo-bank-nsdl-jiffy-account"
+      ]
+    },
+    "secondary": []
+  },
+  "Suryoday Small Finance Bank": {
+    "sources": [
+      {
+        "id": "aud-bank-suryoday-about",
+        "url": "https://suryoday.bank.in/about-us/",
+        "title": "About Suryoday Small Finance Bank",
+        "publisher": "Suryoday Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Positions the bank around financial inclusion and banking products for customers across economic backgrounds."
+      }
+    ],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people seeking everyday banking across different financial circumstances. Suryoday combines general banking services with a financial inclusion mission.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "aud-bank-suryoday-about"
+      ]
+    },
+    "secondary": []
+  },
+  "City Union Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers making everyday digital payments and accessing mobile banking services.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [],
+    "notes": [
+      "The product page promotes CUB New All in One and says the previous mobile banking service was due to end on 30 October 2026. This label covers the aggregate bank row."
+    ]
+  },
+  "Bank of Maharashtra": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people using the bank's UPI service for everyday money transfers and payments.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Karur Vysya Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers managing accounts, transferring money and making everyday payments through KVB DLite.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Equitas Small Finance Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank account holders making everyday UPI transfers and payments, with support for savings and current accounts.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Tamilnad Mercantile Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For bank customers checking accounts, transferring money and using everyday services through TMB MBank.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  },
+  "Indian Overseas Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments through BHIM IOB UPI, using accounts at participating banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "interpretation",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": [
+      {
+        "label": "Merchants",
+        "text": "BHIM IOB UPI includes merchant registration for people accepting customer payments.",
+        "tags": [
+          "businesses"
+        ],
+        "basis": "explicit",
+        "sources": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "Punjab & Sind Bank": {
+    "sources": [],
+    "primary": {
+      "label": "Broad audience",
+      "text": "For people making everyday UPI payments and managing linked bank accounts, including customers of other banks.",
+      "tags": [
+        "general"
+      ],
+      "basis": "explicit",
+      "sources": [
+        "product"
+      ]
+    },
+    "secondary": []
+  }
+}

@@ -1,0 +1,910 @@
+{
+  "Bajaj Finserv": {
+    "sources": [
+      {
+        "id": "demo-bajaj-salaried",
+        "url": "https://www.bajajfinserv.in/personal-loan-for-salaried-employees",
+        "title": "Loan for Salaried - Personal Loan for Salaried Employees | Bajaj Finance",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Explicitly promotes a personal loan for salaried employees; these borrowers are an audience for that loan product."
+      },
+      {
+        "id": "demo-bajaj-self-employed",
+        "url": "https://www.bajajfinserv.in/personal-loan-for-self-employed",
+        "title": "Personal Loan for Self-Employed, Up to Rs. 80 Lakh",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Explicitly promotes a loan for business owners, freelancers, consultants and independent professionals; its age criteria are product-specific."
+      },
+      {
+        "id": "demo-bajaj-women",
+        "url": "https://www.bajajfinserv.in/personal-loan-for-women",
+        "title": "Loan for Women - Apply Personal Loan for Women | Bajaj Finance",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Explicitly markets personal loans to women; this is product audience evidence rather than a customer gender distribution."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried — personal loan",
+        "text": "Bajaj Finance advertises a personal loan for salaried employees.",
+        "sources": [
+          "demo-bajaj-salaried"
+        ],
+        "tags": [
+          "salaried"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Self-employed — loan product",
+        "text": "Bajaj Finance markets its self-employed loan to business owners, freelancers, consultants and independent professionals.",
+        "sources": [
+          "demo-bajaj-self-employed"
+        ],
+        "tags": [
+          "self_employed"
+        ]
+      },
+      {
+        "dimension": "gender",
+        "kind": "audience",
+        "value": "Women — personal loan",
+        "text": "Bajaj Finance markets personal loans to women.",
+        "sources": [
+          "demo-bajaj-women"
+        ],
+        "tags": [
+          "women"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — platform registration",
+        "text": "Bajaj Finance’s platform terms require users to be at least 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21–80 — personal-loan app page",
+        "text": "The personal-loan app page lists ages 21–80, with a maximum age of 80 at the end of the loan term.",
+        "sources": [
+          "loan"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "24–80 — self-employed loan",
+        "text": "The separate self-employed loan page lists ages 24–80; this rule belongs to that loan product.",
+        "sources": [
+          "demo-bajaj-self-employed"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "POP UPI": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "audience",
+        "value": "Gen Z / young people",
+        "text": "POP’s developer calls it Young India’s UPI app and explicitly promotes UPI for Gen Z.",
+        "sources": [
+          "app"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Samsung Pay": {
+    "sources": [],
+    "items": []
+  },
+  "Jupiter": {
+    "sources": [
+      {
+        "id": "demo-jupiter-salary",
+        "url": "https://jupiter.money/pro-salary-account/",
+        "title": "Zero Balance Salary Account Online with Rewards | Jupiter",
+        "publisher": "Amica Financial Technologies Private Limited (Jupiter)",
+        "checked": "2026-11-09",
+        "supports": "The salary-account product explicitly addresses salaried professionals and requires salary credits; this does not describe all Jupiter users."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried — salary account",
+        "text": "Jupiter markets its salary account to salaried professionals.",
+        "sources": [
+          "demo-jupiter-salary"
+        ],
+        "tags": [
+          "salaried"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "eligibility",
+        "value": "Salaried — salary-account upgrade",
+        "text": "The salary-account upgrade requires verified employment details and an employer salary credit meeting the amount displayed in the app.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Flipkart UPI": {
+    "sources": [],
+    "items": []
+  },
+  "BharatPe": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Merchants — business services",
+        "text": "BharatPe separately markets payment-acceptance tools to merchants.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "kiwi": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "22–55 — card application",
+        "text": "Kiwi’s card-application help page lists ages 22–55; partner-bank approval still applies.",
+        "sources": [
+          "eligibility"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "employment",
+        "kind": "eligibility",
+        "value": "Salaried or self-employed — card application",
+        "text": "Kiwi’s card-application criteria specify salaried or self-employed applicants.",
+        "sources": [
+          "eligibility"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Indian residents — card application",
+        "text": "Kiwi’s card-application help page requires Indian residency.",
+        "sources": [
+          "eligibility"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Omni Card": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses — expense management",
+        "text": "OmniCard markets expense management and corporate prepaid cards to enterprises, MSMEs and startups.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "Timepay": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — app registration",
+        "text": "NPST’s published app-registration terms, dated September 2022, exclude users under 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "SalarySe": {
+    "sources": [
+      {
+        "id": "demo-salaryse-employers",
+        "url": "https://www.salaryse.com/employer-smartperks-review",
+        "title": "SalarySe for Employers: Employee Financial Wellness",
+        "publisher": "Critical Path Technologies Private Limited (SalarySe)",
+        "checked": "2026-11-09",
+        "supports": "Markets payroll-linked employee benefits to employers; covered employees are not equated with active app users."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried — salary services",
+        "text": "SalarySe markets salary access, salary rewards and savings products around employees’ pay.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "salaried"
+        ]
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Employers — employee benefits",
+        "text": "SalarySe markets payroll-linked financial benefits to employers for their employees.",
+        "sources": [
+          "demo-salaryse-employers"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+; guardian exception — platform",
+        "text": "Platform terms state 18+ and separately allow under-18 access with guardian consent; individual products have their own terms.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21–70 — RBL UP, Swiggy route",
+        "text": "The RBL UP card FAQ for the Swiggy route lists ages 21–70.",
+        "sources": [
+          "rbl-faq"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "KreditPe": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Legal majority — platform",
+        "text": "Kredit.Pe’s platform terms require the age of majority and legal capacity to contract.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 — SBM FD-backed card",
+        "text": "The published SBM FD-backed card terms require applicants to be over 18.",
+        "sources": [
+          "sbm"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Selected Indian states — SBM FD-backed card",
+        "text": "Published SBM card terms exclude Assam, Arunachal Pradesh, Mizoram, Jammu and Kashmir, Ladakh, Manipur, Tripura, Meghalaya, Nagaland and Sikkim.",
+        "sources": [
+          "sbm"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "OneCard": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — card application",
+        "text": "OneCard’s application-evaluation page sets a minimum age of 18.",
+        "sources": [
+          "eligibility"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Supported Indian cities — card application",
+        "text": "OneCard’s evaluation page requires residence in a supported city, with address proof.",
+        "sources": [
+          "eligibility"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Scapia": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21–65 salaried; 25–65 self-employed — Federal card",
+        "text": "Federal Bank lists ages 21–65 for salaried applicants and 25–65 for self-employed applicants for its Scapia card.",
+        "sources": [
+          "federal"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "employment",
+        "kind": "eligibility",
+        "value": "Salaried or self-employed — Federal card",
+        "text": "Federal Bank publishes separate Scapia card age rules for salaried and self-employed applicants.",
+        "sources": [
+          "federal"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18–70 — Axis card",
+        "text": "Axis Bank lists ages 18–70 for the primary holder of its Scapia card.",
+        "sources": [
+          "axis"
+        ],
+        "tags": []
+      }
+    ],
+    "excludedItems": [
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "Gen Z — 33% of train bookings",
+        "text": "Gen Z accounted for 33% of train bookings on Scapia in 2025.",
+        "sources": [
+          "demo-scapia-2025-travel-blog",
+          "demo-scapia-2025-travel-release"
+        ],
+        "tags": [],
+        "period": "2025",
+        "population": "Train bookings on Scapia, not all app users or cardholders",
+        "measure": "33% share of train bookings; the sources do not define Gen Z by numerical age",
+        "reason": "Booking activity is not a distribution of unique app users."
+      },
+      {
+        "dimension": "gender",
+        "kind": "reported",
+        "value": "Women — international flight bookings",
+        "text": "Scapia reports that international flight bookings by women tripled in 2025.",
+        "sources": [
+          "demo-scapia-2025-travel-blog",
+          "demo-scapia-2025-travel-release"
+        ],
+        "tags": [
+          "women"
+        ],
+        "period": "2025",
+        "population": "International flight bookings by women on Scapia, not all app users or cardholders",
+        "measure": "Reported tripling of booking count; the comparison window and base count are not specified",
+        "reason": "Booking activity is not a distribution of unique app users."
+      }
+    ],
+    "excludedSources": [
+      {
+        "id": "demo-scapia-2025-travel-blog",
+        "url": "https://www.scapia.cards/product/blog/how-indians-travelled-in-2025-6-trends-that-defined-the-year",
+        "title": "How Indians Travelled in 2025: 6 Trends That Defined the Year",
+        "publisher": "Scapia Technology Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Published 12 February 2026; reports 2025 platform booking patterns, including Gen Z’s 33% train-booking share and growth in international flights booked by women."
+      },
+      {
+        "id": "demo-scapia-2025-travel-release",
+        "url": "https://www.scapia.cards/newsroom/indias-travel-is-becoming-shorter-more-frequent-and-more-connected-scapias-2025-travel-insights",
+        "title": "India’s Travel Is Becoming Shorter, More Frequent and More Connected: Scapia’s 2025 Travel Insights",
+        "publisher": "Scapia Technology Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Reports Gen Z’s 33% share of 2025 train bookings and tripling of international flight bookings by women; these are booking metrics."
+      }
+    ]
+  },
+  "Rio Money": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 / legal majority — current Zagg account",
+        "text": "The current Zagg platform terms require users to be over 18 or otherwise of legal majority; the developer identifies Zagg as Rio’s new name.",
+        "sources": [
+          "terms",
+          "app"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "CheQ": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — platform and UPI",
+        "text": "CheQ’s general platform terms and separate bank-account UPI terms set a minimum age of 18.",
+        "sources": [
+          "terms",
+          "upi"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Resident Indians — UPI",
+        "text": "CheQ’s bank-account UPI terms require a resident Indian individual.",
+        "sources": [
+          "upi"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "KreditBee": {
+    "sources": [
+      {
+        "id": "demo-kreditbee-women",
+        "url": "https://www.kreditbee.in/personal-loan/women",
+        "title": "Personal Loans for Women Online | KreditBee | Apply Now",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "Explicitly markets personal loans to women, including salaried and self-employed women; it also states that men can borrow."
+      },
+      {
+        "id": "demo-kreditbee-self-employed",
+        "url": "https://www.kreditbee.in/personal-loan/self-employed",
+        "title": "Personal Loan for Self-Employed Professionals | Up To ₹10 Lakhs",
+        "publisher": "KreditBee",
+        "checked": "2026-11-09",
+        "supports": "Explicitly markets a personal-loan product for self-employed applicants and entrepreneurs."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried — personal loan",
+        "text": "KreditBee advertises a personal loan for salaried employees.",
+        "sources": [
+          "salaried"
+        ],
+        "tags": [
+          "salaried"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Self-employed — personal loan",
+        "text": "KreditBee advertises a separate personal loan for self-employed applicants.",
+        "sources": [
+          "demo-kreditbee-self-employed"
+        ],
+        "tags": [
+          "self_employed"
+        ]
+      },
+      {
+        "dimension": "gender",
+        "kind": "audience",
+        "value": "Women — personal loan",
+        "text": "KreditBee markets personal loans to women while also stating that men can borrow.",
+        "sources": [
+          "demo-kreditbee-women"
+        ],
+        "tags": [
+          "women"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Above 21 — salaried personal loan",
+        "text": "The salaried personal-loan page requires applicants to be above 21; other KreditBee loan pages publish different age rules.",
+        "sources": [
+          "salaried",
+          "faq",
+          "calculator"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "employment",
+        "kind": "eligibility",
+        "value": "Regular employment — salaried personal loan",
+        "text": "The salaried loan requires regular or permanent employment and at least three months with the current company.",
+        "sources": [
+          "salaried"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "RapiPay": {
+    "sources": [
+      {
+        "id": "demo-rapipay-micro-atm-rural",
+        "url": "https://in.rapipay.com/micro-atm-services/",
+        "title": "RapiPay Micro ATM Services | Hybrid MATM Device",
+        "publisher": "RapiPay Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Explicitly describes the retailer-operated micro-ATM service as useful for customers in rural areas and Tier 2/3 areas; this is service positioning, not agent geography data."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Retailers — agent outlets",
+        "text": "RapiPay invites retailers to operate Direct Business Outlets providing assisted financial services.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Rural customers — micro-ATM service",
+        "text": "RapiPay promotes retailer-operated micro-ATMs for customers in rural areas with limited access to bank ATMs.",
+        "sources": [
+          "demo-rapipay-micro-atm-rural"
+        ],
+        "tags": [
+          "rural"
+        ]
+      }
+    ]
+  },
+  "Spice Money": {
+    "sources": [
+      {
+        "id": "demo-spice-women-campaign",
+        "url": "https://www.spicemoney.com/corporate/pdf/8-March-press-release.pdf",
+        "title": "Spice Money’s #WaqtHaiBarabarika campaign is an ode to women entrepreneurs and customers",
+        "publisher": "Spice Money Limited",
+        "checked": "2026-11-09",
+        "supports": "The official campaign release explicitly seeks to make Spice Money a preferred platform for women entrepreneurs and customers in rural India."
+      },
+      {
+        "id": "demo-spice-rural-network-report",
+        "url": "https://www.spicemoney.com/corporate/api/files/3Annual-report-2022-23.pdf",
+        "title": "Annual Report 2022–23 — Expanding Network",
+        "publisher": "Spice Money Limited",
+        "checked": "2026-11-09",
+        "supports": "The report describes Adhikaris as rural nanopreneurs and explains their assisted banking and payments role; used for agent audience scope, not consumer-app statistics."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Shop owners — Adhikari agents",
+        "text": "Spice Money invites shop owners to become Adhikaris and provide assisted financial services.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Rural entrepreneurs — Adhikari network",
+        "text": "Spice Money’s 2022–23 report describes its Adhikari network as rural entrepreneurs providing assisted banking and payments.",
+        "sources": [
+          "demo-spice-rural-network-report"
+        ],
+        "tags": [
+          "rural"
+        ]
+      },
+      {
+        "dimension": "gender",
+        "kind": "audience",
+        "value": "Women entrepreneurs and customers",
+        "text": "Spice Money’s women’s campaign explicitly seeks to attract women entrepreneurs and customers in rural India.",
+        "sources": [
+          "demo-spice-women-campaign"
+        ],
+        "tags": [
+          "women",
+          "rural"
+        ]
+      }
+    ]
+  },
+  "Saathi by PayNearby": {
+    "sources": [
+      {
+        "id": "demo-saathi-rural-cashpoint",
+        "url": "https://paynearby.in/media/paynearby-launches-upi-cash-point-for-cardless-cash-withdrawals-at-local-retail-stores-across-semi-urban-and-rural-india/",
+        "title": "PayNearby launches UPI Cash Point for cardless cash withdrawals at local retail stores across semi-urban and rural India",
+        "publisher": "Nearby Technologies Private Limited (PayNearby)",
+        "checked": "2026-11-09",
+        "supports": "Official launch positions UPI Cash Point for semi-urban and rural customers and explicitly names Saathi as a supported UPI app."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Rural and semi-urban customers — UPI Cash Point",
+        "text": "PayNearby’s UPI Cash Point launch targets rural and semi-urban customers and names Saathi as a supported app.",
+        "sources": [
+          "demo-saathi-rural-cashpoint"
+        ],
+        "tags": [
+          "rural"
+        ]
+      }
+    ]
+  },
+  "Dhani": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried — short-term personal loan",
+        "text": "Dhani describes its current short-term personal loan as built for salaried professionals.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "salaried"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21–58 — advertised personal loan",
+        "text": "Dhani’s current personal-loan page lists ages 21–58.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "employment",
+        "kind": "eligibility",
+        "value": "Salaried — advertised personal loan",
+        "text": "The advertised personal loan requires salary credited to the applicant’s bank account.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Fave": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Families, partners and flatmates",
+        "text": "Fave’s India app promotes shared spending and expense management for families, partners and flatmates.",
+        "sources": [
+          "product",
+          "website"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "True Balance": {
+    "sources": [
+      {
+        "id": "demo-truebalance-cash-audience",
+        "url": "https://www.truebalance.in/",
+        "title": "Instant Personal Loan App – Get Cash in Minutes | True Balance",
+        "publisher": "Balancehero India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "The Cash Loan promotion explicitly calls the product ideal for salaried and self-employed applicants; it does not describe every wallet or payment user."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried and self-employed — Cash Loan",
+        "text": "True Balance markets its Cash Loan as ideal for salaried and self-employed applicants.",
+        "sources": [
+          "demo-truebalance-cash-audience"
+        ],
+        "tags": [
+          "salaried",
+          "self_employed"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — personal loan",
+        "text": "True Balance’s personal-loan page sets a minimum age of 18.",
+        "sources": [
+          "personal"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Payworld": {
+    "sources": [
+      {
+        "id": "demo-payworld-rural-services",
+        "url": "https://www.payworldindia.com/",
+        "title": "Payworld | India’s Leading Fintech Platform",
+        "publisher": "Payworld Digital Services Private Limited",
+        "checked": "2026-11-09",
+        "supports": "The official homepage promotes retailer-provided UPI cash withdrawals in rural areas and remittance in cities; this does not establish the location mix of retailer app users."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Retailers — assisted services",
+        "text": "Payworld’s developer describes a retailer app for providing assisted financial and travel services to customers.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Rural customers — UPI cash withdrawal",
+        "text": "Payworld’s homepage explicitly promotes UPI cash withdrawals in rural areas through its retailer network.",
+        "sources": [
+          "demo-payworld-rural-services"
+        ],
+        "tags": [
+          "rural"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — retailer account",
+        "text": "Payworld’s retailer terms require users to be at least 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Snapmint": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — purchase-limit financing",
+        "text": "Snapmint Financial Services’ purchase-limit terms set a minimum age of 18 for that financing product.",
+        "sources": [
+          "purchase-limit"
+        ],
+        "tags": []
+      }
+    ],
+    "excludedItems": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Shoppers without credit cards — EMI",
+        "text": "Snapmint markets instalment shopping without a credit card.",
+        "sources": [
+          "product"
+        ],
+        "tags": [],
+        "reason": "Cardless shopping is a product use case, not one of the demographic dimensions."
+      }
+    ]
+  },
+  "ZET": {
+    "sources": [
+      {
+        "id": "demo-zet-students-professionals",
+        "url": "https://www.zetapp.in/blog/zet-fd-credit-card-students-new-professionals",
+        "title": "Why Students & New Professionals Should Choose ZET’s FD-Linked Credit Card",
+        "publisher": "ZET",
+        "checked": "2026-11-09",
+        "supports": "The 27 November 2025 official article promotes ZET’s FD-linked card to college students, interns, freelancers and new employees; it supplies audience evidence, not customer shares or settled issuer eligibility."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Students — FD-linked card",
+        "text": "ZET explicitly promotes its FD-linked card to college students.",
+        "sources": [
+          "demo-zet-students-professionals"
+        ],
+        "tags": [
+          "students"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Freelancers and new employees — FD-linked card",
+        "text": "ZET’s FD-linked card article explicitly addresses freelancers, interns and new employees.",
+        "sources": [
+          "demo-zet-students-professionals"
+        ],
+        "tags": [
+          "self_employed"
+        ]
+      }
+    ]
+  },
+  "Navi": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "India residents — bank-account UPI",
+        "text": "Navi’s bank-account UPI terms require Indian residency.",
+        "sources": [
+          "app-terms"
+        ],
+        "tags": []
+      }
+    ]
+  }
+}

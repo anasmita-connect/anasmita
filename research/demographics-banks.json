@@ -1,0 +1,625 @@
+{
+  "Axis Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Kotak Mahindra Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-kotak-biz",
+        "url": "https://www.kotak.bank.in/en/digital-banking/business-solutions/kotak-biz.html",
+        "title": "kotak.biz payment collection app",
+        "publisher": "Kotak Mahindra Bank",
+        "checked": "2026-11-09",
+        "supports": "Explicitly describes kotak.biz as an app for professionals and business owners to accept BHIM UPI, card and payment-link collections."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (kotak.biz)",
+        "text": "Kotak describes kotak.biz as a payment collection app for professionals and business owners, with BHIM UPI, card and payment-link collections.",
+        "sources": [
+          "demo-bank-kotak-biz"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "slice Small Finance Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ (general digital services)",
+        "text": "slice’s digital-service terms require users to be at least 18, with a separate exception for specific services used by younger customers with a guardian’s consent.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 10 and under 18 (specific services)",
+        "text": "slice’s terms permit customers over 10 and under 18 to use specific bank services with a lawful guardian’s consent and approval.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Indian residents (slice UPI)",
+        "text": "slice’s UPI terms require users to be residents of India.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "HDFC Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-hdfc-smarthub-vyapar",
+        "url": "https://www.hdfc.bank.in/msme-banking/smarthub-vyapar-merchant-app",
+        "title": "SmartHub Vyapar merchant app",
+        "publisher": "HDFC Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes SmartHub Vyapar as an app for merchants, including UPI payment acceptance, business reports and staff access."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (SmartHub Vyapar)",
+        "text": "HDFC’s SmartHub Vyapar app helps merchants accept UPI and card payments, track collections and manage their businesses.",
+        "sources": [
+          "demo-bank-hdfc-smarthub-vyapar"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "ICICI Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-icici-instabiz-launch",
+        "url": "https://www.icici.bank.in/about-us/news-room/2019/news-icici-bank-launches-instabiz-indias-first-most-comprehensive-digital-banking-platform-for-msmes",
+        "title": "ICICI Bank launches InstaBIZ for MSMEs and self-employed customers",
+        "publisher": "ICICI Bank",
+        "checked": "2026-11-09",
+        "supports": "The 2019 launch explicitly identifies MSMEs and self-employed customers as the audience for the InstaBIZ mobile app and web platform."
+      },
+      {
+        "id": "demo-bank-icici-mine-launch",
+        "url": "https://www.icici.bank.in/about-us/news-room/2020/news-icici-bank-launches-mine-a-banking-stack-for-millennial-customers",
+        "title": "ICICI Bank launches Mine for millennial customers",
+        "publisher": "ICICI Bank",
+        "checked": "2026-11-09",
+        "supports": "The 2020 launch identifies ages 18–35 for Mine and explicitly describes a customised iMobile app experience for this audience; it is historical audience evidence."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Self-employed (InstaBIZ)",
+        "text": "ICICI introduced InstaBIZ in 2019 for self-employed customers to handle business banking through its app or website.",
+        "sources": [
+          "demo-bank-icici-instabiz-launch"
+        ],
+        "tags": [
+          "self_employed"
+        ]
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (InstaBIZ)",
+        "text": "ICICI’s 2019 InstaBIZ launch names micro, small and medium enterprises as an intended audience for its business banking app and website.",
+        "sources": [
+          "demo-bank-icici-instabiz-launch"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "audience",
+        "value": "18–35 (Mine launch, 2020)",
+        "text": "ICICI’s 2020 Mine launch targeted ages 18–35 and included a customised iMobile experience for that group.",
+        "sources": [
+          "demo-bank-icici-mine-launch"
+        ],
+        "tags": [],
+        "period": "2020 launch"
+      }
+    ]
+  },
+  "IDFC FIRST Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (UPI collections)",
+        "text": "IDFC FIRST’s UPI page explicitly offers merchants payment collection and payout services.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "Yes Bank": {
+    "sources": [],
+    "items": []
+  },
+  "State Bank of India": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (BHIM SBI Pay)",
+        "text": "SBI’s UPI FAQ describes merchant registration and a Business tab in BHIM SBI Pay for payment confirmations, reports and agent management.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "Unity Small Finance Bank": {
+    "sources": [],
+    "items": []
+  },
+  "India Post Payments Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-ippb-ar-2023-24",
+        "url": "https://ippbonline.bank.in/documents/d/ippb/web_annual-report_23-24-english_30112024",
+        "title": "Annual Report 2023–24, IPPB at a Glance, printed page 8",
+        "publisher": "India Post Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Explicitly discusses rural and urban customers alongside mobile app and WhatsApp banking; also describes Digital Dukandar merchant QR services available through mobile banking. These are product audiences, not app-user shares."
+      },
+      {
+        "id": "demo-bank-ippb-digismart",
+        "url": "https://ippbonline.bank.in/en/web/ippb/saving-account",
+        "title": "Savings accounts — DigiSmart Savings Account",
+        "publisher": "India Post Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "States that DigiSmart accounts are opened through the IPPB Mobile Banking App and are designed for individuals aged 18 and above with Aadhaar and PAN."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Rural and urban customers (mobile channels)",
+        "text": "IPPB’s 2023–24 report names rural and urban customers when describing its mobile app and WhatsApp banking.",
+        "sources": [
+          "demo-bank-ippb-ar-2023-24"
+        ],
+        "tags": [
+          "rural",
+          "urban"
+        ],
+        "period": "FY 2023–24"
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (Digital Dukandar)",
+        "text": "IPPB’s 2023–24 report describes Digital Dukandar merchant QR services and says these services are available through mobile banking.",
+        "sources": [
+          "demo-bank-ippb-ar-2023-24"
+        ],
+        "tags": [
+          "businesses"
+        ],
+        "period": "FY 2023–24"
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ (DigiSmart account opening)",
+        "text": "IPPB lists age 18 and above for opening a DigiSmart Savings Account through its mobile banking app.",
+        "sources": [
+          "demo-bank-ippb-digismart"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Airtel Payments Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-airtel-mitra-mastercard-2025",
+        "url": "https://www.mastercardstrive.org/articles/2025/08/rural-wmses-as-last-mile-distribution-channel",
+        "title": "Rural WMSEs as last mile distribution channel",
+        "publisher": "Mastercard Strive",
+        "checked": "2026-11-09",
+        "supports": "The 7 August 2025 program report explicitly counts 10,000 women banking correspondents onboarded to Airtel Payments Bank’s Mitra app through She Leads Bharat: Udyam, a rural women-owned enterprise initiative. It does not describe Airtel Thanks consumer demographics."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "gender",
+        "kind": "reported",
+        "value": "10,000 women agents (Mitra program)",
+        "text": "10,000 women banking correspondents onboarded through She Leads Bharat: Udyam.",
+        "sources": [
+          "demo-bank-airtel-mitra-mastercard-2025"
+        ],
+        "tags": [
+          "women"
+        ],
+        "period": "Reported 2025-08-07",
+        "population": "Women banking correspondents onboarded to Airtel Payments Bank’s Mitra app through She Leads Bharat: Udyam",
+        "measure": "Count: 10,000 program participants onboarded"
+      },
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Rural women banking agents (Mitra program)",
+        "text": "She Leads Bharat: Udyam targets rural women-owned small businesses and uses Mitra to onboard participants as Airtel banking correspondents.",
+        "sources": [
+          "demo-bank-airtel-mitra-mastercard-2025"
+        ],
+        "tags": [
+          "rural",
+          "women"
+        ],
+        "period": "Program described in August 2025"
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Business correspondents (Mitra program)",
+        "text": "Mitra is used by the program’s women-owned small businesses acting as Airtel banking correspondents.",
+        "sources": [
+          "demo-bank-airtel-mitra-mastercard-2025"
+        ],
+        "tags": [
+          "businesses"
+        ],
+        "period": "Program described in August 2025"
+      }
+    ]
+  },
+  "Federal Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 10 and under 18 (FedMobile)",
+        "text": "FedMobile’s minor-account section permits minors over 10 with solely operated savings accounts, a unique mobile number and lower transaction limits.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Jio Payments Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Deutsche Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Non-resident Indians (MyBank India UPI)",
+        "text": "Deutsche Bank’s UPI page allows NRI customers with Indian NRE or NRO accounts and a registered domestic or supported international mobile number.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Jammu & Kashmir Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Minor accounts excluded (mobile banking)",
+        "text": "J&K Bank’s mobile-banking terms exclude accounts held by minors and joint accounts that include a minor.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Canara Bank": {
+    "sources": [],
+    "items": [],
+    "excludedItems": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (merchant UPI QR)",
+        "text": "Canara ai1Pe’s FAQ directs non-individual businesses to merchant QR onboarding for receiving UPI payments; these accounts cannot transact through app mode.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ],
+        "reason": "The cited merchant-QR route excludes these accounts from app-mode transactions."
+      }
+    ]
+  },
+  "RBL Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Punjab National Bank": {
+    "sources": [],
+    "items": []
+  },
+  "IndusInd Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Bank of Baroda": {
+    "sources": [],
+    "items": []
+  },
+  "Indian Bank": {
+    "sources": [],
+    "items": []
+  },
+  "HSBC": {
+    "sources": [],
+    "items": []
+  },
+  "AU Small Finance Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Union Bank of India": {
+    "sources": [],
+    "items": []
+  },
+  "South Indian Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Standard Chartered": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (corporate UPI collections)",
+        "text": "Standard Chartered’s corporate UPI service includes a mobile app for collection requests, receiving payments and transaction notifications.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "UCO Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Fino Payments Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-fino-mitra-listing",
+        "url": "https://play.google.com/store/apps/details?id=com.finopaytech.fos",
+        "title": "Fino Mitra — developer app listing",
+        "publisher": "Fino Payments Bank on Google Play",
+        "checked": "2026-11-09",
+        "supports": "The bank’s developer description explicitly identifies merchants as Fino Mitra’s users for banking and payment services; this is a separate app from FinoPay."
+      },
+      {
+        "id": "demo-bank-fino-mitra-terms",
+        "url": "https://www.fino.bank.in/regulatory/privacy-policy-for-mitra-app",
+        "title": "Privacy Policy for FinoMitra App — Terms of Use",
+        "publisher": "Fino Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Defines the app’s customer as a Fino business correspondent and explicitly requires a minimum age of 18 to download FinoMitra."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (Fino Mitra)",
+        "text": "Fino describes Fino Mitra as an app for its merchants to provide banking and payment services.",
+        "sources": [
+          "demo-bank-fino-mitra-listing"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ (Fino Mitra)",
+        "text": "Fino Mitra’s terms require business correspondents to be at least 18 to download the app.",
+        "sources": [
+          "demo-bank-fino-mitra-terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Central Bank of India": {
+    "sources": [],
+    "items": []
+  },
+  "DBS digibank": {
+    "sources": [
+      {
+        "id": "demo-bank-dbs-digibank-terms",
+        "url": "https://www.dbs.bank.in/digibank/in/terms-and-conditions.page",
+        "title": "digibank terms — savings account eligibility, section 2.2",
+        "publisher": "DBS Bank India",
+        "checked": "2026-11-09",
+        "supports": "Defines the savings account as opened through digibank and requires customers to be over 18, Indian citizens, Indian residents and tax residents only of India. This is account-opening eligibility, not an app-wide age distribution."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 (in-app savings account opening)",
+        "text": "DBS’s digibank terms require customers to be over 18 to open its savings account through the app.",
+        "sources": [
+          "demo-bank-dbs-digibank-terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Indian residents (in-app savings account opening)",
+        "text": "The digibank savings-account terms require Indian citizenship, Indian residence and tax residence only in India.",
+        "sources": [
+          "demo-bank-dbs-digibank-terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Non-resident Indians (digibank UPI)",
+        "text": "DBS’s UPI FAQ lets NRI customers with supported international mobile numbers register for UPI through the digibank app.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Bank of India": {
+    "sources": [],
+    "items": []
+  },
+  "Karnataka Bank": {
+    "sources": [],
+    "items": []
+  },
+  "IDBI Bank": {
+    "sources": [],
+    "items": []
+  },
+  "NSDL Payments Bank": {
+    "sources": [
+      {
+        "id": "demo-bank-nsdl-account-terms",
+        "url": "https://www.nsdlpayments.bank.in/terms_and_conditions.php",
+        "title": "NSDL Payments Bank terms and conditions",
+        "publisher": "NSDL Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Defines a bank-account customer as an Indian individual above 18 years old; this age rule applies to the bank account, not every Jiffy feature."
+      },
+      {
+        "id": "demo-bank-nsdl-jiffy-account",
+        "url": "https://www.nsdlpayments.bank.in/advantage_saving_account.php",
+        "title": "Jiffy Zero Balance Account",
+        "publisher": "NSDL Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Explicitly offers bank-account opening through the NSDL Jiffy App, with UPI transactions and other banking services."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 (Jiffy bank account)",
+        "text": "For the bank account opened through Jiffy, NSDL’s terms define customers as Indian individuals above 18.",
+        "sources": [
+          "demo-bank-nsdl-account-terms",
+          "demo-bank-nsdl-jiffy-account"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Suryoday Small Finance Bank": {
+    "sources": [],
+    "items": []
+  },
+  "City Union Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Bank of Maharashtra": {
+    "sources": [],
+    "items": []
+  },
+  "Karur Vysya Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 (KVB DLite)",
+        "text": "KVB’s DLite FAQ says only customers above 18 can access the app.",
+        "sources": [
+          "product"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Equitas Small Finance Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Tamilnad Mercantile Bank": {
+    "sources": [],
+    "items": []
+  },
+  "Indian Overseas Bank": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses (BHIM IOB UPI)",
+        "text": "BHIM IOB UPI’s FAQ describes an “I am a Merchant” registration option inside the app.",
+        "sources": [
+          "product"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      }
+    ]
+  },
+  "Punjab & Sind Bank": {
+    "sources": [],
+    "items": []
+  }
+}

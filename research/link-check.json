@@ -1,0 +1,1647 @@
+{
+  "checked": "2026-11-09",
+  "results": [
+    {
+      "url": "https://groww.in/open-demat-account",
+      "apps": [
+        "Groww"
+      ],
+      "status": 200,
+      "finalUrl": "https://groww.in/open-demat-account",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://resources.groww.in/wp-assets/documents/upi-terms-and-conditions.pdf",
+      "apps": [
+        "Groww"
+      ],
+      "status": 200,
+      "finalUrl": "https://resources.groww.in/wp-assets/documents/upi-terms-and-conditions.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://groww.in/help/payments/groww-upi/how-to-add--delete-bank-account--57",
+      "apps": [
+        "Groww"
+      ],
+      "status": 200,
+      "finalUrl": "https://groww.in/help/payments/groww-upi/how-to-add--delete-bank-account--57",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://moneyview.in/loans-faq-en",
+      "apps": [
+        "Money View"
+      ],
+      "status": 200,
+      "finalUrl": "https://moneyview.in/loans-faq-en",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://moneyview.in/upi-faq",
+      "apps": [
+        "Money View"
+      ],
+      "status": 200,
+      "finalUrl": "https://moneyview.in/upi-faq",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.indmoney.com/terms-of-services",
+      "apps": [
+        "INDmoney"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.indmoney.com/terms-of-services",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.indmoney.com/page/upi-tnc",
+      "apps": [
+        "INDmoney"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.indmoney.com/page/upi-tnc",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.indmoney.com/open-demat-account",
+      "apps": [
+        "INDmoney"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.indmoney.com/open-demat-account",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.digikhata.in/",
+      "apps": [
+        "Digikhata"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.digikhata.in/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.digikhata.in/faq",
+      "apps": [
+        "Digikhata"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.digikhata.in/faq",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://paypointindia.com/Policies/TermsAndCondition",
+      "apps": [
+        "Digikhata"
+      ],
+      "status": 200,
+      "finalUrl": "https://paypointindia.com/Policies/TermsAndCondition",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.adityabirlacapital.com/abcd/terms-conditions",
+      "apps": [
+        "Aditya Birla Capital Digital"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.adityabirlacapital.com/abcd/terms-conditions",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.adityabirlacapital.com/abcd/terms-conditions/payments",
+      "apps": [
+        "Aditya Birla Capital Digital"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.adityabirlacapital.com/abcd/terms-conditions/payments",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.shriramone.in/",
+      "apps": [
+        "Shriram One"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.shriramone.in/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.shriramfinance.in/upi",
+      "apps": [
+        "Shriram One"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.shriramfinance.in/upi",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.shriramfinance.in/personal-loan",
+      "apps": [
+        "Shriram One"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.shriramfinance.in/personal-loan",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.myjar.app/",
+      "apps": [
+        "Jar"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.myjar.app/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.myjar.app/terms-and-conditions",
+      "apps": [
+        "Jar"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.myjar.app/terms-and-conditions",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?hl=en-IN&id=com.jar.app",
+      "apps": [
+        "Jar"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?hl=en-IN&id=com.jar.app",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.tatapayments.com/policy/Tata-pay-user-agreement",
+      "apps": [
+        "Tata Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.tatapayments.com/policy/Tata-pay-user-agreement",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.obopay.com/terms-conditions-users-2/",
+      "apps": [
+        "Obopay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.obopay.com/terms-conditions-users-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.obopay.com/customer-faqs/",
+      "apps": [
+        "Obopay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.obopay.com/customer-faqs/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.curie.money/",
+      "apps": [
+        "Curie Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.curie.money/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 2698
+    },
+    {
+      "url": "https://www.curie.money/mutual-fund-terms",
+      "apps": [
+        "Curie Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.curie.money/mutual-fund-terms",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.curie.money/terms",
+      "apps": [
+        "Curie Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.curie.money/terms",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://lxme.in/",
+      "apps": [
+        "LXME"
+      ],
+      "status": 200,
+      "finalUrl": "https://lxme.in/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://lxme.in/terms-of-service/",
+      "apps": [
+        "LXME"
+      ],
+      "status": 200,
+      "finalUrl": "https://lxme.in/terms-of-service/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://lxme.in/lxmepay-upi/",
+      "apps": [
+        "LXME"
+      ],
+      "status": 200,
+      "finalUrl": "https://lxme.in/lxmepay-upi/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.unimoni.in/unimoni-wallet.php",
+      "apps": [
+        "Unimoni"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.unimoni.in/unimoni-wallet.php",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://wallet.unimoniindia.com/TnC.html",
+      "apps": [
+        "Unimoni"
+      ],
+      "status": 200,
+      "finalUrl": "https://wallet.unimoniindia.com/TnC.html",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.novio.in/",
+      "apps": [
+        "Novio"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.novio.in/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.novio.in/terms-conditions/",
+      "apps": [
+        "Novio"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.novio.in/terms-conditions/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.novio.in/fixed-deposit-credit-card/dcb-rupay/",
+      "apps": [
+        "Novio"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.novio.in/fixed-deposit-credit-card/dcb-rupay/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.livquik.com/",
+      "apps": [
+        "LivQuik"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.livquik.com/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.livquik.com/quikwallet/",
+      "apps": [
+        "LivQuik"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.livquik.com/quikwallet/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.livquik.com/ppi/terms-and-conditions/",
+      "apps": [
+        "LivQuik"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.livquik.com/ppi/terms-and-conditions/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.bajajfinserv.in/terms-of-use",
+      "apps": [
+        "Bajaj Finserv"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.bajajfinserv.in/terms-of-use",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.bajajfinserv.in/personal-loan-app.html",
+      "apps": [
+        "Bajaj Finserv"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.bajajfinserv.in/personal-loan-app.html",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://mypop.in/",
+      "apps": [
+        "POP UPI"
+      ],
+      "status": 200,
+      "finalUrl": "https://mypop.in/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.popclub.android",
+      "apps": [
+        "POP UPI"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.popclub.android",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.samsung.com/in/samsung-pay/",
+      "apps": [
+        "Samsung Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.samsung.com/in/samsung-pay/",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.samsung.com/in/support/apps-services/how-to-setup-samsung-wallet/",
+      "apps": [
+        "Samsung Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.samsung.com/in/support/apps-services/how-to-setup-samsung-wallet/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.samsung.com/in/samsung-pay/upi/",
+      "apps": [
+        "Samsung Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.samsung.com/in/samsung-pay/upi/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://jupiter.money/savings-account/",
+      "apps": [
+        "Jupiter"
+      ],
+      "status": 200,
+      "finalUrl": "https://jupiter.money/savings-account/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://jupiter.money/terms-and-conditions/",
+      "apps": [
+        "Jupiter"
+      ],
+      "status": 200,
+      "finalUrl": "https://jupiter.money/terms-and-conditions/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://stories.flipkart.com/announcement/flipkart-launches-its-upi-handle-to-further-india-s-digital-economy-vision",
+      "apps": [
+        "Flipkart UPI"
+      ],
+      "status": 200,
+      "finalUrl": "https://stories.flipkart.com/announcement/flipkart-launches-its-upi-handle-to-further-india-s-digital-economy-vision",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://bharatpe.com/",
+      "apps": [
+        "BharatPe"
+      ],
+      "status": 200,
+      "finalUrl": "https://bharatpe.com/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.postpe.app",
+      "apps": [
+        "BharatPe"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.postpe.app",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://postpe.app/terms.html",
+      "apps": [
+        "BharatPe"
+      ],
+      "status": 200,
+      "finalUrl": "https://postpe.app/terms.html",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://gokiwi.in/unified-payment-interface-v1/",
+      "apps": [
+        "kiwi"
+      ],
+      "status": 200,
+      "finalUrl": "https://gokiwi.in/unified-payment-interface-v1/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://gokiwi.in/helpcenter/cardapplication/4a1/",
+      "apps": [
+        "kiwi"
+      ],
+      "status": 200,
+      "finalUrl": "https://gokiwi.in/helpcenter/cardapplication/4a1/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://gokiwi.in/helpcenter/cardapplication/4a4/",
+      "apps": [
+        "kiwi"
+      ],
+      "status": 200,
+      "finalUrl": "https://gokiwi.in/helpcenter/cardapplication/4a4/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://gokiwi.in/helpcenter/cardapplication/4a3/",
+      "apps": [
+        "kiwi"
+      ],
+      "status": 200,
+      "finalUrl": "https://gokiwi.in/helpcenter/cardapplication/4a3/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://omnicard.ai/termsconditions",
+      "apps": [
+        "Omni Card"
+      ],
+      "status": 200,
+      "finalUrl": "https://omnicard.ai/termsconditions",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://omnicard.ai/",
+      "apps": [
+        "Omni Card"
+      ],
+      "status": 200,
+      "finalUrl": "https://omnicard.ai/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.eroute.omnicard",
+      "apps": [
+        "Omni Card"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.eroute.omnicard",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.npst.timepay.society",
+      "apps": [
+        "Timepay"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.npst.timepay.society",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.npstx.com/terms-of-use/",
+      "apps": [
+        "Timepay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.npstx.com/terms-of-use/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.salaryse.com/",
+      "apps": [
+        "SalarySe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.salaryse.com/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.salaryse.com/salaryse-terms-and-conditions",
+      "apps": [
+        "SalarySe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.salaryse.com/salaryse-terms-and-conditions",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.salaryse.com/swiggy-faq",
+      "apps": [
+        "SalarySe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.salaryse.com/swiggy-faq",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.salaryse.com/level-up",
+      "apps": [
+        "SalarySe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.salaryse.com/level-up",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kredit.pe/",
+      "apps": [
+        "KreditPe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kredit.pe/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kredit.pe/policy/tnc",
+      "apps": [
+        "KreditPe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kredit.pe/policy/tnc",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kredit.pe/policy/sbmCardUsageTnC",
+      "apps": [
+        "KreditPe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kredit.pe/policy/sbmCardUsageTnC",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://getonecard.app/",
+      "apps": [
+        "OneCard"
+      ],
+      "status": 200,
+      "finalUrl": "https://getonecard.app/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://getonecard.app/legal/evaluate/",
+      "apps": [
+        "OneCard"
+      ],
+      "status": 200,
+      "finalUrl": "https://getonecard.app/legal/evaluate/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.getonecard.app/legal/onecard_upi_terms_of_use/",
+      "apps": [
+        "OneCard"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.getonecard.app/legal/onecard_upi_terms_of_use/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.federal.bank.in/scapia",
+      "apps": [
+        "Scapia"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.federal.bank.in/scapia",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.axis.bank.in/cards/credit-card/scapia-axis-bank-credit-card",
+      "apps": [
+        "Scapia"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.axis.bank.in/cards/credit-card/scapia-axis-bank-credit-card",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=omnicash.rio.app",
+      "apps": [
+        "Rio Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=omnicash.rio.app",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://zagg.money/",
+      "apps": [
+        "Rio Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://zagg.money/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://zagg.money/terms-and-conditions",
+      "apps": [
+        "Rio Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://zagg.money/terms-and-conditions",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cheq.one/",
+      "apps": [
+        "CheQ"
+      ],
+      "status": 200,
+      "finalUrl": "https://cheq.one/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cheq.one/legal/terms-and-conditions",
+      "apps": [
+        "CheQ"
+      ],
+      "status": 200,
+      "finalUrl": "https://cheq.one/legal/terms-and-conditions",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cheq.one/legal/upi-terms-of-use",
+      "apps": [
+        "CheQ"
+      ],
+      "status": 200,
+      "finalUrl": "https://cheq.one/legal/upi-terms-of-use",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cheq.one/legal/credit-card-terms-and-conditions",
+      "apps": [
+        "CheQ"
+      ],
+      "status": 200,
+      "finalUrl": "https://cheq.one/legal/credit-card-terms-and-conditions",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kreditbee.in/personal-loan/salaried",
+      "apps": [
+        "KreditBee"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kreditbee.in/personal-loan/salaried",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kreditbee.in/faq/refer-and-earn",
+      "apps": [
+        "KreditBee"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kreditbee.in/faq/refer-and-earn",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www2.kreditbee.in/personal-loan/eligibility",
+      "apps": [
+        "KreditBee"
+      ],
+      "status": 200,
+      "finalUrl": "https://www2.kreditbee.in/personal-loan/eligibility",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kreditbee.in/kreditbee-upi",
+      "apps": [
+        "KreditBee"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kreditbee.in/kreditbee-upi",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://in.rapipay.com/agent/",
+      "apps": [
+        "RapiPay"
+      ],
+      "status": 200,
+      "finalUrl": "https://in.rapipay.com/agent/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://agent.rapipay.com/assets/pdf/KYC_Policy.pdf",
+      "apps": [
+        "RapiPay"
+      ],
+      "status": 200,
+      "finalUrl": "https://agent.rapipay.com/assets/pdf/KYC_Policy.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.spicemoney.com/join-as-adhikari/",
+      "apps": [
+        "Spice Money"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.spicemoney.com/join-as-adhikari/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.paynearby.saathi",
+      "apps": [
+        "Saathi by PayNearby"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.paynearby.saathi",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cdn.paynearby.in/privacy-policy/saathi",
+      "apps": [
+        "Saathi by PayNearby"
+      ],
+      "status": 200,
+      "finalUrl": "https://cdn.paynearby.in/privacy-policy/saathi",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.dhani.com/",
+      "apps": [
+        "Dhani"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.dhani.com/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.pinelabs.faveindiaandroid",
+      "apps": [
+        "Fave"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?hl=en_US&id=com.pinelabs.faveindiaandroid",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.fave.money/",
+      "apps": [
+        "Fave"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.fave.money/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.truebalance.in/personal-loan",
+      "apps": [
+        "True Balance"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.truebalance.in/personal-loan",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.truebalance.io/cash-loan",
+      "apps": [
+        "True Balance"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.truebalance.io/cash-loan",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.truebalance.in/help/loans",
+      "apps": [
+        "True Balance"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.truebalance.in/help/loans",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?gl=IN&id=com.balancehero.truebalance",
+      "apps": [
+        "True Balance"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?gl=IN&id=com.balancehero.truebalance",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?hl=en&id=com.payworld.phoneapp",
+      "apps": [
+        "Payworld"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?hl=en&id=com.payworld.phoneapp",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.payworldindia.com/retailer/terms-conditions",
+      "apps": [
+        "Payworld"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.payworldindia.com/retailer/terms-conditions",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.payworldindia.com/retailer/signup",
+      "apps": [
+        "Payworld"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.payworldindia.com/retailer/signup",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?gl=IN&id=com.snapmint.customerapp",
+      "apps": [
+        "Snapmint"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?gl=IN&id=com.snapmint.customerapp",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://snapmint.com/terms-and-conditions",
+      "apps": [
+        "Snapmint"
+      ],
+      "status": 200,
+      "finalUrl": "https://snapmint.com/terms-and-conditions",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.snapmintfin.com/Master%20Terms%20and%20Conditions%20For%20Purchase%20Limit%20Membership.pdf",
+      "apps": [
+        "Snapmint"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.snapmintfin.com/Master%20Terms%20and%20Conditions%20For%20Purchase%20Limit%20Membership.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://zetapp.in/zet-fd-credit-card",
+      "apps": [
+        "ZET"
+      ],
+      "status": 200,
+      "finalUrl": "https://zetapp.in/zet-fd-credit-card",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://zetapp.in/sbm-zet-credit-card",
+      "apps": [
+        "ZET"
+      ],
+      "status": 200,
+      "finalUrl": "https://zetapp.in/sbm-zet-credit-card",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.sbm.bank.in/pdf/notice-board/SBM-Bank-ZET-Credit-Card-CMA.pdf",
+      "apps": [
+        "ZET"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.sbm.bank.in/pdf/notice-board/SBM-Bank-ZET-Credit-Card-CMA.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://navi.com/navi-upi",
+      "apps": [
+        "Navi"
+      ],
+      "status": 200,
+      "finalUrl": "https://navi.com/navi-upi",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://navi.com/terms-and-conditions/general/",
+      "apps": [
+        "Navi"
+      ],
+      "status": 200,
+      "finalUrl": "https://navi.com/terms-and-conditions/general/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://navi.com/terms-and-conditions/cash-loan/",
+      "apps": [
+        "Navi"
+      ],
+      "status": 200,
+      "finalUrl": "https://navi.com/terms-and-conditions/cash-loan/",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://public-assets.prod.navi-tech.in/navi-website-assests/docs/240716_Navi_Fintech_Private_Limited_CLOU_Terms.pdf",
+      "apps": [
+        "Navi"
+      ],
+      "status": 200,
+      "finalUrl": "https://public-assets.prod.navi-tech.in/navi-website-assests/docs/240716_Navi_Fintech_Private_Limited_CLOU_Terms.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 2986
+    },
+    {
+      "url": "https://www.phonepe.com/terms-conditions/upi/",
+      "apps": [
+        "PhonePe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.phonepe.com/terms-conditions/upi/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.phonepe.com/en/terms_general.html",
+      "apps": [
+        "PhonePe"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.phonepe.com/en/terms_general.html",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://pay.google.com/intl/en_in/about/terms/",
+      "apps": [
+        "Google Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://pay.google.com/intl/en_in/about/terms/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://support.google.com/pay/india/answer/15637646",
+      "apps": [
+        "Google Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/pay/india/answer/15637646",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://support.google.com/pay/india/answer/16920553?hl=en",
+      "apps": [
+        "Google Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/pay/india/answer/16920553?hl=en",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://paytm.com/company/upi-terms-and-conditions",
+      "apps": [
+        "Paytm"
+      ],
+      "status": 200,
+      "finalUrl": "https://paytm.com/company/upi-terms-and-conditions",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://paytm.com/company/terms-and-conditions",
+      "apps": [
+        "Paytm"
+      ],
+      "status": 200,
+      "finalUrl": "https://paytm.com/company/terms-and-conditions",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.super.money/terms-and-conditions",
+      "apps": [
+        "super.money"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.super.money/terms-and-conditions",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://super.money/card-partners",
+      "apps": [
+        "super.money"
+      ],
+      "status": 200,
+      "finalUrl": "https://super.money/card-partners",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.bhimupi.org.in/faq-s",
+      "apps": [
+        "BHIM"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.bhimupi.org.in/faq-s",
+      "contentType": "text/html",
+      "sampleBytes": 385
+    },
+    {
+      "url": "https://www.famapp.in/",
+      "apps": [
+        "FamApp by Trio"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.famapp.in/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.whatsapp.com/legal/payments/india/terms?lg=en&lc=IN",
+      "apps": [
+        "WhatsApp"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.whatsapp.com/legal/payments/india/terms?lg=en&lc=IN",
+      "contentType": "text/html; charset=\"utf-8\"",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cred.club/about",
+      "apps": [
+        "CRED"
+      ],
+      "status": 200,
+      "finalUrl": "https://cred.club/about",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://cred.club/terms",
+      "apps": [
+        "CRED"
+      ],
+      "status": 200,
+      "finalUrl": "https://cred.club/terms",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.aboutamazon.in/news/amazon-pay/amazon-pay-guide-wallet-upi-features",
+      "apps": [
+        "Amazon Pay"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.aboutamazon.in/news/amazon-pay/amazon-pay-guide-wallet-upi-features",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.mobikwik.com/termsandconditions",
+      "apps": [
+        "MobiKwik"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mobikwik.com/termsandconditions",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://ippbonline.bank.in/web/ippb/mobile-banking",
+      "apps": [
+        "India Post Payments Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://ippbonline.bank.in/web/ippb/mobile-banking",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "url": "https://application.axis.bank.in/webforms/axis-support/sub-issues/digibkg-upi-activation-3.aspx",
+      "apps": [
+        "Axis Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://application.axis.bank.in/webforms/axis-support/sub-issues/digibkg-upi-activation-3.aspx",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kotak.bank.in/en/digital-banking/ways-to-bank/bhim-upi/bhim-upi-faqs.html",
+      "apps": [
+        "Kotak Mahindra Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kotak.bank.in/en/digital-banking/ways-to-bank/bhim-upi/bhim-upi-faqs.html",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://slice.bank.in/T%26C",
+      "apps": [
+        "slice Small Finance Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://slice.bank.in/T%26C",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.hdfc.bank.in/ps/payzapp",
+      "apps": [
+        "HDFC Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.hdfc.bank.in/ps/payzapp",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.icici.bank.in/personal-banking/ways-to-bank/mobile-banking/imobile/upi-registration",
+      "apps": [
+        "ICICI Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.icici.bank.in/personal-banking/ways-to-bank/mobile-banking/imobile/upi-registration",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/personal-banking/payments/upi-payments",
+      "apps": [
+        "IDFC FIRST Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.idfcfirst.bank.in/personal-banking/payments/upi-payments",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.yes.bank.in/contact-us",
+      "apps": [
+        "Yes Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.yes.bank.in/contact-us",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://sbi.bank.in/en/web/customer-care/upi1",
+      "apps": [
+        "State Bank of India"
+      ],
+      "status": 200,
+      "finalUrl": "https://sbi.bank.in/en/web/customer-care/upi1",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://unity.bank.in/",
+      "apps": [
+        "Unity Small Finance Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://unity.bank.in/",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://ippbonline.bank.in/web/ippb/mobile-banking",
+      "apps": [
+        "India Post Payments Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://ippbonline.bank.in/web/ippb/mobile-banking",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+      "apps": [
+        "Airtel Payments Bank"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.federal.bank.in/documents/10180/19533473/FedMobile%2B-%2BTerms%2Band%2BConditions.pdf/9c360507-88e2-0b17-fb48-708f166cac51?t=1751462182309",
+      "apps": [
+        "Federal Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://validate.perfdrive.com/?ssa=966815fc-4c0b-4417-873f-f17e5c076c62&ssb=55814381143&ssc=https%3A%2F%2Fwww.federal.bank.in%2Fdocuments%2F10180%2F19533473%2FFedMobile%252B-%252BTerms%252Band%252BConditions.pdf%2F9c360507-88e2-0b17-fb48-708f166cac51%3Ft%3D1751462182309&ssi=5a6d8a1c-e42i-4c05-86d7-a31d9eac49c2&ssk=botmanager_support@radware.com&ssm=26274829445005230109488652860273&ssn=d4fd2926e180477180f4c6c2173087b32085f810e049-9bf8-4546-a496d6&sso=81d11d1c-397e44e26710b555ae82df084edad5d23eb094c3b3291f68&ssp=62410551311794276687179426281062228&ssq=26097843085092601777730850147243290128274&ssr=MTUwLjI0Mi44Ni45NA==&sst=Mozilla/5.0&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwY2I3MGZmOTMtMWUxMy00ZTQ3LWI3N2QtM2Q4ZTdlODQ4YzViMS0xNzk0MjMwODUwNDEwMC0wMGQ0YjJjNjRlMTM5MGJiMWIzMTAiLCJyZCI6ImZlZGVyYWwuYmFuay5pbiIsIl9fdXptZiI6IjdmOTAwMGY4MTBlMDQ5LTliZjgtNDU0Ni1hZDFjLTM5N2U0NGUyNjcxMDEtMTc5NDIzMDg1MDQxMDAtMDAxZDBkMDM4YjYxMGIwN2JlYTEwIn0=",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.jiopayments.bank.in/terms-and-conditions/upi/",
+      "apps": [
+        "Jio Payments Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.jiopayments.bank.in/terms-and-conditions/upi/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.deutsche.bank.in/en/connect-with-us/upi.html",
+      "apps": [
+        "Deutsche Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.deutsche.bank.in/en/connect-with-us/upi.html",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://jkb.bank.in/mobile-banking",
+      "apps": [
+        "Jammu & Kashmir Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://jkb.bank.in/mobile-banking",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.canarabank.bank.in/canara-ai1pe",
+      "apps": [
+        "Canara Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.canarabank.bank.in/canara-ai1pe",
+      "contentType": "text/html;charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.rblbank.com/pdfs/RBL-bank-UPI.pdf",
+      "apps": [
+        "RBL Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://webassets.rbl.bank.in/pdfs/RBL-bank-UPI.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.pnbindia.in/UPI-FAQ.html",
+      "apps": [
+        "Punjab National Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://pnb.bank.in/UPI-FAQ.html",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/induspayterms.html",
+      "apps": [
+        "IndusInd Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.indusind.bank.in/in/en/personal/induspayterms.html",
+      "contentType": "text/html;charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
+      "apps": [
+        "Bank of Baroda"
+      ],
+      "status": 200,
+      "finalUrl": "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://indianbank.bank.in/en/indsmart",
+      "apps": [
+        "Indian Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://indianbank.bank.in/en/indsmart",
+      "contentType": "text/html",
+      "sampleBytes": 245
+    },
+    {
+      "url": "https://www.business.hsbc.co.in/-/media/library/markets-selective/india/pdf/roles-and-responsibilities-of-npci-and-tapas-in-upi.pdf",
+      "apps": [
+        "HSBC"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.business.hsbc.bank.in/-/media/library/markets-selective/india/pdf/roles-and-responsibilities-of-npci-and-tapas-in-upi.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.au.bank.in/personal-banking/digital-banking/payments/upi",
+      "apps": [
+        "AU Small Finance Bank"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.au.bank.in/personal-banking/digital-banking/payments/upi",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.unionbankofindia.bank.in/en/details/upi",
+      "apps": [
+        "Union Bank of India"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.unionbankofindia.bank.in/en/details/upi",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.southindianbank.bank.in/terms-and-conditions/mobile-banking-terms-and-conditions",
+      "apps": [
+        "South Indian Bank"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.southindianbank.bank.in/terms-and-conditions/mobile-banking-terms-and-conditions",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.sc.com/upi/",
+      "apps": [
+        "Standard Chartered"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.sc.com/upi/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.uco.bank.in/en/web/guest/bhim-uco-upi",
+      "apps": [
+        "UCO Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.uco.bank.in/en/web/guest/bhim-uco-upi",
+      "contentType": "text/html;charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.fino.bank.in/upi",
+      "apps": [
+        "Fino Payments Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.fino.bank.in/upi",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://centralbank.bank.in/en/cent-pay-faq",
+      "apps": [
+        "Central Bank of India"
+      ],
+      "status": 200,
+      "finalUrl": "https://centralbank.bank.in/en/cent-pay-faq",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.dbs.bank.in/digibank/in/support/banking/payments/upi-faqs.page",
+      "apps": [
+        "DBS digibank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.dbs.bank.in/digibank/in/support/banking/payments/upi-faqs.page",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://bankofindia.bank.in/terms-and-conditions-for-boi-bhim-upi-services",
+      "apps": [
+        "Bank of India"
+      ],
+      "status": 403,
+      "finalUrl": "https://bankofindia.bank.in/terms-and-conditions-for-boi-bhim-upi-services",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.lcode.smartz",
+      "apps": [
+        "Karnataka Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.lcode.smartz",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.idbi.bank.in/pdf/UPI-Terms-and-conditions.pdf",
+      "apps": [
+        "IDBI Bank"
+      ],
+      "error": "SSLError"
+    },
+    {
+      "url": "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+      "apps": [
+        "NSDL Payments Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://suryoday.bank.in/upi-lite-tnc/",
+      "apps": [
+        "Suryoday Small Finance Bank"
+      ],
+      "error": "SSLError"
+    },
+    {
+      "url": "https://www.cityunionbank.bank.in/cub-upi",
+      "apps": [
+        "City Union Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.cityunionbank.bank.in/cub-upi",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/maha-upi",
+      "apps": [
+        "Bank of Maharashtra"
+      ],
+      "status": 200,
+      "finalUrl": "https://bankofmaharashtra.bank.in/maha-upi",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.kvb.bank.in/faqs/faqs-on-dlite-mobile-application/",
+      "apps": [
+        "Karur Vysya Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kvb.bank.in/faqs/faqs-on-dlite-mobile-application/",
+      "contentType": "text/html",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.equitasbank.com/strapi-dev/uploads/upi_terms_and_condition_967624fc5e.pdf",
+      "apps": [
+        "Equitas Small Finance Bank"
+      ],
+      "status": 503,
+      "finalUrl": "https://equitas.bank.in/strapi-dev/uploads/upi_terms_and_condition_967624fc5e.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "sampleBytes": 266
+    },
+    {
+      "url": "https://tmb.bank.in/personal/services/mobile-banking",
+      "apps": [
+        "Tamilnad Mercantile Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://tmb.bank.in/personal/services/mobile-banking",
+      "contentType": "text/html; charset=utf-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://www.iob.bank.in/en/bhim-iob-upi",
+      "apps": [
+        "Indian Overseas Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.iob.bank.in/en/bhim-iob-upi",
+      "contentType": "text/html;charset=UTF-8",
+      "sampleBytes": 3000
+    },
+    {
+      "url": "https://punjabandsind.bank.in/system/uploads/document/2150_2024050416155165789.pdf",
+      "apps": [
+        "Punjab & Sind Bank"
+      ],
+      "status": 200,
+      "finalUrl": "https://punjabandsind.bank.in/system/uploads/document/2150_2024050416155165789.pdf",
+      "contentType": "application/pdf",
+      "sampleBytes": 3000
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "Groww": {
+    "summary": "Groww offers stocks, mutual funds and ETFs, plus UPI payments through Groww Pay.",
+    "summarySources": ["product", "upi-terms"],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Above 18 and legally able to enter contracts. Link and confirm a bank account; mobile-network and SMS verification may apply.",
+        "sources": ["upi-terms", "upi-setup"]
+      },
+      {
+        "label": "Online demat account",
+        "text": "PAN, email, personal details and a linked bank account. Complete Aadhaar KYC using an OTP sent to your Aadhaar-linked mobile number.",
+        "sources": ["product"]
+      }
+    ],
+    "notes": [
+      "UPI age terms date from May 2023; eligibility at exactly 18 is unclear.",
+      "Whether Groww Pay needs a demat account is unclear."
+    ]
+  },
+  "Money View": {
+    "summary": "Moneyview offers personal loans through lending partners and UPI payments.",
+    "summarySources": ["loans", "upi"],
+    "requirements": [
+      {
+        "label": "Personal loan",
+        "text": "Ages 21–57; salaried or self-employed; monthly household income of at least ₹25,000 paid into a bank account. CIBIL 650+; lender approval required.",
+        "sources": ["loans"]
+      },
+      {
+        "label": "UPI",
+        "text": "A savings account, SMS permission and the SIM for your Moneyview-registered mobile number. Select that SIM and your bank during setup.",
+        "sources": ["upi"]
+      },
+      {
+        "label": "RuPay credit card on UPI",
+        "text": "An active RuPay credit card from a supported bank is needed for this optional payment method.",
+        "sources": ["upi"]
+      }
+    ],
+    "notes": [
+      "UPI minimum age is not confirmed.",
+      "The complete loan-document checklist is not confirmed."
+    ]
+  },
+  "INDmoney": {
+    "summary": "INDmoney offers stocks, mutual funds, finance tracking, bill payments and UPI.",
+    "summarySources": ["platform", "upi-terms"],
+    "requirements": [
+      {
+        "label": "App account",
+        "text": "18+. An authorised guardian can register for a minor and may need to provide proof of authority.",
+        "sources": ["platform"]
+      },
+      {
+        "label": "UPI",
+        "text": "An active INDmoney account, a bank account linked to your mobile number, and device/SMS verification. You must be legally able to enter contracts and meet HDFC Bank's UPI conditions.",
+        "sources": ["upi-terms"]
+      },
+      {
+        "label": "Online demat account",
+        "text": "Personal details, PAN/Aadhaar KYC, bank/address proof and a signed account-opening document. Minors cannot open and operate the account independently.",
+        "sources": ["demat"]
+      }
+    ],
+    "notes": [
+      "UPI access for guardian-managed minor accounts is not confirmed.",
+      "US stocks, loans and other products have separate eligibility rules."
+    ]
+  },
+  "Digikhata": {
+    "summary": "Pay Point's Digi Khata offers a prepaid account, UPI payments and a RuPay card in India.",
+    "summarySources": ["product", "issuer-terms"],
+    "requirements": [
+      {
+        "label": "Prepaid account",
+        "text": "Indian resident, with PAN, Aadhaar, OTP and video verification. No existing bank account or credit check is required; add money before spending.",
+        "sources": ["faq"]
+      },
+      {
+        "label": "Prepaid account age",
+        "text": "The account terms require 18+; the FAQ says above 18.",
+        "sources": ["issuer-terms", "faq"]
+      },
+      {
+        "label": "Offline verification",
+        "text": "Kiosk help is available. If Aadhaar is not linked to your mobile number, an offline verification route is available.",
+        "sources": ["faq"]
+      },
+      {
+        "label": "Kiosk or merchant partner",
+        "text": "Physical KYC is required for Digi Kiosk and Digi Vyapaar partners. Kiosk checks include identity, address and shop/establishment documents.",
+        "sources": ["faq"]
+      }
+    ],
+    "notes": [
+      "Eligibility at exactly 18 is unclear.",
+      "Whether every individual must visit a kiosk is unclear."
+    ]
+  },
+  "Aditya Birla Capital Digital": {
+    "summary": "ABCD offers UPI, bill payments, loans, investments and insurance.",
+    "summarySources": ["terms"],
+    "requirements": [
+      {
+        "label": "App account",
+        "text": "18+, Indian resident and legally able to enter contracts. Registration uses profile details and links your device and SIM; additional checks depend on the service.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "An active ABCD account and your own Indian bank account linked to an active mobile number. Be in India when registering or linking the bank; mobile-network and SMS verification may apply.",
+        "sources": ["upi-terms"]
+      },
+      {
+        "label": "UPI age",
+        "text": "Payment terms require users to be above 18 or have a parent's or guardian's permission and supervision.",
+        "sources": ["upi-terms"]
+      },
+      {
+        "label": "Loan",
+        "text": "Allow credit-report checks and complete the lender's KYC and e-NACH requirements. Missing KYC or e-NACH can lead to rejection.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": [
+      "General registration and payment age rules differ; access for minors is not confirmed.",
+      "Loan income and CIBIL cutoffs are not confirmed."
+    ]
+  },
+  "Shriram One": {
+    "summary": "Shriram One offers UPI, bill payments, deposits, insurance and loans.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Complete app signup, then select your bank, bank-linked SIM and bank account. Allow the verification SMS and keep enough SMS balance; RuPay-card linking is optional.",
+        "sources": ["upi"]
+      },
+      {
+        "label": "Personal loan",
+        "text": "Indian resident; at least 21 when applying and no older than 60 when the loan ends. Income stability and credit history are assessed.",
+        "sources": ["personal-loan"]
+      },
+      {
+        "label": "Personal loan employment",
+        "text": "The application form is for salaried applicants. Self-employed customers may qualify with a pre-approved existing relationship; others may be directed to business loans.",
+        "sources": ["personal-loan"]
+      },
+      {
+        "label": "Personal loan documents",
+        "text": "Identity/address proof, recent photos, three months of income proof, six months of bank statements and a cancelled cheque/mandate form.",
+        "sources": ["personal-loan"]
+      }
+    ],
+    "notes": [
+      "UPI minimum age is not confirmed.",
+      "Personal-loan income and CIBIL cutoffs are not confirmed.",
+      "Deposits, insurance and other loans have separate eligibility rules."
+    ]
+  },
+  "Jar": {
+    "summary": "Jar offers digital-gold purchases, recurring gold savings and UPI payments.",
+    "summarySources": ["product", "app-listing"],
+    "requirements": [
+      {
+        "label": "Digital-gold account",
+        "text": "Above 18 and legally able to enter contracts; a parent or guardian may consent to a child's registration. Sign up with personal details and a mobile OTP.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Daily gold saving",
+        "text": "Starts at ₹10.",
+        "sources": ["product"]
+      },
+      {
+        "label": "Digital-gold tax status",
+        "text": "Declare that you are not GST-registered and report any later change.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Digital-gold verification",
+        "text": "Government ID/PAN verification may be required, with Form 60 accepted where allowed; pay from your own bank account. Physical delivery requires KYC.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": [
+      "UPI joining requirements are not confirmed.",
+      "The signup process for a minor's gold account is not confirmed.",
+      "The app listing and website terms name different gold providers; check the provider in-app before buying."
+    ]
+  },
+  "Tata Pay": {
+    "summary": "Tata Pay offers UPI and bill payments through Tata Neu.",
+    "summarySources": ["terms"],
+    "requirements": [
+      {
+        "label": "Tata Pay account",
+        "text": "18+, Indian resident and legally able to enter contracts. Register for Tata Neu membership with accurate profile and contact details.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Sign in to Tata Neu and link your own account, which you must be authorised to operate. Use the same mobile number for both accounts, then complete outgoing-SMS and device/mobile-network verification.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": []
+  },
+  "Obopay": {
+    "summary": "Obopay offers prepaid wallets with UPI and card features that vary by programme.",
+    "summarySources": ["terms"],
+    "requirements": [
+      {
+        "label": "Wallet",
+        "text": "Indian resident and legally able to enter contracts, with an internet-connected device, email and your registered mobile number.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Wallet age and nationality",
+        "text": "The FAQ requires Indian nationals above 18; current terms require Indian residence but give no numerical age.",
+        "sources": ["faq", "terms"]
+      },
+      {
+        "label": "Wallet payments",
+        "text": "Full KYC is required to transact: verify Aadhaar through DigiLocker, then complete video identification. Add money to the wallet before spending.",
+        "sources": ["terms", "faq"]
+      },
+      {
+        "label": "UPI and cards",
+        "text": "Access to UPI, a card or both depends on your corporate programme.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": [
+      "Joining without a corporate sponsor is not confirmed.",
+      "UPI bank-linking steps are not confirmed."
+    ]
+  },
+  "Curie Money": {
+    "summary": "Curie Money combines liquid mutual fund investing with UPI payments.",
+    "summarySources": ["product", "mf-terms", "upi-terms"],
+    "requirements": [
+      {
+        "label": "Mutual funds",
+        "text": "18+, an Indian citizen and Indian tax resident, and legally able to enter contracts. KYC verification is required, with fund-house documents, including PAN where required, for first-time investors.",
+        "sources": ["mf-terms"]
+      },
+      {
+        "label": "Investment-funded UPI",
+        "text": "Hold mutual-fund units and link the holder's bank account registered with the fund house. Signup uses PAN and bank details; Curie Save redeems units into that bank account to fund payments.",
+        "sources": ["mf-terms", "upi-terms", "product"]
+      }
+    ],
+    "notes": [
+      "Standalone bank-funded UPI requirements, including age and whether investing is mandatory, are not confirmed.",
+      "UPI SIM and device requirements are not confirmed."
+    ]
+  },
+  "LXME": {
+    "summary": "Lxme is a finance app marketed to women, with mutual funds, learning tools and UPI.",
+    "summarySources": ["product", "upi-product"],
+    "requirements": [
+      {
+        "label": "App account",
+        "text": "Indian citizen and Indian tax resident; above 18 or with legal parental or guardian consent.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Register, allow SMS access and link a bank account associated with your mobile number. Set up a UPI ID and UPI PIN.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "RuPay credit card on UPI",
+        "text": "Link an eligible RuPay credit card to use this optional payment method.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "Investments",
+        "text": "Complete KYC, verify your details and meet the investment-readiness checks. Use your own bank account for investment payments.",
+        "sources": ["terms"]
+      }
+    ],
+    "notes": [
+      "The signup process for minors is not confirmed.",
+      "Investment minimums, loan requirements and fixed-deposit-backed card requirements are not confirmed."
+    ]
+  },
+  "Unimoni": {
+    "summary": "Unimoni offers a prepaid wallet for bill payments and transfers, with UPI top-ups.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Wallet",
+        "text": "18+, legally able to enter contracts, and a mobile number verified by OTP. Minimum-KYC and full-KYC wallet options are available.",
+        "sources": ["wallet-terms"]
+      },
+      {
+        "label": "Full KYC and transfers",
+        "text": "Transfers require full KYC. Wallet terms require PAN, accepted identity/address documents and submission at a branch; the FAQ also offers app and agent routes.",
+        "sources": ["wallet-terms", "product"]
+      }
+    ],
+    "notes": [
+      "Wallet terms now use Wizzpay and Wizzmoni names; the exact app-version match is unclear.",
+      "PAN requirements differ between the FAQ and current terms.",
+      "Wallet-issued UPI handle setup is not confirmed."
+    ]
+  },
+  "Novio": {
+    "summary": "Novio offers UPI payments and RuPay credit cards backed by fixed deposits.",
+    "summarySources": ["product", "terms"],
+    "requirements": [
+      {
+        "label": "App account",
+        "text": "18+ and legally able to enter contracts. Create a profile in the app.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "UPI",
+        "text": "Indian resident, with an active account at a participating bank that you are authorised to operate, linked to your mobile number. Use a compatible internet-connected device; network/SMS verification may apply.",
+        "sources": ["terms"]
+      },
+      {
+        "label": "DCB novio FD-backed credit card",
+        "text": "Virtual card: fixed deposit starting at ₹2,000. Physical card: ₹10,000 fixed deposit.",
+        "sources": ["dcb-card"]
+      }
+    ],
+    "notes": [
+      "Full card eligibility rules for DCB, SBM, IOB and YES BANK are not confirmed."
+    ]
+  },
+  "LivQuik": {
+    "summary": "LivQuik's QuikWallet app offers prepaid wallets, cards and UPI payments.",
+    "summarySources": ["product", "quikwallet"],
+    "requirements": [
+      {
+        "label": "Primary prepaid account",
+        "text": "18+, Indian citizen and resident, legally able to enter contracts, and tax-resident only in India.",
+        "sources": ["ppi-terms"]
+      },
+      {
+        "label": "Prepaid account identity checks",
+        "text": "Provide personal, contact and identity details. You must not fall within the politically exposed person category excluded by the account terms.",
+        "sources": ["ppi-terms"]
+      },
+      {
+        "label": "Minors' prepaid access",
+        "text": "Minors can use services through a parent or legal guardian registered on the platform.",
+        "sources": ["ppi-terms"]
+      },
+      {
+        "label": "Small and full-KYC wallets",
+        "text": "Small wallets have limited features; full KYC requires documents and verification. Verification may use video, biometrics or Aadhaar OTP where enabled.",
+        "sources": ["ppi-terms"]
+      }
+    ],
+    "notes": [
+      "QuikWallet's UPI KYC tier and setup steps are not confirmed.",
+      "Partner programmes and dependent cards have separate conditions."
+    ]
+  }
+}

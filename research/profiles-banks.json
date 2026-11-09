@@ -1,0 +1,3109 @@
+{
+  "Axis Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-axis-market",
+        "url": "https://www.axis.bank.in/docs/default-source/annual-reports/for-axis-bank/annual-report-for-the-year-2024-2025.pdf",
+        "title": "Integrated Annual Report 2024–25 — Retail and Bharat Banking",
+        "publisher": "Axis Bank",
+        "checked": "2026-11-09",
+        "supports": "Retail premiumisation, salary relationships and digital engagement sit alongside rural/semi-urban Bharat Banking and enterprise services."
+      }
+    ],
+    "headline": "Working adults, professionals and smaller-town enterprise households",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults, from early careers to established households",
+        "reason": "Salary relationships, credit and wealth services imply several adult financial life stages rather than a predominantly student audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-axis-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and smaller towns, with meaningful rural reach",
+        "reason": "Bharat Banking's rural and semi-urban distribution makes an urban-only estimate too narrow; network reach is a proxy, not app residency.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-axis-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, professionals and small-business households",
+        "reason": "Salary-linked acquisition and commercial/Bharat Banking suggest a mix of regular earners and enterprise-linked households.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-axis-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market consumers with affluent and value-conscious segments",
+        "reason": "Retail premiumisation implies an upwardly mobile segment, while Bharat Banking adds customers with more practical savings and credit needs.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-axis-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The retail, salary and enterprise proposition spans household roles, without a clear basis for assigning an overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-axis-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Kotak Mahindra Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-kotak-core",
+        "url": "https://earningscalls.dev/transcripts/kotak-mahindra-bank-limited_500247_earnings_call_transcript_2026-01-24",
+        "title": "Kotak Mahindra Bank — January 24, 2026 earnings call",
+        "publisher": "EarningsCalls.dev / Kotak management",
+        "checked": "2026-11-09",
+        "supports": "Management describes Kotak811's young, aspirational, value-conscious Core India audience alongside premium banking."
+      }
+    ],
+    "headline": "Young digital earners alongside established savers and businesses",
+    "tags": [
+      "young_adults",
+      "urban",
+      "salaried",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults in their 20s–30s, plus established adults",
+        "reason": "Kotak811's stated young-customer strategy supports this editorial planning band; the wider bank and business services extend beyond it.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kotak-core",
+          "demo-bank-kotak-biz"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Digital customers in cities and connected smaller towns",
+        "reason": "Mobile-first Core India positioning suggests reach beyond major metros; it does not establish a rural or app-residency majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kotak-core"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Early-career earners, professionals and business owners",
+        "reason": "The aspirational digital account and kotak.biz's professional/business focus suggest both employed and independently earning adults.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kotak-core",
+          "demo-bank-kotak-biz"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious earners through affluent established savers",
+        "reason": "811's value positioning and the bank's premium propositions imply different spending tiers rather than one income bracket.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kotak-core"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Young, aspirational positioning and professional collections are not gender-specific enough to justify a skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kotak-core",
+          "demo-bank-kotak-biz"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "slice Small Finance Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-slice-northeast",
+        "url": "https://ipr.nagaland.gov.in/slice-small-finance-bank-inaugurates-new-branch-wokha-district",
+        "title": "slice Small Finance Bank inaugurates branch in Wokha — August 2025",
+        "publisher": "Department of Information & Public Relations, Nagaland",
+        "checked": "2026-11-09",
+        "supports": "Documents the fintech/Northeast bank merger, young-Indian origins, and regional financial inclusion and entrepreneurship expansion."
+      }
+    ],
+    "headline": "Young digital adults plus Northeast inclusion banking households",
+    "tags": [
+      "young_adults",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young adults in their 20s–30s, plus established local adults",
+        "reason": "Continued youth-oriented app design supports the inferred young-adult band; the inherited regional bank adds older household life stages.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-slice-youth-2026",
+          "profile-bank-slice-northeast"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Connected cities nationwide plus Northeast towns and villages",
+        "reason": "The digital youth franchise and Northeast inclusion expansion imply two catchments rather than a solely metropolitan app profile.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-slice-youth-2026",
+          "profile-bank-slice-northeast"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Early-career earners and small-enterprise households",
+        "reason": "Youth banking suggests people forming independent finances; Wokha's entrepreneurship emphasis adds established local livelihood needs.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-slice-youth-2026",
+          "profile-bank-slice-northeast"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-seeking everyday spenders and underserved local savers",
+        "reason": "Accessible fintech origins and financial inclusion expansion suggest practical banking budgets, without implying that every customer has low income.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-slice-northeast"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Youth and regional inclusion positioning support multiple household roles, with no persuasive gender-specific emphasis here.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-slice-youth-2026",
+          "profile-bank-slice-northeast"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "HDFC Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-hdfc-market",
+        "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2024-25/HDFC_Bank_Annual_Report_2024_25-310202.pdf",
+        "title": "Integrated Annual Report 2024–25 — customer segments and Commercial/Rural Cluster",
+        "publisher": "HDFC Bank",
+        "checked": "2026-11-09",
+        "supports": "Retail spans salaried professionals, small businesses, NRIs and wealth customers; commercial/rural operations include farmers, MSMEs and self-help groups."
+      }
+    ],
+    "headline": "Established earning households, entrepreneurs and expanding rural customers",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults forming and managing established households",
+        "reason": "Salary banking, housing, business finance and savings suggest adult earning and family-building stages, not a youth-only profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hdfc-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and other cities, smaller towns and rural markets",
+        "reason": "The commercial/rural cluster and extensive semi-urban/rural distribution broaden the likely catchment beyond major cities.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hdfc-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, professionals, entrepreneurs and farming households",
+        "reason": "The disclosed bank-level segments support this mixed livelihood profile; SmartHub Vyapar specifically adds merchant operators.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hdfc-market",
+          "demo-bank-hdfc-smarthub-vyapar"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market to affluent, alongside practical rural budgets",
+        "reason": "Retail wealth and professional banking coexist with small-business and agricultural relationships, so a single affluent-income assumption would be misleading.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hdfc-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The household, professional and business mix suggests inclusive positioning rather than one gender-led consumer proposition.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hdfc-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Bank-market proxy; PayZapp can also attract other-bank customers and need not mirror HDFC's customers."
+    ]
+  },
+  "ICICI Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-icici-market",
+        "url": "https://www.sec.gov/Archives/edgar/data/1103838/000095010326011004/dp250272_ex9901.pdf",
+        "title": "Annual Report 2025–26 — retail, business and rural ecosystems",
+        "publisher": "ICICI Bank / US SEC",
+        "checked": "2026-11-09",
+        "supports": "Describes household retail banking, InstaBIZ, substantial rural/semi-urban distribution and farmers, retailers, self-employed people and rural entrepreneurs."
+      }
+    ],
+    "headline": "Working adults, enterprise owners and digitally active households",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working adults through established family stages",
+        "reason": "The historical Mine initiative adds youth relevance, while household retail and enterprise banking imply a wider adult lifecycle; no current age share is assumed.",
+        "basis": "inferred",
+        "sources": [
+          "demo-bank-icici-mine-launch",
+          "profile-bank-icici-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities nationwide, smaller towns and rural economic centres",
+        "reason": "The substantial rural/semi-urban network and rural ecosystem strategy support mixed reach rather than a purely metro profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-icici-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working households, professionals, retailers and entrepreneurs",
+        "reason": "Household retail banking and dedicated self-employed/business services suggest a meaningful mix of personal and livelihood banking.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-icici-market",
+          "demo-bank-icici-instabiz-launch"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market and affluent savers, plus smaller-enterprise budgets",
+        "reason": "Retail lending and savings alongside rural and small-enterprise services imply several financial tiers; loan values do not establish personal incomes.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-icici-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women visible in rural enterprise outreach",
+        "reason": "Women's self-help-group financing adds a concrete female livelihood segment, without establishing the gender balance of iMobile or UPI users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-icici-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "IDFC FIRST Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-idfc-market",
+        "url": "https://www.idfcfirst.bank.in/about-us/our-bank",
+        "title": "Our Bank — universal banking and customer propositions",
+        "publisher": "IDFC FIRST Bank",
+        "checked": "2026-11-09",
+        "supports": "Combines retail, MSME, rural and wealth banking with fee-waived savings services, salary accounts and professional/farmer accounts."
+      }
+    ],
+    "headline": "Value-seeking earners, small enterprises and rural banking households",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults, from first earnings to established families",
+        "reason": "Salary, housing, business and savings propositions imply adult financial milestones, rather than enough evidence for a narrow youth band.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idfc-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban centres and connected towns, with rural inclusion reach",
+        "reason": "The universal-bank scope explicitly includes rural and MSME banking, making a city-only estimate too narrow.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idfc-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, professionals, small entrepreneurs and farming households",
+        "reason": "Salary, professional, merchant and farmer propositions suggest several earning models rather than a universal salaried skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idfc-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious mainstream savers with an affluent tier",
+        "reason": "Waiving common savings-service fees suggests cost-sensitive appeal; wealth/private propositions also serve customers with larger financial relationships.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idfc-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; a specific women's savings proposition",
+        "reason": "FIRST Power Women's account adds a deliberate female segment, while the overall retail/business proposition remains inclusive.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idfc-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Yes Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-yes-market",
+        "url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONT1596A8BC98F744E58293697D5EAD100D/native/ybl_yesbank_integrated_annual_report_2024_25.pdf?download=false",
+        "title": "Integrated Annual Report 2024–25 — Retail and Branch Banking",
+        "publisher": "YES BANK",
+        "checked": "2026-11-09",
+        "supports": "Branch strategy emphasises affluent, emerging-affluent and mass-affluent customers and SMEs in metro/urban markets, alongside rural inclusion businesses."
+      }
+    ],
+    "headline": "Urban earning households and emerging-affluent business owners",
+    "tags": [
+      "urban",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults with established financial and business needs",
+        "reason": "Wealth tiers and SME relationships imply earning and asset-building stages, rather than evidence of a predominantly student audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-yes-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and other cities, plus smaller-town inclusion segments",
+        "reason": "The urban/metro branch strategy supports a city-leaning estimate; rural operations prevent treating it as exclusively urban.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-yes-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Earning households, professionals and SME owners",
+        "reason": "Personal wealth tiers and YES First Business suggest overlapping household and entrepreneurial financial needs.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-yes-market",
+          "aud-bank-yes-iris-biz"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market to emerging-affluent and affluent consumers",
+        "reason": "Premia, Grandeur and First target different wealth tiers, supporting this positioning estimate rather than a measured income distribution.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-yes-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Personal and business banking tiers are organised around financial relationships, not a distinct overall gender audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-yes-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "State Bank of India": {
+    "sources": [
+      {
+        "id": "profile-bank-sbi-market",
+        "url": "https://sbi.bank.in/documents/17826/35696/Annual%20Report%20FY2025.pdf",
+        "title": "Annual Report 2024–25 — Personal, Rural, SME and YONO banking",
+        "publisher": "State Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Personal/salary banking, education, pensions, agriculture, SME services and YONO journeys span multiple adult life stages."
+      }
+    ],
+    "headline": "Working families, pensioners and enterprise households across India",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried",
+      "older_adults",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working adults, established families and pensioners",
+        "reason": "Education and household borrowing broaden the younger end; pension loans available through YONO make older adults a concrete secondary segment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sbi-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros, small towns and villages nationwide",
+        "reason": "The retail, rural and financial inclusion businesses support genuinely mixed geographic reach; this is not an app-residency measurement.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sbi-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, pensioners, farmers and small-business households",
+        "reason": "Personal/salary banking sits beside pension, agriculture and SME operations, suggesting several recurring-income and livelihood patterns.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sbi-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Everyday mass-market budgets through established middle-class savings",
+        "reason": "Inclusion, education, home and pension services suggest both constrained budgets and households accumulating assets, with wealth clients also present.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sbi-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The life-stage and livelihood mix supports inclusive household use, without a reason to impose an overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sbi-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "SBI's customer mix is a proxy; BHIM SBI Pay and YONO UPI can also reach other-bank users."
+    ]
+  },
+  "Unity Small Finance Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-unity-market",
+        "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/UnitySmallFinanceBankLimited_August%2001_%202025_RR_374387.html",
+        "title": "Unity Small Finance Bank — rating rationale, August 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Describes MSME, supply-chain, microfinance and SME businesses, retail deposits, national expansion and the inherited PMC customer franchise."
+      }
+    ],
+    "headline": "Small-enterprise households, inclusion borrowers and established deposit savers",
+    "tags": [
+      "self_employed",
+      "businesses",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age enterprise households and established adult savers",
+        "reason": "Business lending and retail deposits imply income-generation and savings stages, with no strong reason to narrow the profile to young adults.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-unity-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and trading towns, with smaller-market inclusion reach",
+        "reason": "The PMC franchise, multi-state branches and microfinance operations suggest mixed urban and inclusion catchments; geography is a bank-level proxy.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-unity-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Small-business owners, micro-entrepreneurs and household savers",
+        "reason": "MSME/SME and supply-chain activity make enterprise livelihoods particularly relevant, alongside deposit customers who need not run a business.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-unity-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Underserved enterprise budgets alongside established retail savings",
+        "reason": "The microfinance and business-banking mix suggests constrained working-capital needs, while retail deposits bring customers with surplus savings.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-unity-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no overall predominance inferred",
+        "reason": "The business and depositor mix supports multiple household roles; microfinance exposure alone cannot establish the aggregate app's gender balance.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-unity-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Bank-market proxy; lending clients, inherited depositors and payment recipients are distinct populations."
+    ]
+  },
+  "India Post Payments Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-ippb-inclusion",
+        "url": "https://bfsi.economictimes.indiatimes.com/news/banking/india-post-payments-bank-opens-2-68-crore-accounts-in-2024-59-pc-belong-to-women/116499135",
+        "title": "IPPB's 2024 account opening, women, rural reach and benefit transfers",
+        "publisher": "ETBFSI / IANS",
+        "checked": "2026-11-09",
+        "supports": "Reports women's and rural account-opening cohorts, DBT recipients, mobile-banking users and pensioner life-certificate services as separate populations."
+      }
+    ],
+    "headline": "Rural working households, women and benefit-receiving older adults",
+    "tags": [
+      "rural",
+      "women",
+      "older_adults",
+      "general"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults, with pensioners a secondary segment",
+        "reason": "Benefit transfers and household transactions suggest adult money managers; pensioner services add later-life relevance without measuring app-user ages.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-ippb-inclusion"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Villages and underserved small towns, with urban reach too",
+        "reason": "Rural account-opening evidence and postal doorstep distribution support a strong rural profile; bank customers and self-service app users can differ.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-ippb-inclusion",
+          "aud-bank-ippb-inclusion"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Farming and informal-work households, homemakers and pensioners",
+        "reason": "Grassroots inclusion and DBT/pension services suggest livelihood and household-benefit management, rather than a primarily corporate-salary audience.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-ippb-inclusion",
+          "profile-bank-ippb-inclusion"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Basic-banking, value-conscious and benefit-dependent household budgets",
+        "reason": "Accessible doorstep services and DBT participation suggest practical, often constrained money-management needs; they do not establish every customer's income.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-ippb-inclusion",
+          "profile-bank-ippb-inclusion"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, with a strong women's inclusion segment",
+        "reason": "Women's prominence in new accounts and DBT cohorts supports a female emphasis in this bank-market estimate, not an app-wide majority claim.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-ippb-inclusion"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Airtel Payments Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-airtel-market",
+        "url": "https://www.airtelpayments.bank.in/social/news/airtel-payments-bank-crosses-3000-cr-in-annualised-revenue",
+        "title": "Q1 FY26 results — Urban Digital, Underbanked and Institutional segments",
+        "publisher": "Airtel Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Identifies urban digital and underbanked segments, no-minimum-balance second accounts, metro transit payments and nationwide assisted banking."
+      }
+    ],
+    "headline": "Everyday digital spenders and underserved working households",
+    "tags": [
+      "general",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working adults through established household stages",
+        "reason": "Transit, routine payments and a second-account proposition suggest active adult money managers, rather than a specifically teen audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-airtel-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and commuter corridors, smaller towns and villages",
+        "reason": "Metro transit use and urban digital banking coexist with a nationwide assisted network, supporting a mixed geographic estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-airtel-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Commuting earners, informal workers and household money managers",
+        "reason": "Transit and cash-digitisation services suggest daily earners and household transactions; this does not turn corporate partners into consumer demographics.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-airtel-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious everyday budgets, including existing-bank customers",
+        "reason": "No-minimum-balance inclusion and Safe Second Account positioning suggest both budget-sensitive users and people separating daily spending from other accounts.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-airtel-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women relevant in the separate agent network",
+        "reason": "Consumer positioning gives no clear skew; women correspondents are a meaningful distribution cohort, not proof about Airtel app consumers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-airtel-market",
+          "demo-bank-airtel-mitra-mastercard-2025"
+        ]
+      }
+    ],
+    "caveats": [
+      "Consumer profile; Mitra merchants and banking correspondents are separate users."
+    ]
+  },
+  "Federal Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-federal-market",
+        "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/TheFederalBankLimited_December%2030_%202025_RR_385602.html",
+        "title": "Federal Bank — rating rationale, December 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Documents southern/Kerala business concentration, NRI remittances/deposits, household retail loans and business/commercial banking."
+      },
+      {
+        "id": "profile-bank-federal-segments",
+        "url": "https://financialfilings.com/filings/the-federal-bank-ltd/environmental-social-information/2025/45829039/",
+        "title": "FY2025 customer segments — BRSR disclosure",
+        "publisher": "Federal Bank / FinancialFilings",
+        "checked": "2026-11-09",
+        "supports": "Lists salaried, self-employed, professional, NRI, HNI, small-business and farmer customers."
+      }
+    ],
+    "headline": "Established southern households, professionals and NRI-linked families",
+    "tags": [
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults and established family savers",
+        "reason": "Home borrowing, remittances and long-term deposits suggest earning and family-asset stages rather than a predominantly student audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-federal-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Kerala and southern cities/towns, plus overseas-linked households",
+        "reason": "Southern business concentration and the NRI franchise make these plausible core catchments; remittance links do not prove app users live abroad.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-federal-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, professionals, self-employed people and NRI households",
+        "reason": "The disclosed customer segments support a mixed earning base, with migration-linked family finances especially relevant.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-federal-segments",
+          "profile-bank-federal-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market savings and remittance households, with affluent tiers",
+        "reason": "Retail deposits/home loans and NRI relationships suggest asset-building households, while the wider customer list includes both farmers and wealthy clients.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-federal-market",
+          "profile-bank-federal-segments"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The mix of individual livelihoods and household remittance needs supports inclusive use without a defensible overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-federal-segments"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Jio Payments Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-jio-market",
+        "url": "https://www.jfs.in/annual-report/business/jiobank/",
+        "title": "Annual Report FY2025–26 — Jio Payments Bank",
+        "publisher": "Jio Financial Services",
+        "checked": "2026-11-09",
+        "supports": "Digital, salary and assisted savings accounts combine with UPI, remittances, AEPS and DBT to address mainstream and underserved transaction needs."
+      }
+    ],
+    "headline": "Value-conscious digital earners and underserved transaction-banking households",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working adults through established household money managers",
+        "reason": "Digital/salary accounts and household bills suggest independent adult finances; assisted inclusion extends relevance beyond young smartphone enthusiasts.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jio-market",
+          "aud-bank-jiofinance"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Connected cities and towns, with assisted rural reach",
+        "reason": "Digital onboarding and a large correspondent distribution suggest both self-service and last-mile catchments, without identifying app-user residence shares.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jio-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, remittance users and benefit-managing households",
+        "reason": "Salary accounts, money transfers and DBT imply regular earners and households managing public benefits rather than one occupation.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jio-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious everyday budgets and modest-balance savers",
+        "reason": "Zero-balance banking supports cost-sensitive appeal; sweep/savings features also suit people retaining a surplus for routine liquidity.",
+        "basis": "inferred",
+        "sources": [
+          "aud-bank-jiofinance",
+          "profile-bank-jio-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Salary, remittance and household-payment services imply inclusive positioning, without support for a gender-predominance estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jio-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Jio Payments Bank profile; JioFinance's wider lending/investment audience is not automatically the same population."
+    ]
+  },
+  "Deutsche Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-deutsche-market",
+        "url": "https://country.db.com/india/documents/other-information/Deutsche-Bank-India-Fact-Sheet-Aug-2025.pdf",
+        "title": "Deutsche Bank India fact sheet — August 2025",
+        "publisher": "Deutsche Bank",
+        "checked": "2026-11-09",
+        "supports": "India's private bank combines private/premium, business and wealth banking across a small city network, with individual and SME clients."
+      }
+    ],
+    "headline": "Established urban professionals, entrepreneurs and affluent NRI households",
+    "tags": [
+      "urban",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Established working-age adults and mature wealth-holding households",
+        "reason": "Business, property-backed borrowing and wealth services imply accumulated financial relationships and established adult life stages.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-deutsche-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Major Indian cities, with NRI-linked international reach",
+        "reason": "The concentrated city branch footprint supports an urban estimate; MyBank's NRI UPI access adds overseas-linked customers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-deutsche-market",
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Professionals, entrepreneurs, SME owners and established savers",
+        "reason": "Individual premium banking, business instalment/trade lending and SME services suggest professional and entrepreneurial livelihoods, not a universal salary skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-deutsche-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Upper-middle and affluent segments, plus mainstream retail clients",
+        "reason": "Premium and wealth banking imply larger investible balances, but the fact sheet also includes ordinary retail and smaller-business clients.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-deutsche-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The proposition is segmented by personal wealth and business needs, giving no sound basis for a gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-deutsche-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Jammu & Kashmir Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-jk-market",
+        "url": "https://www.jkb.bank.in/sites/default/files/2025-10/Annual%20Report%202024-25%20Delux.pdf",
+        "title": "Annual Report 2024–25 — customer segments and regional role",
+        "publisher": "Jammu & Kashmir Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes leadership in J&K/Ladakh and government, employee, enterprise, farmer and artisan banking relationships."
+      }
+    ],
+    "headline": "Regional earning families, government employees, farmers and artisans",
+    "tags": [
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults and established regional households",
+        "reason": "Government employment, farming, artisan livelihoods and family borrowing imply a mix of earning and household-building stages.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jk-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Jammu & Kashmir and Ladakh, across cities, towns and villages",
+        "reason": "Its leading regional and government-banking role suggests a strong local catchment, while branches elsewhere add an external segment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jk-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Government employees, traders, farmers, artisans and other earners",
+        "reason": "These named bank-level relationships support a distinctive mixed livelihood profile rather than a generic private-bank salaried assumption.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jk-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream salary budgets and variable-income livelihood households",
+        "reason": "Employee relationships imply recurring pay, while farm, trade and artisan finance suggests uneven cash flows and practical credit/savings needs.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jk-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Regional household and livelihood services span genders; the customer-segment evidence does not justify a predominance claim.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-jk-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Canara Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-canara-market",
+        "url": "https://www.canarabank.bank.in/pages/about-us",
+        "title": "About Canara Bank and customer propositions",
+        "publisher": "Canara Bank",
+        "checked": "2026-11-09",
+        "supports": "Includes payroll/government employee, pension, senior citizen, basic savings, farming, housing and enterprise propositions."
+      },
+      {
+        "id": "profile-bank-canara-inclusion",
+        "url": "https://canarabank.bank.in/UploadedFiles/Pdf/BRSR_2023-24-31050241.pdf",
+        "title": "BRSR 2023–24 — financial inclusion and distribution",
+        "publisher": "Canara Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes rural/semi-urban distribution and services for disadvantaged groups, small businesses and women entrepreneurs."
+      }
+    ],
+    "headline": "Working families, pensioners and rural-enterprise households nationwide",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "salaried",
+      "older_adults",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age families, with pensioners and older savers",
+        "reason": "Payroll, housing and education needs imply several adult life stages; dedicated pension/senior propositions make older adults a meaningful segment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-canara-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities nationwide, smaller towns and rural communities",
+        "reason": "Rural/semi-urban distribution and inclusion strategy support mixed reach; branch composition is only a geographic proxy for app users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-canara-inclusion"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, pensioners, farming and small-business households",
+        "reason": "Payroll and pension relationships sit alongside agricultural and enterprise services, suggesting several income sources and household roles.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-canara-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious basic banking through middle-class asset building",
+        "reason": "Basic savings/inclusion and housing propositions imply constrained-budget customers alongside established savers, not one income tier.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-canara-market",
+          "profile-bank-canara-inclusion"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, with women's inclusion a secondary focus",
+        "reason": "Female entrepreneurship and targeted savings add a women's segment; they do not establish the overall digital audience's gender balance.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-canara-inclusion",
+          "profile-bank-canara-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Bank-market proxy; Canara ai1Pe excludes non-individual accounts from app-mode transactions."
+    ]
+  },
+  "RBL Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-rbl-market",
+        "url": "https://webassets.rbl.bank.in/ir_admin/financial_highlights/rbl-bank-ar-24-25.pdf",
+        "title": "Integrated Annual Report 2024–25 — cards, branches and microfinance",
+        "publisher": "RBL Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes substantial card relationships, retail branches, extensive village microfinance distribution, and distinct retail/MFI digital channels."
+      }
+    ],
+    "headline": "Urban card users alongside rural micro-enterprise households",
+    "tags": [
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young and established working adults, plus household borrowers",
+        "reason": "Cards and household/business finance imply independently earning and established adult stages; the rural franchise broadens this beyond young card users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-rbl-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and trading towns, with a separate village inclusion catchment",
+        "reason": "Retail/card banking and extensive village microfinance reach suggest two distinct markets, not a measured geographic split of UPI users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-rbl-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Card-using earners, small entrepreneurs and microfinance households",
+        "reason": "The card franchise and commercial/microfinance businesses suggest varied earning patterns; neither loan clients nor merchants represent all app users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-rbl-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream discretionary spenders alongside constrained livelihood budgets",
+        "reason": "Cards suggest an organised-spending segment; microfinance and affordable-housing activity add practical, underserved financial needs.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-rbl-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no aggregate gender predominance inferred",
+        "reason": "The combined retail and microfinance entry is too varied for a justified overall skew; a lending cohort cannot define every banking app.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-rbl-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Punjab National Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-pnb-market",
+        "url": "https://pnb.bank.in/downloadprocess.aspx?fid=W2BFTKd7UDCAXqTGGboMkw%3D%3D",
+        "title": "PNB company profile — September 2025",
+        "publisher": "Punjab National Bank",
+        "checked": "2026-11-09",
+        "supports": "Documents strong North/Central India presence and substantial rural/semi-urban distribution."
+      },
+      {
+        "id": "profile-bank-pnb-lifestage",
+        "url": "https://pnb.bank.in/citizen-charter.html",
+        "title": "Citizen's Charter — customer groups and services",
+        "publisher": "Punjab National Bank",
+        "checked": "2026-11-09",
+        "supports": "Names pensioners/seniors, rural/semi-urban customers and self-help groups alongside personal and business services."
+      }
+    ],
+    "headline": "Northern and central working families, pensioners and enterprises",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "older_adults",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults and older pension recipients",
+        "reason": "Personal banking and explicit pensioner/senior service commitments imply both earning families and later-life customers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-pnb-lifestage"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "North/Central India especially, plus national city and rural reach",
+        "reason": "The bank's stated regional strength and distribution make a mixed small-town/rural/city profile plausible; they do not measure app-user locations.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-pnb-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working households, pensioners and small-enterprise or SHG members",
+        "reason": "Household services and named pension/SHG customers imply several livelihoods and household roles, without proving one occupation dominates.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-pnb-lifestage"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Everyday mass-market budgets through established household savings",
+        "reason": "Inclusion and pensioner banking suggest routine savings and benefit management, while the full personal/business mix allows larger-balance customers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-pnb-lifestage"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Household, pension and enterprise needs are shared across genders; SHG relevance alone does not establish an aggregate app skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-pnb-lifestage"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "IndusInd Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-indusind-market",
+        "url": "https://indie.indusind.bank.in/content/dam/indusind-corporate/Other/Newsletter-Volume-1-June-2025.pdf",
+        "title": "June 2025 newsletter — consumer, vehicle and inclusive banking",
+        "publisher": "IndusInd Bank",
+        "checked": "2026-11-09",
+        "supports": "Combines household/cards/affluent banking, vehicle finance and BFIL's rural/semi-urban microbanking, primarily women borrowers, merchants and MSMEs."
+      }
+    ],
+    "headline": "Urban earning households and rural livelihood-linked enterprise families",
+    "tags": [
+      "urban",
+      "rural",
+      "self_employed",
+      "women"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults, established families and business operators",
+        "reason": "Household, vehicle and enterprise finance suggest active earning and family stages; digital banking alone does not justify a youth majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indusind-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Urban centres plus rural and semi-urban livelihood markets",
+        "reason": "Urban retail and BFIL's explicit rural/semi-urban catchment support two market components, not an app-user residence ratio.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indusind-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Earning households, transport operators, micro-entrepreneurs and merchants",
+        "reason": "Vehicle finance and inclusive/business banking make livelihood-linked households relevant alongside ordinary personal-banking customers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indusind-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream and affluent spenders alongside underserved livelihood budgets",
+        "reason": "Premium household offers and inclusive finance span materially different financial tiers, so treating the bank as entirely affluent would distort it.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indusind-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women central within the microfinance segment",
+        "reason": "BFIL's women-focused lending supports a concrete female inclusion segment, without implying that women dominate INDIE or other consumer apps.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indusind-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Bank of Baroda": {
+    "sources": [
+      {
+        "id": "profile-bank-bob-market",
+        "url": "https://financialfilings.com/filings/bank-of-baroda/annual-report/2025/57339179/",
+        "title": "Annual Report 2024–25 — retail, agriculture and distribution",
+        "publisher": "Bank of Baroda / FinancialFilings",
+        "checked": "2026-11-09",
+        "supports": "Describes national urban/rural/semi-urban distribution, home/auto/education retail finance, farmer outreach and business correspondents."
+      },
+      {
+        "id": "profile-bank-bob-enterprise",
+        "url": "https://financialfilings.com/filings/bank-of-baroda/annual-report/2025/42324320/",
+        "title": "Annual Report 2024–25 — RAM strategy and digital onboarding",
+        "publisher": "Bank of Baroda / FinancialFilings",
+        "checked": "2026-11-09",
+        "supports": "Retail, agriculture and MSME strategy includes SHG accounts and merchant onboarding as distinct services."
+      }
+    ],
+    "headline": "City and small-town families, farmers and enterprise owners",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young earning adults through established family households",
+        "reason": "Education, home and vehicle finance imply transitions into work and household asset ownership, rather than a narrow youth profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-bob-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities, smaller towns and villages across India",
+        "reason": "The national branch/correspondent mix suggests genuinely mixed market reach; this is a bank-level proxy, not measured bob app residency.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-bob-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, farmers, traders and small-business owners",
+        "reason": "The retail/agriculture/MSME strategy and farmer outreach support multiple livelihood groups, with merchant onboarding a separate business segment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-bob-market",
+          "profile-bank-bob-enterprise"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market and middle-class budgets, including asset-building savers",
+        "reason": "Inclusion and agriculture coexist with housing/auto borrowing, suggesting everyday and established household finances rather than one wealth bracket.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-bob-market",
+          "profile-bank-bob-enterprise"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Personal, farm and enterprise services suggest inclusive household reach; SHG onboarding does not prove an app-wide gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-bob-market",
+          "profile-bank-bob-enterprise"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Indian Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-indian-market",
+        "url": "https://indianbank.bank.in/en/bank-s-profile",
+        "title": "Indian Bank — bank profile and customer propositions",
+        "publisher": "Indian Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes nationwide urban/rural/semi-urban distribution, individual/farmer/business banking and youth, professional and enterprise propositions."
+      }
+    ],
+    "headline": "Working families, farming households and small-enterprise savers nationwide",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young earning adults through established family households",
+        "reason": "Youth/professional propositions and housing/business services imply entry into work through mature household-finance stages.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indian-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities nationwide, smaller towns and agricultural communities",
+        "reason": "A substantial rural/semi-urban network and national footprint suggest mixed geographic reach, without measuring IndSMART users' residence.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indian-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, professionals, farmers and small-business operators",
+        "reason": "The bank explicitly serves individuals, farmers and businesses, suggesting several employment and livelihood patterns.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indian-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Everyday mass-market budgets and middle-class asset builders",
+        "reason": "Basic/DBT savings, agricultural services and household borrowing imply both inclusion needs and established savings capacity.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indian-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women entrepreneurs an identifiable secondary segment",
+        "reason": "IND ASPIRE-WOMEN adds a specific enterprise audience, while general household, professional and farmer banking remains inclusive.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-indian-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "HSBC": {
+    "sources": [
+      {
+        "id": "profile-bank-hsbc-market",
+        "url": "https://www.about.hsbc.co.in/-/media/india/en/news-and-media/250117-hsbc-receives-approval-to-open-20-new-branches-in-india-to-support-wealth-expansion.pdf",
+        "title": "HSBC receives approval for 20 Indian branches — January 2025",
+        "publisher": "HSBC India",
+        "checked": "2026-11-09",
+        "supports": "Expansion targets affluent, HNW/UHNW and NRI clients in wealth and industrial centres, including growing non-metro cities."
+      },
+      {
+        "id": "profile-bank-hsbc-reporting",
+        "url": "https://m.economictimes.com/industry/banking/finance/banking/hsbc-india-wealth-management-private-banking-affluent-customers-branch-expansion-smaller-cities-icici-kotak-2030/articleshow/134532003.cms",
+        "title": "HSBC makes big push for affluent clients in India — September 2026",
+        "publisher": "The Economic Times / Bloomberg",
+        "checked": "2026-11-09",
+        "supports": "Explains wealth, international connectivity and smaller-city expansion as HSBC India's strategic emphasis."
+      }
+    ],
+    "headline": "Affluent urban professionals, entrepreneurs and internationally connected families",
+    "tags": [
+      "urban",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Established working adults and mature wealth-managing families",
+        "reason": "Wealth, NRI and cross-border business needs imply accumulated assets and established adult relationships; this is a life-stage inference, not an age survey.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hsbc-market",
+          "profile-bank-hsbc-reporting"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Major cities and rising wealth centres, plus NRI connections",
+        "reason": "Named expansion cities and international positioning support an urban, globally connected profile extending beyond the largest metros.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hsbc-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Professionals, entrepreneurs and internationally connected household earners",
+        "reason": "Industrial/wealth centres and cross-border business needs make professional and business-owner households plausible, without claiming all customers are employed.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hsbc-market",
+          "profile-bank-hsbc-reporting"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Upper-middle and affluent, with high-wealth segments",
+        "reason": "The explicit wealth-expansion focus supports a premium financial segment; it is not a measured income profile of SimplyPay users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hsbc-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The India proposition is organised around wealth and international needs, not an evident gender-specific audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-hsbc-market",
+          "profile-bank-hsbc-reporting"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "AU Small Finance Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-au-market",
+        "url": "https://assets.aubank.in/website/Annual-Report-FY25.pdf",
+        "title": "Integrated Annual Report 2024–25 — lending strategy",
+        "publisher": "AU Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Highlights income-generating asset finance, informal rural/semi-urban underwriting, MSMEs, vehicle finance and affordable housing."
+      },
+      {
+        "id": "profile-bank-au-inclusion",
+        "url": "https://assets.aubank.in/website/annual-report-2025.pdf",
+        "title": "Integrated Annual Report 2024–25 — Inclusive Banking",
+        "publisher": "AU Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Names micro-entrepreneurs, small/marginal farmers, informal workers and women-led rural households in inclusion banking."
+      }
+    ],
+    "headline": "Small-town entrepreneurs, transport households and rural inclusion savers",
+    "tags": [
+      "self_employed",
+      "businesses",
+      "rural",
+      "urban",
+      "women"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age livelihood builders and established household savers",
+        "reason": "Transport, small-business and housing finance imply adults developing livelihoods and household assets rather than a specifically student audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-au-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Smaller cities and semi-urban markets, with rural communities",
+        "reason": "Informal-segment and affordable-housing emphasis supports small-town relevance; rural inclusion is a distinct additional catchment, not synonymous with Tier 2.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-au-market",
+          "profile-bank-au-inclusion"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Small entrepreneurs, transport operators, farmers and informal workers",
+        "reason": "Income-generating asset finance and the named inclusion groups make independently earned livelihoods central to this estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-au-market",
+          "profile-bank-au-inclusion"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious enterprise and household budgets, plus established savers",
+        "reason": "Affordable housing and underserved borrowers suggest practical spending constraints; the wider deposit franchise need not have the same income profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-au-market",
+          "profile-bank-au-inclusion"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women-led rural households a specific segment",
+        "reason": "Inclusive Banking explicitly emphasises women-led households, supporting a female inclusion component without claiming a women-majority app audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-au-inclusion"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Union Bank of India": {
+    "sources": [
+      {
+        "id": "profile-bank-union-network",
+        "url": "https://www.unionbankofindia.bank.in/pdf/union-bank-ar-2024-25-eng-final.pdf",
+        "title": "Integrated Annual Report 2024–25 — distribution",
+        "publisher": "Union Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Documents nationwide branches with a substantial rural/semi-urban presence."
+      },
+      {
+        "id": "profile-bank-union-strategy",
+        "url": "https://www.unionbankofindia.bank.in/pdf/transcript-30102025-signed.pdf",
+        "title": "Earnings call transcript — October 30, 2025",
+        "publisher": "Union Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Management describes growth towards retail, agriculture and MSME lending and granular retail term deposits."
+      }
+    ],
+    "headline": "Working households, farmers and entrepreneurs across smaller markets",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults and established household savers",
+        "reason": "Household retail lending, business credit and term deposits imply earning and asset-building adult stages rather than a narrowly youthful audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-union-strategy"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities nationwide, with substantial town and village reach",
+        "reason": "The branch network makes smaller-market households a plausible major component; it does not measure mobile app residency.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-union-network"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working households, farming families and small entrepreneurs",
+        "reason": "Retail, agriculture and MSME emphasis suggests mixed household and independently earned livelihoods, without establishing a salary majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-union-strategy"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream household budgets and practical enterprise savings",
+        "reason": "Retail deposits and farm/MSME finance suggest everyday savings and working-capital needs across constrained and established middle-market budgets.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-union-strategy"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Household, agricultural and enterprise services support inclusive positioning; the cited strategy does not justify narrowing by gender.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-union-strategy"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "South Indian Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-sib-market",
+        "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/TheSouthIndianBankLimited_October%2001_%202025_RR_379223.html",
+        "title": "South Indian Bank — rating rationale, October 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Documents Kerala concentration, stable NRI/retail deposits and retail/gold/MSME banking."
+      },
+      {
+        "id": "profile-bank-sib-business",
+        "url": "https://www.southindianbank.bank.in/userfiles/File/south_indian_bank_annual_report_2024-25_interactive.pdf",
+        "title": "Annual Report 2024–25 — MSME/SME banking",
+        "publisher": "South Indian Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes SME relationships concentrated in Kerala and the rest of southern India."
+      }
+    ],
+    "headline": "Southern working families, small businesses and NRI-linked savers",
+    "tags": [
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working adults and established family or retirement savers",
+        "reason": "Home/retail credit and a stable deposit franchise imply earning and accumulated-savings stages; the retirement component is an editorial life-stage estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sib-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Kerala and southern towns/cities, plus overseas-linked households",
+        "reason": "Regional business concentration and NRI deposits support a southern family/remittance catchment, without locating individual app users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sib-market",
+          "profile-bank-sib-business"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, SME owners and NRI-linked households",
+        "reason": "Retail/NRI deposits and SME relationships suggest household earnings and business livelihoods; salaried predominance is not established.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sib-market",
+          "profile-bank-sib-business"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market savers and business households, with affluent pockets",
+        "reason": "Granular retail savings and gold/SME finance suggest ordinary household and enterprise budgets alongside customers with larger NRI savings.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sib-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Retail savings, migration-linked family finances and SME relationships do not provide a sound basis for an overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sib-market",
+          "profile-bank-sib-business"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Standard Chartered": {
+    "sources": [
+      {
+        "id": "profile-bank-sc-market",
+        "url": "https://www.sc.bank.in/news-media/standard-chartered-opens-two-affluent-banking-centres-in-gurugram-branches/",
+        "title": "Affluent Banking Centres in Gurugram — August 2026",
+        "publisher": "Standard Chartered India",
+        "checked": "2026-11-09",
+        "supports": "Emphasises affluent, wealth and SME businesses through city banking centres."
+      },
+      {
+        "id": "profile-bank-sc-global",
+        "url": "https://www.sc.com/en/campaigns/spotlight-global-india/",
+        "title": "The rise of the Global Indian — February 2025",
+        "publisher": "Standard Chartered",
+        "checked": "2026-11-09",
+        "supports": "Describes serving Indian entrepreneurs, investors and globally connected wealth-managing households in India and abroad."
+      }
+    ],
+    "headline": "Urban affluent professionals, entrepreneurs and globally connected families",
+    "tags": [
+      "urban",
+      "self_employed",
+      "businesses"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Established working adults and mature wealth-managing households",
+        "reason": "Entrepreneurial wealth, investment and legacy-planning needs suggest established adult stages; no numerical age distribution is implied.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sc-market",
+          "profile-bank-sc-global"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Major cities and wealth centres, with overseas-linked Indians",
+        "reason": "City affluent centres and Global Indian services support an urban/international catchment rather than a rural-first audience estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sc-market",
+          "profile-bank-sc-global"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Professionals, SME owners, entrepreneurs and investor households",
+        "reason": "SME and wealth focus suggests successful earners and business-linked households; investment customers need not be salaried employees.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sc-market",
+          "profile-bank-sc-global"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Upper-middle, affluent and high-wealth financial relationships",
+        "reason": "Dedicated affluent centres and wealth services suggest substantial savings/investment needs, while the general mobile app can serve other retail tiers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sc-market",
+          "aud-bank-sc-mobile"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Financial wealth and international connections define the proposition more clearly than any supported gender positioning.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-sc-market",
+          "profile-bank-sc-global"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "UCO Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-uco-market",
+        "url": "https://www.uco.bank.in/documents/d/guest/uco-bank-annual-report-2024-25_",
+        "title": "Annual Report 2024–25 — distribution and retail/MSME initiatives",
+        "publisher": "UCO Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes substantial rural/semi-urban reach, education/pension/gold finance, digital retail/agriculture/MSME journeys and women-entrepreneur support."
+      }
+    ],
+    "headline": "Small-town working families, pensioners and rural enterprise households",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "older_adults",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age households, with pensioners and education-stage families",
+        "reason": "Education loans and pension journeys span early household financing through retirement, supporting several adult life stages.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-uco-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Towns and rural communities, alongside national city coverage",
+        "reason": "Substantial rural/semi-urban distribution makes smaller-market families relevant; branch composition is not an app-residency statistic.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-uco-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, pensioners, farmers and small entrepreneurs",
+        "reason": "Retail/pension, agricultural and MSME initiatives suggest several livelihood and recurring-income patterns.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-uco-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market savings and practical household/enterprise budgets",
+        "reason": "Inclusion-oriented distribution, pension/gold services and MSME finance imply value-conscious needs alongside established retail savers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-uco-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women entrepreneurs a secondary focus",
+        "reason": "UCO MSME Nari Samman provides a specific female enterprise segment, without establishing an overall female skew among payment users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-uco-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Fino Payments Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-fino-market",
+        "url": "https://financialfilings.com/filings/fino-payments-bank-limited/annual-report/2025/57343606/",
+        "title": "Annual Report 2024–25 — customers and remittance network",
+        "publisher": "Fino Payments Bank / FinancialFilings",
+        "checked": "2026-11-09",
+        "supports": "Describes migrant workers/daily-wage earners, rural access and the merchant-enabled distribution model."
+      },
+      {
+        "id": "profile-bank-fino-positioning",
+        "url": "https://www.fino.bank.in/company/about-us",
+        "title": "About Fino Payments Bank",
+        "publisher": "Fino Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Positions its mission around financial inclusion and rural customer access."
+      }
+    ],
+    "headline": "Migrant earners and underserved town-and-village working households",
+    "tags": [
+      "rural",
+      "urban",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults supporting themselves and distant families",
+        "reason": "Remittance services for migrant and daily-wage workers imply active earning and family-support stages, without evidence for an exact age band.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-fino-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Rural and small-town households linked to urban work destinations",
+        "reason": "Rural distribution and domestic remittances suggest origin-and-destination reach, rather than treating every customer as a village resident.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-fino-market",
+          "profile-bank-fino-positioning"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Migrant workers, daily-wage earners and small-livelihood households",
+        "reason": "The named remittance audiences support this consumer estimate; neighbourhood banking merchants are a separate operating audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-fino-market",
+          "demo-bank-fino-mitra-listing"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious everyday budgets with irregular cash flows",
+        "reason": "Daily-wage/remittance use and inclusion positioning suggest practical transfer and savings needs, not a measured income distribution.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-fino-market",
+          "profile-bank-fino-positioning"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no consumer gender predominance inferred",
+        "reason": "Household remittances and inclusion services support mixed use; women merchant programmes describe agents, not the gender balance of FinoPay consumers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-fino-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Consumer profile; Fino Mitra agents/merchants are distinct from FinoPay and assisted-banking customers."
+    ]
+  },
+  "Central Bank of India": {
+    "sources": [
+      {
+        "id": "profile-bank-central-market",
+        "url": "https://centralbank.bank.in/sites/default/files/CBI-IAR2025-Stitched-File-27-06-2025-2212PM.pdf",
+        "title": "Integrated Annual Report 2024–25 — retail, MSME and inclusion",
+        "publisher": "Central Bank of India",
+        "checked": "2026-11-09",
+        "supports": "Describes rural/semi-urban distribution, retail/agriculture/MSME growth, village and urban inclusion centres and micro-enterprise/government-scheme lending."
+      }
+    ],
+    "headline": "Smaller-market working families, micro-entrepreneurs and inclusion banking households",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults and established local savers",
+        "reason": "Retail credit, micro-enterprise finance and savings imply adult household and livelihood stages, with insufficient reason to assign a youth skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-central-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Small towns and villages, with city inclusion and retail catchments",
+        "reason": "The extensive rural/semi-urban network and urban inclusion centres support mixed reach; they are not measured Cent PAY locations.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-central-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, farmers, shopkeepers and micro-entrepreneurs",
+        "reason": "Retail/agriculture/MSME activity and micro-enterprise schemes support a practical livelihood mix, rather than assuming all users are salaried.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-central-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mass-market and underserved budgets through established retail savings",
+        "reason": "Inclusion programmes and small-enterprise finance suggest constrained working budgets, while retail deposit and credit services also serve established households.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-central-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women entrepreneurs an inclusion segment",
+        "reason": "Cent Kalyani and SHG-linked services add a female enterprise component, without measuring the gender composition of consumer apps.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-central-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "DBS digibank": {
+    "sources": [
+      {
+        "id": "profile-bank-dbs-market",
+        "url": "https://www.dbs.com/india/newsroom_media/DBS_Bank_India_targets_mass_affluent_customers_in_pivot_to_universal_banking_Mint.page",
+        "title": "DBS Bank India targets mass-affluent customers — 2026 CEO interview",
+        "publisher": "Mint, republished by DBS Bank India",
+        "checked": "2026-11-09",
+        "supports": "CEO emphasises young upwardly mobile customers and mass-affluent growth alongside retail, small-business and wealth banking."
+      }
+    ],
+    "headline": "Upwardly mobile digital adults and established affluent households",
+    "tags": [
+      "young_adults",
+      "urban",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working adults in their 20s–30s, plus established savers",
+        "reason": "Management's upwardly mobile youth emphasis supports this inferred planning band; wealth and retail relationships extend beyond it.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-dbs-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Connected cities and towns, with NRI-linked users too",
+        "reason": "The digital proposition and mass-affluent strategy suggest city/town relevance; supported international-number UPI adds an NRI segment without proving residence shares.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-dbs-market",
+          "product"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Professionals, upwardly mobile earners and small-business households",
+        "reason": "Young wealth-building and small-business/retail growth suggest earning and entrepreneurial stages; this is a bank-level proxy for digibank.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-dbs-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle-market upward mobility through affluent savings/investments",
+        "reason": "The explicit mass-affluent strategy supports a stronger savings-capacity estimate, while everyday digibank payments need not imply wealth-tier membership.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-dbs-market",
+          "product"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Upward mobility and wealth-building are the evidenced positioning cues, without a defensible overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-dbs-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Bank strategy is a proxy; digibank users are not synonymous with DBS Treasures or private-banking customers."
+    ]
+  },
+  "Bank of India": {
+    "sources": [
+      {
+        "id": "profile-bank-boi-market",
+        "url": "https://vpr.hkma.gov.hk/statics/assets/doc/100081/ar_25/ar_25_eng.pdf",
+        "title": "Annual Report 2024–25 — retail, agriculture and inclusion",
+        "publisher": "Bank of India / Hong Kong Monetary Authority repository",
+        "checked": "2026-11-09",
+        "supports": "Details household retail credit, agriculture, small/marginal farmers, SHG links and rural correspondent access."
+      }
+    ],
+    "headline": "Working households, small farmers and enterprise-linked town savers",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young earning adults through established household stages",
+        "reason": "Education, home and vehicle finance suggest entry-to-work and family-asset stages, with no basis for a narrow age majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-boi-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and trading towns, with substantial village catchments",
+        "reason": "Rural correspondents and agricultural relationships alongside retail banking support mixed reach; this is not a measurement of Omni Neo residency.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-boi-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, small farmers and micro-enterprise households",
+        "reason": "Retail, small-farmer and SHG/MSME relationships imply varied livelihoods rather than a universal salary profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-boi-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious household budgets through established middle-market savings",
+        "reason": "Small-farmer/inclusion finance and housing needs suggest both constrained budgets and asset-building households; credit amounts are not personal incomes.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-boi-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women prominent within SHG-linked inclusion",
+        "reason": "The women-SHG franchise makes female livelihood participation concrete, without establishing the gender mix of the consumer banking apps.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-boi-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Karnataka Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-karnataka-market",
+        "url": "https://nsearchives.nseindia.com/corporate/KTKBANK_30082025221430_IARFINAL.pdf",
+        "title": "101st Integrated Annual Report 2024–25 — markets and customer propositions",
+        "publisher": "Karnataka Bank",
+        "checked": "2026-11-09",
+        "supports": "Documents a Karnataka-heavy branch footprint, RAM/NRI banking, government salary acquisition and products for students, women and senior citizens."
+      }
+    ],
+    "headline": "Karnataka working families, local enterprises and established savers",
+    "tags": [
+      "urban",
+      "rural",
+      "salaried",
+      "self_employed",
+      "older_adults",
+      "students"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working adults, with students and older savers as secondary segments",
+        "reason": "Household/enterprise banking suggests an adult core; Genius/Peak student products and KBLWISE for seniors add concrete life-stage segments.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-karnataka-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Karnataka cities, towns and villages, plus national expansion",
+        "reason": "The home-state-heavy network supports a regional estimate, while expansion beyond Karnataka prevents an exclusively local interpretation.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-karnataka-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, traders, farmers, professionals and family savers",
+        "reason": "Government salary acquisition, trader/professional finance and RAM banking suggest a mixed earning base rather than one dominant occupation.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-karnataka-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream local savings and business budgets, with NRI/priority tiers",
+        "reason": "Retail deposits, local-enterprise banking and NRI priority propositions imply ordinary asset-building households plus better-resourced customers.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-karnataka-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; a specific women's savings segment",
+        "reason": "KBL Stri deliberately serves women, but the wider family, farmer and business franchise does not justify an overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-karnataka-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "IDBI Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-idbi-market",
+        "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/IDBIBankLimited_August%2020_%202025_RR_376495.html",
+        "title": "IDBI Bank — rating rationale, August 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Describes stable retail deposits, significant household housing finance, retail/agriculture/MSME lending and a relatively limited rural branch share."
+      }
+    ],
+    "headline": "City-and-town working families, homebuyers and small-enterprise savers",
+    "tags": [
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age adults and established home-owning households",
+        "reason": "The housing-led retail book and savings franchise imply family-formation and accumulated-asset stages rather than a student-led audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idbi-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Cities and towns nationwide, with a smaller rural component",
+        "reason": "A relatively limited rural branch presence supports a town/city-leaning proxy, without establishing the residence distribution of app users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idbi-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working households, small entrepreneurs and some farming families",
+        "reason": "Household retail credit alongside MSME/agricultural lending suggests varied earning patterns; the evidence does not establish salaried predominance.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idbi-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream and middle-class asset-building savers",
+        "reason": "Housing finance and stable retail savings imply recurring household financial capacity, while agriculture/MSME relationships include more variable budgets.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idbi-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Household housing, savings and enterprise services support inclusive use, without enough evidence to assign an overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-idbi-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "NSDL Payments Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-nsdl-market",
+        "url": "https://www.nsdlpayments.bank.in/about.php",
+        "title": "About NSDL Payments Bank — Jiffy and inclusion distribution",
+        "publisher": "NSDL Payments Bank",
+        "checked": "2026-11-09",
+        "supports": "Positions Jiffy and zero-balance/remittance services around digital inclusion, with nationwide assisted banking alongside the consumer app."
+      }
+    ],
+    "headline": "Value-conscious digital adults and underserved everyday-banking households",
+    "tags": [
+      "general",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Young working adults through established household money managers",
+        "reason": "Digital shopping, remittances and recurring bills suggest independent adult finances across several life stages; no teen or youth majority is assumed.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-nsdl-market",
+          "demo-bank-nsdl-jiffy-account"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Connected cities and towns, with separate assisted rural reach",
+        "reason": "Self-service Jiffy suggests connected consumers; the national BC network broadens bank reach without proving the app's users are mainly rural.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-nsdl-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Everyday earners and households managing transfers and bills",
+        "reason": "Remittances and recurring payments suit employed or self-directed earners and household money managers, without evidence to narrow to a particular occupation.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-nsdl-market",
+          "demo-bank-nsdl-jiffy-account"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Value-conscious, modest-balance and inclusion-oriented budgets",
+        "reason": "Zero-minimum-balance design and explicit limited-access focus suggest practical cost-sensitive banking, rather than a premium-wealth audience.",
+        "basis": "inferred",
+        "sources": [
+          "demo-bank-nsdl-jiffy-account",
+          "profile-bank-nsdl-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The digital savings and inclusion proposition is not explicitly gender-led, so a mixed household estimate is more defensible.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-nsdl-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Jiffy consumers and the bank's BC agents/assisted customers are separate populations."
+    ]
+  },
+  "Suryoday Small Finance Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-suryoday-market",
+        "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/20082025/a2ea48cd-963f-4411-8cd0-34665388d3e8.pdf",
+        "title": "Annual Report 2024–25 — company overview and product portfolio",
+        "publisher": "Suryoday Small Finance Bank / BSE filing via Business Standard",
+        "checked": "2026-11-09",
+        "supports": "Describes low/mid-income households, women borrowers, micro-entrepreneurs, secured retail and digital savings as distinct customer segments."
+      },
+      {
+        "id": "profile-bank-suryoday-savings",
+        "url": "https://www.findevgateway.org/blog/2025/09/building-womens-financial-resilience-through-digital-savings-led-banking-model",
+        "title": "Building women's financial resilience through digital savings — September 2025",
+        "publisher": "FinDev Gateway / Developing World Markets",
+        "checked": "2026-11-09",
+        "supports": "Describes Suryoday/Saathi savings work with low-income women and expansion in underserved urban communities."
+      },
+      {
+        "id": "profile-bank-suryoday-catchment",
+        "url": "https://suryoday.bank.in/assets/pdf/Q3_FY24_Nuvama_09_Feb_2024.pdf",
+        "title": "Earnings call — February 2024, household and local catchments",
+        "publisher": "Suryoday Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Management describes semi-urban/Tier-3/4 town peripheries and adjoining rural belts; historical geographic context."
+      }
+    ],
+    "headline": "Women-led livelihood households, small entrepreneurs and practical savers",
+    "tags": [
+      "women",
+      "self_employed",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults and established micro-entrepreneurs",
+        "reason": "Livelihood loans, affordable housing and women's savings work imply financially responsible adult household stages, not a mainly student audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-suryoday-market",
+          "profile-bank-suryoday-savings"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Underserved city neighbourhoods, smaller towns and nearby rural belts",
+        "reason": "The savings initiative adds urban communities; management's older catchment description supports towns and rural peripheries without equating them.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-suryoday-savings",
+          "profile-bank-suryoday-catchment"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Micro-entrepreneurs, informal earners and household money managers",
+        "reason": "Women's livelihood lending and first-generation enterprise services suggest self-directed work and household budgeting as central roles.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-suryoday-market",
+          "profile-bank-suryoday-savings"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-to-middle-income, value-conscious households; some established savers",
+        "reason": "The explicit underserved household emphasis supports constrained-budget appeal; digital deposits and secured retail bring a wider savings/asset-building segment.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-suryoday-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders, with women a strong inclusion focus",
+        "reason": "Women's livelihood and savings programmes justify a meaningful female emphasis, without measuring the gender balance of every Suryoday app feature.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-suryoday-market",
+          "profile-bank-suryoday-savings"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "City Union Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-cub-market",
+        "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/CityUnionBankLimited_December%2004_%202025_RR_384451.html",
+        "title": "City Union Bank — rating rationale, December 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Describes an SME-focused franchise, strong Tamil Nadu concentration, retail deposits, household banking and agriculture/inclusion segments."
+      }
+    ],
+    "headline": "Tamil Nadu enterprise households and established regional savers",
+    "tags": [
+      "self_employed",
+      "businesses",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Established working adults and family-business household savers",
+        "reason": "SME relationships and stable household deposits imply business-operation and accumulated-savings stages, rather than a distinct youth audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-cub-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu cities and trading towns, plus surrounding rural markets",
+        "reason": "High regional concentration and agriculture/inclusion activity support this catchment estimate; loan geography is not measured app-user location.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-cub-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "SME owners, local enterprise households and retail savers",
+        "reason": "The SME focus makes business-linked livelihoods particularly relevant, while retail deposits add customers who need not own a business.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-cub-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream business cash flows and established household savings",
+        "reason": "SME finance and granular retail deposits suggest practical working-capital and savings needs, without fixing customers to one income bracket.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-cub-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Enterprise and household savings relationships do not justify inferring a male or female predominance.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-cub-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Bank of Maharashtra": {
+    "sources": [
+      {
+        "id": "profile-bank-maharashtra-market",
+        "url": "https://bankofmaharashtra.in/writereaddata/documentlibrary/1e67bf9a-5fcc-4ba6-8e80-2170069783f4.pdf",
+        "title": "Investor presentation — June 2025 customer segments and network",
+        "publisher": "Bank of Maharashtra",
+        "checked": "2026-11-09",
+        "supports": "Identifies retail, SME and agriculture clients and a national network with substantial Maharashtra presence."
+      },
+      {
+        "id": "profile-bank-maharashtra-distribution",
+        "url": "https://economictimes.indiatimes.com/bank-of-maharashtra/directorsreport/companyid-12283.cms",
+        "title": "Directors' Report FY2025–26 — distribution and retail/enterprise banking",
+        "publisher": "Bank of Maharashtra / The Economic Times",
+        "checked": "2026-11-09",
+        "supports": "Shows branches across metro, urban, semi-urban and rural centres, including rural service points."
+      }
+    ],
+    "headline": "Maharashtra-rooted working families, entrepreneurs and expanding national savers",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults and established savers",
+        "reason": "Retail credit, enterprise finance and savings imply earning and household-asset stages, without supporting a specifically young-adult majority.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-maharashtra-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Maharashtra cities/towns especially, with national and rural reach",
+        "reason": "Its substantial home-state presence suggests local relevance, while national expansion and multiple population-centre formats broaden the likely mix.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-maharashtra-market",
+          "profile-bank-maharashtra-distribution"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, small-business owners and farming households",
+        "reason": "Retail, SME and agriculture relationships support a varied livelihood profile instead of a universal salaried assumption.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-maharashtra-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream household savings and practical enterprise/farm budgets",
+        "reason": "Retail and livelihood banking imply ordinary transaction, savings and credit needs across constrained and established middle-market households.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-maharashtra-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The household, enterprise and agricultural mix supports inclusive positioning rather than a defensible overall gender skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-maharashtra-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Karur Vysya Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-kvb-market",
+        "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/TheKarurVysyaBankLimited_September%2024_%202025_RR_378513.html",
+        "title": "Karur Vysya Bank — rating rationale, September 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Documents strong depositor relationships in southern rural/semi-urban markets, Tamil Nadu concentration and stable retail term deposits."
+      },
+      {
+        "id": "profile-bank-kvb-clusters",
+        "url": "https://www.kvb.bank.in/business/products/loans/msme/msme-policy/presence-in-msme-clusters/",
+        "title": "Presence in MSME clusters",
+        "publisher": "Karur Vysya Bank",
+        "checked": "2026-11-09",
+        "supports": "Lists bank coverage of trading/manufacturing enterprise clusters, particularly in southern markets."
+      }
+    ],
+    "headline": "Southern trading families, small enterprises and established savers",
+    "tags": [
+      "self_employed",
+      "businesses",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Established working adults and business-family savers",
+        "reason": "Longstanding depositor relationships and enterprise finance imply active business and accumulated-household-savings stages, rather than a student-led profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kvb-market",
+          "profile-bank-kvb-clusters"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu, Andhra Pradesh and Telangana towns, villages and cities",
+        "reason": "The documented depositor franchise supports a southern small-market estimate, while geography remains a bank proxy rather than app residency.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kvb-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Traders, manufacturers, small-business families and retail savers",
+        "reason": "MSME cluster coverage supports business-linked livelihoods; retail term deposits add households whose main occupation may differ.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kvb-clusters",
+          "profile-bank-kvb-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Practical enterprise cash flows and established middle-market savings",
+        "reason": "Stable retail deposits and enterprise-cluster banking suggest working-capital users alongside households retaining savings, without measuring their incomes.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kvb-market",
+          "profile-bank-kvb-clusters"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Regional trading and household savings relationships are insufficient grounds to infer gender predominance.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-kvb-market",
+          "profile-bank-kvb-clusters"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Equitas Small Finance Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-equitas-market",
+        "url": "https://ir.equitasbank.com/wp-content/uploads/2025/01/ESFBInvestorPresentation.pdf",
+        "title": "Investor presentation — January 2025 customer/product segments",
+        "publisher": "Equitas Small Finance Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes small-business loans for low-income business households and Tamil Nadu-concentrated microfinance for entrepreneurial women."
+      },
+      {
+        "id": "profile-bank-equitas-franchise",
+        "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/EquitasSmallFinanceBankLimited_June%2020_%202025_RR_371172.html",
+        "title": "Equitas Small Finance Bank — rating rationale, June 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Describes small-business, vehicle, microfinance and deposit franchises, providing wider bank context beyond microfinance."
+      }
+    ],
+    "headline": "Informal-enterprise families, women micro-entrepreneurs and practical deposit savers",
+    "tags": [
+      "self_employed",
+      "women",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age micro-entrepreneurs and established household savers",
+        "reason": "Small-business and livelihood finance imply economically active adults; vehicle/deposit services extend to established household stages.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-equitas-market",
+          "profile-bank-equitas-franchise"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu and other southern town/city markets, with rural reach",
+        "reason": "Regional microfinance concentration and small-business/vehicle banking suggest local trading centres and surrounding communities; this is a bank proxy.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-equitas-market",
+          "profile-bank-equitas-franchise"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Informal-business owners, transport livelihoods and household savers",
+        "reason": "Small-business and vehicle finance make independently earned livelihoods important, while depositors are not necessarily borrowers or business owners.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-equitas-market",
+          "profile-bank-equitas-franchise"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-income and value-conscious enterprise budgets, plus larger-balance savers",
+        "reason": "The stated low-income business-lending focus supports practical constrained budgets, but the separate deposit franchise need not share that income profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-equitas-market",
+          "profile-bank-equitas-franchise"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; women central in the microfinance segment",
+        "reason": "The entrepreneurial-women lending focus gives a concrete female segment, without establishing a female majority among aggregate banking-app users.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-equitas-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Tamilnad Mercantile Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-tmb-market",
+        "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/TamilnadMercantileBankLimited_June%2013_%202025_RR_358801.html",
+        "title": "Tamilnad Mercantile Bank — rating rationale, June 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Documents strong Tamil Nadu business concentration, agriculture/MSME/retail lending and granular renewable retail deposits."
+      }
+    ],
+    "headline": "Tamil Nadu farming families, local enterprises and deposit savers",
+    "tags": [
+      "self_employed",
+      "businesses",
+      "urban",
+      "rural"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Established working-age households and local business-family savers",
+        "reason": "Agriculture/MSME relationships and recurring term deposits suggest livelihood and accumulated-savings stages, rather than a specifically young audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-tmb-market"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tamil Nadu towns, agricultural communities and cities especially",
+        "reason": "Concentrated state-level deposits and lending support a regional estimate; the bank also operates elsewhere, and app residence is not measured.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-tmb-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Farming households, small-enterprise owners and retail savers",
+        "reason": "The agriculture/MSME-led business mix suggests independent livelihoods alongside household deposit customers who may have other occupations.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-tmb-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Practical farm/business budgets and established household savings",
+        "reason": "Smaller collateral-backed borrowers and granular deposits imply several financial tiers, from working-capital needs to accumulated savings.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-tmb-market"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "The agricultural, enterprise and deposit mix does not support a reliable aggregate gender-predominance estimate.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-tmb-market"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Indian Overseas Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-iob-market",
+        "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOverseasBank_June%2025_%202026_RR_398662.html",
+        "title": "Indian Overseas Bank — rating rationale, June 2026",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Describes regional business concentration including Tamil Nadu and other major states, alongside a sizeable retail deposit franchise."
+      },
+      {
+        "id": "profile-bank-iob-livelihood",
+        "url": "https://www.indiainfoline.com/company/indian-overseas-bank/management-discussions",
+        "title": "Management Discussion FY2025–26 — retail, agriculture and MSME",
+        "publisher": "Indian Overseas Bank / India Infoline",
+        "checked": "2026-11-09",
+        "supports": "Describes RAM focus and Tamil Nadu/Kerala livelihood outreach involving farmers, SHGs, artisans and underserved households."
+      }
+    ],
+    "headline": "Southern working households, farmers and small-enterprise savers",
+    "tags": [
+      "general",
+      "urban",
+      "rural",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age household adults and established local savers",
+        "reason": "Retail deposits, household credit and livelihood services imply earning and family-finance stages rather than a youth-led app profile.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-iob-market",
+          "profile-bank-iob-livelihood"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Southern cities and towns especially, plus national rural/city reach",
+        "reason": "Tamil Nadu concentration and regional livelihood work support a southern emphasis; other state markets prevent treating the entry as exclusively southern.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-iob-market",
+          "profile-bank-iob-livelihood"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working families, farmers, artisans and small-business households",
+        "reason": "RAM growth and named livelihood groups suggest mixed employee and self-directed income sources, not a universal salary skew.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-iob-livelihood"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Mainstream local savings and value-conscious livelihood budgets",
+        "reason": "Retail deposits alongside farm/SHG and small-enterprise activity imply both established savings and constrained working-capital needs.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-iob-market",
+          "profile-bank-iob-livelihood"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "Household and livelihood positioning is inclusive; SHG participation does not establish the gender composition of the consumer UPI app.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-iob-livelihood",
+          "product"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  },
+  "Punjab & Sind Bank": {
+    "sources": [
+      {
+        "id": "profile-bank-psb-market",
+        "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/PunjabandSindBank_September%2010_%202025_RR_376853.html",
+        "title": "Punjab & Sind Bank — rating rationale, September 2025",
+        "publisher": "Crisil Ratings",
+        "checked": "2026-11-09",
+        "supports": "Documents a northern branch franchise, rural/semi-urban distribution and growth in retail, agriculture and MSME services."
+      },
+      {
+        "id": "profile-bank-psb-lifestage",
+        "url": "https://www.punjabandsindbank.co.in/system/uploads/document/2150_2024072913232548430.pdf",
+        "title": "Q1 FY2024–25 results — salary and pensioner initiatives",
+        "publisher": "Punjab & Sind Bank",
+        "checked": "2026-11-09",
+        "supports": "Describes an Army salary/pensioner agreement and household vehicle/wealth initiatives; historical life-stage context."
+      }
+    ],
+    "headline": "Northern working families, pensioners and small-enterprise farming households",
+    "tags": [
+      "urban",
+      "rural",
+      "salaried",
+      "older_adults",
+      "self_employed"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Working-age households, with pensioners and older savers",
+        "reason": "Retail/farm/MSME needs imply active earning stages; salary/pensioner relationships make later-life customers a concrete secondary audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-psb-market",
+          "profile-bank-psb-lifestage"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Northern cities, smaller towns and farming communities especially",
+        "reason": "Northern branch concentration and rural/semi-urban reach support this geographic emphasis without measuring app-user residency.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-psb-market"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees, pensioners, farmers and small-business owners",
+        "reason": "Salary/pension initiatives and RAM growth imply recurring-pay households alongside independent enterprise and agricultural livelihoods.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-psb-lifestage",
+          "profile-bank-psb-market"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Everyday and middle-market household/enterprise budgets",
+        "reason": "Retail savings, farm/MSME lending and salary/pension relationships suggest practical recurring and variable cash flows rather than a premium-only audience.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-psb-market",
+          "profile-bank-psb-lifestage"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Across genders; no clear overall gender focus",
+        "reason": "General retail and livelihood services remain inclusive; the Army salary programme alone cannot define gender balance across the bank's apps.",
+        "basis": "inferred",
+        "sources": [
+          "profile-bank-psb-market",
+          "profile-bank-psb-lifestage"
+        ]
+      }
+    ],
+    "caveats": [
+      "Inferred bank-market proxy for this aggregate entry; individual app audiences can differ."
+    ]
+  }
+}

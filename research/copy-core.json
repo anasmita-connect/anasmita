@@ -1,0 +1,802 @@
+{
+  "Axis Bank": {
+    "summary": "UPI payments through BHIM AXIS PAY.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "BHIM AXIS PAY",
+        "text": "Open to Axis Bank and other-bank customers.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Kotak Mahindra Bank": {
+    "summary": "UPI payments in the Kotak Mobile Banking app.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "slice Small Finance Bank": {
+    "summary": "UPI payments from slice and other-bank accounts.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Indian resident with an active account at an RBI-licensed bank and a slice profile.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "HDFC Bank": {
+    "summary": "UPI payments through PayZapp.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "PayZapp",
+        "text": "Register your mobile number and verify the OTP. Non-HDFC customers need PAN-based KYC; HDFC account or card holders can use bank-based KYC.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "ICICI Bank": {
+    "summary": "UPI payments through iMobile, including accounts from other banks.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "iMobile",
+        "text": "Sign in, create a UPI ID and link an ICICI or other-bank account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "IDFC FIRST Bank": {
+    "summary": "Bank-account payments through UPI.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "A smartphone, internet access and a bank account with your active mobile number registered.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Yes Bank": {
+    "summary": "Mobile and internet banking from YES BANK.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "YES ONLINE",
+        "text": "A YES BANK savings, current, loan or credit-card account, with a bank-registered mobile number for OTPs.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      "UPI-specific joining requirements not confirmed."
+    ]
+  },
+  "State Bank of India": {
+    "summary": "UPI payments through BHIM SBI Pay and YONO.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "BHIM SBI Pay accepts participating-bank accounts. Other-bank customers can also register for UPI through YONO.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Unity Small Finance Bank": {
+    "summary": "Personal and business banking from Unity.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "India Post Payments Bank": {
+    "summary": "Mobile banking and BHIM UPI for IPPB accounts.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "IPPB mobile banking",
+        "text": "Use your registered mobile number, account number, customer ID and date of birth. Set security questions and an MPIN, then verify the OTP.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Airtel Payments Bank": {
+    "summary": "UPI payments from Airtel Payments Bank and other-bank accounts.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "A SIM and an account at a UPI-supporting bank. Use the same mobile number in the Airtel app and bank account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Federal Bank": {
+    "summary": "Banking and UPI payments through FedMobile.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "FedMobile",
+        "text": "Other-bank customers can use the app with limited features. A Federal account gives access to all features.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Jio Payments Bank": {
+    "summary": "UPI through Jio Payments Bank and its partner apps.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Register and link an account at a bank in India. Bank and NPCI conditions apply.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Deutsche Bank": {
+    "summary": "UPI payments through MyBank India.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "NRI accounts",
+        "text": "Deutsche Bank India NRO or NRE account, with a registered domestic or supported international mobile number.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Jammu & Kashmir Bank": {
+    "summary": "Mobile banking with UPI registration and payments.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "Canara Bank": {
+    "summary": "UPI payments through Canara ai1Pe.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "Canara ai1Pe",
+        "text": "Use the mobile number registered with your bank account. Other-bank customers can link participating-bank savings/current accounts or RuPay cards.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "RBL Bank": {
+    "summary": "UPI payments through RBL MoBank.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "RBL MoBank",
+        "text": "Other-bank customers can link participating-bank accounts for UPI. RBL banking features require an RBL customer account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Punjab National Bank": {
+    "summary": "UPI payments through BHIM PNB.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "BHIM PNB",
+        "text": "Register, link a participating-bank account and set a UPI PIN. A PNB account is not required.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "IndusInd Bank": {
+    "summary": "UPI payments from accounts at participating banks.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Use the same mobile number in the app and linked bank account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Bank of Baroda": {
+    "summary": "UPI payments through bob e-Pay.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "Indian Bank": {
+    "summary": "Retail banking and UPI payments through IndSMART.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "HSBC": {
+    "summary": "UPI services from HSBC.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "AU Small Finance Bank": {
+    "summary": "UPI payments through AU 0101.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "A smartphone, internet access, linked bank account and the mobile number registered with your bank.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Union Bank of India": {
+    "summary": "UPI payments through Union ease.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "Union ease",
+        "text": "A Union Bank account is required to register. You can add accounts from other banks afterwards.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "South Indian Bank": {
+    "summary": "Mobile banking through SIB Mirror+.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "SIB Mirror+",
+        "text": "Your current mobile number must be registered with the bank. Eligible sole account holders can activate with SIB debit-card details.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Standard Chartered": {
+    "summary": "UPI payments and collections from Standard Chartered.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Accounts from other banks can be linked. Businesses arrange collection services through a relationship manager or UPI support.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "UCO Bank": {
+    "summary": "UPI payments through BHIM UCO UPI.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "BHIM UCO UPI",
+        "text": "Install the app, select your bank and account, create a UPI ID and link the account. Open to any bank’s customers.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Fino Payments Bank": {
+    "summary": "FinoPay supports UPI, linked bank accounts and RuPay credit cards.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "Central Bank of India": {
+    "summary": "UPI payments through Cent PAY.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "Cent PAY",
+        "text": "Register for UPI and link your bank account. You do not need to be a Central Bank customer.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "DBS digibank": {
+    "summary": "UPI payments through digibank, including non-DBS accounts.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "digibank UPI",
+        "text": "Select your bank, choose an account linked to your mobile number and set a UPI ID.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Bank of India": {
+    "summary": "UPI payments through BOI BHIM UPI.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "BOI BHIM UPI",
+        "text": "Complete registration using the mobile number registered for the UPI service.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Karnataka Bank": {
+    "summary": "BHIM KBL UPI supports Karnataka Bank and other-bank accounts.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "BHIM KBL UPI",
+        "text": "A valid debit card and bank-registered mobile number with transaction SMS alerts. On dual-SIM phones, keep that SIM in the primary slot.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "IDBI Bank": {
+    "summary": "UPI services from IDBI Bank.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Use the mobile number registered for the UPI service.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "NSDL Payments Bank": {
+    "summary": "UPI and bank-account linking through NSDL Jiffy.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "Suryoday Small Finance Bank": {
+    "summary": "BHIM Suryoday UPI includes UPI Lite.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "City Union Bank": {
+    "summary": "UPI payments through CUB’s app.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "Bank of Maharashtra": {
+    "summary": "UPI payments from Bank of Maharashtra.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "The bank’s instructions use Maha Mobile Plus and your bank-registered mobile number.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      "The bank also offers Zen Lyfe; confirm which app to use."
+    ]
+  },
+  "Karur Vysya Bank": {
+    "summary": "KVB DLite includes UPI payments.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "Equitas Small Finance Bank": {
+    "summary": "UPI payments for Equitas and other-bank customers.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Complete one-time registration to pay from your linked bank account.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Tamilnad Mercantile Bank": {
+    "summary": "Mobile banking through TMB MBank.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "TMB MBank",
+        "text": "Verify the device with your registered mobile number and set an MPIN or login PIN.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Indian Overseas Bank": {
+    "summary": "UPI payments through BHIM IOB UPI.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "BHIM IOB UPI",
+        "text": "Register and set a PIN using debit-card or Aadhaar details. Accounts from other banks can also be linked.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Punjab & Sind Bank": {
+    "summary": "Punjab & Sind Bank’s UPI app supports multiple bank accounts.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Joining requirements not confirmed."
+    ]
+  },
+  "PhonePe": {
+    "summary": "UPI transfers and payments to people and shops.",
+    "summarySources": [
+      "upi"
+    ],
+    "requirements": [
+      {
+        "label": "Age",
+        "text": "18+. You must be legally able to enter an agreement.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "UPI",
+        "text": "A PhonePe account and your own bank or payment account linked to an active mobile number. Supported overseas numbers are available for NRI accounts.",
+        "sources": [
+          "upi"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Google Pay": {
+    "summary": "UPI transfers, shopping payments, recharges and bills.",
+    "summarySources": [
+      "aud-pw-googlepay-home"
+    ],
+    "requirements": [
+      {
+        "label": "Age",
+        "text": "13+. Under 18s need permission from a parent or legal guardian. Teen accounts require Indian residence and a +91 number.",
+        "sources": [
+          "terms",
+          "teens"
+        ]
+      },
+      {
+        "label": "Bank account",
+        "text": "Use the mobile number linked to your bank account. Verify with debit-card details or Aadhaar.",
+        "sources": [
+          "bank"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "Paytm": {
+    "summary": "UPI payments through partner banks.",
+    "summarySources": [
+      "upi"
+    ],
+    "requirements": [
+      {
+        "label": "Age",
+        "text": "18+. You must be legally able to enter an agreement. Additional rules apply to individual services.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "notes": [
+      "Full UPI joining requirements not confirmed."
+    ]
+  },
+  "super.money": {
+    "summary": "UPI cashback and credit cards issued by partner banks.",
+    "summarySources": [
+      "upi",
+      "cards"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Use a bank account you are authorised to operate, with your mobile number kept up to date.",
+        "sources": [
+          "upi"
+        ]
+      },
+      {
+        "label": "Secured cards",
+        "text": "The Utkarsh and Kotak card products require a fixed deposit. This is separate from UPI.",
+        "sources": [
+          "cards"
+        ]
+      }
+    ],
+    "notes": [
+      "Minors need parental permission and supervision; the terms require a parent or guardian to make their transactions. Full card-approval rules not confirmed."
+    ]
+  },
+  "BHIM": {
+    "summary": "Bank-account payments and transfers over UPI.",
+    "summarySources": [
+      "faq"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "A smartphone, bank account and bank-registered mobile number. The FAQ describes PIN setup using debit-card details.",
+        "sources": [
+          "faq"
+        ]
+      }
+    ],
+    "notes": [
+      "Minimum age not confirmed."
+    ]
+  },
+  "FamApp by Trio": {
+    "summary": "UPI and card payments using a linked bank account or FamX wallet.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [],
+    "notes": [
+      "Current age, KYC and guardian-consent requirements not confirmed."
+    ]
+  },
+  "WhatsApp": {
+    "summary": "UPI payments inside WhatsApp.",
+    "summarySources": [
+      "terms"
+    ],
+    "requirements": [
+      {
+        "label": "WhatsApp Pay",
+        "text": "18+, an Indian phone number and your own account at a UPI-supporting bank. Use the same number for WhatsApp and the bank account.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "CRED": {
+    "summary": "Credit-card bills, card management and rewards.",
+    "summarySources": [
+      "about"
+    ],
+    "requirements": [
+      {
+        "label": "Membership",
+        "text": "21+ for new members joining from 1 October 2023; earlier members had to be 18+ when joining. You must allow access to your credit information. CRED sets service-specific score thresholds.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "IndusInd RuPay card",
+        "text": "18+, Indian resident and an existing CRED user. Approval depends on the bank’s credit checks.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "notes": [
+      "Card eligibility is separate from membership. A fixed score threshold for every service is not confirmed."
+    ]
+  },
+  "Amazon Pay": {
+    "summary": "Shopping payments, bills, a wallet and bank-linked UPI inside Amazon.",
+    "summarySources": [
+      "product"
+    ],
+    "requirements": [
+      {
+        "label": "UPI",
+        "text": "Link your bank account through the Amazon app.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "notes": [
+      "Minimum age and full joining requirements not confirmed."
+    ]
+  },
+  "MobiKwik": {
+    "summary": "UPI payments and a prepaid wallet.",
+    "summarySources": [
+      "terms"
+    ],
+    "requirements": [
+      {
+        "label": "Wallet",
+        "text": "18+. Identity documents are collected for verification.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "notes": [
+      "UPI-specific joining requirements not confirmed."
+    ]
+  }
+}

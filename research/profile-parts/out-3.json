@@ -1,0 +1,956 @@
+{
+ "Bajaj Finserv": {
+  "headline": "EMI-card and consumer-loan borrowers aged 25–45 in tier-2 towns and metros, salaried and small-business, lower-middle to middle income",
+  "tags": [
+   "young_adults",
+   "tier2_3",
+   "salaried",
+   "self_employed",
+   "middle_income",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–45",
+    "basis": "inferred",
+    "reason": "The EMI card is a pre-approved credit line for buying durables like phones and TVs, a purchase pattern of earning adults setting up households; no age split is published.",
+    "sources": [
+     "prof-bajaj-finserv-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-2 heavy, with a growing rural slice",
+    "basis": "stated",
+    "reason": "Bajaj said ~65% of its EMI card franchise is in tier-II cities; Business Today put rural at 13% of AUM in 2017 and growing 137% a year.",
+    "sources": [
+     "prof-bajaj-finserv-1",
+     "prof-bajaj-finserv-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried staff plus shopkeepers and farmers",
+    "basis": "inferred",
+    "reason": "Business Today profiles a farmer buying a fridge on no-cost EMI via a village retailer, alongside the urban salaried core that consumer finance serves.",
+    "sources": [
+     "prof-bajaj-finserv-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "Customers finance fridges, TVs and phones on EMI rather than paying upfront, and the rural customer quoted previously borrowed from a moneylender.",
+    "sources": [
+     "prof-bajaj-finserv-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, roughly 70–75% men",
+    "basis": "inferred",
+    "reason": "Household durable loans in India are usually taken in the male earner's name; Bajaj publishes no gender split, so this is weak.",
+    "sources": [
+     "prof-bajaj-finserv-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Tier and rural figures are from 2016–2017; the franchise has grown to 100M+ customers since."
+  ],
+  "sources": [
+   {
+    "id": "prof-bajaj-finserv-1",
+    "url": "https://www.business-standard.com/amp/article/news-ani/digital-payment-with-bajaj-finserv-emi-card-116111401039_1.html",
+    "title": "Digital payment with Bajaj Finserv EMI Card",
+    "publisher": "Business Standard (ANI)",
+    "checked": "2026-11-09",
+    "supports": "\"Close to 65 percent of EMI card franchise is across in Tier II cities\", \"offering unique opportunities to our small town customers\"."
+   },
+   {
+    "id": "prof-bajaj-finserv-2",
+    "url": "https://www.businesstoday.in/magazine/the-hub/story/nbfc-growth-rural-semi-urban-markets-consumer-durable-finance-90932-2017-10-30",
+    "title": "The Rural Rush",
+    "publisher": "Business Today",
+    "checked": "2026-11-09",
+    "supports": "\"Rural business accounts for 13 per cent of Bajaj Finance's total AUM\", growing 137% YoY; a Nashik-area farmer bought a fridge on Bajaj no-cost EMI."
+   }
+  ]
+ },
+ "POP UPI": {
+  "headline": "Gen Z and late-millennial online shoppers, 18–28, in metros and tier-1 cities, chasing UPI cashback coins and D2C brand deals",
+  "tags": [
+   "gen_z",
+   "young_adults",
+   "metro",
+   "students",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 18–28",
+    "basis": "stated",
+    "reason": "Entrackr says POP targets 'genZ and late millennials'; CXOToday calls it a 'Gen Z-focused fintech platform'.",
+    "sources": [
+     "prof-pop-upi-1",
+     "prof-pop-upi-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros and tier-1 cities",
+    "basis": "inferred",
+    "reason": "Rewards are redeemed on D2C beauty and fashion brands via POPShop, whose buyers concentrate in big cities.",
+    "sources": [
+     "prof-pop-upi-3"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "College students and early-career salaried",
+    "basis": "inferred",
+    "reason": "A Gen Z/late-millennial target plus a credit card (POPCard) implies a mix of students and young earners who qualify for a first card.",
+    "sources": [
+     "prof-pop-upi-1",
+     "prof-pop-upi-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income, modest discretionary spend",
+    "basis": "inferred",
+    "reason": "2% coin rewards and D2C shopping appeal to young users with some disposable income but price sensitivity.",
+    "sources": [
+     "prof-pop-upi-3"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Slight male skew, ~60% men",
+    "basis": "inferred",
+    "reason": "UPI overall skews male, but D2C beauty and fashion rewards pull in more young women than a typical UPI app; no split is published.",
+    "sources": [
+     "prof-pop-upi-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "No published user counts or demographic splits; Razorpay took a majority stake in 2025."
+  ],
+  "sources": [
+   {
+    "id": "prof-pop-upi-1",
+    "url": "https://entrackr.com/2024/06/fintech-startup-pop-raises-2-4-mn-led-by-india-quotient",
+    "title": "Fintech startup POP raises $2.4 Mn led by India Quotient",
+    "publisher": "Entrackr",
+    "checked": "2026-11-09",
+    "supports": "POP aims to build \"a network of e-commerce users which constitutes genZ and late millennials\"."
+   },
+   {
+    "id": "prof-pop-upi-2",
+    "url": "https://cxotoday.com/media-coverage/pop-launches-first-brand-campaign-says-upi-users-deserve-more-from-every-payment/",
+    "title": "POP launches first brand campaign, says UPI users deserve more from every payment",
+    "publisher": "CXOToday",
+    "checked": "2026-11-09",
+    "supports": "Describes POP as \"the Gen Z-focused fintech platform built around UPI payments, POPcoins rewards, POPCard and POPShop\"."
+   },
+   {
+    "id": "prof-pop-upi-3",
+    "url": "https://inc42.com/startups/can-pops-upicommerce-playbook-dim-cred-paytms-dominance-in-the-upi-verse",
+    "title": "Can POP's UPI+Commerce Playbook Dim CRED & Paytm's Dominance In The UPI-verse?",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "POP is \"targeting a young audience\"; POPcoins earned on every UPI payment are redeemed on D2C brands; ~10M UPI transactions a month."
+   }
+  ]
+ },
+ "Samsung Pay": {
+  "headline": "Galaxy phone owners aged 22–40 in metros and tier-1/2 cities, salaried, middle to upper-middle income, male-leaning",
+  "tags": [
+   "young_adults",
+   "metro",
+   "salaried",
+   "middle_income",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–40",
+    "basis": "inferred",
+    "reason": "Users must own a Galaxy phone and opt into a wallet that stores cards, keys and IDs; that adoption pattern fits working-age smartphone buyers.",
+    "sources": [
+     "prof-samsung-pay-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros and tier-1/2 cities",
+    "basis": "inferred",
+    "reason": "Samsung is India's #2 phone brand with strong A/M/F mass-segment sales beyond metros, while S-series and foldable buyers concentrate in big cities.",
+    "sources": [
+     "prof-samsung-pay-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried professionals",
+    "basis": "inferred",
+    "reason": "Wallet features centre on stored credit/debit cards, Tap & Pay and forex cards, which skew to card-holding salaried users.",
+    "sources": [
+     "prof-samsung-pay-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle to upper-middle income",
+    "basis": "inferred",
+    "reason": "Samsung holds 22% of India's smartphone market by value versus ~15% by volume, so its buyers spend above the average phone price.",
+    "sources": [
+     "prof-samsung-pay-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~70% men",
+    "basis": "inferred",
+    "reason": "No Samsung split exists; India's smartphone and UPI user bases both skew male, so this is a weak default.",
+    "sources": [
+     "prof-samsung-pay-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "UPI on Samsung Wallet is only available on eligible Galaxy devices."
+  ],
+  "sources": [
+   {
+    "id": "prof-samsung-pay-1",
+    "url": "https://news.samsung.com/in/samsung-india-introduces-breakthrough-features-to-samsung-wallet-redefining-digital-payments-and-upi-onboarding",
+    "title": "Samsung India Introduces Breakthrough Features to Samsung Wallet",
+    "publisher": "Samsung Newsroom India",
+    "checked": "2026-11-09",
+    "supports": "Wallet lets \"Galaxy users\" store payment methods, keys and IDs; adds UPI onboarding in device setup, biometric UPI and Tap & Pay for forex cards."
+   },
+   {
+    "id": "prof-samsung-pay-2",
+    "url": "https://www.gsmarena.com/counterpoint_1_in_5_smartphones_shipped_in_india_in_2025_were_premium_models-news-71366.php",
+    "title": "Counterpoint: 1 in 5 smartphones shipped in India in 2025 were premium models",
+    "publisher": "GSMArena",
+    "checked": "2026-11-09",
+    "supports": "\"Samsung remained the #2 brand\" with Galaxy S series at its highest-ever share and A, M and F series still popular."
+   }
+  ]
+ },
+ "Jupiter": {
+  "headline": "Digitally savvy salaried professionals aged 23–32 in the top metros, earning around ₹5–10 lakh a year, male-leaning",
+  "tags": [
+   "young_adults",
+   "gen_z",
+   "metro",
+   "salaried",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 23–32",
+    "basis": "stated",
+    "reason": "The Ken says Jupiter drew 'digitally savvy 20- and 30-year-olds'; press reports its biggest acquisition cohort moved from 23–26 to 25–30.",
+    "sources": [
+     "prof-jupiter-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Top 8 metros and tier-1 cities",
+    "basis": "inferred",
+    "reason": "Jupiter's launch target was salaried staff in the top eight metros; salary-account variants and community requests reinforce an urban, salaried base.",
+    "sources": [
+     "prof-jupiter-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried, early-career; some students",
+    "basis": "stated",
+    "reason": "Community users complain Jupiter is 'focusing on features for the Salaried Customers'; a student asks for student accounts.",
+    "sources": [
+     "prof-jupiter-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income, roughly ₹5–10 lakh a year",
+    "basis": "inferred",
+    "reason": "Early-career salaried users in metros with salary accounts imply entry-to-mid salaries; the oft-cited ₹5–6 lakh target is from 2021.",
+    "sources": [
+     "prof-jupiter-1",
+     "prof-jupiter-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~70% men",
+    "basis": "inferred",
+    "reason": "No split published; young metro fintech early adopters in India skew male, so this is a weak default.",
+    "sources": [
+     "prof-jupiter-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Most demographic signals date from 2021–2022."
+  ],
+  "sources": [
+   {
+    "id": "prof-jupiter-1",
+    "url": "https://the-ken.com/story/jupiters-non-bank-ambitions-hinge-on-its-shaky-neobank-origins/",
+    "title": "Jupiter's non-bank ambitions hinge on its shaky neobank origins",
+    "publisher": "The Ken",
+    "checked": "2026-11-09",
+    "supports": "Jupiter drew \"digitally savvy 20- and 30-year-olds\" and quadrupled its user base to two million in 2022."
+   },
+   {
+    "id": "prof-jupiter-2",
+    "url": "https://community.jupiter.money/t/focus-on-salaried-customers/18625",
+    "title": "Focus on salaried customers",
+    "publisher": "Jupiter Community",
+    "checked": "2026-11-09",
+    "supports": "User: \"Jupiter is also currently focusing on features for the Salaried Customers\"; a student requests a student account."
+   }
+  ]
+ },
+ "Flipkart UPI": {
+  "headline": "Flipkart shoppers aged 18–35, mostly in tier-2/3 towns, paying for e-commerce orders; students and young earners, lower-middle income",
+  "tags": [
+   "gen_z",
+   "young_adults",
+   "tier2_3",
+   "middle_income",
+   "students"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 18–35",
+    "basis": "inferred",
+    "reason": "The handle is built for checkout inside the Flipkart app, whose shoppers are young smartphone users; no age split for UPI is public.",
+    "sources": [
+     "prof-flipkart-upi-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Over half from non-metro, tier-2/3 towns",
+    "basis": "stated",
+    "reason": "Flipkart said over 50% of traffic comes from non-metro cities, with tier-II/III adopting faster; 2025 festive growth was led by tier-2 cities.",
+    "sources": [
+     "prof-flipkart-upi-2",
+     "prof-flipkart-upi-3"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Students, salaried and small-town earners",
+    "basis": "inferred",
+    "reason": "A mass, small-town e-commerce base means a mix of students and young salaried and self-employed buyers.",
+    "sources": [
+     "prof-flipkart-upi-3"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "Festive-sale-driven, tier-2/3 demand points to value-seeking shoppers rather than premium spenders.",
+    "sources": [
+     "prof-flipkart-upi-3"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~65% men",
+    "basis": "inferred",
+    "reason": "No split published; UPI skews strongly male, partly offset by Flipkart's fashion shoppers.",
+    "sources": [
+     "prof-flipkart-upi-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Flipkart hasn't disclosed how many users registered the @fkaxis handle."
+  ],
+  "sources": [
+   {
+    "id": "prof-flipkart-upi-1",
+    "url": "https://inc42.com/buzz/flipkarts-fintech-dreams-rolls-out-upi-offering-for-select-users",
+    "title": "Flipkart's Fintech Dreams: Rolls Out UPI Offering For Select Users",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "Flipkart \"aims for its users to utilise the in-house UPI handle for ecommerce transactions\", first live for ~10,000 users."
+   },
+   {
+    "id": "prof-flipkart-upi-2",
+    "url": "https://www.medianama.com/2016/03/223-flipkart-75m-registered-users/",
+    "title": "Flipkart has 75M registered users",
+    "publisher": "MediaNama",
+    "checked": "2026-11-09",
+    "supports": "\"Over 50% of its traffic comes from non-metro cities, with Tier II and Tier III towns showing a greater rate of adoption\"."
+   },
+   {
+    "id": "prof-flipkart-upi-3",
+    "url": "https://www.business-standard.com/companies/news/flipkart-festive-season-sales-tier-2-city-growth-2025-125110401438_1.html",
+    "title": "Flipkart festive season sales: tier-2 city growth 2025",
+    "publisher": "Business Standard",
+    "checked": "2026-11-09",
+    "supports": "Bhubaneswar, Bhiwandi and Durgapur \"recorded the fastest growth among tier-2 markets\" in Flipkart's 2025 festive sales."
+   }
+  ]
+ },
+ "BharatPe": {
+  "headline": "Kirana owners and small offline merchants aged 25–50 in tier-2/3/4 towns, self-employed, lower-middle income, overwhelmingly male",
+  "tags": [
+   "merchants",
+   "self_employed",
+   "tier2_3",
+   "older_adults",
+   "borrowers",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–50",
+    "basis": "inferred",
+    "reason": "The core user is an established shop owner taking business loans; BharatPe's own stories feature owners who 'started young' and grew with loans.",
+    "sources": [
+     "prof-bharatpe-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-2, 3 and 4 towns, plus metros",
+    "basis": "stated",
+    "reason": "BharatPe says it 'aggressively expanded to tier-2, 3 and 4 towns'; in Feb 2024 tier-III+ onboarding grew fastest (83%).",
+    "sources": [
+     "prof-bharatpe-1",
+     "prof-bharatpe-3"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Self-employed kirana and MSME owners",
+    "basis": "stated",
+    "reason": "The company says it is built on 'empowering MSMEs, offline merchants and kirana store owners'.",
+    "sources": [
+     "prof-bharatpe-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle income small businesses",
+    "basis": "inferred",
+    "reason": "Users are small offline shops that need ₹-lakh working-capital loans and QR acceptance, not larger businesses.",
+    "sources": [
+     "prof-bharatpe-1",
+     "prof-bharatpe-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "~85–90% men",
+    "basis": "inferred",
+    "reason": "Kirana and small-shop ownership in India is overwhelmingly male; BharatPe publishes no split.",
+    "sources": [
+     "prof-bharatpe-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "BharatPe also runs a consumer UPI app (ex-postpe) whose users are less documented."
+  ],
+  "sources": [
+   {
+    "id": "prof-bharatpe-1",
+    "url": "https://theprint.in/ani-press-releases/bharatpe-expands-footprint-to-400-cities-across-india-reaches-all-time-high-of-usd-20-bn-in-annualized-payments-tpv/1101357",
+    "title": "BharatPe expands footprint to 400 cities across India",
+    "publisher": "ThePrint (ANI)",
+    "checked": "2026-11-09",
+    "supports": "\"Aggressively expanded to tier-2, 3 and 4 towns\"; built on \"empowering MSMEs, offline merchants and kirana store owners\"."
+   },
+   {
+    "id": "prof-bharatpe-2",
+    "url": "https://www.thequint.com/amp/story/brandstudio/partner-bharatpe-upi-tpap-launch",
+    "title": "Beyond Merchants: BharatPe Ventures Into Consumer Payments with UPI TPAP Launch",
+    "publisher": "The Quint (BrandStudio)",
+    "checked": "2026-11-09",
+    "supports": "Profiles a Bhopal salon owner who \"started young\" and took a BharatPe loan; notes postpe rebranded as BharatPe consumer app."
+   },
+   {
+    "id": "prof-bharatpe-3",
+    "url": "https://www.goodreturns.in/news/fintech-giant-bharatpes-business-surges-77-as-paytm-payments-bank-falters-on-rbis-restrictions-1338399.html",
+    "title": "BharatPe's Business Surges 77% As Paytm Payments Bank Falters",
+    "publisher": "GoodReturns",
+    "checked": "2026-11-09",
+    "supports": "Tier-III+ onboarding grew 83% vs 76% tier-I and 63% tier-II; ~42% of kirana stores shifted to platforms including BharatPe."
+   }
+  ]
+ },
+ "kiwi": {
+  "headline": "Young earners aged 22–35 with income but thin credit files, in tier-1 and tier-2 cities, wanting a first RuPay card on UPI",
+  "tags": [
+   "young_adults",
+   "gen_z",
+   "tier2_3",
+   "salaried",
+   "card_holders",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–35",
+    "basis": "inferred",
+    "reason": "Kiwi's investor describes a 'UPI-native generation' and 'Gen-Z UPI users' with limited credit history, i.e. new graduates and early-career earners.",
+    "sources": [
+     "prof-kiwi-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-1 and tier-2 cities",
+    "basis": "inferred",
+    "reason": "Credit-on-UPI rides UPI's acceptance network, which is far wider than card POS outside metros; no city split is published.",
+    "sources": [
+     "prof-kiwi-1",
+     "prof-kiwi-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Early-career salaried and self-employed",
+    "basis": "stated",
+    "reason": "Target is 'credit-invisible affluents': users with income but limited formal credit history.",
+    "sources": [
+     "prof-kiwi-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income, new to credit",
+    "basis": "stated",
+    "reason": "Vertex frames the segment as 'Credit-Invisible Affluents, Not Thin-File Poor', so earners, not low-income.",
+    "sources": [
+     "prof-kiwi-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~70% men",
+    "basis": "inferred",
+    "reason": "No split published; both UPI and credit cards in India skew male.",
+    "sources": [
+     "prof-kiwi-2"
+    ]
+   }
+  ],
+  "caveats": [],
+  "sources": [
+   {
+    "id": "prof-kiwi-1",
+    "url": "https://www.vertexventures.sg/news/why-every-future-fintech-in-india-will-be-built-on-upi-anup-agarwal-kiwi/",
+    "title": "Why Every Future Fintech in India Will Be Built on UPI | Anup Agarwal, Kiwi",
+    "publisher": "Vertex Ventures",
+    "checked": "2026-11-09",
+    "supports": "Kiwi targets \"Credit-Invisible Affluents, Not Thin-File Poor\": users with income but limited credit history; mentions \"Gen-Z UPI Users\"."
+   },
+   {
+    "id": "prof-kiwi-2",
+    "url": "https://inc42.com/?p=397393",
+    "title": "Fintech Startup Kiwi Bags $6 Mn To Offer Credit On UPI Service",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "Founder: \"not every Indian has access to credit cards\"; plans to onboard 2 Mn users in 18 months."
+   }
+  ]
+ },
+ "Omni Card": {
+  "headline": "Teens and young adults aged 15–24 without a bank account, spending parent-loaded money, in urban and tier-2 families",
+  "tags": [
+   "teens",
+   "gen_z",
+   "students",
+   "metro",
+   "tier2_3",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "15–24, core 15–20",
+    "basis": "stated",
+    "reason": "OmniCard says it is 'targeting 230 million Young in the age group of 15-24 years' and the 'pre-banked segment'.",
+    "sources": [
+     "prof-omni-card-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Urban and tier-2 families",
+    "basis": "inferred",
+    "reason": "A card-plus-app product for digitally native teens with smartphones fits urban households; Noida-based, no city split given.",
+    "sources": [
+     "prof-omni-card-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "School and college students",
+    "basis": "stated",
+    "reason": "Product targets the 'pre-banked' young whose parents load the card instead of giving cash; company blog voice is a recent graduate.",
+    "sources": [
+     "prof-omni-card-1",
+     "prof-omni-card-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle-income households (parent-funded)",
+    "basis": "inferred",
+    "reason": "Parents fund the card and set spending limits, implying families with spare pocket money and smartphones for teens.",
+    "sources": [
+     "prof-omni-card-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Slight male skew, ~55–60% male",
+    "basis": "inferred",
+    "reason": "Parent-controlled cards narrow the usual gap, but teen boys still get more phone and payment access in India; no split published.",
+    "sources": [
+     "prof-omni-card-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "The current app also pushes corporate expense cards, so some users are adult employees."
+  ],
+  "sources": [
+   {
+    "id": "prof-omni-card-1",
+    "url": "https://theprint.in/ani-press-releases/eroute-launches-indias-1st-prepaid-card-exclusively-for-young-generation/689445",
+    "title": "Eroute launches India's 1st Prepaid Card exclusively for YOUNG Generation",
+    "publisher": "ThePrint (ANI)",
+    "checked": "2026-11-09",
+    "supports": "\"Targeting 230 million Young in the age group of 15-24 years\"; parents can set spending limits; relieves parents of giving cash."
+   },
+   {
+    "id": "prof-omni-card-2",
+    "url": "https://omnicard.in/blogs/why-young-love-omnicard",
+    "title": "Why young love OmniCard",
+    "publisher": "OmniCard",
+    "checked": "2026-11-09",
+    "supports": "Testimonial from a user who \"just graduated college\", contrasting with friends \"calling their parents for OTP\"."
+   }
+  ]
+ },
+ "Timepay": {
+  "headline": "Co-operative bank customers aged 30–55 in tier-2/3 towns of Maharashtra and UP, paying bills and UPI; salaried and small traders",
+  "tags": [
+   "older_adults",
+   "tier2_3",
+   "salaried",
+   "self_employed",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 30–55",
+    "basis": "inferred",
+    "reason": "TimePay is the UPI app of co-operative banks (via Cosmos Bank), whose depositors skew older than fintech-native users; focus on BBPS bill pay fits household heads.",
+    "sources": [
+     "prof-timepay-1",
+     "prof-timepay-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-2/3 towns, Maharashtra and UP heavy",
+    "basis": "inferred",
+    "reason": "Co-op banks are regional and Cosmos is Pune-based; the app's release notes add the UPPCL (Uttar Pradesh) electricity biller.",
+    "sources": [
+     "prof-timepay-1",
+     "prof-timepay-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried staff and small traders",
+    "basis": "inferred",
+    "reason": "Co-op bank customer bases mix local salaried workers and small businesses; weak, no user data.",
+    "sources": [
+     "prof-timepay-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle income",
+    "basis": "inferred",
+    "reason": "Use centres on electricity bills, recharges and cashback vouchers rather than premium products.",
+    "sources": [
+     "prof-timepay-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~75% men",
+    "basis": "inferred",
+    "reason": "Small-town UPI and bill-paying users skew strongly male; no split published.",
+    "sources": [
+     "prof-timepay-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "The first guess assumed a credit line; current listing is a general UPI and bill-pay app with only ~346 App Store ratings."
+  ],
+  "sources": [
+   {
+    "id": "prof-timepay-1",
+    "url": "https://apps.apple.com/in/app/timepay/id1479721596",
+    "title": "TimePay",
+    "publisher": "Apple App Store",
+    "checked": "2026-11-09",
+    "supports": "\"TimePay is your all-in-one UPI payment app\" by Network People Services Technologies; BBPS bills incl. UPPCL electricity; users note cashback."
+   },
+   {
+    "id": "prof-timepay-2",
+    "url": "https://swarajyamag.com/amp/story/insta/npci-approves-npsts-timepay-for-third-party-upi-app",
+    "title": "NPCI Approves NPST's TimePay For Third-Party UPI App",
+    "publisher": "Swarajya",
+    "checked": "2026-11-09",
+    "supports": "NPST, a banking technology provider, received NPCI TPAP approval for TimePay (2021)."
+   }
+  ]
+ },
+ "SalarySe": {
+  "headline": "White-collar employees aged 24–40 at IT, healthcare and finance firms in metros, using salary-linked credit on UPI",
+  "tags": [
+   "young_adults",
+   "metro",
+   "salaried",
+   "middle_income",
+   "borrowers"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 24–40",
+    "basis": "inferred",
+    "reason": "Users are employees of enterprise clients in IT and services, whose workforces are dominated by under-40s.",
+    "sources": [
+     "prof-salaryse-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros and tier-1 (Gurugram, Bengaluru, etc.)",
+    "basis": "inferred",
+    "reason": "Distribution is via enterprise payroll in IT, healthcare and financial services, which cluster in metro hubs.",
+    "sources": [
+     "prof-salaryse-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried, via employer partnerships",
+    "basis": "stated",
+    "reason": "SalarySe serves 'every salaried Indian' through 100+ enterprise clients, reaching 1.5M employees.",
+    "sources": [
+     "prof-salaryse-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income, ₹4–15 lakh a year",
+    "basis": "inferred",
+    "reason": "Pre-payday credit and salary advances suit mid-salary staff who run short before month end; no income data given.",
+    "sources": [
+     "prof-salaryse-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~65–70% men",
+    "basis": "inferred",
+    "reason": "India's IT/services workforce is roughly a third women; SalarySe publishes no split.",
+    "sources": [
+     "prof-salaryse-1"
+    ]
+   }
+  ],
+  "caveats": [],
+  "sources": [
+   {
+    "id": "prof-salaryse-1",
+    "url": "https://www.salaryse.com/post/salaryse-raises-11-3-million-to-redefine-credit-access-for-indias-salaried-class",
+    "title": "SalarySe Raises $11.3 Million to Redefine Credit Access for India's Salaried Class",
+    "publisher": "SalarySe",
+    "checked": "2026-11-09",
+    "supports": "Aims to serve \"every salaried Indian\"; \"over 100 enterprise clients across IT, healthcare, and financial services\"; 1.5M employees reached."
+   }
+  ]
+ },
+ "KreditPe": {
+  "headline": "Cashback-hunting UPI users aged 22–35 in tier-1 and tier-2 cities, salaried, middle income, many seeking a first card",
+  "tags": [
+   "young_adults",
+   "tier2_3",
+   "salaried",
+   "middle_income",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–35",
+    "basis": "inferred",
+    "reason": "The pitch is cashback on everyday UPI, a lifetime-free card and FD-linked perks, aimed at young earners optimising rewards.",
+    "sources": [
+     "prof-kreditpe-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-1 and tier-2 cities",
+    "basis": "inferred",
+    "reason": "Rewards on scan-and-pay at offline merchants and online spends suit urban and semi-urban UPI users; Bengaluru-based, no split published.",
+    "sources": [
+     "prof-kreditpe-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried",
+    "basis": "inferred",
+    "reason": "A credit card with ₹20,000/month UPI spend tiers implies regular monthly income.",
+    "sources": [
+     "prof-kreditpe-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income",
+    "basis": "inferred",
+    "reason": "Cashback tiers at ₹20,000 monthly spend, gold purchases and FDs from ₹50,000 suggest moderate disposable income.",
+    "sources": [
+     "prof-kreditpe-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~70% men",
+    "basis": "inferred",
+    "reason": "No split published; UPI and credit card users in India skew male.",
+    "sources": [
+     "prof-kreditpe-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "Thin public coverage; profile rests mainly on the company's own product page."
+  ],
+  "sources": [
+   {
+    "id": "prof-kreditpe-1",
+    "url": "https://www.kredit.pe/",
+    "title": "Kredit.Pe: Earn 5% cashback on UPI",
+    "publisher": "Kredit.Pe",
+    "checked": "2026-11-09",
+    "supports": "\"Lifetime free card\" with \"5% cashback on online spends & UPI spends above ₹20,000 per month\"; 1% cashback on UPI; FDs via Unity bank."
+   }
+  ]
+ },
+ "OneCard": {
+  "headline": "Young working professionals aged 23–35 in metros and tier-1 cities with disposable income, holding a free metal credit card",
+  "tags": [
+   "young_adults",
+   "gen_z",
+   "metro",
+   "salaried",
+   "card_holders",
+   "affluent"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "23–35",
+    "basis": "stated",
+    "reason": "Federal Bank's OneCard launch targets 'young working professionals between 23-35 years', millennials and Gen Z.",
+    "sources": [
+     "prof-onecard-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros and tier-1 cities",
+    "basis": "inferred",
+    "reason": "Aimed at a 'young, tech-savvy population' of working professionals with disposable income, a group concentrated in big cities; no city split is published.",
+    "sources": [
+     "prof-onecard-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried professionals",
+    "basis": "stated",
+    "reason": "Target is explicitly 'young working professionals'.",
+    "sources": [
+     "prof-onecard-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Upper-middle income, ₹6–20 lakh a year",
+    "basis": "inferred",
+    "reason": "Federal Bank says the cohort has 'considerable disposable income'; the band is our estimate.",
+    "sources": [
+     "prof-onecard-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, ~70–75% men",
+    "basis": "inferred",
+    "reason": "Credit card holders in India skew male; no OneCard split published.",
+    "sources": [
+     "prof-onecard-2"
+    ]
+   }
+  ],
+  "caveats": [],
+  "sources": [
+   {
+    "id": "prof-onecard-1",
+    "url": "https://www.freepressjournal.in/business/federal-bank-partners-with-onecard-to-offer-mobile-first-credit-card",
+    "title": "Federal Bank partners with OneCard to offer mobile first credit card",
+    "publisher": "Free Press Journal",
+    "checked": "2026-11-09",
+    "supports": "Targets \"young working professionals between 23-35 years\", \"millennials and Gen Z\", with \"considerable disposable income\"."
+   },
+   {
+    "id": "prof-onecard-2",
+    "url": "https://techcrunch.com/2020/08/18/indias-onecard-credit-card-maker-fpl-technologies-lands-10-million",
+    "title": "India's OneCard credit card maker FPL Technologies lands $10 million",
+    "publisher": "TechCrunch",
+    "checked": "2026-11-09",
+    "supports": "Pune-based FPL Technologies built OneCard after OneScore, which helped people \"find and understand their credit score\"."
+   }
+  ]
+ }
+}

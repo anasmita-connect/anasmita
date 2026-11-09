@@ -1,0 +1,1014 @@
+{
+  "INDmoney": {
+    "headline": "Affluent, salaried 25-40 professionals in metros and tier-1 cities investing in US stocks, mutual funds and tracking net worth",
+    "tags": [
+      "young_adults",
+      "metro",
+      "salaried",
+      "affluent",
+      "investors"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 25-40, core 25-34",
+        "basis": "stated",
+        "reason": "Founder told TechCrunch the target is the 21-45 'mass affluent'; a product teardown lists 25-34 as the core age.",
+        "sources": [
+          "prof-indmoney-1",
+          "prof-indmoney-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and tier-1, some tier-2",
+        "basis": "stated",
+        "reason": "Teardown lists 'Metro, Tier-1,2 cities' as the target geography; company is Gurugram/Bengaluru based.",
+        "sources": [
+          "prof-indmoney-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Mostly salaried white-collar professionals",
+        "basis": "inferred",
+        "reason": "US stock investing via LRS and family net-worth tracking suits salaried earners with surplus; no source states occupation directly.",
+        "sources": [
+          "prof-indmoney-1",
+          "prof-indmoney-3"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Upper-middle to affluent",
+        "basis": "stated",
+        "reason": "Founder describes the target as 'mass affluent'; teardown says 'High net worth & affluent individuals'.",
+        "sources": [
+          "prof-indmoney-1",
+          "prof-indmoney-2"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~70-75%",
+        "basis": "inferred",
+        "reason": "No INDmoney gender data found; estimate follows the male skew typical of Indian retail equity investors, so treat as weak.",
+        "sources": [
+          "prof-indmoney-3"
+        ]
+      }
+    ],
+    "caveats": [
+      "User base reported as 17M+ (ThePrint, 2025); demographic splits come from a third-party teardown, not company disclosures."
+    ],
+    "sources": [
+      {
+        "id": "prof-indmoney-1",
+        "url": "https://techcrunch.com/2022/01/17/indmoney-super-app-finance-funding",
+        "title": "INDmoney raises $75M for its super finance app in India",
+        "publisher": "TechCrunch",
+        "checked": "2026-11-09",
+        "supports": "Says INDmoney caters to the 'mass affluent' demographic aged 21 to 45 and frames finances at a 'family level'."
+      },
+      {
+        "id": "prof-indmoney-2",
+        "url": "https://insidestartups.substack.com/p/product-teardown-indmoney-app",
+        "title": "Product Teardown: INDmoney App",
+        "publisher": "Inside Startups (Substack)",
+        "checked": "2026-11-09",
+        "supports": "Lists target audience as 'High net worth & affluent individuals', 'Age: 25-34', 'Metro, Tier-1,2 cities'."
+      },
+      {
+        "id": "prof-indmoney-3",
+        "url": "https://theprint.in/economy/trump-tariffs-led-to-a-brokerage-firm-seeing-400-more-investments-in-us-stocks-whats-the-rush-about/2597150",
+        "title": "Trump tariffs led to a brokerage firm seeing 400% more investments in US stocks",
+        "publisher": "ThePrint",
+        "checked": "2026-11-09",
+        "supports": "Describes INDmoney's 17M+ users and a 'highly engaged retail investor base' buying US stocks and ETFs."
+      }
+    ]
+  },
+  "Digikhata": {
+    "headline": "Underbanked consumers in small towns who load cash at PayPoint retail kiosks to use UPI and a RuPay card without a bank account",
+    "tags": [
+      "tier2_3",
+      "rural",
+      "low_income",
+      "self_employed",
+      "merchants"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 20-45",
+        "basis": "inferred",
+        "reason": "Listing says it suits 'users of all ages'; working-age adults dominate cash-in and remittance use at agent kiosks. Weak evidence.",
+        "sources": [
+          "prof-digikhata-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2/3 towns and rural India",
+        "basis": "inferred",
+        "reason": "Cash deposit at 'Digi Kiosks' runs on PayPoint's retailer network, which says it serves 'people from both rural and urban areas'.",
+        "sources": [
+          "prof-digikhata-1",
+          "prof-digikhata-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Informal workers and small shopkeepers",
+        "basis": "inferred",
+        "reason": "Wallet works 'without a bank account' with cash top-ups; merchant variant Digi Vyapaar targets store owners accepting UPI and AEPS.",
+        "sources": [
+          "prof-digikhata-1",
+          "prof-digikhata-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low to lower-middle income",
+        "basis": "inferred",
+        "reason": "Cash-loaded prepaid wallet for people without bank access points to low-income, underbanked users.",
+        "sources": [
+          "prof-digikhata-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~65-70%",
+        "basis": "inferred",
+        "reason": "No gender data; assisted-cash channels in small-town India are mostly used by men. Weak estimate.",
+        "sources": [
+          "prof-digikhata-2"
+        ]
+      }
+    ],
+    "caveats": [
+      "Digikhata is PayPoint India's prepaid wallet app; very little independent coverage exists, so all dimensions are inferred."
+    ],
+    "sources": [
+      {
+        "id": "prof-digikhata-1",
+        "url": "https://apps.apple.com/in/app/digi-khata/id1194920306",
+        "title": "Digi Khata - App Store",
+        "publisher": "Apple App Store (Pay Point India Network Pvt Ltd)",
+        "checked": "2026-11-09",
+        "supports": "Describes UPI, RuPay card, deposits at local 'Digi Kiosks' and withdrawals 'without a bank account'."
+      },
+      {
+        "id": "prof-digikhata-2",
+        "url": "https://paypointindia.com/digi-vyapaar.aspx",
+        "title": "Digi Vyapaar",
+        "publisher": "PayPoint India",
+        "checked": "2026-11-09",
+        "supports": "Digikhata Vyapaar targets stores accepting UPI and AEPS, via a retailer/distributor network serving 'people from both rural and urban areas'."
+      }
+    ]
+  },
+  "Aditya Birla Capital Digital": {
+    "headline": "Middle-class 22-35 year olds between first job and first child buying loans, insurance and investments from one app",
+    "tags": [
+      "young_adults",
+      "metro",
+      "salaried",
+      "middle_income",
+      "borrowers",
+      "investors"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 22-35",
+        "basis": "stated",
+        "reason": "ABCL's digital head said 'the target segment for ABCD is in the 22-35 age group'.",
+        "sources": [
+          "prof-aditya-birla-capital-digital-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and tier-1/2 cities",
+        "basis": "inferred",
+        "reason": "Pitched as an omnichannel D2C app for the tech-savvy urban middle class; no city split published.",
+        "sources": [
+          "prof-aditya-birla-capital-digital-1",
+          "prof-aditya-birla-capital-digital-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Mostly salaried, early career",
+        "basis": "inferred",
+        "reason": "'First Income to First Kid' framing implies people who have just started earning, typically salaried.",
+        "sources": [
+          "prof-aditya-birla-capital-digital-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle income",
+        "basis": "stated",
+        "reason": "Targets 'first income to first-kid people among the growing middle class'.",
+        "sources": [
+          "prof-aditya-birla-capital-digital-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~65%",
+        "basis": "inferred",
+        "reason": "No gender data; personal loans and insurance buyers in India skew male. Weak estimate.",
+        "sources": [
+          "prof-aditya-birla-capital-digital-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Targets are from the April 2024 launch; no actual user breakdown has been published."
+    ],
+    "sources": [
+      {
+        "id": "prof-aditya-birla-capital-digital-1",
+        "url": "https://www.theweek.in/news/biz-tech/2024/04/16/aditya-birla-capital-launches-new-digital-platform-aims-to-double-customer-base-in-3-years.html",
+        "title": "Aditya Birla Capital launches new digital platform; aims to double customer base in 3 years",
+        "publisher": "The Week",
+        "checked": "2026-11-09",
+        "supports": "'The target segment for ABCD is in the 22-35 age group', 'first income to first-kid people among the growing middle class', ~200 million people."
+      },
+      {
+        "id": "prof-aditya-birla-capital-digital-2",
+        "url": "https://www.businesstoday.in/industry/banks/story/first-income-to-first-kid-aditya-birla-capital-makes-a-splash-with-new-digital-platform-abcd-425787-2024-04-16",
+        "title": "'First Income to First Kid': Aditya Birla Capital makes a splash with new digital platform 'ABCD'",
+        "publisher": "Business Today",
+        "checked": "2026-11-09",
+        "supports": "Says ABCD targets a new customer base of 'First Income to First Kid' and aims for 30 million new customers in 3 years."
+      }
+    ]
+  },
+  "Shriram One": {
+    "headline": "Truckers, small traders and savers in tier-3 towns and rural India, aged 30-60, using Shriram Finance loans and deposits",
+    "tags": [
+      "older_adults",
+      "tier2_3",
+      "rural",
+      "self_employed",
+      "borrowers",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 30-60",
+        "basis": "inferred",
+        "reason": "Profiled users range from a 36-year-old trader to a 61-year-old retired depositor, matching Shriram's vehicle-loan and FD base.",
+        "sources": [
+          "prof-shriram-one-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "~63% tier-3 and below, ~27% tier-2",
+        "basis": "stated",
+        "reason": "Microsoft says '63 percent of new users come from Tier-3 cities and beyond' and 27% from tier-2.",
+        "sources": [
+          "prof-shriram-one-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Self-employed: truckers, traders, MSMEs",
+        "basis": "stated",
+        "reason": "Users profiled include a long-haul truck driver with a vehicle loan and a wholesale grocery owner with a business loan.",
+        "sources": [
+          "prof-shriram-one-1"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income",
+        "basis": "inferred",
+        "reason": "Serves 'underserved and rural areas' with ~Rs 5 lakh vehicle loans; suggests modest, irregular incomes.",
+        "sources": [
+          "prof-shriram-one-1",
+          "prof-shriram-one-2"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~75%",
+        "basis": "inferred",
+        "reason": "Commercial vehicle and small-business borrowing is male-dominated; no gender split published.",
+        "sources": [
+          "prof-shriram-one-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Location split is for new users; ~20M downloads and ~6M active UPI users per Microsoft."
+    ],
+    "sources": [
+      {
+        "id": "prof-shriram-one-1",
+        "url": "https://news.microsoft.com/source/asia/features/with-shriram-one-financial-services-travel-with-the-customer",
+        "title": "With Shriram One, financial services travel with the customer",
+        "publisher": "Microsoft Source Asia",
+        "checked": "2026-11-09",
+        "supports": "'63 percent of new users come from Tier-3 cities and beyond', 27% tier-2; profiles a trucker, a grocery wholesaler and a retired investor; seven languages."
+      },
+      {
+        "id": "prof-shriram-one-2",
+        "url": "https://www.devdiscourse.com/article/headlines/3332755-shriram-one-empowers-millions-with-financial-access",
+        "title": "Shriram One Empowers Millions with Financial Access",
+        "publisher": "Devdiscourse",
+        "checked": "2026-11-09",
+        "supports": "Says the app helps users 'particularly those in underserved and rural areas'."
+      }
+    ]
+  },
+  "Jar": {
+    "headline": "First-time savers aged 21-35 in tier-2/3 towns, low to middle income, putting ₹10 a day into digital gold",
+    "tags": [
+      "gen_z",
+      "young_adults",
+      "tier2_3",
+      "low_income",
+      "middle_income",
+      "investors"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 21-35",
+        "basis": "inferred",
+        "reason": "Investors frame Jar around 'millennials' and people who spend earnings as soon as they start earning; no official age split.",
+        "sources": [
+          "prof-jar-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "~60% tier-2/3 towns",
+        "basis": "stated",
+        "reason": "TechCrunch: 'About 60% of users are from India's smaller cities and towns'.",
+        "sources": [
+          "prof-jar-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Mix of salaried, small traders, daily wage",
+        "basis": "stated",
+        "reason": "Users include IT and manufacturing workers, small business owners and daily wage workers like electricians and plumbers.",
+        "sources": [
+          "prof-jar-1"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low to middle income",
+        "basis": "stated",
+        "reason": "Jar targets 'low- to middle-income users'; over 95% are saving formally for the first time.",
+        "sources": [
+          "prof-jar-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~65%",
+        "basis": "inferred",
+        "reason": "No gender data published; estimate reflects typical fintech skew in smaller towns. Weak.",
+        "sources": [
+          "prof-jar-3"
+        ]
+      }
+    ],
+    "caveats": [
+      "Some secondary sources give a more tier-1 heavy split; TechCrunch's 60% figure is used here."
+    ],
+    "sources": [
+      {
+        "id": "prof-jar-1",
+        "url": "https://techcrunch.com/2025/09/18/indian-fintech-jar-turns-profitable-by-helping-millions-save-in-gold/",
+        "title": "Indian fintech Jar turns profitable by helping millions save in gold",
+        "publisher": "TechCrunch",
+        "checked": "2026-11-09",
+        "supports": "'About 60% of users are from India's smaller cities', 'more than 95% are saving formally for the first time', 'low- to middle-income users'."
+      },
+      {
+        "id": "prof-jar-2",
+        "url": "https://techcrunch.com/2021/08/31/tribe-and-arkam-back-jar-app-to-help-millions-in-india-start-their-savings-journey",
+        "title": "Tribe and Arkam back Jar app to help millions in India start their savings journey",
+        "publisher": "TechCrunch",
+        "checked": "2026-11-09",
+        "supports": "Investor thesis on 'millennials' need for financial well being'; founders target 'a typical middle class family' and the next 500 million savers."
+      },
+      {
+        "id": "prof-jar-3",
+        "url": "https://cxotoday.com/corner-office/from-inception-to-impact-jars-mission-and-growth-in-the-fintech-industry/",
+        "title": "From Inception to Impact: Jar's Mission and Growth in the Fintech Industry",
+        "publisher": "CXOToday",
+        "checked": "2026-11-09",
+        "supports": "Notes 'equal level of engagement from customers across both metro and non-metro cities' and savings 'from as little as ₹10'."
+      }
+    ]
+  },
+  "Tata Pay": {
+    "headline": "Urban salaried Tata Neu shoppers, often Tata Neu HDFC credit card holders, paying via UPI to earn NeuCoins on groceries and electronics",
+    "tags": [
+      "young_adults",
+      "metro",
+      "salaried",
+      "middle_income",
+      "card_holders"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 25-40",
+        "basis": "inferred",
+        "reason": "Users come via Tata brands like BigBasket, Croma and 1mg plus a co-branded credit card, which skew to working adults.",
+        "sources": [
+          "prof-tata-pay-1",
+          "prof-tata-pay-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and tier-1, growing in smaller cities",
+        "basis": "stated",
+        "reason": "HDFC/Tata Neu release says card adoption is strong 'in both metro and smaller cities'.",
+        "sources": [
+          "prof-tata-pay-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Mostly salaried",
+        "basis": "inferred",
+        "reason": "Much of the UPI use runs on the Tata Neu HDFC RuPay credit card, which needs income eligibility; FD-backed version adds students and homemakers.",
+        "sources": [
+          "prof-tata-pay-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle to upper-middle income",
+        "basis": "inferred",
+        "reason": "Loyalty spend across Croma, Tata CLiQ, IHCL and a 2M+ credit card base points to card-holding middle-class shoppers.",
+        "sources": [
+          "prof-tata-pay-1",
+          "prof-tata-pay-2"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Roughly balanced, slight male skew",
+        "basis": "inferred",
+        "reason": "Grocery and beauty (BigBasket, Westside) offset electronics and travel; no gender data published. Weak.",
+        "sources": [
+          "prof-tata-pay-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Tata Pay UPI lives inside Tata Neu; no Tata Pay-specific demographics exist."
+    ],
+    "sources": [
+      {
+        "id": "prof-tata-pay-1",
+        "url": "https://www.freepressjournal.in/amp/business/tatas-super-app-neu-to-create-compelling-platform-for-consumers-cater-to-new-segments-official",
+        "title": "Tata's super app Neu to create 'compelling' platform for consumers",
+        "publisher": "Free Press Journal",
+        "checked": "2026-11-09",
+        "supports": "Lists brands on Tata Neu (BigBasket, Croma, IHCL, Tata 1mg, Tata CLiQ, Westside) and NeuCoins rewards of 5% or more."
+      },
+      {
+        "id": "prof-tata-pay-2",
+        "url": "https://fintechbiznews.com/lenders-banks/tata-neu-hdfc-bank-card-hits-2-mn-mark-",
+        "title": "Tata Neu HDFC Bank Card Hits 2 Mn Mark",
+        "publisher": "Fintech BizNews",
+        "checked": "2026-11-09",
+        "supports": "2M+ cards, ~13% of net new cards in Q3 FY25, 12M+ UPI transactions a month, adoption in 'both metro and smaller cities'."
+      }
+    ]
+  },
+  "Obopay": {
+    "headline": "Field staff and blue-collar workers in logistics, construction and agri who get Obopay prepaid wallets from employers or agri-tech partners",
+    "tags": [
+      "businesses",
+      "gig_workers",
+      "tier2_3",
+      "rural",
+      "low_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 22-45 working-age staff",
+        "basis": "inferred",
+        "reason": "Wallets are issued to employees and farmers by businesses, so users are working-age adults. Weak evidence.",
+        "sources": [
+          "prof-obopay-1",
+          "prof-obopay-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2/3 towns, rural, worksites",
+        "basis": "inferred",
+        "reason": "Use cases are logistics, construction and manufacturing staff plus a farmer card with BharatRohan.",
+        "sources": [
+          "prof-obopay-1",
+          "prof-obopay-3"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Employees of SMEs, field staff, farmers",
+        "basis": "stated",
+        "reason": "CashBook says business owners issue Obopay PPI wallets to employees; Obopay serves corporates and agri-techs.",
+        "sources": [
+          "prof-obopay-1",
+          "prof-obopay-2",
+          "prof-obopay-3"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low to lower-middle income",
+        "basis": "inferred",
+        "reason": "Petty-cash wallets for site and field staff and incentive cards for smallholder farmers imply modest incomes.",
+        "sources": [
+          "prof-obopay-1",
+          "prof-obopay-3"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~80%",
+        "basis": "inferred",
+        "reason": "Logistics, construction and field-staff roles in India are heavily male; no data published.",
+        "sources": [
+          "prof-obopay-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Obopay is a B2B2C PPI issuer; end users mostly reach it through partner programmes like CashBook, not a consumer brand."
+    ],
+    "sources": [
+      {
+        "id": "prof-obopay-1",
+        "url": "https://cashbook.in/llms.txt",
+        "title": "CashBook site summary",
+        "publisher": "CashBook",
+        "checked": "2026-11-09",
+        "supports": "'Wallets are PPIs issued by Obopay'; 'UPI wallets for staff/vendor expenses'; customers in logistics, construction and manufacturing."
+      },
+      {
+        "id": "prof-obopay-2",
+        "url": "https://apps.apple.com/in/app/cashbook-upi-wallets-for-staff/id1632006509",
+        "title": "CashBook - UPI Wallets for Staff",
+        "publisher": "Apple App Store",
+        "checked": "2026-11-09",
+        "supports": "Subtitle 'Obopay - Wallet for Businesses'; 'Business owners can issue wallets to their employees', 'designed with small business owners in mind'."
+      },
+      {
+        "id": "prof-obopay-3",
+        "url": "https://prnewswire.com/in/news-releases/bharatrohan-collaborates-with-obopay-and-mastercard-to-incentivize-2-lakh-farmers-to-use-drone-based-crop-monitoring-services-302318263.html",
+        "title": "BharatRohan collaborates with Obopay and Mastercard to incentivize 2 lakh farmers",
+        "publisher": "PR Newswire",
+        "checked": "2026-11-09",
+        "supports": "Obopay is an RBI-licensed PPI issuer serving 'corporates, distribution companies, Agri-Techs' and supports a farmer card."
+      }
+    ]
+  },
+  "Curie Money": {
+    "headline": "Urban salaried professionals and HNIs aged 25-40 who park idle savings in liquid funds and spend them via UPI",
+    "tags": [
+      "young_adults",
+      "metro",
+      "salaried",
+      "affluent",
+      "investors"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 25-40",
+        "basis": "inferred",
+        "reason": "A mutual fund-backed savings account for 'idle savings' suits working adults with surplus cash; no age data published.",
+        "sources": [
+          "prof-curie-money-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and tier-1 cities",
+        "basis": "inferred",
+        "reason": "Bengaluru startup selling liquid-fund yield over bank savings, a concept that resonates with financially literate urban users.",
+        "sources": [
+          "prof-curie-money-1",
+          "prof-curie-money-3"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried professionals, some business owners",
+        "basis": "inferred",
+        "reason": "Targets people with balances sitting idle; plans for current-account and MSME offerings add business owners.",
+        "sources": [
+          "prof-curie-money-1",
+          "prof-curie-money-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Upper-middle to affluent",
+        "basis": "stated",
+        "reason": "The Paypers says the real-time redemption feature caters to 'high-net-worth individuals seeking efficient treasury management'.",
+        "sources": [
+          "prof-curie-money-2"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~70%",
+        "basis": "inferred",
+        "reason": "Mutual fund investing in India skews male; no Curie data published. Weak.",
+        "sources": [
+          "prof-curie-money-3"
+        ]
+      }
+    ],
+    "caveats": [
+      "App only went live for all users in October 2025; user base is small and undisclosed."
+    ],
+    "sources": [
+      {
+        "id": "prof-curie-money-1",
+        "url": "https://www.theweek.in/konnect/economy/2025/06/28/curie-money-launches-indias-first-high-yield-savings-account-with-instant-upi-payment.html",
+        "title": "Curie Money Launches India's First High-Yield Savings Account with Instant UPI Payment",
+        "publisher": "The Week (Konnect)",
+        "checked": "2026-11-09",
+        "supports": "Targets 'individuals who want better value from their idle savings without compromising on liquidity'; UPI from fund redemptions up to Rs 50,000."
+      },
+      {
+        "id": "prof-curie-money-2",
+        "url": "https://thepaypers.com/fintech/news/curie-money-raises-usd-12-million-in-seed-funding-for-expansion",
+        "title": "Curie Money raises USD 1.2 million in seed funding for expansion",
+        "publisher": "The Paypers",
+        "checked": "2026-11-09",
+        "supports": "Feature 'catering to high-net-worth individuals seeking efficient treasury management'; plans for current account and MSME segments."
+      },
+      {
+        "id": "prof-curie-money-3",
+        "url": "https://www.businesstoday.in/personal-finance/news/story/npci-approves-curie-money-rollout-merging-upi-payments-with-mutual-fund-growth-498117-2025-10-14",
+        "title": "NPCI approves Curie Money rollout merging UPI payments with mutual fund growth",
+        "publisher": "Business Today",
+        "checked": "2026-11-09",
+        "supports": "Says Curie exited its closed user group phase and is 'Now open to all users across India'."
+      }
+    ]
+  },
+  "LXME": {
+    "headline": "Women aged 25-40 in tier-1 and tier-2 cities, working women and homemakers, earning digital gold on UPI spends",
+    "tags": [
+      "women",
+      "young_adults",
+      "metro",
+      "tier2_3",
+      "middle_income",
+      "investors"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 25-35, up to ~50",
+        "basis": "stated",
+        "reason": "YourStory (2021) says products are aimed at women aged 25-35; Hindi YourStory cites users from 21-year-olds to 50-year-old homemakers. From search snippets, pages returned 403.",
+        "sources": [
+          "prof-lxme-1"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-1 and tier-2, pushing into tier-3",
+        "basis": "stated",
+        "reason": "YourStory snippet: 'Tier-I and Tier-II cities are its biggest markets', with plans for tier-3 (page 403, cited from snippet).",
+        "sources": [
+          "prof-lxme-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Working women and homemakers",
+        "basis": "stated",
+        "reason": "Women's World Banking pilot profiles a homemaker who tutors part-time and a software engineer.",
+        "sources": [
+          "prof-lxme-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle income, often irregular",
+        "basis": "inferred",
+        "reason": "Pilot refers to women 'with irregular incomes'; free app with small-ticket gold rewards suits middle earners.",
+        "sources": [
+          "prof-lxme-2",
+          "prof-lxme-3"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Nearly all women by design",
+        "basis": "stated",
+        "reason": "LxmePay is 'designed exclusively for women' and built around 'women's unique financial behaviours'; some relatives of users may also join.",
+        "sources": [
+          "prof-lxme-3"
+        ]
+      }
+    ],
+    "caveats": [
+      "Age and tier data are from 2021 when the base was ~15K; now 1.5M+ downloads and ~800K active users per PayU."
+    ],
+    "sources": [
+      {
+        "id": "prof-lxme-1",
+        "url": "https://yourstory.com/2021/03/mumbai-based-fintech-startup-lxme-teaches-women-finance",
+        "title": "Mumbai-based fintech startup LXME aims to bridge the gap between women and finance",
+        "publisher": "YourStory",
+        "checked": "2026-11-09",
+        "supports": "Fetch returned 403; search snippet states products aimed at women in the 25-35 age group and 'Tier-I and Tier-II cities are its biggest markets'."
+      },
+      {
+        "id": "prof-lxme-2",
+        "url": "https://www.womensworldbanking.org/insights/cultivating-financially-fearless-women-lessons-from-our-pilot-in-india-with-lxme/",
+        "title": "Cultivating Financially Fearless Women: Lessons from Our Pilot in India with LXME",
+        "publisher": "Women's World Banking",
+        "checked": "2026-11-09",
+        "supports": "Profiles a homemaker who tutors part-time and a software engineer; refers to women 'with irregular incomes'."
+      },
+      {
+        "id": "prof-lxme-3",
+        "url": "https://www.businesstoday.in/latest/corporate/story/lxme-launches-indias-first-upi-platform-exclusively-for-women-heres-how-it-works-498110-2025-10-14",
+        "title": "LXME launches India's first UPI platform exclusively for women",
+        "publisher": "Business Today",
+        "checked": "2026-11-09",
+        "supports": "LxmePay is 'designed exclusively for women', free to use, with digital gold rewards on transactions."
+      }
+    ]
+  },
+  "Unimoni": {
+    "headline": "South Indian, especially Kerala, families of Gulf migrants, students and travellers using forex, remittances and gold loans",
+    "tags": [
+      "older_adults",
+      "young_adults",
+      "tier2_3",
+      "middle_income",
+      "borrowers"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 25-55",
+        "basis": "inferred",
+        "reason": "Services are remittances, family maintenance, education loans and gold loans, used by working-age adults and parents of students.",
+        "sources": [
+          "prof-unimoni-1",
+          "prof-unimoni-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "South India, Kerala-heavy, incl. small towns",
+        "basis": "stated",
+        "reason": "Kochi-headquartered with branches concentrated in the South and expansion 'across South India'.",
+        "sources": [
+          "prof-unimoni-3"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Migrant-worker households, students, travellers",
+        "basis": "stated",
+        "reason": "Serves a 'mobile population', tuition payments for students and sending funds home to loved ones.",
+        "sources": [
+          "prof-unimoni-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Lower-middle to middle income",
+        "basis": "inferred",
+        "reason": "Gold loans, household bridge loans and family remittances suggest middle-income households rather than affluent clients.",
+        "sources": [
+          "prof-unimoni-3"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~65%",
+        "basis": "inferred",
+        "reason": "Forex and remittance senders skew male, though 'women friendly' gold loan schemes add women. Weak.",
+        "sources": [
+          "prof-unimoni-3"
+        ]
+      }
+    ],
+    "caveats": [
+      "Company appears to be rebranding to Wizzmoni; UPI runs on its PPI wallet in the Unimoni India app."
+    ],
+    "sources": [
+      {
+        "id": "prof-unimoni-1",
+        "url": "https://apps.apple.com/in/app/unimoni-india/id1560964318",
+        "title": "Unimoni India - App Store",
+        "publisher": "Apple App Store",
+        "checked": "2026-11-09",
+        "supports": "Forex buy/sell, international transfers, gold and education loans, UPI via PPI wallet, and UPI One World for 'global travelers'."
+      },
+      {
+        "id": "prof-unimoni-2",
+        "url": "https://theprint.in/ani-press-releases/unimoni-streamlines-financial-lives-for-a-global-workforce-and-student-population/2121104",
+        "title": "Unimoni streamlines financial lives for a global workforce and student population",
+        "publisher": "ThePrint (ANI release)",
+        "checked": "2026-11-09",
+        "supports": "Serves 'this mobile population', tuition and living expenses for students, sending funds home; 300+ branches, 15,000+ subagents."
+      },
+      {
+        "id": "prof-unimoni-3",
+        "url": "https://theprint.in/ani-press-releases/indias-untapped-gold-loan-market-offers-good-business-prospects-unimoni-ceo/2009662",
+        "title": "India's untapped gold loan market offers good business prospects: Unimoni CEO",
+        "publisher": "ThePrint (ANI release)",
+        "checked": "2026-11-09",
+        "supports": "Kochi-based, 311 branches, expanding 'across South India', 'women friendly schemes, long term bridge loans for households'."
+      }
+    ]
+  },
+  "Novio": {
+    "headline": "Credit-invisible early jobbers, shopkeepers, gig workers and students in tier-2 to tier-5 towns getting an FD-backed RuPay card on UPI",
+    "tags": [
+      "gen_z",
+      "young_adults",
+      "tier2_3",
+      "low_income",
+      "card_holders",
+      "gig_workers"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 20-35",
+        "basis": "inferred",
+        "reason": "Named targets are early jobbers, junior employees, students and freelancers, which skew young.",
+        "sources": [
+          "prof-novio-1",
+          "prof-novio-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Tier-2 to tier-5 towns",
+        "basis": "stated",
+        "reason": "Inc42: novio aims for 'Tier II to V cities, where credit card penetration remains limited'.",
+        "sources": [
+          "prof-novio-1"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Shopkeepers, gig workers, junior staff, students",
+        "basis": "stated",
+        "reason": "Targets 'credit invisible' early jobbers, shopkeepers, gig workers, students and freelancers.",
+        "sources": [
+          "prof-novio-1",
+          "prof-novio-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Low to lower-middle, new to credit",
+        "basis": "stated",
+        "reason": "Card needs only a ₹2,000 FD, 'No credit score required. No income proof needed'.",
+        "sources": [
+          "prof-novio-2"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~75%",
+        "basis": "inferred",
+        "reason": "Credit card and small-town gig/shopkeeper segments skew male; no data published.",
+        "sources": [
+          "prof-novio-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "Customer counts conflict: 1 lakh active (Inc42) vs 42.7 lakh+ 'trust novio' on the site."
+    ],
+    "sources": [
+      {
+        "id": "prof-novio-1",
+        "url": "https://inc42.com/buzz/credilio-bags-%e2%82%b9100-cr-for-fd-backed-credit-card-business-novio/",
+        "title": "Credilio Bags ₹100 Cr For FD-Backed Credit Card Business novio",
+        "publisher": "Inc42",
+        "checked": "2026-11-09",
+        "supports": "Targets 'Tier II to V cities', 'credit invisible' early jobbers, shopkeepers, gig workers, students and freelancers."
+      },
+      {
+        "id": "prof-novio-2",
+        "url": "https://www.novio.in/",
+        "title": "novio: UPI Credit Card for All",
+        "publisher": "novio (Credilio)",
+        "checked": "2026-11-09",
+        "supports": "'No credit score required. No income proof needed', FD from ₹2,000, testimonials from a student and a shop owner."
+      }
+    ]
+  },
+  "LivQuik": {
+    "headline": "Employees, fleet drivers and commuters using QuikWallet for employer-loaded expense wallets, meal cards, FASTag and NCMC",
+    "tags": [
+      "young_adults",
+      "metro",
+      "salaried",
+      "businesses",
+      "middle_income"
+    ],
+    "dimensions": [
+      {
+        "key": "age",
+        "value": "Mostly 22-45",
+        "basis": "inferred",
+        "reason": "Main uses are employee expense wallets, meal cards and FASTag, held by working adults; site also lists teen and elderly segments.",
+        "sources": [
+          "prof-livquik-1",
+          "prof-livquik-2"
+        ]
+      },
+      {
+        "key": "location",
+        "value": "Metros and tier-1 cities",
+        "basis": "inferred",
+        "reason": "Meal cards, corporate expense and NCMC metro cards concentrate in large cities; highway FASTag adds fleets elsewhere.",
+        "sources": [
+          "prof-livquik-1",
+          "prof-livquik-2"
+        ]
+      },
+      {
+        "key": "employment",
+        "value": "Salaried employees, fleet drivers",
+        "basis": "stated",
+        "reason": "App lets businesses 'load funds into employee wallets remotely'; a fleet operator testimonial cites its 'fleet customers'.",
+        "sources": [
+          "prof-livquik-1",
+          "prof-livquik-2"
+        ]
+      },
+      {
+        "key": "income",
+        "value": "Middle income",
+        "basis": "inferred",
+        "reason": "Corporate meal-card and expense-wallet holders are typically formally employed middle earners.",
+        "sources": [
+          "prof-livquik-1"
+        ]
+      },
+      {
+        "key": "gender",
+        "value": "Skews male, est. ~70%",
+        "basis": "inferred",
+        "reason": "Fleet, field-expense and FASTag users skew male; no data published.",
+        "sources": [
+          "prof-livquik-1"
+        ]
+      }
+    ],
+    "caveats": [
+      "LivQuik is mainly a B2B prepaid issuance stack for fintechs; QuikWallet is its own consumer app."
+    ],
+    "sources": [
+      {
+        "id": "prof-livquik-1",
+        "url": "https://apps.apple.com/in/app/quikwallet-upi-payments/id6448750529",
+        "title": "QuikWallet - UPI & Payments",
+        "publisher": "Apple App Store (LivQuik Technology)",
+        "checked": "2026-11-09",
+        "supports": "'Easily load funds into employee wallets remotely', prepaid cards for teams, FASTag toll payments, fuel and food payments."
+      },
+      {
+        "id": "prof-livquik-2",
+        "url": "https://livquik.com/",
+        "title": "Your One-Stop Shop for a Complete Prepaid Issuance Stack",
+        "publisher": "LivQuik",
+        "checked": "2026-11-09",
+        "supports": "QuikWallet covers FASTag, NCMC Card, Meal Card and UPI; targets 'teen, elderly, transit & healthcare segments'; fleet customer testimonial."
+      }
+    ]
+  }
+}

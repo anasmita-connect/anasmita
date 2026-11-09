@@ -1,0 +1,456 @@
+{
+  "PhonePe": {
+    "type": "pay",
+    "audience": [
+      "payments"
+    ],
+    "summary": "UPI transfers and payments to people and merchants.",
+    "sources": [
+      {
+        "id": "upi",
+        "url": "https://www.phonepe.com/terms-conditions/upi/",
+        "title": "PhonePe UPI terms",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "UPI service, registration and supported bank/payment accounts."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.phonepe.com/en/terms_general.html",
+        "title": "General terms — eligibility",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "General age and legal-capacity requirements."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "PhonePe facilitates person-to-person transfers and payments to online and offline merchants.",
+        "sources": [
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — PhonePe platform",
+        "text": "General terms require users to be 18 or older and legally able to enter an agreement.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — bank/payment-account UPI",
+        "text": "Registration requires a PhonePe account and your own bank or payment account linked to an active mobile number. The terms also describe NRI registration with supported overseas numbers.",
+        "sources": [
+          "upi"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": []
+  },
+  "Google Pay": {
+    "type": "pay",
+    "audience": [
+      "payments",
+      "families"
+    ],
+    "summary": "Google’s payments app, with a dedicated experience for users aged 13–18.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://pay.google.com/intl/en_in/about/terms/",
+        "title": "Google Pay India terms",
+        "publisher": "Google",
+        "checked": "2026-11-09",
+        "supports": "Age, guardian permission and registration requirements."
+      },
+      {
+        "id": "teens",
+        "url": "https://support.google.com/pay/india/answer/15637646",
+        "title": "Google Pay for users between 13–18",
+        "publisher": "Google Pay Help",
+        "checked": "2026-11-09",
+        "supports": "Teen eligibility and restricted features."
+      },
+      {
+        "id": "bank",
+        "url": "https://support.google.com/pay/india/answer/16920553?hl=en",
+        "title": "Add a bank account with a debit card or Aadhaar",
+        "publisher": "Google Pay Help",
+        "checked": "2026-11-09",
+        "supports": "Bank linking and verification steps."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product and intended users",
+        "text": "Supports payments to people, stores and billers; a separate experience serves users aged 13–18. This supports a younger-user tag without assuming that most users are young.",
+        "sources": [
+          "teens"
+        ]
+      },
+      {
+        "label": "Eligibility — age",
+        "text": "India terms set a minimum age of 13. Users under 18 need a parent or legal guardian’s permission. The teen help page requires Indian residence and a +91 mobile number.",
+        "sources": [
+          "terms",
+          "teens"
+        ]
+      },
+      {
+        "label": "Eligibility — bank linking",
+        "text": "The help page describes verification using debit-card details or Aadhaar. The bank account must be linked to the mobile number used on Google Pay.",
+        "sources": [
+          "bank"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "parent"
+    ],
+    "unknowns": []
+  },
+  "Paytm": {
+    "type": "pay",
+    "audience": [
+      "payments"
+    ],
+    "summary": "UPI payments provided through partner PSP banks.",
+    "sources": [
+      {
+        "id": "upi",
+        "url": "https://paytm.com/company/upi-terms-and-conditions",
+        "title": "Paytm UPI terms",
+        "publisher": "Paytm",
+        "checked": "2026-11-09",
+        "supports": "UPI service, payment accounts and PSP bank role."
+      },
+      {
+        "id": "terms",
+        "url": "https://paytm.com/company/terms-and-conditions",
+        "title": "Paytm general terms",
+        "publisher": "Paytm",
+        "checked": "2026-11-09",
+        "supports": "General eligibility states 18 or older."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "Paytm acts as a third-party app provider for UPI through partner PSP banks.",
+        "sources": [
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — Paytm platform",
+        "text": "The current general terms require users to be at least 18 and legally able to enter an agreement. Additional terms can apply to specific services.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "A complete UPI-specific onboarding checklist and the eligibility of each separate financial product were not verified. An older minor-access FAQ returned HTTP 410 and is not treated as current evidence."
+    ]
+  },
+  "super.money": {
+    "type": "rewards",
+    "audience": [
+      "payments",
+      "cards"
+    ],
+    "summary": "UPI cashback app with bank-issued co-branded credit-card products.",
+    "sources": [
+      {
+        "id": "upi",
+        "url": "https://www.super.money/terms-and-conditions",
+        "title": "super.money terms and UPI conditions",
+        "publisher": "super.money",
+        "checked": "2026-11-09",
+        "supports": "UPI bank-account linking obligations."
+      },
+      {
+        "id": "cards",
+        "url": "https://super.money/card-partners",
+        "title": "Co-branded card partners",
+        "publisher": "super.money",
+        "checked": "2026-11-09",
+        "supports": "Different card issuers and FD-backed products."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product and intended users",
+        "text": "Offers UPI payments and card products with rewards. Its partner page lists Axis Bank, Utkarsh Small Finance Bank and Kotak Mahindra Bank products.",
+        "sources": [
+          "upi",
+          "cards"
+        ]
+      },
+      {
+        "label": "Eligibility — UPI",
+        "text": "UPI terms require authority to operate the linked bank account and keeping the mobile number updated with that bank.",
+        "sources": [
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — secured cards",
+        "text": "The partner page identifies FD-backed Utkarsh and Kotak products. That collateral requirement is specific to those products, not all super.money UPI users.",
+        "sources": [
+          "cards"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "deposit"
+    ],
+    "unknowns": [
+      "An app-wide minimum age and complete card approval criteria were not verified in the cited pages."
+    ]
+  },
+  "BHIM": {
+    "type": "pay",
+    "audience": [
+      "payments"
+    ],
+    "summary": "UPI app for bank-account payments.",
+    "sources": [
+      {
+        "id": "faq",
+        "url": "https://www.bhimupi.org.in/faq-s",
+        "title": "BHIM frequently asked questions",
+        "publisher": "BHIM",
+        "checked": "2026-11-09",
+        "supports": "Product purpose and bank-account registration instructions."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "BHIM sends and receives money using UPI. Its FAQ describes registration and UPI PIN setup.",
+        "sources": [
+          "faq"
+        ]
+      },
+      {
+        "label": "Eligibility — bank-account registration",
+        "text": "The FAQ requires a smartphone, a bank account and a mobile number registered with the bank. It describes setting a UPI PIN with the account’s debit-card details.",
+        "sources": [
+          "faq"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "A minimum age was not verified. The cited FAQ does not establish every alternative payment or onboarding mode."
+    ]
+  },
+  "FamApp by Trio": {
+    "type": "prepaid",
+    "audience": [
+      "payments",
+      "families"
+    ],
+    "summary": "UPI and card payments with both linked-bank and FamX wallet modes.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.famapp.in/",
+        "title": "FamApp product page",
+        "publisher": "FamApp",
+        "checked": "2026-11-09",
+        "supports": "Bank and wallet payments and next-generation positioning."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product and intended users",
+        "text": "FamApp describes UPI and card payments for the next generation, with FamX wallet and linked-bank payment modes.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Current numerical age, guardian-consent and KYC requirements for the wallet and bank-linking modes were not verified. An indexed official test-path FAQ was inaccessible and is not used as current eligibility evidence."
+    ]
+  },
+  "WhatsApp": {
+    "type": "bigtech",
+    "audience": [
+      "payments"
+    ],
+    "summary": "UPI payments within WhatsApp in India.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://www.whatsapp.com/legal/payments/india/terms?lg=en&lc=IN",
+        "title": "WhatsApp India payments terms",
+        "publisher": "WhatsApp India",
+        "checked": "2026-11-09",
+        "supports": "UPI product, minimum age and matching mobile/bank requirements."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "WhatsApp India facilitates payments through PSP banks using UPI within WhatsApp.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — WhatsApp Pay",
+        "text": "Payments terms require age 18+, a phone number with India’s country code and an account at a UPI-supporting bank. The WhatsApp number must match the bank-linked number. Users must own the bank account.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": []
+  },
+  "CRED": {
+    "type": "rewards",
+    "audience": [
+      "cards"
+    ],
+    "summary": "Credit-card bill management and rewards with membership eligibility checks.",
+    "sources": [
+      {
+        "id": "about",
+        "url": "https://cred.club/about",
+        "title": "About CRED",
+        "publisher": "CRED",
+        "checked": "2026-11-09",
+        "supports": "Credit-card use case and credit-score-based membership."
+      },
+      {
+        "id": "terms",
+        "url": "https://cred.club/terms",
+        "title": "CRED terms and eligibility",
+        "publisher": "CRED",
+        "checked": "2026-11-09",
+        "supports": "Service-specific credit thresholds and card underwriting."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product and intended users",
+        "text": "CRED describes a membership platform for managing credit cards and rewarding timely card-bill payments. This supports a card-user tag, not an income or wealth claim.",
+        "sources": [
+          "about"
+        ]
+      },
+      {
+        "label": "Eligibility — membership",
+        "text": "CRED terms require legal capacity and permission to obtain credit information. CRED can set or change the credit-score threshold for access to services; this page does not promise membership at a fixed score.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — co-branded card",
+        "text": "The CRED–IndusInd RuPay card section requires age 18+, Indian residence, existing CRED app use and the bank’s creditworthiness criteria. These are card rules, not a blanket UPI requirement.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "gates": [
+      "credit"
+    ],
+    "unknowns": [
+      "A universal age or fixed credit-score threshold applying to every CRED feature was not established."
+    ]
+  },
+  "Amazon Pay": {
+    "type": "bigtech",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Payments inside Amazon, including bank-linked UPI and a separate wallet.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.aboutamazon.in/news/amazon-pay/amazon-pay-guide-wallet-upi-features",
+        "title": "Amazon Pay feature guide",
+        "publisher": "About Amazon India",
+        "checked": "2026-11-09",
+        "supports": "Distinguishes wallet from bank-linked UPI, bill payments and shopping."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "Amazon distinguishes its wallet from Amazon Pay UPI, which links a bank account through the Amazon app for shopping and payments.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — UPI setup",
+        "text": "The guide describes linking a bank account through Amazon’s app. It does not publish a complete age, residency or account-type eligibility checklist.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi"
+    ],
+    "unknowns": [
+      "Minimum age, supported account types and complete current onboarding requirements were not verified."
+    ]
+  },
+  "MobiKwik": {
+    "type": "pay",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Payments platform with UPI and a prepaid wallet.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://www.mobikwik.com/termsandconditions",
+        "title": "MobiKwik terms and conditions",
+        "publisher": "MobiKwik",
+        "checked": "2026-11-09",
+        "supports": "Wallet eligibility and the distinct UPI service."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "MobiKwik’s terms cover its wallet and identify a separate UPI service through PSP banks.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — prepaid wallet",
+        "text": "The PPI section requires users to confirm age 18+ and consent to collection of identity documents for regulatory compliance. This wallet rule is not assumed to cover every other product.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "A complete UPI-specific eligibility checklist was not verified."
+    ]
+  }
+}

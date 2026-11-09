@@ -1,0 +1,76 @@
+{
+  "checked": "2026-11-09",
+  "dimensions": [
+    {
+      "name": "Age",
+      "description": "Use the age ranges published by the source. A minimum joining age is eligibility, not the average age of users."
+    },
+    {
+      "name": "Gender",
+      "description": "Keep the source’s categories and population. A product aimed at women does not establish its female user share."
+    },
+    {
+      "name": "Location",
+      "description": "Keep rural, urban, semi-urban, metropolitan and tier-based figures distinct. Branch location is not user residence."
+    },
+    {
+      "name": "Employment",
+      "description": "Record salaried, self-employed, student or other groups only where the source identifies them. Loan applicants and UPI users are separate populations."
+    },
+    {
+      "name": "User type",
+      "description": "Separate individuals from businesses, merchants and retail agents. This is customer segmentation, not an individual demographic."
+    }
+  ],
+  "notes": [
+    "Reported users, intended audience and eligibility are separate fields.",
+    "Missing figures remain missing; ages, percentages and income are not estimated.",
+    "Every reported figure retains its period and population. Registered users, active users, borrowers and merchants are not interchangeable.",
+    "The uploaded August 2026 table contains transaction figures, not user demographics.",
+    "Bank rows may combine multiple apps. Demographics for all customers of a bank are not assigned to its UPI app users.",
+    "National surveys provide context only; their results are not assigned to individual apps.",
+    "The dimensions are this study’s structure. Source age bands are preserved rather than forced into new bins. Income and education can be added where app-specific data is available.",
+    "Multiple audience tags describe separate published statements; they do not establish joint demographic counts.",
+    "Audience labels can describe a named product or assisted service rather than every user of an app."
+  ],
+  "sources": [
+    {
+      "id": "rbi-payments-survey",
+      "title": "Annual Report 2025–26: Payment and Settlement Systems, paragraph IX.10",
+      "publisher": "Reserve Bank of India",
+      "url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1469",
+      "checked": "2026-11-09",
+      "supports": "The nationwide survey examines digital-payment adoption by age, income, gender and location, and treats merchants separately from users."
+    },
+    {
+      "id": "mospi-cmst-2025",
+      "title": "Comprehensive Modular Survey: Telecom, 2025",
+      "publisher": "Ministry of Statistics and Programme Implementation",
+      "url": "https://mospi.gov.in/sites/default/files/publication_reports/CMST_report_m.pdf",
+      "checked": "2026-11-09",
+      "supports": "National survey context for age, sex, rural/urban residence and ability to perform online banking; these are not individual app user shares."
+    },
+    {
+      "id": "rbi-centres",
+      "title": "Guidelines for Identifying Census Centres",
+      "publisher": "Reserve Bank of India",
+      "url": "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=2035",
+      "checked": "2026-11-09",
+      "supports": "Defines bank-centre population groups. These definitions are retained as source context, not substituted for a user-residence classification."
+    },
+    {
+      "id": "upi-demographic-study",
+      "title": "Exploring behavioral intentions of consumers towards different digital payment services through the interplay of perceived risks and adoption factors (2025)",
+      "publisher": "Humanities and Social Sciences Communications",
+      "url": "https://www.nature.com/articles/s41599-025-05468-6",
+      "checked": "2026-11-09",
+      "supports": "A primary UPI survey records age, gender, occupation and monthly income. Its overall sample demographics are not cross-tabulated app-user demographics.",
+      "authors": [
+        "K Padma Kiran",
+        "Vedala Naga Sailaja"
+      ],
+      "publicationDate": "2025-07-21",
+      "doi": "10.1057/s41599-025-05468-6"
+    }
+  ]
+}

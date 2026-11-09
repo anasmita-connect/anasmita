@@ -1,0 +1,1169 @@
+{
+  "Bajaj Finserv": {
+    "type": "services",
+    "audience": [
+      "payments",
+      "borrowers"
+    ],
+    "summary": "Bajaj Finance's app combines loan applications and repayments with Bajaj Pay UPI and prepaid-wallet services.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://www.bajajfinserv.in/terms-of-use",
+        "title": "Bajaj Finance Terms of Use",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Defines the platform, its registration age, separate bank-account UPI onboarding, and Full KYC Wallet requirements for Wallet UPI."
+      },
+      {
+        "id": "loan",
+        "url": "https://www.bajajfinserv.in/personal-loan-app.html",
+        "title": "Personal Loan App – Apply Instantly via Web or Mobile | Bajaj Finance",
+        "publisher": "Bajaj Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes app-based personal-loan applications, published borrower criteria and documents; these are loan requirements, not ordinary payment eligibility."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "The platform offers payments and borrowing as separate services; a loan's eligibility rules do not describe every app user.",
+        "sources": [
+          "terms",
+          "loan"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People making payments and customers applying for or managing Bajaj Finance loans.",
+        "sources": [
+          "terms",
+          "loan"
+        ]
+      },
+      {
+        "label": "Eligibility — platform registration",
+        "text": "The platform terms require users to be at least 18 and authorised to accept the agreement.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — Bajaj Pay UPI and Wallet UPI",
+        "text": "Bank-account UPI requires account linking, device registration and PIN/password setup. Wallet UPI separately requires a valid Bajaj Pay Full KYC Wallet and its associated mobile number.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — personal loan",
+        "text": "The loan-app page lists Indian nationality, age 21–80, CIBIL of at least 650 and salaried/self-employed profiles; the borrower must be no older than 80 when the term ends. Identity/KYC and income documents are requested, and approval remains subject to assessment.",
+        "sources": [
+          "loan"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "credit",
+      "kyc"
+    ],
+    "unknowns": [
+      "The row's historical name is Bajaj Finserv; inspected current material calls the platform/app Bajaj Finance. Do not confuse it with the separate Bajaj Markets platform.",
+      "Eligibility for EMI cards, deposits and other loan variants is not established by the personal-loan criteria above.",
+      "Actual user age, income and urban/rural distribution are not established."
+    ]
+  },
+  "POP UPI": {
+    "type": "rewards",
+    "audience": [
+      "payments",
+      "cards"
+    ],
+    "summary": "POP combines UPI payments, POPcoin shopping rewards and a separate YES BANK co-branded credit-card offering.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://mypop.in/",
+        "title": "POP UPI: Seamless UPI Payments & Shopping Rewards",
+        "publisher": "POPtech Growth Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Presents POP UPI, POPshop/POPcoins and the YES BANK POP-CLUB Credit Card as distinct offerings."
+      },
+      {
+        "id": "app",
+        "url": "https://play.google.com/store/apps/details?id=com.popclub.android",
+        "title": "POP: Pay, Earn, & Shop Smarter - Apps on Google Play",
+        "publisher": "POPtech Growth Pvt. Ltd. (developer listing)",
+        "checked": "2026-11-09",
+        "supports": "Identifies the Android app and describes UPI transfers, bill payments, shopping rewards, YES BANK POPcard and POPchop instalments."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "POP offers scan-and-pay UPI, rewards usable for shopping, and a separately promoted YES BANK credit card.",
+        "sources": [
+          "product",
+          "app"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People using UPI and shopping rewards; card applicants are a separate product audience. Marketing references to young people do not establish the age distribution of customers.",
+        "sources": [
+          "product",
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — POP UPI",
+        "text": "The inspected product pages describe payment features but do not supply a complete, readable UPI joining policy. Minimum age, account/mobile verification and document requirements remain unverified.",
+        "sources": [
+          "product",
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — POPcard",
+        "text": "The card is presented as a YES BANK product with a separate application route. Product-specific age, income, credit-score and approval rules were not verified from a readable official eligibility page.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — POPchop",
+        "text": "The current developer listing also promotes purchase instalments. Its lender, applicant criteria and credit/KYC process are not established by that listing.",
+        "sources": [
+          "app"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Complete POP UPI onboarding requirements were not verified; this does not establish unrestricted access.",
+      "POPcard, POP-CLUB and POPchop must not share one eligibility rule. Their current fee/reward claims also differ across official pages.",
+      "Actual customer demographics and approval thresholds are unknown."
+    ]
+  },
+  "Samsung Pay": {
+    "type": "bigtech",
+    "audience": [
+      "payments",
+      "cards"
+    ],
+    "summary": "Samsung Pay, now part of Samsung Wallet in India, supports card payments and payments from linked bank accounts through UPI.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.samsung.com/in/samsung-pay/",
+        "title": "Samsung Pay - Mobile Payment Service | Samsung India",
+        "publisher": "Samsung India Electronics Private Limited",
+        "checked": "2026-11-09",
+        "supports": "States the Samsung Wallet relationship, compatible-device requirement, supported payment routes and the need for an active SIM linked to the bank account for UPI."
+      },
+      {
+        "id": "setup",
+        "url": "https://www.samsung.com/in/support/apps-services/how-to-setup-samsung-wallet/",
+        "title": "How to setup Samsung Wallet ? | Samsung India",
+        "publisher": "Samsung India",
+        "checked": "2026-11-09",
+        "supports": "Explains supported-device setup, Samsung-account sign-in and wallet authentication."
+      },
+      {
+        "id": "upi",
+        "url": "https://www.samsung.com/in/samsung-pay/upi/",
+        "title": "Samsung Pay Now With BHIM UPI - How To Use | Samsung India",
+        "publisher": "Samsung India",
+        "checked": "2026-11-09",
+        "supports": "Explains bank selection/linking, matching bank-registered mobile number and debit/ATM-card verification in its documented UPI PIN-creation flow."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "Samsung Pay is included in Samsung Wallet. Card payments and bank-account UPI are different payment routes.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "Owners of supported Samsung devices who want to pay using eligible cards or UPI-linked bank accounts.",
+        "sources": [
+          "product",
+          "setup"
+        ]
+      },
+      {
+        "label": "Eligibility — Wallet setup",
+        "text": "Requires a supported device, Samsung account and authentication setup. The India support article describes installing/updating the app and choosing a Wallet PIN or available biometrics.",
+        "sources": [
+          "setup"
+        ]
+      },
+      {
+        "label": "Eligibility — bank-account UPI",
+        "text": "Requires the active SIM/mobile number registered with the selected bank account and account linking. Samsung's documented new-PIN flow verifies debit/ATM-card details; no alternate onboarding route was established here.",
+        "sources": [
+          "product",
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — card payments",
+        "text": "Requires adding a card supported by Samsung Pay and the issuer; that card requirement is separate from bank-account UPI.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "device"
+    ],
+    "unknowns": [
+      "No India-specific minimum user age was verified from the inspected pages.",
+      "Exact compatibility depends on device and supported issuer; the evidence does not establish that every Galaxy model or every card works.",
+      "Actual customer income or urban/rural profile is unknown."
+    ]
+  },
+  "Jupiter": {
+    "type": "services",
+    "audience": [
+      "payments",
+      "investors"
+    ],
+    "summary": "Jupiter is a money-management platform with UPI, savings tools and investments; its All-in-1 Savings Account is issued by Federal Bank.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://jupiter.money/savings-account/",
+        "title": "Open Savings Account Online | Jupiter Savings Account",
+        "publisher": "Amica Financial Technologies Private Limited (Jupiter)",
+        "checked": "2026-11-09",
+        "supports": "Identifies the Federal Bank savings product, UPI/debit payments, saving tools, investment access and video-KYC opening flow; distinguishes Jupiter from its regulated partners."
+      },
+      {
+        "id": "terms",
+        "url": "https://jupiter.money/terms-and-conditions/",
+        "title": "Jupiter Terms and Conditions",
+        "publisher": "Amica Financial Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Separately describes savings-account identity verification and salary-account conversion conditions, including verified employment details and salary credit."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "The All-in-1 Savings Account is a Federal Bank product accessed through Jupiter. Jupiter says it is not a bank; other accounts, cards, credit and investment offerings have their own partners and terms.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People seeking payments, saving/budgeting tools and access to investments. These functions support the editorial grouping; they do not establish a young or urban customer base.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — All-in-1 Savings Account",
+        "text": "The published opening flow is to install Jupiter, choose the All-in-1 Savings Account and finish video KYC. Account-opening terms require identity/address information and partner-bank due diligence.",
+        "sources": [
+          "product",
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — salary-account upgrade",
+        "text": "Requires an existing full-KYC savings user, verification of employer/work details, and salary credited at the minimum displayed in the app. This is an upgrade condition, not a universal condition for using Jupiter.",
+        "sources": [
+          "terms"
+        ]
+      }
+    ],
+    "gates": [
+      "kyc"
+    ],
+    "unknowns": [
+      "A current, unambiguous savings-product minimum age, residency/nationality rule and full document checklist were not established from these sources.",
+      "The salary minimum is disclosed in-app; no numeric salary threshold is asserted.",
+      "Standalone UPI, the separate Jupiter Account PPI, investments, loans and credit cards must not inherit the savings-account opening rules.",
+      "Actual customer age, wealth and location distributions are unknown."
+    ]
+  },
+  "Flipkart UPI": {
+    "type": "bigtech",
+    "audience": [
+      "payments"
+    ],
+    "summary": "Flipkart's official launch describes UPI transfers, merchant payments, recharges and bill payments inside its shopping app, in partnership with Axis Bank.",
+    "sources": [
+      {
+        "id": "launch",
+        "url": "https://stories.flipkart.com/announcement/flipkart-launches-its-upi-handle-to-further-india-s-digital-economy-vision",
+        "title": "Flipkart launches its UPI handle to further India's digital economy vision",
+        "publisher": "Flipkart",
+        "checked": "2026-11-09",
+        "supports": "The 3 March 2024 announcement identifies Axis Bank, the @fkaxis handle, in-app UPI functionality and an initially Android-only rollout."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "The announced service lets customers create a UPI handle and pay within or outside Flipkart, including merchant QR payments and bills.",
+        "sources": [
+          "launch"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "Flipkart-app customers seeking payment and transfer functions; the announcement does not substantiate demographic segments.",
+        "sources": [
+          "launch"
+        ]
+      },
+      {
+        "label": "Eligibility — documented launch",
+        "text": "The 2024 rollout initially covered Android users registering @fkaxis through the Flipkart app. This historical rollout statement is not a verified current device or age policy.",
+        "sources": [
+          "launch"
+        ]
+      }
+    ],
+    "gates": [],
+    "unknowns": [
+      "Current complete joining requirements, supported operating systems, minimum age, bank/mobile verification and any service changes since the launch are unverified.",
+      "The dataset also has a separate super.money row; this evidence does not justify combining the two products.",
+      "Current joining requirements were not established; this does not mean the service has no restrictions."
+    ]
+  },
+  "BharatPe": {
+    "type": "pay",
+    "audience": [
+      "payments",
+      "merchants",
+      "borrowers"
+    ],
+    "summary": "BharatPe operates consumer UPI/bill-payment and credit services alongside separate merchant payment-acceptance products.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://bharatpe.com/",
+        "title": "Home - BharatPe",
+        "publisher": "Resilient Innovations Private Limited (BharatPe)",
+        "checked": "2026-11-09",
+        "supports": "Separates business QR/POS/speaker offerings from consumer UPI, bill payments and credit products."
+      },
+      {
+        "id": "app",
+        "url": "https://play.google.com/store/apps/details?id=com.postpe.app",
+        "title": "BharatPe UPI Payment, Loan App - Apps on Google Play",
+        "publisher": "Resilient Innovation Private Limited (developer listing)",
+        "checked": "2026-11-09",
+        "supports": "Identifies the consumer app package, payment/borrowing features and SIM binding/SMS-based UPI authentication."
+      },
+      {
+        "id": "terms",
+        "url": "https://postpe.app/terms.html",
+        "title": "BharatPe - Buy Now, Pay Later | download BharatPe | Best BNPL App",
+        "publisher": "Resilient Innovations Private Limited",
+        "checked": "2026-11-09",
+        "supports": "The body contains BharatPe platform terms requiring legal capacity and physical presence in India for registration/transactions; credit services have supplemental terms despite the legacy page title."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "BharatPe has both consumer payments/financial services and merchant acceptance tools. A merchant QR product does not define the consumer app's joining process.",
+        "sources": [
+          "product",
+          "app"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "Consumers making payments or seeking credit, and separately businesses accepting payments.",
+        "sources": [
+          "product",
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — consumer platform",
+        "text": "The platform terms require legal capacity to contract and physical presence in India when registering, linking offerings and transacting. The consumer app listing describes SIM binding and SMS verification for UPI.",
+        "sources": [
+          "terms",
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — loans and merchant services",
+        "text": "Borrowing and merchant onboarding are distinct flows. Neither a numeric credit threshold for consumer loans nor a complete merchant registration/KYC checklist was verified from these pages.",
+        "sources": [
+          "product",
+          "terms"
+        ]
+      }
+    ],
+    "gates": [
+      "device"
+    ],
+    "unknowns": [
+      "The bare dataset name does not identify the consumer package or the separate BharatPe for Business app; that mapping needs an explicit historical identifier.",
+      "The inspected consumer terms use legacy postpe hosting and some entity-oriented boilerplate; no blanket merchant/agent gate or numeric age threshold is inferred.",
+      "Product-specific loan/card approval criteria and actual customer demographics remain unknown."
+    ]
+  },
+  "kiwi": {
+    "type": "rewards",
+    "audience": [
+      "payments",
+      "cards"
+    ],
+    "summary": "Kiwi enables bank-account and RuPay-card UPI payments and applications for credit cards issued by partner banks.",
+    "sources": [
+      {
+        "id": "upi",
+        "url": "https://gokiwi.in/unified-payment-interface-v1/",
+        "title": "UPI Terms and Use| Kiwi RuPay Credit Card Deal",
+        "publisher": "Gokiwi Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes app registration, selection of a supported bank/card account and matching bank/card-registered mobile number."
+      },
+      {
+        "id": "eligibility",
+        "url": "https://gokiwi.in/helpcenter/cardapplication/4a1/",
+        "title": "Who can apply for a credit card through Kiwi?",
+        "publisher": "Gokiwi Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Lists the card-application age/residency/employment criteria and makes approval subject to the bank's assessment."
+      },
+      {
+        "id": "issuer",
+        "url": "https://gokiwi.in/helpcenter/cardapplication/4a4/",
+        "title": "Can I choose which bank issues my card?",
+        "publisher": "Gokiwi Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Says a partner bank is assigned according to credit-bureau, income and employment information; Kiwi itself is not identified as the issuer."
+      },
+      {
+        "id": "documents",
+        "url": "https://gokiwi.in/helpcenter/cardapplication/4a3/",
+        "title": "What documents do I need?",
+        "publisher": "Gokiwi Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Requires original PAN for video KYC and describes bank-dependent income documentation."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "UPI can use a supported bank account or RuPay credit-card account. Cards obtained through Kiwi are issued by partner banks, not Kiwi itself.",
+        "sources": [
+          "upi",
+          "issuer"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People making UPI payments, including users applying for a partner-bank card.",
+        "sources": [
+          "upi",
+          "eligibility"
+        ]
+      },
+      {
+        "label": "Eligibility — UPI registration",
+        "text": "Requires a Kiwi account and smartphone app, a bank/card account appearing in the supported list, and the mobile number registered to that account.",
+        "sources": [
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — card application through Kiwi",
+        "text": "The inspected help page specifies age 22–55, Indian residency, and salaried or self-employed status. Approval depends on the bank's own credit-bureau, income and employment assessment; satisfying these criteria is not approval.",
+        "sources": [
+          "eligibility"
+        ]
+      },
+      {
+        "label": "Eligibility — card documents",
+        "text": "Keep original PAN for video KYC. Income documents depend on the assigned bank; the app specifies whether ITR, Form 16 or salary documentation is needed.",
+        "sources": [
+          "documents"
+        ]
+      },
+      {
+        "label": "Issuer assignment",
+        "text": "The partner bank is selected automatically from the applicant's profile rather than chosen by the applicant.",
+        "sources": [
+          "issuer"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "credit",
+      "kyc"
+    ],
+    "unknowns": [
+      "No universal minimum income or bureau-score number was verified for all partner cards.",
+      "The card-application age band must not be applied to ordinary bank-account UPI, or automatically to Kiwi's separate credit-line product.",
+      "Actual user age, wealth and urban/rural distribution are unknown."
+    ]
+  },
+  "Omni Card": {
+    "type": "prepaid",
+    "audience": [
+      "payments",
+      "business"
+    ],
+    "summary": "OmniCard provides prepaid wallets/cards and UPI payments; its current business offering also covers employee spending and expense management.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://omnicard.ai/termsconditions",
+        "title": "OmniCard Terms & Conditions",
+        "publisher": "Eroute Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies OmniCard's prepaid wallet/card model, registered-phone requirement and distinct Small PPI versus Full-KYC onboarding."
+      },
+      {
+        "id": "product",
+        "url": "https://omnicard.ai/",
+        "title": "AI-Driven FinTech OS for Smarter Business Payments",
+        "publisher": "Eroute Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes business expense management, prepaid RuPay corporate cards, rewards/gifting and the PPI-issuer model."
+      },
+      {
+        "id": "app",
+        "url": "https://play.google.com/store/apps/details?id=com.eroute.omnicard",
+        "title": "OmniCard: UPI, Card & Rewards - Apps on Google Play",
+        "publisher": "Eroute Technologies Private Limited (developer listing)",
+        "checked": "2026-11-09",
+        "supports": "Describes consumer prepaid/UPI functions without linking a personal bank account and a separate enterprise-invitation flow."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "This is Eroute's OmniCard prepaid spending platform, with wallet/card and UPI functions plus business expense-management tools.",
+        "sources": [
+          "terms",
+          "product",
+          "app"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "The app describes a broad payments audience; the business site addresses enterprises managing team spending. Neither establishes a teens-only audience.",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — prepaid wallet/card",
+        "text": "The registered phone number must belong to the user. Small PPI onboarding collects OTP-verified mobile details and identity declarations; the Full-KYC variant requires completed identity verification. Transfers/cash functions depend on the PPI variant.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — UPI",
+        "text": "The developer explicitly advertises UPI using OmniCard without linking a personal bank account. A bank-account UPI requirement must not be imposed on this prepaid route.",
+        "sources": [
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — enterprise use",
+        "text": "For the corporate flow, an existing user accepts an invitation from their enterprise in the app. This organisation gate applies to that flow, not every consumer account.",
+        "sources": [
+          "app"
+        ]
+      }
+    ],
+    "gates": [
+      "kyc",
+      "employer"
+    ],
+    "unknowns": [
+      "No exact consumer minimum age or minor/guardian-consent procedure was verified from the inspected terms; do not label it a teen product or add a parent gate.",
+      "The current app includes consumer and corporate flows; the historical row does not identify which programme produced each transaction.",
+      "Exact KYC documents, programme availability and actual customer demographics remain unverified."
+    ]
+  },
+  "Timepay": {
+    "type": "pay",
+    "audience": [
+      "payments"
+    ],
+    "summary": "TimePay from NPST is a UPI, recharge and bill-payment app with payment rewards and bank-account linking.",
+    "sources": [
+      {
+        "id": "app",
+        "url": "https://play.google.com/store/apps/details?id=com.npst.timepay.society",
+        "title": "TimePay: UPI, Bills & Rewards - Apps on Google Play",
+        "publisher": "Network People Services Technologies Ltd. (developer listing)",
+        "checked": "2026-11-09",
+        "supports": "Identifies the consumer app and describes UPI transfers, linked accounts, recharges, bills and rewards rather than a lending product."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.npstx.com/terms-of-use/",
+        "title": "Terms Of Use - NPST",
+        "publisher": "Network People Services Technologies Limited",
+        "checked": "2026-11-09",
+        "supports": "The published terms, last updated 9 September 2022, specify registration prerequisites and exclude users below 18."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "TimePay is a payments app. The inspected consumer listing describes UPI, bills and recharges and does not establish the previously claimed UPI credit line.",
+        "sources": [
+          "app"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People transferring money, paying bills and recharging mobile services.",
+        "sources": [
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — published app-registration terms",
+        "text": "NPST's 2022 terms require legal capacity and exclude under-18s. They specify an installed Android app, an inserted registered SIM, internet and GPS, and an active Indian bank account with a debit card.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — current Android payment setup",
+        "text": "The current developer listing tells users to download the app and link their bank account before paying. Promotional rewards have their own conditions.",
+        "sources": [
+          "app"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "device"
+    ],
+    "unknowns": [
+      "The official registration terms are dated 2022; whether the debit-card/GPS prerequisites or platform-specific flows have since changed is unverified.",
+      "No source inspected establishes a TimePay consumer lending/credit-line product or a young-borrower demographic.",
+      "Do not conflate the consumer app with separately named NPST merchant/cash products."
+    ]
+  },
+  "SalarySe": {
+    "type": "services",
+    "audience": [
+      "salaried",
+      "cards",
+      "borrowers",
+      "business"
+    ],
+    "summary": "SalarySe offers salary-focused financial services, including UPI credit cards from partner banks, salary access and loans, savings products and employer benefits.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.salaryse.com/",
+        "title": "SalarySe: UPI Credit Card, Salary Gains & Savings",
+        "publisher": "Critical Path Technologies Private Limited (SalarySe)",
+        "checked": "2026-11-09",
+        "supports": "Describes salary-focused services, InstaCash, personal loans, FDs and distinct RBL UP/CUB Level UP cards."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.salaryse.com/salaryse-terms-and-conditions",
+        "title": "SalarySe Terms & Conditions",
+        "publisher": "Critical Path Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Contains platform registration, employment-data access, SIM/device binding and existing-partner-card restrictions; its general age clause also contains a guardian exception."
+      },
+      {
+        "id": "rbl-faq",
+        "url": "https://www.salaryse.com/swiggy-faq",
+        "title": "SalarySe RBL Bank UP Card: Frequently Asked Questions",
+        "publisher": "Critical Path Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes the RBL UP card offered through a Swiggy route, published age/score criteria, prior-credit requirement and bank approval; it explicitly separates the card from rider payouts."
+      },
+      {
+        "id": "cub",
+        "url": "https://www.salaryse.com/level-up",
+        "title": "CUB SalarySe Level UP Credit Card",
+        "publisher": "Critical Path Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Establishes the separate CUB Level UP card and its physical-plus-virtual and virtual-only variants; it does not publish a full joining checklist."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "The service portfolio includes salary access, loans, saving products and multiple bank-issued credit cards; it is broader than an employer-only UPI credit line.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "Salary-focused customers and employers offering financial benefits, with separate card and borrowing audiences.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — platform registration",
+        "text": "The terms state an 18+ rule but also include a guardian-consent exception. They require SIM/device binding and may obtain employment data; this wording does not establish that every card accepts minors.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — RBL UP card, published Swiggy route",
+        "text": "The FAQ states age 21–70, a credit score of at least 720 and existing credit history, with final approval by RBL Bank and completion of video KYC. It says the card is not deducted from Swiggy earnings. These route-specific terms are not CUB eligibility.",
+        "sources": [
+          "rbl-faq"
+        ]
+      },
+      {
+        "label": "Eligibility — existing partner-bank card",
+        "text": "SalarySe's platform terms say an existing active card from a participating banking partner can make the applicant ineligible for another card through SalarySe; confirm the actual bank offered.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — CUB Level UP and salary-access products",
+        "text": "CUB Level UP has a separate application route. Its complete eligibility and InstaCash's employer-participation/income conditions were not verified; the RBL criteria cannot fill those gaps.",
+        "sources": [
+          "cub",
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "credit",
+      "kyc",
+      "device"
+    ],
+    "unknowns": [
+      "No blanket employer tie-up requirement was established for every SalarySe feature; do not keep the original universal employer gate.",
+      "The RBL FAQ is explicitly a Swiggy distribution route; other card offers may differ.",
+      "CUB card, InstaCash, FD and loan criteria need separate product documents. Actual user demographics are not established."
+    ]
+  },
+  "KreditPe": {
+    "type": "rewards",
+    "audience": [
+      "payments",
+      "cards",
+      "investors"
+    ],
+    "summary": "Kredit.Pe combines bank-account/RuPay-card UPI rewards with separately offered credit cards and fixed deposits.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.kredit.pe/",
+        "title": "Kredit.Pe: Earn 5% cashback on UPI",
+        "publisher": "WTEX Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes bank-account or RuPay-card UPI, a promoted Max credit card, reward redemption and Unity Bank fixed deposits."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.kredit.pe/policy/tnc",
+        "title": "Kredit.Pe: Terms and Conditions",
+        "publisher": "WTEX Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the operator and HDFC Bank UPI partnership, legal-capacity/majority requirements and consent to credit-score retrieval; it does not publish a universal passing score."
+      },
+      {
+        "id": "sbm",
+        "url": "https://www.kredit.pe/policy/sbmCardUsageTnC",
+        "title": "Kredit.Pe: Terms and Conditions — FD backed credit card",
+        "publisher": "WTEX Fintech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Publishes SBM secured-card deposit, age/nationality, geography and no-income-proof/no-credit-history requirements."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "KreditPe matches the Kredit.Pe brand operated by WTEX. Ordinary UPI can use a bank account or RuPay card; card issuance and deposits are separate products.",
+        "sources": [
+          "product",
+          "terms"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People seeking payment rewards, credit-card products or fixed-deposit access. The name alone does not establish a personal-loan app.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — app/UPI",
+        "text": "The platform terms require majority age and capacity to contract and provide for registration/account linking. They also request credit-score retrieval for service eligibility, but do not establish a minimum score needed for ordinary UPI.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — SBM FD-backed card",
+        "text": "The published card terms require an Indian citizen over 18 and an SBM fixed deposit of at least ₹2,000. They say income proof and prior credit history are not required; the card stays active while the FD stays active.",
+        "sources": [
+          "sbm"
+        ]
+      },
+      {
+        "label": "Eligibility — SBM geography",
+        "text": "That secured-card page excludes residents of Assam, Arunachal Pradesh, Mizoram, Jammu & Kashmir, Ladakh, Manipur, Tripura, Meghalaya, Nagaland and Sikkim. These restrictions are product-specific.",
+        "sources": [
+          "sbm"
+        ]
+      },
+      {
+        "label": "Eligibility — Max card and Unity FD",
+        "text": "The current homepage promotes a Max card and Unity FD; it does not establish their full joining criteria. SBM secured-card rules cannot be substituted for either.",
+        "sources": [
+          "product"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "deposit"
+    ],
+    "unknowns": [
+      "The homepage's current Max card and older SBM secured-card pages describe different products; current availability of the SBM offer and Max issuer/underwriting criteria were not verified.",
+      "A loan requirement or a universal credit-score threshold must not be inferred from the app's name or credit-bureau-consent wording.",
+      "Full UPI mobile-verification detail, Unity FD criteria and actual demographic mix remain unverified."
+    ]
+  },
+  "OneCard": {
+    "type": "rewards",
+    "audience": [
+      "cards",
+      "payments"
+    ],
+    "summary": "OneCard is an app-managed credit-card programme with transaction controls, rewards and a separately governed bank-account UPI feature.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://getonecard.app/",
+        "title": "One Credit Card - India's Best Metal Credit Card",
+        "publisher": "FPL Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes the metal credit card, app controls/rewards and links separate issuer-bank terms."
+      },
+      {
+        "id": "eligibility",
+        "url": "https://getonecard.app/legal/evaluate/",
+        "title": "How we evaluate OneCard applications",
+        "publisher": "FPL Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Lists age, PAN, Indian citizenship, supported-city/address requirements and assessment of credit reports, without a universal numeric bureau cutoff."
+      },
+      {
+        "id": "upi",
+        "url": "https://www.getonecard.app/legal/onecard_upi_terms_of_use/",
+        "title": "OneCard UPI Terms of Use",
+        "publisher": "FPL Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Explicitly limits OneCard UPI to eligible registered One Credit Card holders with their own bank account linked to an active mobile number."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "The programme centres on a credit card controlled through its app; issuer-bank contracts are separate from FPL's app service.",
+        "sources": [
+          "product"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "Credit-card applicants/holders, including eligible holders using the app's UPI feature. A metal-card design does not establish an affluent customer base.",
+        "sources": [
+          "product",
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — card application",
+        "text": "The published evaluation page requires age 18+, PAN, Indian citizenship, residence in a supported city and valid address/residence proof. Credit score/report and other factors are assessed; no single factor guarantees approval.",
+        "sources": [
+          "eligibility"
+        ]
+      },
+      {
+        "label": "Eligibility — OneCard UPI",
+        "text": "The UPI terms require an existing One Credit Card, eligible app registration and the user's own bank account linked to an active mobile number. This is not published as UPI open to every non-cardholder.",
+        "sources": [
+          "upi"
+        ]
+      }
+    ],
+    "gates": [
+      "card",
+      "upi",
+      "credit"
+    ],
+    "unknowns": [
+      "Current serviceability must be checked in-app; the published evaluation page's city list may not reflect every current issuer offer.",
+      "No common income or numeric credit-score threshold was verified; secured-card variants and each issuer's KYC/approval terms may differ.",
+      "Actual income, location and age distributions of cardholders are unknown."
+    ]
+  },
+  "Scapia": {
+    "type": "rewards",
+    "audience": [
+      "cards"
+    ],
+    "summary": "Scapia combines travel bookings and rewards with co-branded bank credit cards; eligibility varies by issuer.",
+    "sources": [
+      {
+        "id": "federal",
+        "url": "https://www.federal.bank.in/scapia",
+        "title": "Federal Scapia Credit Card - Zero Fees, Zero Forex, Travel Rewards",
+        "publisher": "The Federal Bank Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the Federal Scapia product, travel use/rewards and the issuer's nationality/residency and age criteria."
+      },
+      {
+        "id": "axis",
+        "url": "https://www.axis.bank.in/cards/credit-card/scapia-axis-bank-credit-card",
+        "title": "Scapia Axis Bank Credit Card - Zero Fee Travel Credit Card",
+        "publisher": "Axis Bank Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes a separate Scapia card, India-residency/age criteria and identity, income and address documents."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "Scapia is associated with multiple bank-card offers and travel rewards. The Federal Bank and Axis Bank products have separate issuer requirements.",
+        "sources": [
+          "federal",
+          "axis"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People interested in card-funded spending and travel bookings/rewards; these benefits do not establish wealth or urban demographics.",
+        "sources": [
+          "federal",
+          "axis"
+        ]
+      },
+      {
+        "label": "Eligibility — Federal Bank Scapia",
+        "text": "Requires a resident Indian citizen; the primary-holder age is 21–65 for salaried applicants and 25–65 for self-employed applicants. Other bank credit-card onboarding conditions apply.",
+        "sources": [
+          "federal"
+        ]
+      },
+      {
+        "label": "Eligibility — Scapia Axis Bank",
+        "text": "The issuer lists primary-holder age 18–70 and Indian residency. Documentation includes PAN or Form 60, income evidence such as payslip/Form 16/IT return, and residence proof.",
+        "sources": [
+          "axis"
+        ]
+      }
+    ],
+    "gates": [
+      "kyc"
+    ],
+    "unknowns": [
+      "No universal salary or bureau-score threshold was verified for every Scapia card.",
+      "The sources do not establish which issuer options a particular applicant currently receives, or the requirements of every other Scapia partner.",
+      "Issuer eligibility must not be flattened into one 18+ rule; actual cardholder wealth and geography are unknown.",
+      "Scapia's detailed platform-terms page returned HTTP 403; additional credit-assessment conditions from that page were not treated as verified."
+    ]
+  },
+  "Rio Money": {
+    "type": "rewards",
+    "audience": [
+      "cards",
+      "payments"
+    ],
+    "summary": "The former Rio Money app now identifies as zagg.money, combining UPI payments with partner-bank credit cards and rewards.",
+    "sources": [
+      {
+        "id": "app",
+        "url": "https://play.google.com/store/apps/details?id=omnicash.rio.app",
+        "title": "zagg.money: UPI & Credit Cards - Apps on Google Play",
+        "publisher": "Rivpe Technology Private Limited (developer listing)",
+        "checked": "2026-11-09",
+        "supports": "The same app package explicitly announces the Rio-to-Zagg name change and describes savings-account/RuPay-card UPI and current card offerings."
+      },
+      {
+        "id": "product",
+        "url": "https://zagg.money/",
+        "title": "Zagg Money Credit Card – UPI Credit Card with Cashback & Rewards",
+        "publisher": "Rivpe Technology Private Limited",
+        "checked": "2026-11-09",
+        "supports": "The current site lists AU Zaggle, PNB Zaggle Twin and YES BANK Zagg cards with different issuer documents; the former www.rio.money URL redirects here."
+      },
+      {
+        "id": "terms",
+        "url": "https://zagg.money/terms-and-conditions",
+        "title": "Terms & Conditions - Zagg Money",
+        "publisher": "Rivpe Technology Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Sets out platform KYC/account registration, legal-majority conditions, bureau-information consent and separate partner-bank card terms."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product and identity",
+        "text": "The developer's update explicitly changes Rio's name to Zagg; the app package remains omnicash.rio.app. The former website also redirects to zagg.money.",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "People making UPI payments or using/applying for the partner-bank cards promoted by the platform.",
+        "sources": [
+          "app",
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — platform account",
+        "text": "Current Zagg terms require identity verification/KYC, legal capacity and being over 18 or otherwise of legal majority. They also provide for credit-bureau information and analysis.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — UPI",
+        "text": "The current listing describes payments from a savings account or RuPay credit card. This does not establish that every UPI user must apply for a new card.",
+        "sources": [
+          "app"
+        ]
+      },
+      {
+        "label": "Eligibility — credit cards",
+        "text": "The current site has distinct AU, PNB and YES BANK products with separate bank documents. No common issuer approval rule or numeric income/score threshold was verified.",
+        "sources": [
+          "product",
+          "terms"
+        ]
+      }
+    ],
+    "gates": [
+      "upi",
+      "kyc"
+    ],
+    "unknowns": [
+      "The data row preserves an August 2026 name; current Zagg rules must not be represented as verified historical Rio terms.",
+      "Current issuer-specific age, income, credit approval, document and serviceability rules remain unverified.",
+      "Actual customer age, wealth and location distribution is unknown."
+    ]
+  },
+  "CheQ": {
+    "type": "rewards",
+    "audience": [
+      "cards",
+      "payments"
+    ],
+    "summary": "CheQ offers credit-card bill payment and rewards, bank-account UPI and a separate AU Small Finance Bank co-branded credit card.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://cheq.one/",
+        "title": "CheQ - India's most rewarding credit card bill payment app!",
+        "publisher": "CheQ Digital Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes bill payment/rewards and separately promotes CheQ UPI and an AU co-branded card."
+      },
+      {
+        "id": "terms",
+        "url": "https://cheq.one/legal/terms-and-conditions",
+        "title": "CheQ Terms and Conditions",
+        "publisher": "CheQ Digital Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Sets out 18+/legal-capacity conditions, registration/identity checks, credit-score retrieval for service eligibility and individual rather than corporate credit-instrument repayments."
+      },
+      {
+        "id": "upi",
+        "url": "https://cheq.one/legal/upi-terms-of-use",
+        "title": "CheQ Terms of Use — Unified Payment Interface (UPI)",
+        "publisher": "CheQ Digital Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Publishes resident-Indian/18+ UPI requirements, participating bank account, matching mobile number and onboarding/device/SIM verification."
+      },
+      {
+        "id": "card",
+        "url": "https://cheq.one/legal/credit-card-terms-and-conditions",
+        "title": "CheQ AU Credit Card Rewards Terms and Conditions",
+        "publisher": "CheQ Digital Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies AU as card issuer and assigns KYC, creditworthiness, approval and limit decisions to the bank, separately from CheQ's technology/rewards role."
+      }
+    ],
+    "claims": [
+      {
+        "label": "Product",
+        "text": "CheQ's bill-payment/rewards service, ordinary UPI and AU-issued credit card are distinct products.",
+        "sources": [
+          "product",
+          "card"
+        ]
+      },
+      {
+        "label": "Intended users",
+        "text": "Individual credit-instrument holders paying bills and people using CheQ UPI/card products. No inspected source establishes an affluent audience.",
+        "sources": [
+          "terms",
+          "product"
+        ]
+      },
+      {
+        "label": "Eligibility — platform and bill payments",
+        "text": "General terms specify age 18+, legal capacity, registration and potential identity verification, and provide for credit-score retrieval to assess service access. Repayments cover individual-held credit instruments; corporate cards are excluded.",
+        "sources": [
+          "terms"
+        ]
+      },
+      {
+        "label": "Eligibility — bank-account UPI",
+        "text": "Requires a resident Indian individual aged at least 18, a valid mobile number, an active UPI-participating bank account with that number registered, and successful verification/onboarding. Registration is device-specific and may include SIM binding.",
+        "sources": [
+          "upi"
+        ]
+      },
+      {
+        "label": "Eligibility — CheQ AU card",
+        "text": "The card terms require Indian residency, registration, bank-prescribed KYC and bank creditworthiness checks. They state legal capacity/18+ but explicitly defer final eligibility and approval to AU; the bank may set additional criteria.",
+        "sources": [
+          "card"
+        ]
+      }
+    ],
+    "gates": [
+      "card",
+      "upi",
+      "credit",
+      "kyc"
+    ],
+    "unknowns": [
+      "No bank-verified universal income or bureau-score cutoff was established for the AU card; platform legal capacity is not complete card eligibility.",
+      "A bureau-information clause or bill-payment registration is not proof that ordinary UPI needs loan approval.",
+      "Actual customer income and demographic distribution are unknown."
+    ]
+  }
+}

@@ -1,0 +1,1237 @@
+{
+ "PhonePe": {
+  "group": "payments-wealth",
+  "slug": "phonepe",
+  "npciLabel": "Phone Pe #",
+  "firstGuess": {
+   "audience": [
+    "Everyone",
+    "Tier 2–3 & rural India"
+   ],
+   "note": "India's largest UPI app; also bill pay, insurance and mutual funds.",
+   "type": "pay",
+   "sub": null
+  }
+ },
+ "Google Pay": {
+  "group": "payments-wealth",
+  "slug": "google-pay",
+  "npciLabel": "Google Pay #",
+  "firstGuess": {
+   "audience": [
+    "Everyone",
+    "Urban, salaried"
+   ],
+   "note": "Google's UPI app; the other half of the UPI duopoly.",
+   "type": "pay",
+   "sub": null
+  }
+ },
+ "Paytm": {
+  "group": "payments-wealth",
+  "slug": "paytm",
+  "npciLabel": "Paytm #",
+  "firstGuess": {
+   "audience": [
+    "Everyone",
+    "Shop owners & MSMEs"
+   ],
+   "note": "Payments app with a large merchant base (QR, soundbox).",
+   "type": "pay",
+   "sub": null
+  }
+ },
+ "super.money": {
+  "group": "payments-wealth",
+  "slug": "super-money",
+  "npciLabel": "super.money #",
+  "firstGuess": {
+   "audience": [
+    "Students & Gen Z",
+    "Urban, salaried"
+   ],
+   "note": "Flipkart group app built around UPI cashback and a secured credit card.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "BHIM": {
+  "group": "payments-wealth",
+  "slug": "bhim",
+  "npciLabel": "BHIM",
+  "firstGuess": {
+   "audience": [
+    "Everyone",
+    "Tier 2–3 & rural India"
+   ],
+   "note": "NPCI's own UPI app, with no ads or lending upsell.",
+   "type": "pay",
+   "sub": null
+  }
+ },
+ "FamApp by Trio": {
+  "group": "payments-wealth",
+  "slug": "famapp-by-trio",
+  "npciLabel": "FamApp by Trio #",
+  "firstGuess": {
+   "audience": [
+    "Students & Gen Z",
+    "Teens & families"
+   ],
+   "note": "Started as a payments card for teenagers; now also serves young adults.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "WhatsApp": {
+  "group": "payments-wealth",
+  "slug": "whatsapp",
+  "npciLabel": "Whatsapp #",
+  "firstGuess": {
+   "audience": [
+    "Everyone"
+   ],
+   "note": "UPI inside the chat app.",
+   "type": "bigtech",
+   "sub": null
+  }
+ },
+ "CRED": {
+  "group": "payments-wealth",
+  "slug": "cred",
+  "npciLabel": "Cred #",
+  "firstGuess": {
+   "audience": [
+    "Card holders, high spenders"
+   ],
+   "note": "Credit card bill payments and rewards; the highest average ticket among large apps.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "Amazon Pay": {
+  "group": "payments-wealth",
+  "slug": "amazon-pay",
+  "npciLabel": "Amazon Pay #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "Everyone"
+   ],
+   "note": "UPI tied to Amazon shopping and bill payments.",
+   "type": "bigtech",
+   "sub": null
+  }
+ },
+ "MobiKwik": {
+  "group": "payments-wealth",
+  "slug": "mobikwik",
+  "npciLabel": "Mobikwik #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "Students & Gen Z"
+   ],
+   "note": "Wallet-first app that added UPI and small-ticket credit.",
+   "type": "pay",
+   "sub": null
+  }
+ },
+ "Groww": {
+  "group": "payments-wealth",
+  "slug": "groww",
+  "npciLabel": "Groww #",
+  "firstGuess": {
+   "audience": [
+    "Investors & savers",
+    "Students & Gen Z"
+   ],
+   "note": "Stocks and mutual funds; UPI mostly funds investments.",
+   "type": "wealth",
+   "sub": null
+  }
+ },
+ "Money View": {
+  "group": "payments-wealth",
+  "slug": "money-view",
+  "npciLabel": "Money View #",
+  "firstGuess": {
+   "audience": [
+    "People seeking credit",
+    "Urban, salaried"
+   ],
+   "note": "Personal loans with an app-based credit assessment.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "INDmoney": {
+  "group": "payments-wealth",
+  "slug": "indmoney",
+  "npciLabel": "Ind Money #",
+  "firstGuess": {
+   "audience": [
+    "Investors & savers",
+    "Urban, salaried"
+   ],
+   "note": "US and Indian stocks, mutual funds, net worth tracking.",
+   "type": "wealth",
+   "sub": null
+  }
+ },
+ "Digikhata": {
+  "group": "payments-wealth",
+  "slug": "digikhata",
+  "npciLabel": "Digikhata",
+  "firstGuess": {
+   "audience": [
+    "Shop owners & MSMEs"
+   ],
+   "note": "Bookkeeping and collections for small merchants.",
+   "type": "agent",
+   "sub": null
+  }
+ },
+ "Aditya Birla Capital Digital": {
+  "group": "payments-wealth",
+  "slug": "aditya-birla-capital-digital",
+  "npciLabel": "Aditya Birla Capital Digital #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "People seeking credit"
+   ],
+   "note": "Aditya Birla Capital's app: loans, insurance, investments.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "Shriram One": {
+  "group": "payments-wealth",
+  "slug": "shriram-one",
+  "npciLabel": "Shri Ram One #",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "People seeking credit"
+   ],
+   "note": "Shriram Finance's app: deposits, loans and payments.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "Jar": {
+  "group": "payments-wealth",
+  "slug": "jar",
+  "npciLabel": "Jar #",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "Students & Gen Z",
+    "Investors & savers"
+   ],
+   "note": "Daily digital gold savings from ₹10.",
+   "type": "wealth",
+   "sub": null
+  }
+ },
+ "Tata Pay": {
+  "group": "payments-wealth",
+  "slug": "tata-pay",
+  "npciLabel": "Tata Pay #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried"
+   ],
+   "note": "UPI inside the Tata Neu app.",
+   "type": "bigtech",
+   "sub": null
+  }
+ },
+ "Obopay": {
+  "group": "payments-wealth",
+  "slug": "obopay",
+  "npciLabel": "Obopay",
+  "firstGuess": {
+   "audience": [
+    "Employers & businesses"
+   ],
+   "note": "Prepaid and payout programmes for businesses.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "Curie Money": {
+  "group": "payments-wealth",
+  "slug": "curie-money",
+  "npciLabel": "Curie Money #",
+  "firstGuess": {
+   "audience": [
+    "Investors & savers"
+   ],
+   "note": "Savings and money management app.",
+   "type": "wealth",
+   "sub": null
+  }
+ },
+ "LXME": {
+  "group": "payments-wealth",
+  "slug": "lxme",
+  "npciLabel": "Lxme UPI #",
+  "firstGuess": {
+   "audience": [
+    "Women",
+    "Investors & savers"
+   ],
+   "note": "Investing and money app built for women.",
+   "type": "wealth",
+   "sub": null
+  }
+ },
+ "Unimoni": {
+  "group": "payments-wealth",
+  "slug": "unimoni",
+  "npciLabel": "Unimoni",
+  "firstGuess": {
+   "audience": [
+    "Everyone"
+   ],
+   "note": "Forex and remittance provider.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "Novio": {
+  "group": "payments-wealth",
+  "slug": "novio",
+  "npciLabel": "Novio #",
+  "firstGuess": {
+   "audience": [
+    "Everyone"
+   ],
+   "note": "We could not verify this app's positioning; placed here provisionally.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "LivQuik": {
+  "group": "payments-wealth",
+  "slug": "livquik",
+  "npciLabel": "LivQuik",
+  "firstGuess": {
+   "audience": [
+    "Employers & businesses"
+   ],
+   "note": "Prepaid instruments and corporate payout programmes.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "Bajaj Finserv": {
+  "group": "cards-lending",
+  "slug": "bajaj-finserv",
+  "npciLabel": "Bajaj Finserv #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "People seeking credit"
+   ],
+   "note": "Bajaj Finance's app: EMI cards, loans, deposits.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "POP UPI": {
+  "group": "cards-lending",
+  "slug": "pop-upi",
+  "npciLabel": "POP UPI #",
+  "firstGuess": {
+   "audience": [
+    "Students & Gen Z"
+   ],
+   "note": "Rewards on every UPI payment, plus a co-branded card.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "Samsung Pay": {
+  "group": "cards-lending",
+  "slug": "samsung-pay",
+  "npciLabel": "Samsung Pay #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried"
+   ],
+   "note": "UPI inside Samsung Wallet.",
+   "type": "bigtech",
+   "sub": null
+  }
+ },
+ "Jupiter": {
+  "group": "cards-lending",
+  "slug": "jupiter",
+  "npciLabel": "Jupiter Money #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "Students & Gen Z"
+   ],
+   "note": "Neobank app on top of a partner bank account.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "Flipkart UPI": {
+  "group": "cards-lending",
+  "slug": "flipkart-upi",
+  "npciLabel": "Flipkart UPI #",
+  "firstGuess": {
+   "audience": [
+    "Everyone"
+   ],
+   "note": "UPI inside the Flipkart shopping app.",
+   "type": "bigtech",
+   "sub": null
+  }
+ },
+ "BharatPe": {
+  "group": "cards-lending",
+  "slug": "bharatpe",
+  "npciLabel": "Bharat Pe #",
+  "firstGuess": {
+   "audience": [
+    "Shop owners & MSMEs"
+   ],
+   "note": "Merchant QR and loans for shopkeepers, plus a consumer app.",
+   "type": "agent",
+   "sub": null
+  }
+ },
+ "kiwi": {
+  "group": "cards-lending",
+  "slug": "kiwi",
+  "npciLabel": "Kiwi #",
+  "firstGuess": {
+   "audience": [
+    "Students & Gen Z",
+    "Urban, salaried"
+   ],
+   "note": "RuPay credit card designed to be used on UPI.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "Omni Card": {
+  "group": "cards-lending",
+  "slug": "omni-card",
+  "npciLabel": "Omni Card",
+  "firstGuess": {
+   "audience": [
+    "Teens & families",
+    "Students & Gen Z"
+   ],
+   "note": "Prepaid card and app for teens and families.",
+   "type": "youth",
+   "sub": null
+  }
+ },
+ "Timepay": {
+  "group": "cards-lending",
+  "slug": "timepay",
+  "npciLabel": "Timepay #",
+  "firstGuess": {
+   "audience": [
+    "People seeking credit",
+    "Students & Gen Z"
+   ],
+   "note": "Credit line you can spend over UPI.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "SalarySe": {
+  "group": "cards-lending",
+  "slug": "salaryse",
+  "npciLabel": "Salary Se #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "People seeking credit"
+   ],
+   "note": "Salary-linked credit you spend on UPI before payday.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "KreditPe": {
+  "group": "cards-lending",
+  "slug": "kreditpe",
+  "npciLabel": "Kredit Pe #",
+  "firstGuess": {
+   "audience": [
+    "People seeking credit"
+   ],
+   "note": "Credit on UPI.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "OneCard": {
+  "group": "cards-lending",
+  "slug": "onecard",
+  "npciLabel": "One Card #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "Card holders, high spenders"
+   ],
+   "note": "Metal credit card managed fully in the app.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "Scapia": {
+  "group": "cards-lending",
+  "slug": "scapia",
+  "npciLabel": "Scapia #",
+  "firstGuess": {
+   "audience": [
+    "Card holders, high spenders",
+    "Urban, salaried"
+   ],
+   "note": "Travel credit card with zero forex markup.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "Rio Money": {
+  "group": "cards-lending",
+  "slug": "rio-money",
+  "npciLabel": "Rio Money #",
+  "firstGuess": {
+   "audience": [
+    "Students & Gen Z"
+   ],
+   "note": "Credit card built for UPI spends.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "CheQ": {
+  "group": "cards-lending",
+  "slug": "cheq",
+  "npciLabel": "CheQ #",
+  "firstGuess": {
+   "audience": [
+    "Card holders, high spenders"
+   ],
+   "note": "Credit card bill payments and card management.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "KreditBee": {
+  "group": "cards-lending",
+  "slug": "kreditbee",
+  "npciLabel": "KreditBee #",
+  "firstGuess": {
+   "audience": [
+    "Students & Gen Z",
+    "People seeking credit"
+   ],
+   "note": "Small personal loans for young salaried borrowers.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "RapiPay": {
+  "group": "cards-lending",
+  "slug": "rapipay",
+  "npciLabel": "Rapipay",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "Shop owners & MSMEs"
+   ],
+   "note": "Assisted banking and payments through retail agents.",
+   "type": "agent",
+   "sub": null
+  }
+ },
+ "Spice Money": {
+  "group": "cards-lending",
+  "slug": "spice-money",
+  "npciLabel": "Spice Money",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "Shop owners & MSMEs"
+   ],
+   "note": "Rural assisted banking through local shop agents.",
+   "type": "agent",
+   "sub": null
+  }
+ },
+ "Saathi by PayNearby": {
+  "group": "cards-lending",
+  "slug": "saathi-by-paynearby",
+  "npciLabel": "Saathi by PayNearBy #",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "Shop owners & MSMEs"
+   ],
+   "note": "Assisted banking app for PayNearby retail agents.",
+   "type": "agent",
+   "sub": null
+  }
+ },
+ "Dhani": {
+  "group": "cards-lending",
+  "slug": "dhani",
+  "npciLabel": "Dhani",
+  "firstGuess": {
+   "audience": [
+    "People seeking credit",
+    "Tier 2–3 & rural India"
+   ],
+   "note": "Formerly Indiabulls; credit lines and health products.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "Fave": {
+  "group": "cards-lending",
+  "slug": "fave",
+  "npciLabel": "Fave #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried"
+   ],
+   "note": "Pine Labs' cashback app for shopping offers.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "True Balance": {
+  "group": "cards-lending",
+  "slug": "true-balance",
+  "npciLabel": "True Balance",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "People seeking credit"
+   ],
+   "note": "Small loans for first-time borrowers outside metros.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "Payworld": {
+  "group": "cards-lending",
+  "slug": "payworld",
+  "npciLabel": "Payworld",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "Shop owners & MSMEs"
+   ],
+   "note": "Retail agent network for bill pay and cash services.",
+   "type": "agent",
+   "sub": null
+  }
+ },
+ "Snapmint": {
+  "group": "cards-lending",
+  "slug": "snapmint",
+  "npciLabel": "SnapMint #",
+  "firstGuess": {
+   "audience": [
+    "People seeking credit",
+    "Tier 2–3 & rural India"
+   ],
+   "note": "EMI purchases without a credit card.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "ZET": {
+  "group": "cards-lending",
+  "slug": "zet",
+  "npciLabel": "ZET #",
+  "firstGuess": {
+   "audience": [
+    "Tier 2–3 & rural India",
+    "People seeking credit"
+   ],
+   "note": "Fixed deposit-backed credit cards for people building credit.",
+   "type": "rewards",
+   "sub": null
+  }
+ },
+ "Navi": {
+  "group": "cards-lending",
+  "slug": "navi",
+  "npciLabel": "Navi #",
+  "firstGuess": {
+   "audience": [
+    "Urban, salaried",
+    "Students & Gen Z",
+    "People seeking credit"
+   ],
+   "note": "Loans, mutual funds and insurance; known for UPI cashback offers.",
+   "type": "lending",
+   "sub": null
+  }
+ },
+ "Axis Bank": {
+  "group": "banks",
+  "slug": "axis-bank",
+  "npciLabel": "Axis Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "Most of its UPI volume is B2C, not customer-initiated.",
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Kotak Mahindra Bank": {
+  "group": "banks",
+  "slug": "kotak-mahindra-bank",
+  "npciLabel": "Kotak Mahindra Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "slice Small Finance Bank": {
+  "group": "banks",
+  "slug": "slice-small-finance-bank",
+  "npciLabel": "Slice Small Finance Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers",
+    "Students & Gen Z"
+   ],
+   "note": "Former credit-card fintech that became a bank after merging with North East SFB.",
+   "type": "bank",
+   "sub": "sfb"
+  }
+ },
+ "HDFC Bank": {
+  "group": "banks",
+  "slug": "hdfc-bank",
+  "npciLabel": "HDFC Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "ICICI Bank": {
+  "group": "banks",
+  "slug": "icici-bank",
+  "npciLabel": "ICICI Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "One of the few apps with meaningful B2B UPI value.",
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "IDFC FIRST Bank": {
+  "group": "banks",
+  "slug": "idfc-first-bank",
+  "npciLabel": "IDFC Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Yes Bank": {
+  "group": "banks",
+  "slug": "yes-bank",
+  "npciLabel": "Yes Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "Mostly B2C volume, reflecting its role as a partner bank for fintechs.",
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "State Bank of India": {
+  "group": "banks",
+  "slug": "state-bank-of-india",
+  "npciLabel": "State Bank of India Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "Through YONO and BHIM SBI Pay.",
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "Unity Small Finance Bank": {
+  "group": "banks",
+  "slug": "unity-small-finance-bank",
+  "npciLabel": "Unity Small Finance Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "Almost all volume is B2C.",
+   "type": "bank",
+   "sub": "sfb"
+  }
+ },
+ "India Post Payments Bank": {
+  "group": "banks",
+  "slug": "india-post-payments-bank",
+  "npciLabel": "India Post Payments Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers",
+    "Tier 2–3 & rural India"
+   ],
+   "note": "Runs on the post office network; reaches villages with no bank branch.",
+   "type": "bank",
+   "sub": "pb"
+  }
+ },
+ "Airtel Payments Bank": {
+  "group": "banks",
+  "slug": "airtel-payments-bank",
+  "npciLabel": "Airtel Payments Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers",
+    "Tier 2–3 & rural India"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pb"
+  }
+ },
+ "Federal Bank": {
+  "group": "banks",
+  "slug": "federal-bank",
+  "npciLabel": "Federal Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Jio Payments Bank": {
+  "group": "banks",
+  "slug": "jio-payments-bank",
+  "npciLabel": "Jio Payments Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pb"
+  }
+ },
+ "Deutsche Bank": {
+  "group": "banks",
+  "slug": "deutsche-bank",
+  "npciLabel": "Deutsche Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "foreign"
+  }
+ },
+ "Jammu & Kashmir Bank": {
+  "group": "banks",
+  "slug": "jammu-kashmir-bank",
+  "npciLabel": "Jammu and Kashmir Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Canara Bank": {
+  "group": "banks",
+  "slug": "canara-bank",
+  "npciLabel": "Canara Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "RBL Bank": {
+  "group": "banks",
+  "slug": "rbl-bank",
+  "npciLabel": "RBL Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Punjab National Bank": {
+  "group": "banks",
+  "slug": "punjab-national-bank",
+  "npciLabel": "Punjab National Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "IndusInd Bank": {
+  "group": "banks",
+  "slug": "indusind-bank",
+  "npciLabel": "IndusInd Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Bank of Baroda": {
+  "group": "banks",
+  "slug": "bank-of-baroda",
+  "npciLabel": "Bank of Baroda Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "Indian Bank": {
+  "group": "banks",
+  "slug": "indian-bank",
+  "npciLabel": "Indian Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "HSBC": {
+  "group": "banks",
+  "slug": "hsbc",
+  "npciLabel": "HSBC Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "foreign"
+  }
+ },
+ "AU Small Finance Bank": {
+  "group": "banks",
+  "slug": "au-small-finance-bank",
+  "npciLabel": "AU Small Finance Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "sfb"
+  }
+ },
+ "Union Bank of India": {
+  "group": "banks",
+  "slug": "union-bank-of-india",
+  "npciLabel": "Union Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "South Indian Bank": {
+  "group": "banks",
+  "slug": "south-indian-bank",
+  "npciLabel": "South Indian Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Standard Chartered": {
+  "group": "banks",
+  "slug": "standard-chartered",
+  "npciLabel": "Standard Chartered Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "foreign"
+  }
+ },
+ "UCO Bank": {
+  "group": "banks",
+  "slug": "uco-bank",
+  "npciLabel": "UCO Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "Fino Payments Bank": {
+  "group": "banks",
+  "slug": "fino-payments-bank",
+  "npciLabel": "Fino Payments Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers",
+    "Tier 2–3 & rural India"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pb"
+  }
+ },
+ "Central Bank of India": {
+  "group": "banks",
+  "slug": "central-bank-of-india",
+  "npciLabel": "Central Bank of India Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "DBS digibank": {
+  "group": "banks",
+  "slug": "dbs-digibank",
+  "npciLabel": "DBS Digibank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "foreign"
+  }
+ },
+ "Bank of India": {
+  "group": "banks",
+  "slug": "bank-of-india",
+  "npciLabel": "Bank of India Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "Karnataka Bank": {
+  "group": "banks",
+  "slug": "karnataka-bank",
+  "npciLabel": "Karnataka Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "IDBI Bank": {
+  "group": "banks",
+  "slug": "idbi-bank",
+  "npciLabel": "IDBI Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "Classified as a private bank by RBI since 2019.",
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "NSDL Payments Bank": {
+  "group": "banks",
+  "slug": "nsdl-payments-bank",
+  "npciLabel": "NSDL Payments Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pb"
+  }
+ },
+ "Suryoday Small Finance Bank": {
+  "group": "banks",
+  "slug": "suryoday-small-finance-bank",
+  "npciLabel": "Suryoday Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": "NPCI reports no customer-initiated volume this month.",
+   "type": "bank",
+   "sub": "sfb"
+  }
+ },
+ "City Union Bank": {
+  "group": "banks",
+  "slug": "city-union-bank",
+  "npciLabel": "City Union Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Bank of Maharashtra": {
+  "group": "banks",
+  "slug": "bank-of-maharashtra",
+  "npciLabel": "Bank of Maharashtra Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "Karur Vysya Bank": {
+  "group": "banks",
+  "slug": "karur-vysya-bank",
+  "npciLabel": "Karur Vysya Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Equitas Small Finance Bank": {
+  "group": "banks",
+  "slug": "equitas-small-finance-bank",
+  "npciLabel": "Equitas Small Finance Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "sfb"
+  }
+ },
+ "Tamilnad Mercantile Bank": {
+  "group": "banks",
+  "slug": "tamilnad-mercantile-bank",
+  "npciLabel": "Tamilnad Mercantile Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "pvt"
+  }
+ },
+ "Indian Overseas Bank": {
+  "group": "banks",
+  "slug": "indian-overseas-bank",
+  "npciLabel": "Indian Overseas Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ },
+ "Punjab & Sind Bank": {
+  "group": "banks",
+  "slug": "punjab-sind-bank",
+  "npciLabel": "Punjab Sind Bank Apps",
+  "firstGuess": {
+   "audience": [
+    "That bank's customers"
+   ],
+   "note": null,
+   "type": "bank",
+   "sub": "psb"
+  }
+ }
+}

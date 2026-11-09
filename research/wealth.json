@@ -1,0 +1,563 @@
+{
+  "Groww": {
+    "type": "wealth",
+    "audience": ["investors", "payments"],
+    "summary": "An investing platform for stocks, mutual funds and ETFs that also offers Groww Pay for UPI transfers and merchant payments.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://groww.in/open-demat-account",
+        "title": "Open Demat Account - Free Demat Account Opening Online",
+        "publisher": "Groww",
+        "checked": "2026-11-09",
+        "supports": "Describes investing products and the online demat-opening process, including PAN, Aadhaar OTP verification and bank linking. These are investment-account requirements."
+      },
+      {
+        "id": "upi-terms",
+        "url": "https://resources.groww.in/wp-assets/documents/upi-terms-and-conditions.pdf",
+        "title": "Groww Pay Services Private Limited — Terms of Use (May 2023)",
+        "publisher": "Groww Pay Services Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Establishes Groww Pay's UPI service through Yes Bank, contractual eligibility, bank linking through mobile/SMS verification and payment uses."
+      },
+      {
+        "id": "upi-setup",
+        "url": "https://groww.in/help/payments/groww-upi/how-to-add--delete-bank-account--57",
+        "title": "How do I register for Groww Pay?",
+        "publisher": "Groww",
+        "checked": "2026-11-09",
+        "supports": "Shows the in-app UPI activation flow: select Setup UPI, select a bank and confirm the linked account."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Groww offers investment accounts; Groww Pay separately facilitates person-to-person UPI transfers and online or offline merchant payments through Yes Bank.", "sources": ["product", "upi-terms"]},
+      {"label": "Intended users", "text": "People investing through Groww and people making UPI payments. The cited pages do not establish a Gen Z or urban customer demographic.", "sources": ["product", "upi-terms"]},
+      {"label": "Eligibility — Groww Pay UPI", "text": "The published UPI terms require contractual capacity and state an age above 18. Setup links a bank account; registration may use the phone's mobile network and SMS verification. In-app activation requires selecting and confirming a bank account.", "sources": ["upi-terms", "upi-setup"]},
+      {"label": "Eligibility — online demat account", "text": "The advertised online process requests PAN, email and personal information, verifies KYC using an Aadhaar-linked mobile number and OTP, and links a bank account. These investment-account steps are not presented here as requirements for UPI itself.", "sources": ["product"]}
+    ],
+    "gates": ["upi", "device", "kyc"],
+    "unknowns": [
+      "The UPI terms PDF is dated May 2023; a newer product-specific contract was not verified.",
+      "The UPI terms use an age above 18; the precise treatment of someone exactly 18 is not clarified in the inspected setup page.",
+      "Whether Groww currently requires a demat account before allowing standalone Groww Pay activation was not established."
+    ]
+  },
+  "Money View": {
+    "type": "lending",
+    "audience": ["borrowers", "salaried", "payments"],
+    "summary": "Moneyview facilitates personal loans through lending partners and separately offers UPI payments in its app.",
+    "sources": [
+      {
+        "id": "loans",
+        "url": "https://moneyview.in/loans-faq-en",
+        "title": "Moneyview Loans, Banking & Credit Tracker FAQs — Personal Loan FAQs",
+        "publisher": "Moneyview",
+        "checked": "2026-11-09",
+        "supports": "Gives the lending partners' personal-loan requirements for age, employment, household income, bank-credited income and CIBIL score; approval remains subject to underwriting."
+      },
+      {
+        "id": "upi",
+        "url": "https://moneyview.in/upi-faq",
+        "title": "Moneyview UPI Frequently Asked Questions (FAQs)",
+        "publisher": "Moneyview",
+        "checked": "2026-11-09",
+        "supports": "Describes UPI activation using SMS permission, the registered-number SIM and a savings-bank account, plus optional linking of an active RuPay credit card."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Personal loans are evaluated by Moneyview's lending partners. UPI activation is a separate app feature.", "sources": ["loans", "upi"]},
+      {"label": "Intended users", "text": "Personal-loan applicants include salaried and self-employed people. The UPI feature serves app users making payments; no urban-only audience is established.", "sources": ["loans", "upi"]},
+      {"label": "Eligibility — personal loans", "text": "The official FAQ lists ages 21–57, salaried or self-employed status, monthly household income of at least ₹25,000 received in a bank account, and CIBIL of at least 650. These are application criteria, not a promise of approval or UPI eligibility rules.", "sources": ["loans"]},
+      {"label": "Eligibility — bank-account UPI", "text": "Activate UPI in the Moneyview app, permit SMS, select the SIM with the mobile number registered on Moneyview, then select the bank holding the savings account. The FAQ does not impose its loan income or credit-score thresholds on this flow.", "sources": ["upi"]},
+      {"label": "Eligibility — RuPay credit card on UPI", "text": "This optional payment method requires an active RuPay credit card with a supported bank; a credit card is not listed as necessary for savings-account UPI.", "sources": ["upi"]}
+    ],
+    "gates": ["credit", "upi", "device", "card"],
+    "unknowns": [
+      "A separate numerical minimum age for Moneyview UPI was not established from its UPI FAQ.",
+      "The FAQ does not enumerate a complete current loan KYC-document checklist or guarantee acceptance by a particular lender."
+    ]
+  },
+  "INDmoney": {
+    "type": "wealth",
+    "audience": ["investors", "payments"],
+    "summary": "An investment and personal-finance platform with Indian and US stocks, mutual funds, tracking tools, bill payments and INDpay/INDmoney UPI.",
+    "sources": [
+      {
+        "id": "platform",
+        "url": "https://www.indmoney.com/terms-of-services",
+        "title": "Terms and Conditions | INDmoney",
+        "publisher": "INDmoney group companies",
+        "checked": "2026-11-09",
+        "supports": "Defines investment, tracking and payment services, an adult/authorised-guardian registration rule and product-specific supplemental terms."
+      },
+      {
+        "id": "upi-terms",
+        "url": "https://www.indmoney.com/page/upi-tnc",
+        "title": "UPI Terms and Conditions",
+        "publisher": "INDmoney Tech Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies INDpay/INDmoney UPI through HDFC Bank and sets active-account, contractual-capacity, bank-mobile linking and device/SMS registration conditions."
+      },
+      {
+        "id": "demat",
+        "url": "https://www.indmoney.com/open-demat-account",
+        "title": "Open Demat Account For Free Online: How to Open & Documents @ INDMoney",
+        "publisher": "INDmoney",
+        "checked": "2026-11-09",
+        "supports": "Explains online demat onboarding using PAN, Aadhaar and KYC, signing the opening document, and the restriction on minors independently opening and operating an account."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "INDmoney combines investment and financial tracking services with payments. Its UPI service operates as INDpay and/or INDmoney through sponsor PSP HDFC Bank.", "sources": ["platform", "upi-terms"]},
+      {"label": "Intended users", "text": "People investing or tracking personal finances, and users making UPI payments. An urban-only or particular wealth demographic is not established.", "sources": ["platform", "upi-terms"]},
+      {"label": "Eligibility — platform registration", "text": "General terms require users aged at least 18; an authorised guardian can register on behalf of a minor and may need to document that authority. This does not establish independent minor access to every product.", "sources": ["platform"]},
+      {"label": "Eligibility — UPI", "text": "Requires an active registered INDmoney account and a bank account linked to the user's mobile number. Registration verifies the device and bank link through mobile-network/SMS access. Users must be legally capable of contracting and meet PSP-bank conditions.", "sources": ["upi-terms"]},
+      {"label": "Eligibility — online demat account", "text": "The advertised process collects personal information, completes PAN/Aadhaar KYC and signs the opening document. Basic documents include bank and address proof. The FAQ says minors cannot independently open and operate the account. These conditions are for demat onboarding.", "sources": ["demat"]}
+    ],
+    "gates": ["upi", "device", "kyc", "parent"],
+    "unknowns": [
+      "Whether a guardian-managed minor account can activate UPI was not established; general guardian permission is not proof of a separate operational UPI route.",
+      "US-stock, lending and other product eligibility must be checked under their own supplemental terms; demat requirements are not a universal app checklist."
+    ]
+  },
+  "Digikhata": {
+    "type": "prepaid",
+    "audience": ["payments", "merchants", "business"],
+    "summary": "India's Digi Khata is a Pay Point prepaid account with a UPI handle, RuPay card, bill payments and a kiosk/merchant network; it is not identified here as the Pakistan bookkeeping app.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.digikhata.in/",
+        "title": "Digi Khata: Free Prepaid Digital Account India",
+        "publisher": "Digi Khata / Pay Point India Network Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Markets a prepaid UPI account without a traditional bank account, a RuPay card and individual/business offerings."
+      },
+      {
+        "id": "faq",
+        "url": "https://www.digikhata.in/faq",
+        "title": "Digi Khata FAQs: Quick Answers",
+        "publisher": "Digi Khata / Pay Point India Network Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Specifies Indian residency, age wording, PAN/Aadhaar and verification steps; distinguishes individual onboarding from physical checks for kiosk and merchant partners."
+      },
+      {
+        "id": "issuer-terms",
+        "url": "https://paypointindia.com/Policies/TermsAndCondition",
+        "title": "Terms & Conditions of Digi Khata",
+        "publisher": "Pay Point India Network Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Explicitly connects digikhata.in and the Digi Khata wallet brand to Pay Point India and describes a contract with an individual aged at least 18."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "The India match is Pay Point's prepaid Digi Khata offering. It provides UPI payments and a prepaid card, including a route without an existing bank account.", "sources": ["product", "issuer-terms"]},
+      {"label": "Intended users", "text": "Individuals making payments and businesses joining as Digi Kiosk or Digi Vyapaar partners. A merchant-only bookkeeping description does not describe the verified Indian product.", "sources": ["product", "faq"]},
+      {"label": "Eligibility — individual prepaid account", "text": "The FAQ requires Indian residency, PAN and Aadhaar. Its described KYC process includes OTP and video verification, with kiosk assistance and an offline route if Aadhaar is not linked to the mobile number. Spending requires a funded prepaid balance; no traditional bank account or credit check is required.", "sources": ["faq"]},
+      {"label": "Eligibility — age wording", "text": "The issuer's general terms say at least 18, while the FAQ says above 18. This inconsistency is retained rather than inventing a precise boundary.", "sources": ["issuer-terms", "faq"]},
+      {"label": "Eligibility — kiosk/merchant partner", "text": "Kiosk and Digi Vyapaar onboarding involves physical KYC; kiosk checks include identity, address and shop/establishment documents. That additional process is specific to business partners.", "sources": ["faq"]}
+    ],
+    "gates": ["kyc", "agent"],
+    "unknowns": [
+      "Exactly-18 eligibility conflicts between FAQ and issuer terms.",
+      "Whether every individual must visit a kiosk is unclear.",
+      "The original row lacks an app package identifier; the researched match is Pay Point's India product."
+    ]
+  },
+  "Aditya Birla Capital Digital": {
+    "type": "services",
+    "audience": ["payments", "borrowers", "investors"],
+    "summary": "ABCD, operated by Aditya Birla Capital Digital Limited, combines UPI and bill payments with loans, investment products and insurance access.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://www.adityabirlacapital.com/abcd/terms-conditions",
+        "title": "Terms and Conditions: ABCD App Usage Guidelines",
+        "publisher": "Aditya Birla Capital Digital Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the operator, platform services, general eligibility and device binding; separates loans, mutual funds, insurance and payments into product conditions."
+      },
+      {
+        "id": "upi-terms",
+        "url": "https://www.adityabirlacapital.com/abcd/terms-conditions/payments",
+        "title": "Payments - Aditya Birla Capital",
+        "publisher": "Aditya Birla Capital Digital Limited",
+        "checked": "2026-11-09",
+        "supports": "Sets UPI bank/mobile linking, physical-location and SMS/device conditions; includes age/guardian wording that differs from the platform's general eligibility."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "The listed entity corresponds to the ABCD app. It facilitates payments alongside loans, mutual funds, deposits and insurance, under different product terms.", "sources": ["terms"]},
+      {"label": "Intended users", "text": "People making payments, seeking credit or accessing investment products. The cited terms do not establish an urban or income-based customer demographic.", "sources": ["terms"]},
+      {"label": "Eligibility — platform registration", "text": "General terms require an Indian resident aged at least 18 who can legally contract. Registration collects profile details and binds the device and SIM. Additional service-specific verification may be required.", "sources": ["terms"]},
+      {"label": "Eligibility — UPI", "text": "Requires an active ABCD account, the user's own Indian bank account linked to an active mobile number, and physical presence in India when registering or linking the bank account. Registration may use mobile-network access and SMS device binding.", "sources": ["upi-terms"]},
+      {"label": "Eligibility — loans", "text": "Loan applications authorise credit-report access and lender KYC checks; failure to complete KYC or e-NACH can cause rejection. These lending conditions do not establish a minimum credit score for UPI.", "sources": ["terms"]},
+      {"label": "Eligibility — age inconsistency", "text": "Payment terms describe users above 18 or acting with a parent's/guardian's permission and supervision. General platform terms require at least 18. An independently verified minor onboarding route was not established.", "sources": ["upi-terms", "terms"]}
+    ],
+    "gates": ["upi", "device", "credit", "kyc"],
+    "unknowns": [
+      "Conflicting age/guardian clauses; minor onboarding unverified.",
+      "Loan-specific income/CIBIL cutoffs unverified.",
+      "Personal/business-loan terms redirect to general terms; underwriting checklist unverified."
+    ]
+  },
+  "Shriram One": {
+    "type": "services",
+    "audience": ["payments", "borrowers", "investors"],
+    "summary": "Shriram One brings UPI, bill payments, deposits, insurance and several loan products into one app.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.shriramone.in/",
+        "title": "Secure Your Future with Shriram One: Deposits, Loans, Insurance, UPI, and More!",
+        "publisher": "Shriram Finance Limited / Shriram One",
+        "checked": "2026-11-09",
+        "supports": "Lists UPI, bill payments, fixed deposits/investment plans, insurance and personal, business, gold and two-wheeler loan services."
+      },
+      {
+        "id": "upi",
+        "url": "https://www.shriramfinance.in/upi",
+        "title": "Upi: Unified Payments Interface | Instant Money Transfer Online",
+        "publisher": "Shriram Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Explains Shriram One UPI setup with a bank-linked SIM, outgoing verification SMS and bank selection; separately describes optional RuPay-card linking."
+      },
+      {
+        "id": "personal-loan",
+        "url": "https://www.shriramfinance.in/personal-loan",
+        "title": "Personal Loan Online up to ₹10 Lakh @ 11%* p.a. | Shriram Finance",
+        "publisher": "Shriram Finance Limited",
+        "checked": "2026-11-09",
+        "supports": "Gives personal-loan residency, application/closure ages, employment caveats, income/credit-history assessment and required supporting documents; names Shriram One as an application route."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "The app combines payments with deposits, insurance and several kinds of loans. UPI is not described as restricted to existing borrowers.", "sources": ["product", "upi"]},
+      {"label": "Intended users", "text": "People making payments, placing deposits or seeking the advertised loan products. The inspected product pages do not establish a rural-only or particular age-cohort demographic.", "sources": ["product"]},
+      {"label": "Eligibility — bank-account UPI", "text": "Complete app onboarding, select the bank and the SIM associated with the bank account, allow a verification SMS with sufficient SMS balance, and select the discovered bank account. RuPay-card linking is an optional separate payment method.", "sources": ["upi"]},
+      {"label": "Eligibility — personal loan", "text": "The product page requires Indian residency, a minimum age of 21 at application and a maximum age of 60 at loan closure. Income stability and credit history are assessed. Self-employed applicants may be routed to business loans; personal-loan access for them is qualified by a pre-approved existing relationship.", "sources": ["personal-loan"]},
+      {"label": "Documents — personal loan", "text": "The page requests identity/address proof, recent photographs, three months of income proof, six months of bank statements and a cancelled cheque/mandate form. These are loan requirements, not the UPI setup checklist.", "sources": ["personal-loan"]}
+    ],
+    "gates": ["upi", "device", "credit", "kyc"],
+    "unknowns": [
+      "A separate numerical minimum age for Shriram One UPI was not established in the inspected UPI setup instructions.",
+      "The personal-loan page's application form says salaried applicants, while its eligibility section describes conditional access for pre-approved self-employed customers; availability must be confirmed for that product.",
+      "A universal income or CIBIL cutoff was not established. Deposit, insurance and other loan eligibility must be checked separately."
+    ]
+  },
+  "Jar": {
+    "type": "wealth",
+    "audience": ["investors", "payments"],
+    "summary": "Jar offers recurring and one-off digital-gold purchases; its official app listing also advertises UPI transfers and QR payments.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.myjar.app/",
+        "title": "Jar: India's No 1 Digital Gold Savings App",
+        "publisher": "Changejar Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the operator and digital-gold service, including daily, weekly, monthly and instant purchase options. Daily saving is advertised from ₹10."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.myjar.app/terms-and-conditions",
+        "title": "Terms And Conditions - Jar: India's No. 1 Gold Savings App",
+        "publisher": "Changejar Technologies Private Limited / Jar Gold Retail Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Sets precious-metal service registration, age/parental-consent language, a GST-registration representation, payment ownership and KYC provisions."
+      },
+      {
+        "id": "app-listing",
+        "url": "https://play.google.com/store/apps/details?hl=en-IN&id=com.jar.app",
+        "title": "Jar:Save Money in Digital Gold – Apps on Google Play",
+        "publisher": "Jar App - Savings & Investments / Changejar Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "The developer's listing identifies the India Jar app and explicitly advertises sending/receiving money and QR payments using UPI."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Jar enables digital-gold purchases using recurring or instant saving options. Its developer also advertises UPI transfers and scan-and-pay.", "sources": ["product", "app-listing"]},
+      {"label": "Intended users", "text": "People buying digital gold in small or recurring amounts and people making payments. These features do not prove a Gen Z or rural customer demographic.", "sources": ["product", "app-listing"]},
+      {"label": "Eligibility — digital-gold account", "text": "Terms require contractual capacity and use age wording above 18, but also allow a parent/guardian to consent to a child's registration. Registration uses personal details and mobile OTP. The precious-metal terms ask users to represent that they are not GST-registered and to report a later change.", "sources": ["terms"]},
+      {"label": "Verification — precious-metal services", "text": "The terms provide for government-ID/PAN verification, with Form 60 as an alternative where specified, and payment from the user's own bank account. They also describe KYC for physical delivery; this does not establish full KYC as a universal prerequisite for every app feature.", "sources": ["terms"]}
+    ],
+    "gates": ["kyc", "parent"],
+    "unknowns": [
+      "A dedicated current Jar UPI registration/eligibility contract was not located in the inspected pages. Do not transfer digital-gold age, KYC or GST conditions to standalone UPI.",
+      "The practical process for a minor's gold account is not fully specified despite the parent/guardian consent clause.",
+      "The developer listing and website terms identify different digital-gold providers; the counterparty for a particular purchase must be checked in-app.",
+      "The advertised ₹10 applies to daily digital-gold saving; it is not evidence of a minimum deposit required to use UPI."
+    ]
+  },
+  "Tata Pay": {
+    "type": "bigtech",
+    "audience": ["payments"],
+    "summary": "Tata Payments Limited's bill-payment and UPI service is available through the Tata Neu website and app.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://www.tatapayments.com/policy/Tata-pay-user-agreement",
+        "title": "Tata Pay User Agreement",
+        "publisher": "Tata Payments Limited",
+        "checked": "2026-11-09",
+        "supports": "The agreement updated 11 September 2026 identifies Tata Pay, general eligibility, Tata Neu registration and UPI-specific mobile/account verification."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Tata Pay facilitates payments to people, merchants and billers through Tata Neu; UPI has its own annexure within the agreement.", "sources": ["terms"]},
+      {"label": "Intended users", "text": "Tata Neu account holders making payments. The agreement does not establish an urban, affluent or age-cohort customer demographic.", "sources": ["terms"]},
+      {"label": "Eligibility — Tata Pay account", "text": "Requires Indian residency, age at least 18, legal contractual capacity and registration for a Tata Neu membership account using accurate profile/contact details.", "sources": ["terms"]},
+      {"label": "Eligibility — UPI", "text": "Sign in to Tata Neu, verify the membership mobile number by outgoing SMS, and link an account the user owns and is authorised to operate. The membership number must match the number linked to that bank/payment account. Device/mobile-network verification forms part of setup.", "sources": ["terms"]}
+    ],
+    "gates": ["upi", "device"],
+    "unknowns": [
+      "No income or credit-score threshold for bank-account UPI is established by this agreement.",
+      "A Tata Neu co-branded credit card has separate issuer eligibility; owning one is not listed here as necessary for ordinary bank-account UPI."
+    ]
+  },
+  "Obopay": {
+    "type": "prepaid",
+    "audience": ["payments", "business"],
+    "summary": "Obopay provides prepaid-wallet payments, including UPI and card features whose availability depends on the specific programme.",
+    "sources": [
+      {
+        "id": "terms",
+        "url": "https://www.obopay.com/terms-conditions-users-2/",
+        "title": "Terms and Conditions for Users | OBO PAY",
+        "publisher": "Obopay Mobile Technology India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Covers Obopay and CashBook, current full-KYC transaction policy, wallet registration, UPI/card features and programme-dependent availability."
+      },
+      {
+        "id": "faq",
+        "url": "https://www.obopay.com/customer-faqs/",
+        "title": "Mobile Money Platform | Customer FAQs | OBOPAY",
+        "publisher": "Obopay Mobile Technology India Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes consumer mobile-wallet use, an Indian-national/mobile/age criterion and the need to fund the prepaid wallet before spending; some handset guidance appears dated."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Obopay issues a prepaid wallet. Its current user terms cover both Obopay and CashBook and describe UPI payments, transfers and optional physical/virtual cards.", "sources": ["terms"]},
+      {"label": "Intended users", "text": "Wallet users and participants in business/corporate programmes. The documents do not support classifying the whole offering as a youth product.", "sources": ["terms", "faq"]},
+      {"label": "Eligibility — wallet registration", "text": "Current terms require Indian residence, contractual capacity, a networked device, email and the user's registered mobile number. The consumer FAQ separately specifies Indian nationals above 18; the current eligibility list omits a numerical age.", "sources": ["terms", "faq"]},
+      {"label": "Eligibility — transacting wallet", "text": "The current policy permits only full-KYC wallets to transact: it specifies DigiLocker-based Aadhaar verification followed by video identification. The wallet must be funded before spending.", "sources": ["terms", "faq"]},
+      {"label": "Availability — UPI and cards", "text": "A wallet may have a card, a UPI handle or both. The terms make those features depend on the particular corporate programme; wallet registration alone does not guarantee every feature.", "sources": ["terms"]}
+    ],
+    "gates": ["kyc", "device"],
+    "unknowns": [
+      "Direct individual access without corporate sponsorship is unverified.",
+      "Age/nationality wording differs between FAQ and newer terms.",
+      "UPI sponsor-bank/account-linking steps are unverified."
+    ]
+  },
+  "Curie Money": {
+    "type": "wealth",
+    "audience": ["investors", "payments"],
+    "summary": "Curie Money connects UPI payments with liquid-mutual-fund investing; its Curie Save terms describe redeeming investments to the linked bank account to fund a payment.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.curie.money/",
+        "title": "Curie Money",
+        "publisher": "Yield Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes a UPI app using liquid mutual funds, PAN/bank-detail onboarding and the redemption-to-bank payment mechanism; does not make investment returns guaranteed."
+      },
+      {
+        "id": "mf-terms",
+        "url": "https://www.curie.money/mutual-fund-terms",
+        "title": "Curie Money — Yield Technologies Private Limited Terms and Conditions",
+        "publisher": "Yield Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Specifies adult Indian-citizen/tax-resident eligibility, KYC activation, PAN and AMC documents for investing, and Curie Save redemption routing."
+      },
+      {
+        "id": "upi-terms",
+        "url": "https://www.curie.money/terms",
+        "title": "Curie Money — Terms of Service Agreement",
+        "publisher": "Yield Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the app operator and its UPI participation through Yes Bank; the UPI section describes linked customer bank accounts and registration by the PSP."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Curie Save can redeem mutual-fund units into the account holder's registered bank account for a requested payment. Curie participates in UPI through Yes Bank. Its liquid-fund investment feature should not be described as a guaranteed-interest bank deposit.", "sources": ["mf-terms", "upi-terms"]},
+      {"label": "Intended users", "text": "People combining liquid-mutual-fund investing with everyday payments; no specific income or wealth bracket is established.", "sources": ["product", "mf-terms"]},
+      {"label": "Eligibility — mutual-fund services", "text": "The mutual-fund terms require age at least 18, contractual capacity, Indian citizenship and Indian tax residency. Access follows KYC verification; first-time investors must provide AMC-requested KYC/AML documents, including PAN as applicable.", "sources": ["mf-terms"]},
+      {"label": "Eligibility — investment-funded UPI payments", "text": "This mechanism requires a mutual-fund holding and the holder's designated bank account registered with the AMC. The UPI terms describe account linking through the PSP. The website advertises onboarding with PAN and bank details; it does not waive the separate investment KYC conditions.", "sources": ["mf-terms", "upi-terms", "product"]}
+    ],
+    "gates": ["kyc", "upi"],
+    "unknowns": [
+      "Standalone bank-funded UPI eligibility, including age and mandatory investment onboarding, is unverified.",
+      "Complete UPI SIM/device checklist unverified.",
+      "Homepage content was readable only in search's official-page extract; legal pages were directly accessible."
+    ]
+  },
+  "LXME": {
+    "type": "wealth",
+    "audience": ["women", "investors", "payments"],
+    "summary": "Lxme is a financial platform marketed to women, combining mutual-fund investing, financial learning and LxmePay UPI payments.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://lxme.in/",
+        "title": "Lxme: India's Financial Platform for Women to Invest & Grow",
+        "publisher": "Lxme",
+        "checked": "2026-11-09",
+        "supports": "Explicitly positions the app for women and lists investing, payments, financial learning and community features."
+      },
+      {
+        "id": "terms",
+        "url": "https://lxme.in/terms-of-service/",
+        "title": "Terms of Service, Investment Platform & UPI Usage | User Agreement - Lxme",
+        "publisher": "Lxme / Lxme Money Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Separates investment verification from supplementary UPI terms; identifies Axis Bank as PSP and explains bank/mobile linking, UPI PIN and optional RuPay-card linking."
+      },
+      {
+        "id": "upi-product",
+        "url": "https://lxme.in/lxmepay-upi/",
+        "title": "Best UPI Refer And Earn App | UPI Payment - Lxme",
+        "publisher": "Lxme",
+        "checked": "2026-11-09",
+        "supports": "Describes LxmePay for payments, expense tracking and digital-gold rewards, explicitly marketed to women; promotional benefits have their own conditions."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "Lxme combines mutual-fund access, money learning and UPI payments. Its supplementary UPI terms identify Lxme Money as a TPAP using Axis Bank.", "sources": ["product", "terms"]},
+      {"label": "Intended users", "text": "Women are an explicitly stated intended audience, rather than an inferred demographic. Investing and payments are both advertised uses.", "sources": ["product", "upi-product"]},
+      {"label": "Eligibility — UPI", "text": "Register and link a bank account to make or receive payments. The terms describe fetching accounts associated with the registered mobile number using SMS access, generating a UPI ID and setting a bank-facilitated UPI PIN. An eligible RuPay credit card is an optional linked instrument.", "sources": ["terms"]},
+      {"label": "Eligibility — investments", "text": "Investment access requires KYC, investment-readiness and information verification, with investment money coming from the user's legitimate own bank account. These checks are described in the investment section, not as an independently verified UPI KYC checklist.", "sources": ["terms"]},
+      {"label": "Eligibility — general terms", "text": "General terms restrict services to Indian citizens and Indian tax residents, and require users to be above 18 or hold legal parental/guardian consent. This does not establish independent minor access to every UPI or investment product.", "sources": ["terms"]}
+    ],
+    "gates": ["upi", "device", "kyc", "parent"],
+    "unknowns": [
+      "Operational minor onboarding unverified.",
+      "Investment minima, loan and FD-card criteria require separate checks.",
+      "Gender-verification/admission rules beyond women-focused marketing are unverified."
+    ]
+  },
+  "Unimoni": {
+    "type": "prepaid",
+    "audience": ["payments"],
+    "summary": "The relevant payments product is Unimoni Wallet, a prepaid wallet for bills and transfers. Its wallet legal page now uses Wizzpay Wallet and Wizzmoni Financial Services names.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.unimoni.in/unimoni-wallet.php",
+        "title": "Digital Wallet App for Instant Money Transfers & Bill Payment From Unimoni",
+        "publisher": "Wizzmoni Financial Services Limited (formerly Unimoni Financial Services Limited)",
+        "checked": "2026-11-09",
+        "supports": "Identifies the domestic prepaid-wallet product, bill/merchant payments, transfers, UPI top-ups, minimum/full-verification routes and the company's renamed identity."
+      },
+      {
+        "id": "wallet-terms",
+        "url": "https://wallet.unimoniindia.com/TnC.html",
+        "title": "Wizzpay Wallet - Terms of Service",
+        "publisher": "Wizzmoni Financial Services Limited",
+        "checked": "2026-11-09",
+        "supports": "Terms for accounts opened from 5 February 2026 identify the renamed issuer/product, 18+ eligibility, OTP registration, tiered KYC and documents for full KYC."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "The payments match is the prepaid domestic-payments wallet. Current terms name it Wizzpay, issued by Wizzmoni, formerly Unimoni Financial Services; forex/remittances are separate company services.", "sources": ["product", "wallet-terms"]},
+      {"label": "Intended users", "text": "Individuals using stored funds for payments or transfers. The cited wallet pages do not establish a youth, affluent or particular employment demographic.", "sources": ["product", "wallet-terms"]},
+      {"label": "Eligibility — wallet account", "text": "Current terms require age at least 18 and legal contractual capacity, with a mobile number validated by OTP. The terms distinguish minimum-KYC wallets from full-KYC wallets, so full KYC is not described as mandatory for every wallet use.", "sources": ["wallet-terms"]},
+      {"label": "Eligibility — full KYC and transfers", "text": "Full KYC requires PAN plus accepted identity/address documentation; the current terms describe branch submission. Fund transfers are restricted to full-KYC wallets. The product FAQ also offers app/branch/agent verification routes, which are not fully aligned with the terms.", "sources": ["wallet-terms", "product"]},
+      {"label": "UPI scope", "text": "The product page lists UPI top-ups, which do not establish a TPAP registration flow or compulsory UPI account for every wallet user.", "sources": ["product"]}
+    ],
+    "gates": ["kyc"],
+    "unknowns": [
+      "Historical Unimoni row's exact Wizzpay/app-version mapping is unverified.",
+      "Wallet-issued UPI-handle activation unverified.",
+      "App/branch KYC routes and PAN requirements differ between FAQ and current terms."
+    ]
+  },
+  "Novio": {
+    "type": "pay",
+    "audience": ["payments", "cards"],
+    "summary": "Credilio's novio app offers bank-account UPI through DCB Bank and separately distributes FD-backed RuPay credit cards.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.novio.in/",
+        "title": "novio: Fixed Deposit Credit Cards in India with 10% Rewards for Every UPI User",
+        "publisher": "Credilio Financial Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Identifies the novio brand/operator and advertises UPI and several partner-bank FD-backed credit-card products. Promotional reward claims are not treated as guaranteed cash returns."
+      },
+      {
+        "id": "terms",
+        "url": "https://www.novio.in/terms-conditions/",
+        "title": "Terms & Conditions | novio",
+        "publisher": "Credilio Financial Technologies Private Limited",
+        "checked": "2026-11-09",
+        "supports": "General terms specify adult contractual capacity; section 22 identifies DCB-sponsored UPI and resident/account/mobile/device registration conditions."
+      },
+      {
+        "id": "dcb-card",
+        "url": "https://www.novio.in/fixed-deposit-credit-card/dcb-rupay/",
+        "title": "DCB novio UPI Credit Card – FD Backed & Lifetime Free",
+        "publisher": "Credilio Financial Technologies Private Limited / novio",
+        "checked": "2026-11-09",
+        "supports": "Describes DCB novio's FD-backed card variants, with a virtual-card FD starting at ₹2,000 and a physical-card FD at ₹10,000."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "novio is Credilio's app. Its UPI terms identify it as a TPAP participating through DCB Bank; co-branded FD-backed credit cards are separate products.", "sources": ["product", "terms"]},
+      {"label": "Intended users", "text": "People making UPI payments and people seeking the advertised FD-backed cards. The sources do not establish a youth-only audience.", "sources": ["product", "terms"]},
+      {"label": "Eligibility — app and bank-account UPI", "text": "General terms require age at least 18 and contractual capacity. UPI additionally requires Indian residency, a profile in the app, an active authorised account at a participating bank linked to the mobile number, and a compatible connected device. Registration may use network/SMS verification.", "sources": ["terms"]},
+      {"label": "Eligibility — DCB novio FD-backed card", "text": "The DCB product page advertises a virtual card against an FD starting at ₹2,000 and a physical card at ₹10,000. These deposits concern that card product; they are not listed as prerequisites for ordinary bank-account novio UPI.", "sources": ["dcb-card", "terms"]}
+    ],
+    "gates": ["upi", "device", "deposit"],
+    "unknowns": [
+      "The full current issuer-specific age, KYC and underwriting rules for each DCB/SBM/IOB/YES BANK card were not verified; a single card's FD amount must not be applied across all variants.",
+      "General terms permit credit-score use for services, but do not establish a minimum score required for bank-account UPI. No compulsory credit-score gate is inferred."
+    ]
+  },
+  "LivQuik": {
+    "type": "prepaid",
+    "audience": ["payments", "business", "families"],
+    "summary": "LivQuik issues prepaid payment instruments and provides QuikWallet, a UPI-enabled app for prepaid cards, wallets and related payment products.",
+    "sources": [
+      {
+        "id": "product",
+        "url": "https://www.livquik.com/",
+        "title": "LivQuik — Prepaid Issuance and QuikWallet",
+        "publisher": "LivQuik Technology (India) Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Connects the LivQuik issuer to its UPI-enabled QuikWallet app and partner prepaid programmes; lists FASTag, NCMC and meal-card uses."
+      },
+      {
+        "id": "quikwallet",
+        "url": "https://www.livquik.com/quikwallet/",
+        "title": "QuikWallet — One App. One Wallet. Multiple benefits.",
+        "publisher": "LivQuik Technology (India) Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Describes UPI-handle issuance, prepaid-card controls, virtual accounts/cards, and minimum/full-KYC capabilities in the QuikWallet product."
+      },
+      {
+        "id": "ppi-terms",
+        "url": "https://www.livquik.com/ppi/terms-and-conditions/",
+        "title": "LivQuik — Terms & Conditions for Prepaid Payment Instruments",
+        "publisher": "LivQuik Technology (India) Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Specifies PPI age/citizenship/residency requirements, the parent/guardian route for minors, registration details, small/full-KYC distinctions and verification methods."
+      }
+    ],
+    "claims": [
+      {"label": "Product", "text": "LivQuik is the prepaid issuer and programme platform; QuikWallet is its UPI-enabled wallet/card app. Different partner products use the same underlying prepaid infrastructure.", "sources": ["product", "quikwallet"]},
+      {"label": "Intended users", "text": "Individual prepaid users, families using parent/guardian arrangements and businesses operating partner programmes. The whole issuer should not be treated as a youth-only or employer-only app.", "sources": ["product", "ppi-terms"]},
+      {"label": "Eligibility — primary PPI holder", "text": "PPI terms require age at least 18, Indian citizenship, Indian residence and Indian tax residence without another country's tax residence, contractual capacity and exclusion from the stated politically exposed-person category. Registration requests personal/contact and identity information.", "sources": ["ppi-terms"]},
+      {"label": "Eligibility — minors", "text": "The PPI terms allow a minor's service to be availed through a parent or legal guardian registered on the platform. This does not establish independent minor eligibility for every QuikWallet or partner feature.", "sources": ["ppi-terms"]},
+      {"label": "Eligibility — small versus full-KYC PPI", "text": "Small PPIs have restricted functions. Full-KYC issuance or upgrade requires relevant KYC documentation and verification, with video, biometric or Aadhaar-OTP modes where enabled. Do not apply full-KYC requirements to every small-PPI feature.", "sources": ["ppi-terms"]}
+    ],
+    "gates": ["kyc", "parent"],
+    "unknowns": [
+      "Original row lacks an app/partner-programme identifier.",
+      "QuikWallet UPI-specific KYC tier and onboarding steps unverified.",
+      "Universal employer invitation unverified; partner and dependent-card conditions differ."
+    ]
+  }
+}

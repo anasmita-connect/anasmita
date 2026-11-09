@@ -1,0 +1,1038 @@
+{
+ "ZET": {
+  "headline": "New-to-credit young earners, students and gig workers in tier-2/3 towns using an FD-backed card to build a CIBIL score",
+  "tags": [
+   "young_adults",
+   "tier2_3",
+   "low_income",
+   "gig_workers",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 21–32",
+    "basis": "inferred",
+    "reason": "ZET's own blogs pitch the card to students, freshers, 'young people' and Gen Z professionals entering formal credit for the first time.",
+    "sources": [
+     "prof-zet-2",
+     "prof-zet-3"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-2/3 towns, spread over 15,000+ PIN codes",
+    "basis": "inferred",
+    "reason": "ZET says it serves 15,000+ PIN codes and writes about credit-building in Indore, Madurai, Vijayawada-type tier-2 cities; testimonials come from Agra, Guntur, Vijayawada.",
+    "sources": [
+     "prof-zet-1",
+     "prof-zet-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Students, self-employed, gig workers, junior staff",
+    "basis": "stated",
+    "reason": "Homepage says the card suits first-time users 'including students, self-employed people, and gig workers'.",
+    "sources": [
+     "prof-zet-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low to lower-middle; often no income proof",
+    "basis": "inferred",
+    "reason": "FD from ₹2,000 secures the limit, no prior credit history needed and income proof 'isn't always required', which fits thin-file, lower earners.",
+    "sources": [
+     "prof-zet-1",
+     "prof-zet-3",
+     "prof-zet-4"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, roughly 70%+",
+    "basis": "inferred",
+    "reason": "No ZET gender data found; estimate leans on industry evidence that women are only ~25–30% of digital payment users, lower outside metros.",
+    "sources": [
+     "prof-zet-5"
+    ]
+   }
+  ],
+  "caveats": [
+   "No independent demographic data; most evidence is ZET's own marketing."
+  ],
+  "sources": [
+   {
+    "id": "prof-zet-1",
+    "url": "https://zetapp.in/",
+    "title": "ZET – FD credit card and credit score",
+    "publisher": "ZET",
+    "checked": "2026-11-09",
+    "supports": "Claims '10 lakh+ users' across 15,000+ PIN codes; mission to help 'unserved and underserved Indians enter the formal credit system'; card fits students, self-employed and gig workers; FD from ₹2,000."
+   },
+   {
+    "id": "prof-zet-2",
+    "url": "https://www.zetapp.in/blog/mobile-first-credit-building-platforms-tier-2-india",
+    "title": "Mobile-first credit-building platforms in tier-2 India",
+    "publisher": "ZET blog",
+    "checked": "2026-11-09",
+    "supports": "Describes young people and Gen Z professionals in tier-2 cities like Indore and Madurai 'coming into the formal financial system for the first time'."
+   },
+   {
+    "id": "prof-zet-3",
+    "url": "https://www.zetapp.in/blog/zet-fd-credit-card-students-new-professionals",
+    "title": "ZET FD credit card for students and new professionals",
+    "publisher": "ZET blog",
+    "checked": "2026-11-09",
+    "supports": "Targets 'college students and young professionals', 'interns, freelancers, and new employees without high salaries'; income proof 'isn't always required'."
+   },
+   {
+    "id": "prof-zet-4",
+    "url": "https://indianstartupnews.com/news/zet-partners-with-dcb-bank-to-launch-fd-backed-rupay-credit-card-with-upi-and-rewards-10540596",
+    "title": "ZET partners with DCB Bank to launch FD-backed RuPay credit card",
+    "publisher": "Indian Startup News",
+    "checked": "2026-11-09",
+    "supports": "Card is 'aimed at helping Indians build and improve their credit score' and 'does not require prior credit history'."
+   },
+   {
+    "id": "prof-zet-5",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "Navi": {
+  "headline": "Young salaried and small-business Indians in tier-1/2 cities using UPI for everyday payments and tapping quick small personal loans",
+  "tags": [
+   "young_adults",
+   "salaried",
+   "middle_income",
+   "borrowers",
+   "tier2_3"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 22–35",
+    "basis": "inferred",
+    "reason": "Navi sells instant app-only loans, ₹100 SIPs and digital gold from ₹50, a mix aimed at young first-time borrowers and investors; no age data was found.",
+    "sources": [
+     "prof-navi-2",
+     "prof-navi-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Tier-1 and tier-2 cities, growing into smaller towns",
+    "basis": "inferred",
+    "reason": "Navi now handles over a billion UPI transactions a month (~4% share) at roughly ₹490 average ticket, implying mass everyday use well beyond metros; no city split published.",
+    "sources": [
+     "prof-navi-3"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried, some small-business owners",
+    "basis": "stated",
+    "reason": "At launch Navi said it 'is targeting salaried individuals'; App Store reviews also show small business owners borrowing.",
+    "sources": [
+     "prof-navi-1",
+     "prof-navi-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle (₹10K–60K/month)",
+    "basis": "inferred",
+    "reason": "Loans were offered to people with 'monthly income as low as INR 10K', capped at ₹2 lakh, and investments start at ₹100.",
+    "sources": [
+     "prof-navi-1",
+     "prof-navi-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70–75%",
+    "basis": "inferred",
+    "reason": "No Navi data; based on NPCI saying women are only ~25% of payment users.",
+    "sources": [
+     "prof-navi-4"
+    ]
+   }
+  ],
+  "caveats": [
+   "Navi publishes no user demographics; estimates rest on product design and volume data."
+  ],
+  "sources": [
+   {
+    "id": "prof-navi-1",
+    "url": "https://inc42.com/buzz/sachin-bansal-launches-navi-lending-app-as-loan-market-struggles-with-recovery",
+    "title": "Sachin Bansal launches Navi lending app",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "Navi 'is targeting salaried individuals' with collateral-free loans up to ₹2 lakh for incomes 'as low as INR 10K' a month."
+   },
+   {
+    "id": "prof-navi-2",
+    "url": "https://apps.apple.com/IN/app/id1541152485",
+    "title": "Navi: UPI, Investments & Loans",
+    "publisher": "Apple App Store",
+    "checked": "2026-11-09",
+    "supports": "Lists UPI, insurance, mutual fund SIPs from ₹100 and digital gold from ₹50; a small business owner review praises a loan disbursed 'within 10 minutes'."
+   },
+   {
+    "id": "prof-navi-3",
+    "url": "https://inc42.com/buzz/upi-in-august-navis-market-share-climbs-to-4-4-phonepe-google-pay-slip/",
+    "title": "UPI in August: Navi's market share climbs to 4.4%",
+    "publisher": "Inc42",
+    "checked": "2026-11-09",
+    "supports": "Navi processed about 1.08 Bn UPI transactions worth ₹52,512.85 Cr in August, a 4.4% volume share."
+   },
+   {
+    "id": "prof-navi-4",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "Axis Bank": {
+  "headline": "Urban and semi-urban salaried middle class, about 54M customers, with half the branches in Bharat towns",
+  "tags": [
+   "young_adults",
+   "salaried",
+   "middle_income",
+   "metro",
+   "tier2_3",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–45",
+    "basis": "inferred",
+    "reason": "Axis's retail base is built on salary accounts, cards and loans for working adults; no age split was found.",
+    "sources": [
+     "prof-axis-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~Half metro/urban, ~half semi-urban and rural",
+    "basis": "stated",
+    "reason": "Nearly 48% of its 6,295 branches are in rural and semi-urban markets, backed by a 2,937-branch Bharat Banking network.",
+    "sources": [
+     "prof-axis-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Mostly salaried, plus small traders in Bharat",
+    "basis": "inferred",
+    "reason": "A large private bank with metro corporate-salary franchise and a Bharat network serving small towns; inferred from branch mix.",
+    "sources": [
+     "prof-axis-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle to upper-middle",
+    "basis": "inferred",
+    "reason": "Private-bank account minimums and card-led products skew above mass-market; the rural branch push adds lower-middle customers.",
+    "sources": [
+     "prof-axis-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70%",
+    "basis": "inferred",
+    "reason": "No bank split found; based on NPCI estimate that women are ~25% of payment users.",
+    "sources": [
+     "prof-axis-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Most Axis UPI volume is B2C/merchant-side, so app users are a subset of the customer base."
+  ],
+  "sources": [
+   {
+    "id": "prof-axis-bank-1",
+    "url": "https://www.axis.bank.in/docs/default-source/press-releases/axis-bank-celebrates-India-s-17-08-26.pdf",
+    "title": "Axis Bank celebrates India's 80th year of Independence with 50 new branches",
+    "publisher": "Axis Bank",
+    "checked": "2026-11-09",
+    "supports": "'Serving nearly 54 million customers' with 6,295 branches, 'nearly 48% of branches located in rural and semi-urban markets' and a Bharat Banking network of 2,937 branches."
+   },
+   {
+    "id": "prof-axis-bank-2",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "Kotak Mahindra Bank": {
+  "headline": "Young metro professionals on the 811 digital account plus affluent urban families on Kotak's core bank",
+  "tags": [
+   "young_adults",
+   "metro",
+   "salaried",
+   "affluent",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 18–40, many under 30",
+    "basis": "stated",
+    "reason": "Kotak said 91% of 811 customers were aged 18–40 (2017 data, still the latest public split).",
+    "sources": [
+     "prof-kotak-mahindra-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metro and tier-1 heavy (~60%+ top 20 cities)",
+    "basis": "stated",
+    "reason": "63% of 811 customers were from India's top 20 cities.",
+    "sources": [
+     "prof-kotak-mahindra-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried (~45%), rest self-employed and students",
+    "basis": "stated",
+    "reason": "Around 45% of 811 customers were salaried employees.",
+    "sources": [
+     "prof-kotak-mahindra-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle to affluent",
+    "basis": "inferred",
+    "reason": "Zero-balance 811 brings in young middle-income earners while the branch bank is known for premium and wealth clients; no income data found.",
+    "sources": [
+     "prof-kotak-mahindra-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70%",
+    "basis": "inferred",
+    "reason": "No Kotak split found; based on NPCI estimate that women are ~25% of payment users.",
+    "sources": [
+     "prof-kotak-mahindra-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Demographic split is from 2017–18 811 disclosures and may have shifted."
+  ],
+  "sources": [
+   {
+    "id": "prof-kotak-mahindra-bank-1",
+    "url": "https://www.medianama.com/2018/01/223-kotak-811-savings-account-q3fy18-2/",
+    "title": "Kotak 811 savings account Q3FY18",
+    "publisher": "MediaNama",
+    "checked": "2026-11-09",
+    "supports": "811 had 12 million customers; 'around 45% of 811 customers... are salaried employees, and 91% are aged between 18-40', '63% of them are from the top 20 cities'."
+   },
+   {
+    "id": "prof-kotak-mahindra-bank-2",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "slice Small Finance Bank": {
+  "headline": "Gen Z and young professionals around 22–28 in metro and tier-1/2 cities who got their first credit from slice",
+  "tags": [
+   "gen_z",
+   "young_adults",
+   "students",
+   "salaried",
+   "borrowers",
+   "metro"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 20–30, average about 23",
+    "basis": "stated",
+    "reason": "Slice described its users as millennials and Gen Z 'with an average age of 23'.",
+    "sources": [
+     "prof-slice-small-finance-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metro and tier-1/2 digital users, plus NE India branches",
+    "basis": "inferred",
+    "reason": "App-first base plus NESFB's branches across nine Northeast states after the 2024 merger; no city split found.",
+    "sources": [
+     "prof-slice-small-finance-bank-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Young salaried, freelancers and students",
+    "basis": "stated",
+    "reason": "Slice began as SlicePay offering 'credit lines for students and young professionals'.",
+    "sources": [
+     "prof-slice-small-finance-bank-3"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle; thin-file",
+    "basis": "inferred",
+    "reason": "Built for millennials whom 'banks shy away from issuing... a credit card', i.e. young people without credit history; credit lines start at ₹10,000.",
+    "sources": [
+     "prof-slice-small-finance-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70%+",
+    "basis": "inferred",
+    "reason": "No slice data; based on NPCI estimate that women are ~25% of payment users.",
+    "sources": [
+     "prof-slice-small-finance-bank-4"
+    ]
+   }
+  ],
+  "caveats": [
+   "Age data dates from 2021, before the bank merger; the Northeast branch base is likely older."
+  ],
+  "sources": [
+   {
+    "id": "prof-slice-small-finance-bank-1",
+    "url": "https://fintech.global/2021/06/29/india-based-millennial-and-gen-z-focussed-money-management-fintech-slice-notches-20m/",
+    "title": "Millennial and Gen Z-focused fintech Slice notches $20m",
+    "publisher": "FinTech Global",
+    "checked": "2026-11-09",
+    "supports": "Targets the 'new age millennial and Gen Z segment, with an average age of 23'; 'Banks shy away from issuing millennials a credit card'."
+   },
+   {
+    "id": "prof-slice-small-finance-bank-2",
+    "url": "https://www.theweek.in/wire-updates/business/2024/10/29/dcm43-slice.html",
+    "title": "slice and North East Small Finance Bank announce completion of merger",
+    "publisher": "The Week (PTI wire)",
+    "checked": "2026-11-09",
+    "supports": "slice is 'trusted by more than 18 million Indians'; NESFB has 'an extensive network of branches spanning across 9 states'."
+   },
+   {
+    "id": "prof-slice-small-finance-bank-3",
+    "url": "https://en.wikipedia.org/wiki/Slice_Small_Finance_Bank",
+    "title": "Slice Small Finance Bank",
+    "publisher": "Wikipedia",
+    "checked": "2026-11-09",
+    "supports": "Slice began as SlicePay, offering 'credit lines for students and young professionals'."
+   },
+   {
+    "id": "prof-slice-small-finance-bank-4",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "HDFC Bank": {
+  "headline": "Salaried and business-owning middle and upper-middle class, split between metros and fast-growing semi-urban branches",
+  "tags": [
+   "salaried",
+   "middle_income",
+   "affluent",
+   "metro",
+   "tier2_3",
+   "card_holders"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–50",
+    "basis": "inferred",
+    "reason": "Base is built on salary accounts, home loans and India's largest card book, products held by working-age adults; no age data found.",
+    "sources": [
+     "prof-hdfc-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metros/urban plus ~half semi-urban and rural branches",
+    "basis": "stated",
+    "reason": "About 52% of HDFC Bank's branches were in semi-urban and rural areas, with plans to add 675+ more there.",
+    "sources": [
+     "prof-hdfc-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried professionals and self-employed traders",
+    "basis": "inferred",
+    "reason": "Mortgage and salary franchise in cities, small-business banking in semi-urban areas; inferred from branch strategy.",
+    "sources": [
+     "prof-hdfc-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle to affluent",
+    "basis": "inferred",
+    "reason": "Private-bank minimum balances and premium cards skew above mass market; the rural push adds lower-middle customers.",
+    "sources": [
+     "prof-hdfc-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70%",
+    "basis": "inferred",
+    "reason": "No bank split found; based on NPCI estimate that women are ~25% of payment users.",
+    "sources": [
+     "prof-hdfc-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Branch mix is a proxy; HDFC does not publish a customer split by geography."
+  ],
+  "sources": [
+   {
+    "id": "prof-hdfc-bank-1",
+    "url": "https://theprint.in/business/hdfc-bank-to-open-more-than-675-branches-in-semi-urban-rural-areas-in-fy24-official/1555362",
+    "title": "HDFC Bank to open more than 675 branches in semi-urban, rural areas",
+    "publisher": "ThePrint (PTI)",
+    "checked": "2026-11-09",
+    "supports": "'Around 52% of the bank's branches' were in semi-urban and rural areas; the bank aims to double its business there."
+   },
+   {
+    "id": "prof-hdfc-bank-2",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "ICICI Bank": {
+  "headline": "Urban salaried professionals and businesses in metros and state capitals, plus a rural base of SHG women",
+  "tags": [
+   "salaried",
+   "metro",
+   "middle_income",
+   "affluent",
+   "businesses"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–45",
+    "basis": "inferred",
+    "reason": "iMobile's top uses are UPI, credit card payments and loans, typical of working adults; no age data found.",
+    "sources": [
+     "prof-icici-bank-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Metro and state capitals, plus semi-urban branches",
+    "basis": "stated",
+    "reason": "ICICI says iMobile usage is concentrated in major metros and state capitals; 51% of branches are rural/semi-urban.",
+    "sources": [
+     "prof-icici-bank-1",
+     "prof-icici-bank-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried, plus SMEs on InstaBIZ",
+    "basis": "inferred",
+    "reason": "Demand for credit cards, personal loans and auto loans suggests salaried users; over a million InstaBIZ business customers.",
+    "sources": [
+     "prof-icici-bank-1",
+     "prof-icici-bank-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle to affluent",
+    "basis": "inferred",
+    "reason": "Popular products include credit card upgrades, NPS and mutual funds, which skew to middle and higher earners.",
+    "sources": [
+     "prof-icici-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70%",
+    "basis": "inferred",
+    "reason": "Based on NPCI estimate that women are ~25% of payment users; ICICI also reaches 9M+ women via SHGs.",
+    "sources": [
+     "prof-icici-bank-1",
+     "prof-icici-bank-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "iMobile also has 1 crore+ users from other banks, so app users are wider than account holders."
+  ],
+  "sources": [
+   {
+    "id": "prof-icici-bank-1",
+    "url": "https://www.icici.bank.in/ms/aboutus/annual-reports/2021-22/AR/icici-bank-at-a-glance.html",
+    "title": "ICICI Bank at a glance, Annual Report 2021-22",
+    "publisher": "ICICI Bank",
+    "checked": "2026-11-09",
+    "supports": "'51% of the Bank's branches are in rural and semi-urban areas'; 1M+ active InstaBIZ customers; 9M+ women reached through SHGs."
+   },
+   {
+    "id": "prof-icici-bank-2",
+    "url": "https://www.icici.bank.in/about-us/news-room/2024/press-release-icici-banks-imobile-is-used-by-one-crore-customers-from-other-banks",
+    "title": "ICICI Bank's iMobile is used by over one crore customers from other banks",
+    "publisher": "ICICI Bank",
+    "checked": "2026-11-09",
+    "supports": "Usage is concentrated in major metros and state capitals; popular products include credit cards, personal loans, NPS and mutual funds."
+   },
+   {
+    "id": "prof-icici-bank-3",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "IDFC FIRST Bank": {
+  "headline": "Middle-class consumers and micro-entrepreneurs across urban and rural India, 35M customers, many first-time borrowers",
+  "tags": [
+   "middle_income",
+   "borrowers",
+   "self_employed",
+   "tier2_3",
+   "women"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–45",
+    "basis": "inferred",
+    "reason": "Lending mix of consumer durable loans, two-wheeler and small business loans fits working-age adults; no age data found.",
+    "sources": [
+     "prof-idfc-first-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Spread across urban, small towns and villages",
+    "basis": "stated",
+    "reason": "Bank reaches 'over 60,000 cities, towns, and villages' through 1,041 branches with a dedicated rural book.",
+    "sources": [
+     "prof-idfc-first-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Salaried middle class plus small entrepreneurs",
+    "basis": "stated",
+    "reason": "Finances 7.5M 'lifestyle improvement loans' for the middle class and small entrepreneurs with ₹1 lakh–₹1–2 crore loans.",
+    "sources": [
+     "prof-idfc-first-bank-1",
+     "prof-idfc-first-bank-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower-middle to middle",
+    "basis": "inferred",
+    "reason": "Products like laptop/fridge EMI loans, cattle loans with ₹2–3 lakh tickets point to the emerging middle class rather than affluent.",
+    "sources": [
+     "prof-idfc-first-bank-1",
+     "prof-idfc-first-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Male-skewed overall, sizeable women borrower base",
+    "basis": "stated",
+    "reason": "Reports 3.6M women entrepreneurs financed; overall still male-heavy per NPCI's ~25% women payment users estimate.",
+    "sources": [
+     "prof-idfc-first-bank-1",
+     "prof-idfc-first-bank-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "Customer counts cover all products, not just app users."
+  ],
+  "sources": [
+   {
+    "id": "prof-idfc-first-bank-1",
+    "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/financial-results/Press_Release_Q2FY26.pdf",
+    "title": "IDFC FIRST Bank Q2 FY26 press release",
+    "publisher": "IDFC FIRST Bank",
+    "checked": "2026-11-09",
+    "supports": "'Serves 35 million customers', reaches 60,000+ cities, towns and villages; 7.5M lifestyle loans for the 'middle class', 2M cattle loans, 3.6M women entrepreneurs."
+   },
+   {
+    "id": "prof-idfc-first-bank-2",
+    "url": "https://businesstoday.in/interactive/photo-essay/when-you-re-lending-you-have-to-be-very-conscious-of-risk-idfc-first-banks-boss-v-vaidyanathan-on-indian-economy-banking-regulations-and-more-149-16-01-2024",
+    "title": "V Vaidyanathan on Indian economy and banking",
+    "publisher": "Business Today",
+    "checked": "2026-11-09",
+    "supports": "'We typically finance small entrepreneurs... between Rs 1 lakh to maybe Rs 1-2 crore'; rural loans 'typical ticket size... Rs 2-3 lakh'."
+   },
+   {
+    "id": "prof-idfc-first-bank-3",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "Yes Bank": {
+  "headline": "Mostly merchants paid through fintech apps on Yes Bank rails, plus urban salaried account holders on its IRIS app",
+  "tags": [
+   "merchants",
+   "metro",
+   "salaried",
+   "middle_income",
+   "businesses"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Mostly 25–45",
+    "basis": "inferred",
+    "reason": "Own-app retail users are urban working adults; no age data was found, so this is weak.",
+    "sources": [
+     "prof-yes-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Mainly metro and urban",
+    "basis": "inferred",
+    "reason": "A mid-size private bank with digitally sourced accounts (92% of savings accounts digital); no geographic split found.",
+    "sources": [
+     "prof-yes-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Merchants and businesses, plus salaried",
+    "basis": "stated",
+    "reason": "Yes Bank holds 55.3% share as UPI payee PSP, i.e. it mostly serves the receiving merchant side.",
+    "sources": [
+     "prof-yes-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Middle income retail; small merchants",
+    "basis": "inferred",
+    "reason": "Retail products and AePS network of 7.9 lakh outlets suggest middle-income retail plus small shops; weak evidence.",
+    "sources": [
+     "prof-yes-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male, about 70–75%",
+    "basis": "inferred",
+    "reason": "No bank data; based on NPCI estimate that women are ~25% of payment users.",
+    "sources": [
+     "prof-yes-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "Most volume is B2C via fintech partners, so the app row reflects merchants more than Yes Bank account holders."
+  ],
+  "sources": [
+   {
+    "id": "prof-yes-bank-1",
+    "url": "https://smestreet.in/banking/yes-bank-leads-upi-with-553-share-as-payee-psp-in-q1-fy26-9666691",
+    "title": "YES BANK leads UPI with 55.3% share as payee PSP in Q1 FY26",
+    "publisher": "SMEStreet",
+    "checked": "2026-11-09",
+    "supports": "'55.3% market share as a payee PSP' and 33.3% as payer PSP; 92% of savings accounts delivered digitally; AePS network of 7.9 lakh outlets."
+   },
+   {
+    "id": "prof-yes-bank-2",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "State Bank of India": {
+  "headline": "Mass-market India of 50 crore customers, heavily semi-urban and rural, salaried government staff to farmers and pensioners",
+  "tags": [
+   "older_adults",
+   "tier2_3",
+   "rural",
+   "salaried",
+   "low_income",
+   "middle_income"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Wide; skews 30–60",
+    "basis": "inferred",
+    "reason": "Huge legacy base incl. pensioners and inclusion accounts; only ~19% use YONO, suggesting older, less digital customers.",
+    "sources": [
+     "prof-state-bank-of-india-1",
+     "prof-state-bank-of-india-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Majority semi-urban and rural",
+    "basis": "inferred",
+    "reason": "As a public sector bank with 22,000+ branches and many financial-inclusion accounts, most customers sit outside metros; no current split found.",
+    "sources": [
+     "prof-state-bank-of-india-2"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Govt/salaried staff, farmers, pensioners, small traders",
+    "basis": "inferred",
+    "reason": "Inferred from SBI's role as government banker and mass branch network; weakly sourced.",
+    "sources": [
+     "prof-state-bank-of-india-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Lower to middle income",
+    "basis": "inferred",
+    "reason": "Many accounts 'opened for financial inclusion' are dormant or low-balance, pointing to a large lower-income base.",
+    "sources": [
+     "prof-state-bank-of-india-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Skews male among app users, about 70%",
+    "basis": "inferred",
+    "reason": "Based on NPCI estimate that women are ~25% of payment users, fewer in rural areas.",
+    "sources": [
+     "prof-state-bank-of-india-3"
+    ]
+   }
+  ],
+  "caveats": [
+   "YONO users (~9.6 crore) are younger and more urban than SBI's overall base."
+  ],
+  "sources": [
+   {
+    "id": "prof-state-bank-of-india-1",
+    "url": "https://www.theweek.in/wire-updates/business/2025/12/15/dcm101-biz-sbi-digital-banking.html",
+    "title": "SBI launches Yono 2.0, hiring 10,000 staff to help customers migrate to digital",
+    "publisher": "The Week (PTI wire)",
+    "checked": "2026-11-09",
+    "supports": "SBI has 'over 50 crore customers', of whom about 9.60 crore use YONO; target 20 crore users."
+   },
+   {
+    "id": "prof-state-bank-of-india-2",
+    "url": "https://www.freepressjournal.in/business/sbi-earns-record-92-bn-profit-small-digital-user-base-drives-big-gains",
+    "title": "SBI earns record $9.2 bn profit, small digital user base drives big gains",
+    "publisher": "Free Press Journal",
+    "checked": "2026-11-09",
+    "supports": "SBI serves 'over 500 million accounts'; many were opened for financial inclusion and are now dormant or low-balance."
+   },
+   {
+    "id": "prof-state-bank-of-india-3",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "Unity Small Finance Bank": {
+  "headline": "Small business owners and microfinance borrowers, plus rate-seeking FD savers, centred on Maharashtra",
+  "tags": [
+   "self_employed",
+   "borrowers",
+   "low_income",
+   "older_adults",
+   "tier2_3"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Borrowers 25–50; depositors skew 45+",
+    "basis": "inferred",
+    "reason": "High FD rates are its key draw and it inherited PMC Bank's legacy depositors, who tend to be older savers.",
+    "sources": [
+     "prof-unity-small-finance-bank-1"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "Maharashtra-led, tier-2/3 and semi-urban",
+    "basis": "stated",
+    "reason": "291 branches across 21 states/UTs with Maharashtra the core territory at 25% of branches.",
+    "sources": [
+     "prof-unity-small-finance-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "MSME owners and microfinance borrowers",
+    "basis": "stated",
+    "reason": "Loan book is 43% MSME and 29% microfinance.",
+    "sources": [
+     "prof-unity-small-finance-bank-1"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low to lower-middle borrowers",
+    "basis": "inferred",
+    "reason": "Microfinance and small MSME tickets, with stress from 'rising borrower indebtedness', point to lower-income borrowers.",
+    "sources": [
+     "prof-unity-small-finance-bank-1"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "Microfinance women-heavy; overall mixed",
+    "basis": "inferred",
+    "reason": "Indian microfinance lends mostly to women via JLGs, but CRISIL gives no gender split; app users likely male-skewed per NPCI.",
+    "sources": [
+     "prof-unity-small-finance-bank-1",
+     "prof-unity-small-finance-bank-2"
+    ]
+   }
+  ],
+  "caveats": [
+   "UPI volume is almost all B2C, so app users may be merchants rather than retail customers."
+  ],
+  "sources": [
+   {
+    "id": "prof-unity-small-finance-bank-1",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/UnitySmallFinanceBankLimited_July%2031_%202026_RR_400981.html",
+    "title": "Unity Small Finance Bank rating rationale, July 2026",
+    "publisher": "CRISIL Ratings",
+    "checked": "2026-11-09",
+    "supports": "AUM is 43% MSME and 29% microfinance; 291 branches in 21 states/UTs, Maharashtra 25%; CASA and retail TDs 86% of deposits; 'rising borrower indebtedness'."
+   },
+   {
+    "id": "prof-unity-small-finance-bank-2",
+    "url": "https://www.orfonline.org/expert-speak/bridging-the-gender-gap-in-upi-adoption",
+    "title": "Bridging the gender gap in UPI adoption",
+    "publisher": "Observer Research Foundation",
+    "checked": "2026-11-09",
+    "supports": "Cites NPCI saying 'only 25% of payment users' are women and Google Pay saying under 30%, with the gap wider in semi-urban and rural areas."
+   }
+  ]
+ },
+ "India Post Payments Bank": {
+  "headline": "Rural, low-income households, about half women, receiving DBT and pensions through post office doorstep banking",
+  "tags": [
+   "rural",
+   "low_income",
+   "women",
+   "older_adults",
+   "tier2_3"
+  ],
+  "dimensions": [
+   {
+    "key": "age",
+    "value": "Wide; many 30–60 plus pensioners",
+    "basis": "inferred",
+    "reason": "MicroSave cases include homemakers and migrant workers in their 30s and many senior citizen pensioners.",
+    "sources": [
+     "prof-india-post-payments-bank-2"
+    ]
+   },
+   {
+    "key": "location",
+    "value": "~77% rural",
+    "basis": "stated",
+    "reason": "IPPB says '77% customers from rural areas' out of 13.25 crore.",
+    "sources": [
+     "prof-india-post-payments-bank-1"
+    ]
+   },
+   {
+    "key": "employment",
+    "value": "Homemakers, labourers, farmers, pensioners",
+    "basis": "stated",
+    "reason": "MicroSave describes homemakers, construction and migrant workers and retired pensioners as typical customers.",
+    "sources": [
+     "prof-india-post-payments-bank-2"
+    ]
+   },
+   {
+    "key": "income",
+    "value": "Low income",
+    "basis": "stated",
+    "reason": "Serves low- and moderate-income groups others find 'not lucrative enough'; 6.5 crore DBT beneficiaries.",
+    "sources": [
+     "prof-india-post-payments-bank-1",
+     "prof-india-post-payments-bank-2"
+    ]
+   },
+   {
+    "key": "gender",
+    "value": "About 49% women",
+    "basis": "stated",
+    "reason": "49% of IPPB customers are women.",
+    "sources": [
+     "prof-india-post-payments-bank-1"
+    ]
+   }
+  ],
+  "caveats": [
+   "App users are a small, likely younger and more male slice of the doorstep-banking base."
+  ],
+  "sources": [
+   {
+    "id": "prof-india-post-payments-bank-1",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/9th-foundation-day-of-india-post-payments-bank-ippb/print_manually",
+    "title": "9th Foundation Day of India Post Payments Bank (IPPB)",
+    "publisher": "Drishti IAS",
+    "checked": "2026-11-09",
+    "supports": "IPPB has 13.25 crore customers, '77% customers from rural areas' and 49% women; 6.5 crore DBT beneficiaries."
+   },
+   {
+    "id": "prof-india-post-payments-bank-2",
+    "url": "https://www.microsave.net/india-post-payments-bank-overcoming-distance-and-distrust-amongst-the-unbanked/",
+    "title": "India Post Payments Bank: overcoming distance and distrust amongst the unbanked",
+    "publisher": "MicroSave Consulting",
+    "checked": "2026-11-09",
+    "supports": "Customers are low-income homemakers, migrant workers and pensioners in 'remote, rural areas'."
+   }
+  ]
+ }
+}

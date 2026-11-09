@@ -1,0 +1,232 @@
+{
+  "KreditBee": {
+    "summary": "Personal loans from lending partners, plus UPI transfers and merchant payments.",
+    "summarySources": ["faq", "upi"],
+    "requirements": [
+      {
+        "label": "Salaried personal loan",
+        "text": "Indian citizens above 21 in regular or permanent employment, with three months at their current company, salary of at least ₹10,000/month and household income above ₹25,000/month. PAN, a photo, address and employment proof, salary bank statements, an Aadhaar-linked mobile number and credit assessment are required.",
+        "sources": ["salaried"]
+      },
+      {
+        "label": "Other personal loans",
+        "text": "Age rules conflict: 18+ with no upper limit in the FAQ, versus 21–60 in the general loan calculator. The calculator also requires monthly income of at least ₹10,000.",
+        "sources": ["faq", "calculator"]
+      },
+      {
+        "label": "UPI",
+        "text": "Verify your mobile number, link a bank account and set a UPI PIN.",
+        "sources": ["upi"]
+      }
+    ],
+    "notes": [
+      "Confirm the age rule for your chosen loan before applying.",
+      "UPI minimum age not confirmed."
+    ]
+  },
+  "RapiPay": {
+    "summary": "Retailer outlets provide assisted cash withdrawals, money transfers, bill payments and other financial services.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Retailer agent",
+        "text": "Apply with a mobile number and use a smartphone or computer. Identity and address details and photographs must be verified and approved before activation.",
+        "sources": ["product", "kyc"]
+      },
+      {
+        "label": "Joining under an existing agent",
+        "text": "Provide PAN, address proof and a live photograph holding your identity documents. RapiPay must approve the request.",
+        "sources": ["kyc"]
+      }
+    ],
+    "notes": [
+      "Minimum agent age, joining fees and required operating balance not confirmed.",
+      "Confirm the current document checklist and equipment needed for each service when joining."
+    ]
+  },
+  "Spice Money": {
+    "summary": "Shop-based Adhikari outlets offer assisted withdrawals, transfers, bill payments, recharges and other financial services.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Adhikari agent",
+        "text": "Register with a mobile number and provide your shop address, PAN, Aadhaar and bank details. A representative visits to verify your shop and KYC details; approval is required before agent credentials are issued.",
+        "sources": ["product"]
+      }
+    ],
+    "notes": [
+      "Minimum agent age, joining fees and required operating balance not confirmed.",
+      "Equipment and customer requirements vary by service."
+    ]
+  },
+  "Saathi by PayNearby": {
+    "summary": "UPI payments, bills, recharges and mutual-fund investing, with optional help from nearby retailers.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "App registration",
+        "text": "Allow SMS access for device verification during registration.",
+        "sources": ["product"]
+      },
+      {
+        "label": "Identity verification",
+        "text": "Identity documents may be requested for verification or e-KYC.",
+        "sources": ["privacy"]
+      },
+      {
+        "label": "Mutual funds",
+        "text": "Investments start at ₹100.",
+        "sources": ["product"]
+      }
+    ],
+    "notes": [
+      "UPI minimum age, residency, eligible accounts and bank-linking steps not confirmed.",
+      "Mutual-fund provider, investor eligibility and KYC steps not confirmed."
+    ]
+  },
+  "Dhani": {
+    "summary": "Short-term personal loans for salaried applicants.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Salaried personal loan",
+        "text": "Indian citizens aged 21–58, with salary paid into a bank account, PAN linked to Aadhaar and an Aadhaar-linked mobile number. PAN-based identity and credit checks, Aadhaar OTP e-KYC, a bank statement, an in-app selfie and lender approval are required.",
+        "sources": ["product"]
+      }
+    ],
+    "notes": [
+      "Minimum salary and credit-score cutoff not confirmed."
+    ]
+  },
+  "Fave": {
+    "summary": "UPI payments with shared expense tracking, bill splitting and a household bill calendar.",
+    "summarySources": ["product", "website"],
+    "requirements": [],
+    "notes": [
+      "UPI joining requirements not confirmed."
+    ]
+  },
+  "True Balance": {
+    "summary": "Personal loans from lending partners, plus UPI-enabled wallet transfers and merchant payments.",
+    "summarySources": ["personal", "app"],
+    "requirements": [
+      {
+        "label": "Personal loan",
+        "text": "Indian citizens aged 18+ need identity and address proof, PAN, Aadhaar and KYC. The initial eligibility check uses a soft credit enquiry; formal applications include a credit check.",
+        "sources": ["personal"]
+      },
+      {
+        "label": "Cash Loan",
+        "text": "Register a phone number, complete KYC, provide bank statements and bank details, and set up auto-debit. Approval depends on the lender's assessment.",
+        "sources": ["cash", "loan-help"]
+      },
+      {
+        "label": "Repeat borrowing",
+        "text": "One active loan at a time. You can apply again after repayment, subject to lender approval.",
+        "sources": ["loan-help"]
+      }
+    ],
+    "notes": [
+      "Upper age limits, minimum income and credit-score cutoffs for each loan not confirmed.",
+      "Level Up Loan eligibility not confirmed.",
+      "UPI and wallet joining requirements, including KYC levels, not confirmed."
+    ]
+  },
+  "Payworld": {
+    "summary": "Retailers provide assisted cash withdrawals, transfers, bill payments, recharges and travel bookings.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Retailer account",
+        "text": "18+ and legally able to enter a binding contract. Register with a mobile number, email and pincode, verify mobile and email OTPs, and give the required consent; additional service-provider terms apply.",
+        "sources": ["terms", "signup"]
+      }
+    ],
+    "notes": [
+      "KYC documents, activation steps, fees and required operating balance not confirmed.",
+      "Equipment and authorisation requirements for individual services need confirmation."
+    ]
+  },
+  "Snapmint": {
+    "summary": "Cardless EMI shopping, plus UPI for eligible users and personal loans for premium customers.",
+    "summarySources": ["product"],
+    "requirements": [
+      {
+        "label": "Purchase limit / EMI loan",
+        "text": "18+, legally able to contract and meeting the lender's insolvency and other contractual conditions. Financing needs approval, KYC, verification and a repayment mandate; PAN, Aadhaar and phone details may be requested.",
+        "sources": ["purchase-limit", "terms"]
+      },
+      {
+        "label": "Personal loan",
+        "text": "Available to premium customers.",
+        "sources": ["product"]
+      }
+    ],
+    "notes": [
+      "Minimum income, credit-score cutoffs, credit limits and premium-customer criteria not confirmed.",
+      "UPI age and account requirements not confirmed.",
+      "Fees and interest depend on the offer; a no-cost EMI label does not cover every purchase or loan."
+    ]
+  },
+  "ZET": {
+    "summary": "Bank-issued credit cards backed by fixed deposits, including the SBM ZET card.",
+    "summarySources": ["product", "issuer"],
+    "requirements": [
+      {
+        "label": "SBM ZET credit card",
+        "text": "Create an eligible FD in your sole name through ZET, complete video KYC and receive bank approval; the bank places a lien on the deposit before card activation. No prior credit history or income proof is needed.",
+        "sources": ["sbm-product", "issuer"]
+      },
+      {
+        "label": "SBM ZET card deposit",
+        "text": "Minimum FD amounts conflict: ₹2,000 on ZET's product page and ₹5,000 in SBM's card agreement. Confirm the amount in your offer before depositing.",
+        "sources": ["sbm-product", "issuer"]
+      }
+    ],
+    "notes": [
+      "Card-specific age and residency limits not confirmed.",
+      "IOB and DCB card requirements not confirmed."
+    ]
+  },
+  "Navi": {
+    "summary": "UPI payments, loans, mutual funds and insurance through separate service providers.",
+    "summarySources": ["upi", "app-terms", "cash-terms"],
+    "requirements": [
+      {
+        "label": "Navi account",
+        "text": "You must be legally able to contract. Create a profile with a phone number verified by OTP.",
+        "sources": ["app-terms"]
+      },
+      {
+        "label": "Bank-account UPI",
+        "text": "India residents need an active account with a participating bank, linked to their mobile number. Registration sends an SMS from the device; the linked SIM must stay active.",
+        "sources": ["app-terms"]
+      },
+      {
+        "label": "Finserv personal loan",
+        "text": "Annual household income above ₹3,00,000 and legal capacity to contract; household includes spouses and unmarried adult children. Requested information and documents, approved KYC, bank verification and lender credit approval are required.",
+        "sources": ["cash-terms"]
+      },
+      {
+        "label": "Navi Trezo credit line on UPI",
+        "text": "Annual household income above ₹1,20,000 and legal capacity to contract. Partner lenders carry out KYC and decide credit approval.",
+        "sources": ["clou-terms"]
+      },
+      {
+        "label": "Mutual funds",
+        "text": "Provide requested investor details and documents, including PAN and Aadhaar, and meet KYC/CKYC requirements. Each scheme's terms also apply.",
+        "sources": ["app-terms"]
+      },
+      {
+        "label": "Insurance",
+        "text": "Indian nationals who can legally contract and are not politically exposed. Acceptance depends on the insurer and policy terms.",
+        "sources": ["app-terms"]
+      }
+    ],
+    "notes": [
+      "Loan age limits, minimum personal salary and credit-score cutoffs not confirmed.",
+      "Insurance age limits and scheme-specific investment limits not confirmed.",
+      "Trezo requirements may differ by offer; check your lender's terms."
+    ]
+  }
+}

@@ -1,0 +1,1026 @@
+{
+  "PhonePe": {
+    "sources": [
+      {
+        "id": "demo-phonepe-pulse-q2-2026",
+        "url": "https://www.phonepe.com/pulse/reports/2026/2/",
+        "title": "PhonePe Pulse — Q2 2026 report",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "Q2 2026 spotlight identifies 66.0% of registered users and 60.7% of registered merchants as Tier 2 and beyond; the two populations are separate."
+      },
+      {
+        "id": "demo-phonepe-pulse-q2-2026-data",
+        "url": "https://www.phonepe.com/pulsestatic/get-production/report/spotlight/india/2026/2.json",
+        "title": "PhonePe Pulse — Q2 2026 spotlight data",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "Official report data: usersFromTier2AndBeyond 65.9754575639922%; merchantsFromTier2AndBeyond 60.682860404946545%. The report displays one decimal place."
+      },
+      {
+        "id": "demo-phonepe-pulse-definitions",
+        "url": "https://www.phonepe.com/pulse/metric-definitions/",
+        "title": "PhonePe Pulse — Metric definitions",
+        "publisher": "PhonePe",
+        "checked": "2026-11-09",
+        "supports": "Registered users are cumulative unique PhonePe Group sign-ups; Tier 2+ means outside Tier 1 under RBI classification and 2011 Census data, not a rural classification. Merchants are cumulative onboarded merchants."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "location",
+        "kind": "reported",
+        "value": "Tier 2+ — registered users",
+        "text": "66.0% in Tier 2 and beyond.",
+        "sources": [
+          "demo-phonepe-pulse-q2-2026",
+          "demo-phonepe-pulse-q2-2026-data",
+          "demo-phonepe-pulse-definitions"
+        ],
+        "tags": [],
+        "period": "Q2 2026 (April–June 2026)",
+        "population": "Cumulative unique registered users of PhonePe Group; not monthly active app users",
+        "measure": "Share of registered users located outside Tier 1 under the stated RBI/Census classification"
+      },
+      {
+        "dimension": "location",
+        "kind": "reported",
+        "value": "Tier 2+ — registered merchants",
+        "text": "60.7% in Tier 2 and beyond.",
+        "sources": [
+          "demo-phonepe-pulse-q2-2026",
+          "demo-phonepe-pulse-q2-2026-data",
+          "demo-phonepe-pulse-definitions"
+        ],
+        "tags": [
+          "businesses"
+        ],
+        "period": "Q2 2026 (April–June 2026)",
+        "population": "Cumulative onboarded PhonePe merchants; separate from individual registered users",
+        "measure": "Share of registered merchants located outside Tier 1 under the stated RBI/Census classification"
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — PhonePe platform",
+        "text": "General platform terms require users to be at least 18 and able to enter a legal agreement.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Google Pay": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "audience",
+        "value": "13–17 — teen experience",
+        "text": "Google Pay offers a dedicated experience for users under 18, with restricted content and an upgrade to the full experience at 18.",
+        "sources": [
+          "teens"
+        ],
+        "tags": [
+          "minors"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "13+ — Google Pay India",
+        "text": "India terms set a minimum age of 13; users under 18 need permission from a parent or legal guardian.",
+        "sources": [
+          "terms",
+          "teens"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "India — teen experience",
+        "text": "The teen experience requires residence in India and an Indian mobile number.",
+        "sources": [
+          "teens"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Paytm": {
+    "sources": [
+      {
+        "id": "demo-paytm-pocket-money",
+        "url": "https://paytm.com/blog/payments/best-payment-app-for-teens-how-paytm-pocket-money-is-changing-the-way-teenagers-pay-in-india/",
+        "title": "Best Payment App for Teens: How Paytm Pocket Money is Changing the Way Teenagers Pay in India",
+        "publisher": "Paytm",
+        "checked": "2026-11-09",
+        "supports": "Official article dated 29 September 2026 advertises Pocket Money to teenagers and parents, using UPI Circle with parent-controlled spending."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "audience",
+        "value": "Teenagers — Pocket Money",
+        "text": "Paytm markets Pocket Money to teenagers, with spending limits and payment access controlled by a parent or trusted family member.",
+        "sources": [
+          "demo-paytm-pocket-money"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Parents and trusted family members",
+        "text": "Pocket Money lets parents and trusted family members invite teenagers, manage allowances and review payments.",
+        "sources": [
+          "demo-paytm-pocket-money"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — general platform terms",
+        "text": "Paytm’s general terms require age 18 or older; Pocket Money is advertised separately as a supervised teen feature.",
+        "sources": [
+          "terms",
+          "demo-paytm-pocket-money"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "super.money": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Under 18 — supervised platform access",
+        "text": "Minors may access the platform with a parent’s permission and supervision; the terms say parents or guardians must make their transactions.",
+        "sources": [
+          "upi"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "BHIM": {
+    "sources": [],
+    "items": []
+  },
+  "FamApp by Trio": {
+    "sources": [],
+    "items": []
+  },
+  "WhatsApp": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — WhatsApp Pay India",
+        "text": "India payments terms require users to be at least 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "CRED": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21+ — new membership",
+        "text": "CRED terms require age 21+ for users joining from 1 October 2023; earlier members had to be 18+ when joining.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — CRED–IndusInd card",
+        "text": "The co-branded card’s application terms require age 18+, existing CRED use and the bank’s approval criteria.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ],
+    "excludedItems": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Credit-card holders",
+        "text": "CRED markets card-bill management and rewards to credit-card holders.",
+        "sources": [
+          "about"
+        ],
+        "tags": [],
+        "reason": "Credit-card use is a financial-product segment, not a demographic or individual/business user type."
+      }
+    ]
+  },
+  "Amazon Pay": {
+    "sources": [],
+    "items": []
+  },
+  "MobiKwik": {
+    "sources": [
+      {
+        "id": "demo-mobikwik-annual-report-2026",
+        "url": "https://documents.mobikwik.com/files/investor-relations/meetings/agm-2026/Annual-Report-FY-25-26.pdf",
+        "title": "One MobiKwik Systems Limited — Annual Report 2025–26",
+        "publisher": "One MobiKwik Systems Limited",
+        "checked": "2026-11-09",
+        "supports": "BRSR printed page 91 describes urban consumers, first-time rural users and small merchants; printed page 30 states an offline merchant strategy targeting Tier 2/3 India."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "location",
+        "kind": "reported",
+        "value": "Rural and urban — shares not given",
+        "text": "Users in both rural and urban areas; shares not given.",
+        "sources": [
+          "demo-mobikwik-annual-report-2026"
+        ],
+        "tags": [
+          "rural",
+          "urban"
+        ],
+        "period": "FY2025–26 (year ended 31 March 2026)",
+        "population": "MobiKwik platform users described in the company’s BRSR",
+        "measure": "Qualitative customer description"
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Small businesses and merchants",
+        "text": "MobiKwik describes serving kirana stores, street vendors and online sellers with payment tools.",
+        "sources": [
+          "demo-mobikwik-annual-report-2026"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "location",
+        "kind": "audience",
+        "value": "Tier 2 and Tier 3 — offline merchants",
+        "text": "MobiKwik’s offline merchant strategy explicitly targets Tier 2 and Tier 3 India.",
+        "sources": [
+          "demo-mobikwik-annual-report-2026"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — prepaid wallet",
+        "text": "The prepaid-wallet terms require users to be at least 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Groww": {
+    "sources": [
+      {
+        "id": "demo-groww-impact-2026",
+        "url": "https://groww.in/investor-relations/impact",
+        "title": "Impact & Culture — Investor Relations",
+        "publisher": "Groww",
+        "checked": "2026-11-09",
+        "supports": "Live page and its embedded page data give September 2026 transacting-user, women, age-cohort, city-tier and farmer figures. These are platform investment-user measures, not Groww Pay-only demographics."
+      },
+      {
+        "id": "demo-groww-prospectus-2025",
+        "url": "https://resources.groww.in/web-assets/media-library/2025/11/Prospectus.pdf#page=220",
+        "title": "Billionbrains Garage Ventures Limited — Prospectus, November 2025 — pp. 215–216 (PDF pages 220–221)",
+        "publisher": "Billionbrains Garage Ventures Limited (Groww)",
+        "checked": "2026-11-09",
+        "supports": "Printed page 215 reports June 2025 active-user age shares and median age. Active Users are transacting users who transacted in the prior three months or held assets at period end. Active-user ages and median are on printed page 215; the active-user definition continues on page 216."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "Under 35 — new users",
+        "text": "Under 35: 69%.",
+        "sources": [
+          "demo-groww-impact-2026"
+        ],
+        "tags": [],
+        "period": "Three months ended 30 September 2026",
+        "population": "New Transacting Users on Groww; not all registered users or Groww Pay-only users",
+        "measure": "Share of new transacting users below age 35"
+      },
+      {
+        "dimension": "gender",
+        "kind": "reported",
+        "value": "Women — 4.4 million",
+        "text": "4.4 million women transacting users.",
+        "sources": [
+          "demo-groww-impact-2026"
+        ],
+        "tags": [
+          "women"
+        ],
+        "period": "As of 30 September 2026",
+        "population": "Women Transacting Users on the Groww platform",
+        "measure": "Count of women transacting users"
+      },
+      {
+        "dimension": "gender",
+        "kind": "reported",
+        "value": "Women — first-time investors",
+        "text": "First-time investors: 64.4%.",
+        "sources": [
+          "demo-groww-impact-2026"
+        ],
+        "tags": [
+          "women"
+        ],
+        "period": "As of 30 September 2026",
+        "population": "Women investors on Groww; denominator is women investors, not all users",
+        "measure": "Share of women investors who were first-time investors"
+      },
+      {
+        "dimension": "location",
+        "kind": "reported",
+        "value": "Outside the top six cities",
+        "text": "84% outside the top six cities.",
+        "sources": [
+          "demo-groww-impact-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 September 2026",
+        "population": "Groww Transacting Users; not Groww Pay-only users",
+        "measure": "Share of transacting users outside the top six cities"
+      },
+      {
+        "dimension": "location",
+        "kind": "reported",
+        "value": "Tier 2, 3 and 4 — first-time investors",
+        "text": "Over 17.9 million first-time investors in Tier 2, 3 and 4 cities.",
+        "sources": [
+          "demo-groww-impact-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 September 2026",
+        "population": "First-time investors from Tier 2, 3 and 4 cities on Groww",
+        "measure": "Count of first-time investors from the stated city tiers"
+      },
+      {
+        "dimension": "employment",
+        "kind": "reported",
+        "value": "Farmers — first-time investors",
+        "text": "Over 1.1 million first-time investors identified as farmers.",
+        "sources": [
+          "demo-groww-impact-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 September 2026",
+        "population": "First-time investors on Groww identified as farmers",
+        "measure": "Count of farmer first-time investors"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "Under 30 — active users",
+        "text": "Under 30: about 45%.",
+        "sources": [
+          "demo-groww-prospectus-2025"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2025",
+        "population": "Groww Active Users: transacting users who recently transacted or held assets; not Groww Pay-only users",
+        "measure": "Share of active users younger than 30"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "31–35 — active users",
+        "text": "Ages 31–35: about 21%.",
+        "sources": [
+          "demo-groww-prospectus-2025"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2025",
+        "population": "Groww Active Users: transacting users who recently transacted or held assets; not Groww Pay-only users",
+        "measure": "Share of active users aged 31–35"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "Median age — about 31",
+        "text": "Median age: about 31.",
+        "sources": [
+          "demo-groww-prospectus-2025"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2025",
+        "population": "Groww Active Users: transacting users who recently transacted or held assets; not Groww Pay-only users",
+        "measure": "Median age in years"
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 — Groww Pay",
+        "text": "The May 2023 Groww Pay terms use the wording above 18 for UPI eligibility.",
+        "sources": [
+          "upi-terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Money View": {
+    "sources": [
+      {
+        "id": "demo-moneyview-prospectus-2026",
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1790674448687.pdf#page=218",
+        "title": "Moneyview Limited — Prospectus dated 28 September 2026 — p. 213 (PDF page 218)",
+        "publisher": "Moneyview Limited / Securities and Exchange Board of India",
+        "checked": "2026-11-09",
+        "supports": "Printed pages 208–213 define monetized users and show the personal-loan user profile as of 30 June 2026: age groups, average age, city tier and employment. Employment and age groups use details at disbursal. The profile chart and its denominator notes are on printed page 213."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "Average age — 32",
+        "text": "Average age: 32.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Mean age in years, rounded to the nearest year"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "21–24 — loan users",
+        "text": "Ages 21–24: 9.43%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share by age at loan disbursal; source labels retained"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "25–35 — loan users",
+        "text": "Ages 25–35: 56.83%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share by age at loan disbursal; source labels retained"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "36–45 — loan users",
+        "text": "Ages 36–45: 25.37%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share by age at loan disbursal; source labels retained"
+      },
+      {
+        "dimension": "age",
+        "kind": "reported",
+        "value": "45+ — loan users",
+        "text": "Ages 45+: 8.37%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share by age at loan disbursal; source labels retained"
+      },
+      {
+        "dimension": "location",
+        "kind": "reported",
+        "value": "Tier 2+ — loan users",
+        "text": "Tier 2 and beyond: 79.54%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share living in cities with fewer than one million people, per the prospectus definition"
+      },
+      {
+        "dimension": "employment",
+        "kind": "reported",
+        "value": "Salaried — loan users",
+        "text": "Salaried: 67.43%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [
+          "salaried"
+        ],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share classified as salaried at loan disbursal"
+      },
+      {
+        "dimension": "employment",
+        "kind": "reported",
+        "value": "Self-employed — loan users",
+        "text": "Self-employed: 32.57%.",
+        "sources": [
+          "demo-moneyview-prospectus-2026"
+        ],
+        "tags": [
+          "self_employed"
+        ],
+        "period": "As of 30 June 2026",
+        "population": "Moneyview monetized personal-loan users profiled in the prospectus; not all app or UPI users",
+        "measure": "Share classified as self-employed at loan disbursal"
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21–57 — personal loans",
+        "text": "The personal-loan FAQ lists an age range of 21–57.",
+        "sources": [
+          "loans"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "employment",
+        "kind": "eligibility",
+        "value": "Salaried or self-employed — personal loans",
+        "text": "Personal-loan applicants must be salaried or self-employed and meet the separate income and lending criteria.",
+        "sources": [
+          "loans"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "INDmoney": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — own platform account",
+        "text": "Platform terms require users to be at least 18; an authorised guardian may register for a minor.",
+        "sources": [
+          "platform"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Under 18 — guardian registration",
+        "text": "A guardian can register on a minor’s behalf; minors cannot independently open and operate the advertised demat account.",
+        "sources": [
+          "platform",
+          "demat"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Digikhata": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Kiosk and merchant partners",
+        "text": "Digi Khata advertises separate Digi Kiosk and Digi Vyapaar services for business partners.",
+        "sources": [
+          "product",
+          "faq"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ / over 18 — prepaid account",
+        "text": "The issuer’s terms say at least 18; the Digi Khata FAQ says above 18.",
+        "sources": [
+          "issuer-terms",
+          "faq"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Aditya Birla Capital Digital": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — platform registration",
+        "text": "General platform terms require age 18+; payment terms separately mention over 18 or use with a parent’s permission and supervision.",
+        "sources": [
+          "terms",
+          "upi-terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Indian residents — platform registration",
+        "text": "General platform registration is limited to Indian residents.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Shriram One": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Salaried — personal loans",
+        "text": "Shriram advertises personal loans for salaried applicants through its website and Shriram One.",
+        "sources": [
+          "personal-loan"
+        ],
+        "tags": [
+          "salaried"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Self-employed — business loans",
+        "text": "Shriram directs self-employed applicants to business loans; personal loans for this group require a pre-approved existing relationship.",
+        "sources": [
+          "personal-loan"
+        ],
+        "tags": [
+          "self_employed"
+        ]
+      },
+      {
+        "dimension": "gender",
+        "kind": "audience",
+        "value": "Women — personal loans",
+        "text": "The personal-loan page explicitly advertises loans for women and lists Shriram One as an application route.",
+        "sources": [
+          "personal-loan"
+        ],
+        "tags": [
+          "women"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "21 at application; up to 60 at closure",
+        "text": "Personal-loan applicants must be at least 21 when applying and no older than 60 when the loan closes.",
+        "sources": [
+          "personal-loan"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Jar": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Adults or guardian consent — digital gold",
+        "text": "Digital-gold terms use above 18 and contractual-capacity rules, while also allowing a parent or guardian to consent to a child’s registration.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Tata Pay": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — Tata Pay account",
+        "text": "Tata Pay account terms require users to be at least 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "location",
+        "kind": "eligibility",
+        "value": "Indian residents — Tata Pay account",
+        "text": "Tata Pay account terms require Indian residency.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Obopay": {
+    "sources": [
+      {
+        "id": "demo-obopay-business-platform",
+        "url": "https://www.obopay.com/",
+        "title": "OBOPAY — Mobile Money Platform and Business Solutions",
+        "publisher": "Obopay",
+        "checked": "2026-11-09",
+        "supports": "The official homepage explicitly markets its payment platform and white-label wallet programmes to businesses and service providers; this is provider-level audience evidence."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses and service providers",
+        "text": "Obopay markets payment platforms and wallet programmes to businesses and service providers.",
+        "sources": [
+          "demo-obopay-business-platform"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 — consumer wallet FAQ",
+        "text": "The consumer-wallet FAQ specifies users above 18; wallet terms also require the ability to enter a legal agreement.",
+        "sources": [
+          "faq",
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Curie Money": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — mutual-fund services",
+        "text": "Curie’s mutual-fund terms require users to be at least 18.",
+        "sources": [
+          "mf-terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "user_type",
+        "kind": "eligibility",
+        "value": "Mutual-fund holders — investment-funded payments",
+        "text": "Payments funded by mutual-fund redemption require a holding and the investor’s bank account registered with the fund.",
+        "sources": [
+          "mf-terms",
+          "upi-terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "LXME": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "gender",
+        "kind": "audience",
+        "value": "Women",
+        "text": "LXME explicitly markets its investing, payments and financial-learning app to women.",
+        "sources": [
+          "product",
+          "upi-product"
+        ],
+        "tags": [
+          "women"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Over 18 or guardian consent — general services",
+        "text": "General terms require users to be above 18 or have legal parental or guardian consent; individual products have additional conditions.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Unimoni": {
+    "sources": [],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — wallet account",
+        "text": "Wallet terms for accounts opened from 5 February 2026 require users to be at least 18.",
+        "sources": [
+          "wallet-terms"
+        ],
+        "tags": []
+      }
+    ]
+  },
+  "Novio": {
+    "sources": [
+      {
+        "id": "demo-novio-developer-listing",
+        "url": "https://play.google.com/store/apps/details?id=com.novio.customer&hl=en_IN",
+        "title": "novio: UPI Credit Card for All — developer listing",
+        "publisher": "Credilio Financial Technologies Private Limited / Google Play",
+        "checked": "2026-11-09",
+        "supports": "Developer description updated 3 November 2026 explicitly lists students, early earners, freelancers, gig workers and first-time card users as audiences for its FD-backed RuPay cards."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Students — FD-backed cards",
+        "text": "Novio’s developer listing explicitly markets its FD-backed cards to students.",
+        "sources": [
+          "demo-novio-developer-listing"
+        ],
+        "tags": [
+          "students"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Freelancers and gig workers — FD-backed cards",
+        "text": "Novio’s developer listing explicitly names freelancers and gig workers as intended users of its FD-backed cards.",
+        "sources": [
+          "demo-novio-developer-listing"
+        ],
+        "tags": [
+          "self_employed"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Early earners — FD-backed cards",
+        "text": "Novio’s developer listing explicitly includes early earners among its card audiences.",
+        "sources": [
+          "demo-novio-developer-listing"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — app account",
+        "text": "Novio’s general account terms require users to be at least 18.",
+        "sources": [
+          "terms"
+        ],
+        "tags": []
+      }
+    ],
+    "excludedItems": [
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "First-time credit-card users",
+        "text": "Novio’s developer listing explicitly markets its FD-backed RuPay cards to first-time credit-card users.",
+        "sources": [
+          "demo-novio-developer-listing"
+        ],
+        "tags": [],
+        "reason": "Credit-card use is a financial-product segment, not a demographic or individual/business user type."
+      }
+    ]
+  },
+  "LivQuik": {
+    "sources": [
+      {
+        "id": "demo-livquik-prepaid-programmes",
+        "url": "https://www.livquik.com/prepaid/",
+        "title": "LivQuik — Prepaid programmes and expense-management cards",
+        "publisher": "LivQuik Technology (India) Private Limited",
+        "checked": "2026-11-09",
+        "supports": "Official programme page advertises student cards, elderly cards, Khyaal senior-citizen cards and employer expense cards. These audiences concern partner prepaid programmes, not every QuikWallet user."
+      }
+    ],
+    "items": [
+      {
+        "dimension": "age",
+        "kind": "audience",
+        "value": "Older adults — partner card programmes",
+        "text": "LivQuik explicitly advertises senior-citizen and elderly card programmes, including its Khyaal partnership.",
+        "sources": [
+          "demo-livquik-prepaid-programmes"
+        ],
+        "tags": [
+          "older_adults"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Students — partner card programmes",
+        "text": "LivQuik explicitly advertises student-card programmes.",
+        "sources": [
+          "demo-livquik-prepaid-programmes"
+        ],
+        "tags": [
+          "students"
+        ]
+      },
+      {
+        "dimension": "employment",
+        "kind": "audience",
+        "value": "Employees — expense cards",
+        "text": "LivQuik markets prepaid expense cards that let employees use company funds with spending controls.",
+        "sources": [
+          "demo-livquik-prepaid-programmes"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "user_type",
+        "kind": "audience",
+        "value": "Businesses — prepaid programmes",
+        "text": "LivQuik markets prepaid issuance and corporate card-management tools to businesses.",
+        "sources": [
+          "product",
+          "demo-livquik-prepaid-programmes"
+        ],
+        "tags": [
+          "businesses"
+        ]
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "18+ — primary prepaid holder",
+        "text": "LivQuik’s prepaid terms require the primary user to be at least 18.",
+        "sources": [
+          "ppi-terms"
+        ],
+        "tags": []
+      },
+      {
+        "dimension": "age",
+        "kind": "eligibility",
+        "value": "Under 18 — parent or guardian route",
+        "text": "A minor’s prepaid services may be provided through a parent or legal guardian registered on the platform.",
+        "sources": [
+          "ppi-terms"
+        ],
+        "tags": []
+      }
+    ]
+  }
+}
