@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UPI apps — audience profiles &amp; sources</title>
+  <meta name="description" content="Explore source-informed demographic estimates, services and joining requirements for 92 UPI entries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,300..900&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231a2361'/><rect x='6' y='12' width='14' height='8' rx='2' fill='%232a78d6'/><rect x='21' y='12' width='5' height='8' rx='2' fill='%23eb6834'/></svg>">
+</head>
+<body>
+  <a class="skip" href="#register">Skip to the app register</a>
+
+  <main>
+    <section class="register" id="register" aria-labelledby="register-title">
+      <div class="section-head">
+        <h1 id="register-title">UPI apps</h1>
+      </div>
+
+      <p class="register-note"><a href="sources/upi-applications-2026-08.pdf" target="_blank" rel="noopener noreferrer">August 2026 · Source PDF ↗</a> <a href="sources.html">All sources</a> <a href="research-data.json" download>Download data</a></p>
+
+      <div class="types" id="types" role="group" aria-label="Filter by fintech type"></div>
+
+      <div class="explorer">
+        <aside class="rail" id="rail" aria-label="Filters">
+          <details class="rail-toggle" open>
+            <summary>Filters <span class="pill" id="filter-count" hidden></span></summary>
+            <div class="rail-body">
+              <fieldset>
+                <legend>Audience estimates</legend>
+                <p class="filter-note">Demographic estimates from positioning and reporting. Open an app for the reasoning and sources.</p>
+                <div class="checks" id="f-audience"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Requirements</legend>
+                <p class="filter-note">Depends on the product.</p>
+                <div class="checks" id="f-gates"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Bank type</legend>
+                <div class="checks" id="f-subs"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Table listing</legend>
+                <div class="checks" id="f-license"></div>
+              </fieldset>
+              <button class="link-btn" id="reset" type="button">Clear all filters</button>
+            </div>
+          </details>
+        </aside>
+
+        <div class="board">
+          <div class="toolbar">
+            <label class="search">
+              <span class="sr">Search apps</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <input id="q" type="search" placeholder="Search 92 apps" autocomplete="off">
+            </label>
+            <label class="sort">
+              <span>Sort by</span>
+              <select id="sort">
+                <option value="vol">Transactions</option>
+                <option value="val">Value</option>
+                <option value="ticket">Average payment</option>
+                <option value="name">Name</option>
+              </select>
+            </label>
+            <div class="seg" role="radiogroup" aria-label="View">
+              <button type="button" role="radio" aria-checked="true" data-view="ledger">List</button>
+              <button type="button" role="radio" aria-checked="false" data-view="map">Map</button>
+            </div>
+          </div>
+
+          <p class="result-count" id="count" aria-live="polite"></p>
+
+          <div id="ledger" class="ledger" role="list"></div>
+          <div id="map" class="map" hidden></div>
+          <div id="empty" class="empty" hidden>
+            <p>No matching apps.</p>
+            <button class="link-btn" type="button" data-reset>Clear filters</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
